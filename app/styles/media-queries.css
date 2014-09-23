@@ -1,0 +1,232 @@
+@media only screen and (max-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+    h1 {
+        font-size: 1.8em
+    }
+
+    h2 {
+        font-size: 1.35em
+    }
+
+    h3 {
+        font-size: 1.16em
+    }
+
+    h4 {
+        font-size: 0.95em
+    }
+
+    h5 {
+        font-size: 0.95em
+    }
+
+    h6 {
+        font-size: 0.8em
+    }
+
+    p {
+        line-height: 1.2em;
+        margin-bottom: .3em;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+
+    .nav li.active a {
+        background: #222;
+    }
+
+    section p {
+        text-align: justify;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    section h1 {
+        font-size: 200%;
+    }
+
+    .banner h1 {
+        text-align: center;
+    }
+
+    .banner h2 {
+        font-size: 100%;
+    }
+
+    .banner p {
+        padding-top: 1.3em;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    .schedule-full {
+        padding: 0;
+    }
+
+    .schedule-full .time {
+        margin-bottom: 0;
+    }
+
+    .schedule-full li {
+        padding-left: 0;
+    }
+
+    .schedule-full .break {
+        padding: .6em 1em;
+    }
+
+    .schedule-full .speaker-photo {
+        position: static;
+        float: right;
+        width: 60px;
+        margin: 0 0.3em;
+    }
+
+    iframe {
+        height: auto;
+    }
+
+    .map img {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .speakers-list li {
+        width: 180px;
+        padding: .5em;
+    }
+
+    .speakers-list {
+        margin: 0 -1em;
+    }
+}
+
+@media only screen and (max-width: 20em) {
+    .speakers-list li {
+        width: 155px;
+    }
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    p {
+        line-height: 1.3;
+    }
+
+    header, footer, .register-button, .icon-coffee, .location, .socialize {
+        display: none;
+    }
+
+    .map img {
+        float: left;
+    }
+
+    .banner h1 {
+        font-size: 200%;
+    }
+
+    .banner h2 {
+        font-size: 100%;
+    }
+
+    .speakers-list li {
+        width: 160px;
+    }
+
+    .schedule-full li {
+        padding: .3em 0 .3em 120px;
+    }
+
+    .speakers-list li h3 {
+        font-size: 80%;
+        font-weight: 100;
+    }
+
+}
