@@ -54,9 +54,11 @@ function getData(){
     for (var i = 0; i < trNodes.length; i++){
         var rowNode = trNodes[i];
         var name = rowNode.getElementsByClassName("name")[0].innerText;
+        var ruName = rowNode.getElementsByClassName("ruName")[0].innerText;
         var talks = rowNode.getElementsByClassName("talks")[0].innerText.split(";");
         data.push({
-            name: name,
+            name: name.trim(),
+            ruName: ruName.trim(),
             talks: talks.map(function(item){
                 return {title: item.trim()}
             }).filter(function(item){
@@ -94,9 +96,16 @@ function renderHTML(){
 </script>
 
 <script id="table-template" type="text/x-handlebars-template">
+    <thead>
+        <th>Name (image src)</th>
+        <th>ФИО</th>
+        <th>Доклады</th>
+    </thead>
+    <tbody>
   {{#each data}}
     <tr>
         <td class='name' contentEditable>{{name}}</td>
+        <td class='ruName' contentEditable>{{ruName}}</td>
         <td class='talks' contentEditable>
             {{#each talks}}
                 {{title}};
@@ -104,14 +113,15 @@ function renderHTML(){
         </td>
     </tr>
   {{/each}}
+    </tbody>
 </script>
 
 <script id="entry-template" type="text/x-handlebars-template">
 <ul class="speaker-list">
   {{#each data}}
     <li>
-        <img class="speaker-photo" src="images/speakers/{{imagePath}}" alt="" />
-        <h3>{{name}}</h3>
+        <img class="speaker-photo" src="images/speakers/{{imagePath}}" alt="{{ruName}}" />
+        <h3>{{ruName}}</h3>
         {{#each talks}}
             <p class="report">{{title}}</p>
         {{/each}}
