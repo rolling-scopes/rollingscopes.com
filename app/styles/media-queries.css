@@ -110,18 +110,18 @@
         display: none;
     }
 
-    .speakers-list li {
+    .speaker-list li {
         width: 180px;
         padding: .5em;
     }
 
-    .speakers-list {
+    .speaker-list {
         margin: 0 -1em;
     }
 }
 
 @media only screen and (max-width: 20em) {
-    .speakers-list li {
+    .speaker-list li {
         width: 155px;
     }
 }
@@ -216,7 +216,7 @@
         font-size: 100%;
     }
 
-    .speakers-list li {
+    .speaker-list li {
         width: 160px;
     }
 
@@ -224,7 +224,7 @@
         padding: .3em 0 .3em 120px;
     }
 
-    .speakers-list li h3 {
+    .speaker-list li h3 {
         font-size: 80%;
         font-weight: 100;
     }

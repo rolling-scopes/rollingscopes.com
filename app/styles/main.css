@@ -347,9 +347,9 @@ iframe {
     margin: 0 1em .5em 0;
 }
 
-/**************   speakers-list  ******************/
+/**************   speaker-list  ******************/
 
-.speakers-list {
+.speaker-list {
     list-style-type: none;
 
     -webkit-flex-flow: wrap row;
@@ -363,7 +363,7 @@ iframe {
     display: flex;
 }
 
-.speakers-list li {
+.speaker-list li {
     width: 220px;
     margin: 0 auto;
     padding:.5em;
@@ -372,21 +372,21 @@ iframe {
     text-align: center;
 }
 
-.speakers-list li:hover {
+.speaker-list li:hover {
     background-color: #f7f7f7;
 }
 
-.speakers-list li h3 {
+.speaker-list li h3 {
     font-size: 100%;
     line-height: 1.4em;
 }
 
-.speakers-list li .speaker-photo {
+.speaker-list li .speaker-photo {
     width: 100%;
     height: auto;
 }
 
-.speakers-list li .report {
+.speaker-list li .report {
     margin-bottom: 0;
     text-align: left;
     font-size: 90%;
