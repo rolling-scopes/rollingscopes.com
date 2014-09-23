@@ -12,7 +12,7 @@
 
 var data = window.localStorage.getItem("data");
 
-if (data){
+if (data && data !== "[]"){
     data = JSON.parse(data);
 } else {
     data = dataStore;
@@ -50,7 +50,7 @@ function render (){
 
 function getData(){
     var data = [];
-    var trNodes = document.getElementsByTagName("tr");
+    var trNodes = document.querySelectorAll("tbody tr");
     for (var i = 0; i < trNodes.length; i++){
         var rowNode = trNodes[i];
         var name = rowNode.getElementsByClassName("name")[0].innerText;
