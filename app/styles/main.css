@@ -284,9 +284,17 @@ section {
     margin: 0 auto;
     box-sizing: border-box;
     text-align: left;
-    overflow: hidden;
     clear: both;
 }
+
+section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility:hidden;
+}
+
 
 /**************   schedule  ******************/
 .icon-coffee {
@@ -473,4 +481,18 @@ footer {
 .register-button:hover {
     text-decoration: none;
     background-color: #eee;
+}
+
+/**************   likes  ******************/
+.likes-wrap {
+    list-style-type: none;
+}
+
+.likes-wrap li {
+    padding: .3em 0;
+    float: left;
+}
+
+.fb-like > span {
+    height: 23px !important;
 }

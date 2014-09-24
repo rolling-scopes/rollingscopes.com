@@ -9,6 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -21,11 +22,21 @@
     <!-- endbuild -->
 </head>
 <body>
+<script type="text/javascript">
+    VK.init({apiId: 4562475, onlyWidgets: true});
+</script>
 <!--[if lt IE 10]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/be_BY/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <header>
     <div class="header-wrap">
         <a class="logo" href="http://rollingscopes.com/"> </a>
@@ -69,7 +80,7 @@
 
     <h3>Александр Карлович</h3>
 
-    <p class="report">RS#2 - &lg; video&gt; Хроника</p>
+    <p class="report">RS#2 - &lt;video&gt;  Хроника</p>
 
     <p class="report">RS#3 - SpainJS</p>
 
@@ -352,6 +363,7 @@
 
 </section>
 
+
 <section>
     <h2>Контакты</h2>
 
@@ -377,6 +389,19 @@
         <p class="copy">&copy; 2014 The Rolling Scopes </p>
     </div>
 </footer>
+
+<section>
+    <ul class="likes-wrap">
+        <li> <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://nikantov.by/projects/dist/" data-hashtags="rollingscopes">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </li>
+        <li><div id="vk_like"></div>
+            <script type="text/javascript">
+                VK.Widgets.Like("vk_like", {type: "mini"});
+            </script></li>
+        <li><div class="fb-like" data-href="http://nikantov.by/projects/dist/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div></li>
+    </ul>
+</section>
 
 
 <!-- build:js(.) scripts/vendor.js -->
