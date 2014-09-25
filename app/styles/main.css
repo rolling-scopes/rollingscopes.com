@@ -102,6 +102,7 @@ section h1 {
     line-height: 1.1em;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: right;
+    margin-top: .5em 0;
 }
 
 /*************  header ************/
@@ -132,6 +133,12 @@ header {
     background: url(../images/logo_rs_text.svg) no-repeat 0 0;
     background-size: cover;
     z-index: 10;
+}
+
+.logo-img {
+    width: 200px;
+    margin: 0 1em 0 0;
+    opacity: 0.7;
 }
 
 .speaker-photo {
@@ -414,6 +421,10 @@ iframe {
 
 .socialize a:hover {
     color: #f0194b;
+}
+
+.speaker-list.team li {
+    width: 160px;
 }
 
 /**************   footer   ******************/

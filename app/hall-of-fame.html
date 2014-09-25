@@ -30,10 +30,11 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+<script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
+    js = d.createElement(s);
+    js.id = id;
     js.src = "//connect.facebook.net/be_BY/sdk.js#xfbml=1&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
@@ -45,7 +46,7 @@
             <ul class="nav">
                 <li><a href="index.html">Главная</a></li>
                 <li class="active"><a href="hall-of-fame.html">Зал славы</a></li>
-                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="about.html">О сообществе</a></li>
             </ul>
         </nav>
 
@@ -80,7 +81,7 @@
 
     <h3>Александр Карлович</h3>
 
-    <p class="report">RS#2 - &lt;video&gt;  Хроника</p>
+    <p class="report">RS#2 - &lt;video&gt; Хроника</p>
 
     <p class="report">RS#3 - SpainJS</p>
 
@@ -363,14 +364,18 @@
 
 </section>
 
-
 <section>
-    <h2>Контакты</h2>
+    <h1>Команда The Rolling Scopes благодарит</h1>
 
-    <p>Мы всегда рады сотрудничеству. <br/> Если у Вас есть какие-либо предложения или пожелания, пожалуйста, напишите
-        нам на электроный ящик
-        <a name="contacts" href="mailto:rolling.scopes@gmail.com">rolling.scopes@gmail.com</a>
-    </p>
+    <ul class="speaker-list">
+        <li>
+            <img class="speaker-photo" src="images/speakers/serge_patronchik.jpg" alt="Сергей Патрончик"/>
+
+            <h3>Сергей Патрончик</h3>
+
+            <p>За фото и видео съемку всех митапов, воршопов и монтаж видеороликов. </p>
+        </li>
+    </ul>
 </section>
 
 <footer>
@@ -379,10 +384,16 @@
                                                                    href="https://twitter.com/search?f=realtime&q=%23rollingscopes&src=typd">#rollingscopes</a>
         </p>
         <ul class="contacts-nav">
-            <li><a href="https://www.facebook.com/groups/TheRollingScopes/"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="http://vk.com/therollingscopes"><i class="fa fa-vk"></i></a></li>
-            <li><a href="https://twitter.com/rollingscopes"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/user/therollingscopes"><i class="fa fa-youtube"></i></a></li>
+            <li><a title="RS на Facebook" href="https://www.facebook.com/groups/TheRollingScopes/"><i
+                    class="fa fa-facebook"></i></a></li>
+            <li><a title="RS в ВКонтакте" href="http://vk.com/therollingscopes"><i class="fa fa-vk"></i></a></li>
+            <li><a title="RS в Twitter" href="https://twitter.com/rollingscopes"><i class="fa fa-twitter"></i></a></li>
+            <li><a title="RS на YouTube" href="https://www.youtube.com/user/therollingscopes"><i
+                    class="fa fa-youtube"></i></a></li>
+            <li>
+                <a title="Наш Skype Chat FRONTEND BY"
+                   href="skype:?chat&amp;blob=4Uxz8uCp97HKRW_RZOJi0MFsHbanoMN4BUIx9BPvnflxgzijfrAELtg5iMuH-nxYbzqcZcN4SyzDnbvchnGQXfHkUe9nUsmMAXBbJWVkbl7tlxtMUbNwatG32yzHhLd8-_8r8upOwpJUWP-yoQ"><i
+                        class="fa fa-skype"></i></a></li>
         </ul>
         <a href="http://rollingscopes.com/" class="footer-logo"></a>
 
@@ -392,14 +403,28 @@
 
 <section>
     <ul class="likes-wrap">
-        <li> <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://nikantov.by/projects/dist/" data-hashtags="rollingscopes">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <li><a href="https://twitter.com/share" class="twitter-share-button"
+               data-url="http://nikantov.by/projects/dist/" data-hashtags="rollingscopes">Tweet</a>
+            <script>!function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + '://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'twitter-wjs');</script>
         </li>
-        <li><div id="vk_like"></div>
+        <li>
+            <div id="vk_like"></div>
             <script type="text/javascript">
                 VK.Widgets.Like("vk_like", {type: "mini"});
-            </script></li>
-        <li><div class="fb-like" data-href="http://nikantov.by/projects/dist/" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div></li>
+            </script>
+        </li>
+        <li>
+            <div class="fb-like" data-href="http://nikantov.by/projects/dist/" data-layout="button" data-action="like"
+                 data-show-faces="true" data-share="true"></div>
+        </li>
     </ul>
 </section>
 
