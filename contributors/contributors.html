@@ -67,12 +67,33 @@ function getData(){
             imagePath: name.trim().replace(" ", "_").toLowerCase() + ".jpg"
         })
     }
+/*
     data.sort(function(speakerA, speakerB){
-        if (speakerB.talks.length == speakerA.talks.length) {
-            if (speakerA.name < speakerB.name) {
+        // if (speakerB.talks.length == speakerA.talks.length) {
+        speakerA = speakerA.ruName.split(" ")[1];
+        speakerB = speakerB.ruName.split(" ")[1];
+        if (speakerA < speakerB) {
+            return -1;
+        }
+        if (speakerA > speakerB) {
+            return 1;
+        }
+        return 0;
+        //  }
+
+//        else {
+//            return speakerB.talks.length - speakerA.talks.length;
+//        }
+    })
+   */
+    data.sort(function(speakerA, speakerB){
+       if (speakerB.talks.length == speakerA.talks.length) {
+            speakerA = speakerA.ruName.split(" ")[1];
+            speakerB = speakerB.ruName.split(" ")[1];
+            if (speakerA < speakerB) {
                 return -1;
             }
-            if (speakerA.name > speakerB.name) {
+            if (speakerA > speakerB) {
                 return 1;
             }
             return 0;
