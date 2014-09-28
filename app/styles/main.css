@@ -462,10 +462,11 @@ footer {
     top: 50%;
     right: 0;
     display: block;
-    background: url("../images/logo_rs.svg") no-repeat 0 0;
+    background: url("../images/logo_rs2.svg") no-repeat 0 0;
     background-size: contain;
     width: 289px;
-    height: 231px;
+    height: 151px;
+    opacity: 0.7;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     transform: translateY(-50%);
