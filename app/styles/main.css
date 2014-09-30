@@ -5,6 +5,21 @@
     padding: 0.2em 0;
 }
 
+html, body {
+    height: 100%;
+}
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -200px;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+footer, .page-wrap:after {
+    height: 200px;
+}
+
 /******************  general  ******************/
 html, body, div, span, h1, h2, h3, h4, p, img, strong, ul, li, form, label, article, nav {
     margin: 0;
@@ -402,6 +417,7 @@ iframe {
     margin-bottom: 0;
     text-align: left;
     font-size: 90%;
+    cursor: default;
 }
 
 .socialize {
@@ -429,13 +445,11 @@ footer {
     background: #000;
     color: #aaa;
     text-align: center;
-    margin-top: 50px;
 }
 
 .footer-nav-wrap {
     position: relative;
     max-width: 960px;
-    min-height: 100px;
     margin: 0 auto;
     padding: 1em;
     text-align: left;
