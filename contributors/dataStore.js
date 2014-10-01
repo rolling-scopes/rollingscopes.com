@@ -310,7 +310,7 @@ var dataStore = [
 		"ruName": "Никита Манько",
 		"talks": [
 			{
-				"title": "RS#2 - Проектирование и создание JavaScript freamwork'а"
+				"title": "RS#2 - Проектирование и создание JavaScript framework-a"
 			}
 		],
 		"imagePath": "mikita_manko.jpg"
@@ -320,7 +320,7 @@ var dataStore = [
 		"ruName": "Сергей Мельник",
 		"talks": [
 			{
-				"title": "RS#10 - NewsDugest"
+				"title": "RS#10 - NewsDigest"
 			}
 		],
 		"imagePath": "siarhei_melnik.jpg"
