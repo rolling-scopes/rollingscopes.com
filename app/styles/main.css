@@ -438,6 +438,7 @@ iframe {
 
 .speaker-list.team li {
     width: 160px;
+    padding: .4em;
 }
 
 /**************   footer   ******************/
@@ -492,10 +493,10 @@ footer {
 
 .register-button {
     display: inline-block;
-    padding: .4em .5em;
-    background: #f8f8f8;
+    padding: .5em .6em;
+    background: #eee;
     line-height: 1em;
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
     border-radius: 5px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1rem;
@@ -503,7 +504,7 @@ footer {
 
 .register-button:hover {
     text-decoration: none;
-    background-color: #eee;
+    background-color: #ddd;
 }
 
 /**************   likes  ******************/
