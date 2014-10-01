@@ -399,9 +399,9 @@ iframe {
     text-align: center;
 }
 
-.speaker-list li:hover {
-    background-color: #f7f7f7;
-}
+/*.speaker-list li:hover {*/
+    /*background-color: #f7f7f7;*/
+/*}*/
 
 .speaker-list li h3 {
     font-size: 100%;
