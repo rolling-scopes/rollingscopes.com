@@ -8,14 +8,17 @@
 html, body {
     height: 100%;
 }
+
 .page-wrap {
     min-height: 100%;
     margin-bottom: -200px;
 }
+
 .page-wrap:after {
     content: "";
     display: block;
 }
+
 footer, .page-wrap:after {
     height: 200px;
 }
@@ -312,9 +315,8 @@ section:after {
     display: block;
     height: 0;
     clear: both;
-    visibility:hidden;
+    visibility: hidden;
 }
-
 
 /**************   schedule  ******************/
 .icon-coffee {
@@ -393,14 +395,14 @@ iframe {
 .speaker-list li {
     width: 220px;
     margin: 0 auto;
-    padding:.5em;
+    padding: .5em;
     border-radius: 5px;
     box-sizing: border-box;
     text-align: center;
 }
 
 /*.speaker-list li:hover {*/
-    /*background-color: #f7f7f7;*/
+/*background-color: #f7f7f7;*/
 /*}*/
 
 .speaker-list li h3 {
@@ -460,7 +462,7 @@ iframe {
 .partner-list li {
     width: 220px;
     margin: auto;
-    padding:1em .5em;
+    padding: 1em .5em;
     box-sizing: border-box;
     text-align: center;
 }
@@ -547,4 +549,44 @@ footer {
 
 .fb-like > span {
     height: 23px !important;
+}
+
+/**************  create-account-form ******************/
+.signup-form {
+    display: inline-block;
+    text-align: left;
+}
+
+.signup-form label {
+    display: block;
+}
+
+.signup-form input {
+    margin-bottom: 12px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+    background: #fafafa none;
+    box-sizing: border-box;
+    padding: .6em .4em;
+    color: #19b6f0;
+    font-size: 1rem;
+}
+
+.signup-form input[type="submit"] {
+    color: #f0194b;
+    display: inline-block;
+    width: auto;
+    padding: .5em .6em;
+    background: #eee;
+    line-height: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.signup-form input[type="submit"]:hover {
+    background-color: #ddd;
 }
