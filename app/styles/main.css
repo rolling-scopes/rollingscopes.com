@@ -441,6 +441,34 @@ iframe {
     padding: .4em;
 }
 
+/**************   partner-list ******************/
+.partner-list {
+    list-style-type: none;
+
+    -webkit-flex-flow: wrap row;
+    flex-flow: row wrap;
+    list-style-type: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 1em 0;
+}
+
+.partner-list li {
+    width: 220px;
+    margin: auto;
+    padding:1em .5em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.partner-list li img {
+    width: 200px;
+}
+
 /**************   footer   ******************/
 footer {
     background: #000;
