@@ -42,19 +42,19 @@
     <h2>Добрый день!</h2>
 
     <ul class="contacts-nav">
-        <li><a title="sigh in via github" href="#"><i class="fa fa-github-square"></i></a></li>
-        <li><a title="sigh in via facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
-        <li><a title="sigh in via twitter" href="#"><i class="fa fa-twitter-square"></i></a></li>
-        <li><a title="sigh in via google plus" href="#"><i class="fa fa-google-plus-square"></i></a></li>
+        <li><a title="sigh in via github" href="/auth/github"><i class="fa fa-github-square"></i></a></li>
+        <li><a title="sigh in via facebook" href="/auth/facebook"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a title="sigh in via twitter" href="/auth/twitter"><i class="fa fa-twitter-square"></i></a></li>
+        <li><a title="sigh in via google plus" href="/auth/google"><i class="fa fa-google-plus-square"></i></a></li>
     </ul>
     <h2>Создать аккаунт</h2>
-    <form class="signup-form" action="">
+    <form class="signup-form" action="/auth/local" method="POST">
         <p><label for="">Имя Фамилия</label>
-        <input required placeholder="Максим Багданович" type="text"/></p>
+        <input required placeholder="Максим Багданович" type="text" name="userName"/></p>
         <p><label for="">Email</label>
-        <input required placeholder="bahdanovich@gmail.com" type="email"/></p>
+        <input required placeholder="bahdanovich@gmail.com" type="email" name="email"/></p>
         <p><label for="">Пароль</label>
-        <input required type="password"/></p>
+        <input required type="password" name="password"/></p>
         <p><input type="submit"/></p>
     </form>
 </section>
