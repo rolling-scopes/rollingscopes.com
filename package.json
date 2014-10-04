@@ -1,17 +1,16 @@
 {
   "name": "rs-site",
   "subdomain": "rollingscopes",
-   "domains": [
-       "rollingscopes.com",
-       "www.rollingscopes.com"
-
-   ],
+  "domains": [
+    "rollingscopes.com",
+    "www.rollingscopes.com"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/rolling-scopes/rolling-scopes.github.io.git"
   },
   "scripts": {
-    "start": "node ./static-server"
+    "start": "node ./service"
   },
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
@@ -42,7 +41,9 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.9.5",
     "node-static": "^0.7.6"
   },
-  "version": "0.1.0"
+  "version": "0.1.0-1"
 }
