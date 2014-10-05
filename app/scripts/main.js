@@ -16,11 +16,10 @@ window.onload = function(){
         el.className = "vertical-mode-closed";
         navBtn.innerHTML = '&#x2261;';
     }
+}
 
-    if ("ontouchstart" in window){
-        document.body.className += "isTouch";
-    } else {
-        document.body.className += "isDesktop";
-    }
-
+if ("ontouchstart" in window){
+    document.body.className += "isTouch";
+} else {
+    document.body.className += "isDesktop";
 }
