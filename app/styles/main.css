@@ -189,26 +189,24 @@ header {
     text-decoration: none;
 }
 
-.nav li a:before {
+.isDesktop .nav li a:before {
     visibility: hidden;
+    color: #aaa;
     content: "[ \"";
 }
 
-.nav li a:after {
+.isDesktop .nav li a:after {
     visibility: hidden;
+    color: #aaa;
     content: "\" ]";
 }
 
-.nav li:hover a:before {
+.isDesktop .nav li:hover a:before {
     visibility: visible;
-    content: "[ \"";
-    color: #aaa;
 }
 
-.nav li:hover a:after {
+.isDesktop .nav li:hover a:after {
     visibility: visible;
-    content: "\" ]";
-    color: #aaa;
 }
 
 .nav-btn {
@@ -564,7 +562,7 @@ footer {
 .signup-form input {
     margin-bottom: 12px;
     width: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
     border-radius: 3px;
     outline: 0;
     background: #fafafa none;

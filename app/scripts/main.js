@@ -17,4 +17,10 @@ window.onload = function(){
         navBtn.innerHTML = '&#x2261;';
     }
 
+    if ("ontouchstart" in window){
+        document.body.className += "isTouch";
+    } else {
+        document.body.className += "isDesktop";
+    }
+
 }
