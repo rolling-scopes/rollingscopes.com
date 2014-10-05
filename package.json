@@ -10,7 +10,6 @@
     "url": "https://github.com/rolling-scopes/rolling-scopes.github.io.git"
   },
   "scripts": {
-    "postinstall": "grunt build",
     "start": "node ./service"
   },
   "devDependencies": {
