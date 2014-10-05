@@ -552,6 +552,7 @@ footer {
 /**************  create-account-form ******************/
 .signup-form {
     display: inline-block;
+    margin-top: 1em;
     text-align: left;
 }
 
