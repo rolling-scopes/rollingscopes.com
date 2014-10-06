@@ -41,7 +41,7 @@ body {
 }
 
 a {
-    color: #f0194b;
+    color: #E5194C;
     text-decoration: none;
 }
 
@@ -433,7 +433,7 @@ iframe {
 }
 
 .socialize a:hover {
-    color: #f0194b;
+    color: #E5194C;
 }
 
 .speaker-list.team li {
@@ -574,7 +574,7 @@ footer {
 }
 
 .signup-form input[type="submit"] {
-    color: #f0194b;
+    color: #E5194C;
     display: inline-block;
     width: auto;
     padding: .5em .6em;
