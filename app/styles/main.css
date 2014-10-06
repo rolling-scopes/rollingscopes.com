@@ -113,7 +113,7 @@ h6 {
 
 section h1 {
 
-    color: #1282B4;
+    color: #19b6f0;
     font-size: 300%;
     font-weight: 100;
     letter-spacing: -1px;
@@ -349,7 +349,7 @@ section:after {
 }
 
 .schedule-full .time {
-    color: #1282B4;
+    color: #19b6f0;
     font-weight: bold;
     font-size: 130%;
 }
@@ -569,7 +569,7 @@ footer {
     background: #fafafa none;
     box-sizing: border-box;
     padding: .6em .4em;
-    color: #1282B4;
+    color: #444;
     font-size: 1rem;
 }
 
