@@ -589,3 +589,86 @@ footer {
 .signup-form input[type="submit"]:hover {
     background-color: #ddd;
 }
+
+/**************  conference page styles ******************/
+
+.rs-logo {
+    display: inline-block;
+    background: url(../images/logo_rs2.svg) no-repeat;
+    background-size: contain;
+    max-width: 400px;
+    width: 100%;
+    height: 338px;
+    margin: 2em 2em 0 -2em;
+    opacity: 0.8;
+}
+
+.conf-title {
+    margin-top: -2em;
+}
+
+.conf-title h1 {
+    text-align: center;
+    color: #0d96c9;
+    font-size: 400%;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height: 1.1em;
+}
+
+.conf-title h2 {
+    text-align: center;
+    margin: 0;
+    color: #444;
+    font-size: 260%;
+    line-height: 1.4em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.slogan {
+    font-size: 500%;
+    color: #bbb;
+    text-align: center;
+}
+
+/*************************************************    sign-up   ******************/
+
+.sign-up {
+    position: relative;
+    min-height: 240px;
+    background: #eee;
+}
+
+.sign-up-field {
+    height: 3em;
+    width: 18em;
+    padding: 0 1em;
+    margin-right: 1em;
+    border: 1px solid #ddd;
+    font-size: 100%;
+}
+
+.sign-up-btn {
+    display: inline-block;
+    padding: 0 1em;
+    height: 3em;
+    background: #0d96c9;
+    color: #fff;
+    text-align: center;
+    line-height: 3em;
+}
+
+.sign-up-btn:hover {
+    text-decoration: none;
+}
+
+.sign-up-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}

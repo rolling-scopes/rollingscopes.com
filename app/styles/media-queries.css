@@ -118,6 +118,36 @@
     .speaker-list {
         margin: 0 -1em;
     }
+
+    .sign-up {
+        min-height: 200px;
+    }
+
+    .sign-up-field {
+        width: 10em;
+        vertical-align: top;
+    }
+
+    .sign-up-btn {
+        background:url("../images/email.svg")no-repeat 0 0;
+        background-size:cover;
+        width: 66px;
+        height: 48px;
+        padding: 0;
+    }
+
+    .sign-up-btn span {
+        display: none;
+    }
+    .conf-title h1 {
+         font-size: 300%;
+         margin-bottom: 0;
+     }
+    .conf-title h2 {
+        font-size: 150%;
+        margin-bottom: 0;
+    }
+
 }
 
 @media only screen and (max-width: 20em) {
