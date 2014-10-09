@@ -6,8 +6,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
@@ -15,8 +13,12 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/conf.css">
     <link media="all" type="text/css" rel="stylesheet" href="styles/media-queries.css"/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic&subset=cyrillic-ext,latin-ext'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=cyrillic-ext,latin-ext'
+          rel='stylesheet' type='text/css'>
     <!-- endbuild -->
 </head>
 <body>
@@ -27,7 +29,7 @@
 <div class="page-wrap">
     <header>
         <div class="header-wrap">
-            <a class="logo" href="http://rollingscopes.com/"> </a>
+            <!--<a class="logo" href="http://rollingscopes.com/"> </a>-->
             <a id="nav-btn" onclick="toggleClass()" href="javascript:void(0);" class="nav-btn">&#x2261;</a>
             <nav id="nav" class="vertical-mode-closed">
                 <ul class="nav">
@@ -41,20 +43,38 @@
         </div>
     </header>
 
-    <section class="text-center"><a class="rs-logo" href="http://rollingscopes.com/"> </a></section>
-
     <section class="conf-title">
-        <h1>The Rolling Scopes Conference</h1>
+            <div class="text-center"><a class="rs-logo" href="http://rollingscopes.com/"> </a></div>
+            <h1>The Rolling Scopes Conference</h1>
+            <h2>29th January 2015, Minsk</h2>
+    </section>
 
-        <h2>29th January 2015, Minsk</h2>
+    <section class="sign-up" style="margin-bottom: 2em">
+        <div class="sign-up-wrap">
+            <input type="email" placeholder="E-mail" class="sign-up-field"> <a href="#" class="sign-up-btn"><span>Sign up for
+        Updates</span></a>
+        </div>
+    </section>
+    <section>
+        <h2>Welcome!</h2>
+            <p>The Rolling Scopes - Minsk Front-end/JavaScript developer community. <br/>
 
+                We had a great time together at numerous meetups and workshops. Now we are going bigger - with a
+                conference
+                featuring amazing speakers, great talks and awesomeness of all kinds. <br/>
+
+                We'll do our best organizing this event so don't even think about missing it! <br/>
+
+                This conference is a non-profit event, made by developers for developers.<br/>
+
+                Let’s Roll!</p>
     </section>
 
     <section><h2>The Venue</h2>
 
         <p>Epam Space<br/> pr. Nezavisimosti 58-6 (metro station "Yakub Kolas Square") <br/> MINSK</p>
 
-        <p><a target="_blank" href="https://goo.gl/maps/A5oFB">Посмотреть на карте <i
+        <p><a target="_blank" href="https://goo.gl/maps/A5oFB">View a map <i
                 class="fa fa-external-link-square"></i></a></p></section>
 
     <section>
@@ -62,38 +82,7 @@
 
         <p> If you are interested in speaking please submit a short synopsis to <a
                 href="mailto:rolling.scopes@gmail.com">rolling.scopes@gmail.com</a>. We will be closing the call for
-            speakers on the 17th October.</p>
-    </section>
-
-    <section>
-        <h2>About</h2>
-        <article>
-            <p>The Rolling Scopes - Minsk Front-end/JavaScript developer community.</p>
-
-            <p>We had a great time together at numerous meetups and workshops. Now we are going bigger - with a
-                conference
-                featuring amazing speakers, great talks and awesomeness of all kinds.</p>
-
-            <p>We'll do our best organizing this event so don't even think about missing it!</p>
-
-            <p>This conference is a non-profit event, made by developers for developers.</p>
-
-            <h3 class="slogan">Let’s Roll!</h3>
-        </article>
-    </section>
-
-    <!--<section>-->
-        <!--<h2>Sponsored by</h2>-->
-        <!--<ul class="partner-list">-->
-            <!--<li><a href="http://www.epam.by/"><img src="images/partners/epam-systems.jpg" alt="epam logo"></a></li>-->
-        <!--</ul>-->
-    <!--</section>-->
-
-    <section class="sign-up">
-        <div class="sign-up-wrap">
-            <input type="email" placeholder="E-mail" class="sign-up-field"> <a href="#" class="sign-up-btn"><span>Sign up for
-        Updates</span></a>
-        </div>
+            speakers on the 1st December.</p>
     </section>
 
     <section>
@@ -102,6 +91,13 @@
             <li><a href="http://www.epam.by/"><img src="images/partners/epam-systems.jpg" alt="epam logo"></a></li>
             <li><a href="http://imaguru.co/en"><img src="images/partners/logo_guru.png" alt="imaguru logo"></a></li>
         </ul>
+    </section>
+
+    <section class="sign-up">
+        <div class="sign-up-wrap">
+            <input type="email" placeholder="E-mail" class="sign-up-field"> <a href="#" class="sign-up-btn"><span>Sign up for
+        Updates</span></a>
+        </div>
     </section>
 </div>
 <footer>
@@ -127,8 +123,6 @@
         <p class="copy">&copy; 2014 The Rolling Scopes </p>
     </div>
 </footer>
-
-
 <!-- build:js(.) scripts/vendor.js -->
 <!-- bower:js -->
 <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -156,7 +150,6 @@
 <!-- build:js({app,.tmp}) scripts/main.js -->
 <script src="scripts/main.js"></script>
 <!-- endbuild -->
-
 
 </body>
 </html>
