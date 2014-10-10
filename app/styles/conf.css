@@ -71,6 +71,7 @@ h2 {
     font-size: 1.6875em;
     text-transform: uppercase;
     border-bottom: 1px solid #444;
+    cursor: default;
 
 }
 
@@ -115,13 +116,12 @@ h6 {
 }
 
 section h1 {
-    color: #19b6f0;
+    color: #3b71b9;
     font-size: 300%;
     font-weight: 100;
     letter-spacing: -1px;
     line-height: 1.1em;
     font-family: 'PT Sans Narrow', sans-serif;
-    text-align: right;
     margin-top: .5em;
 }
 
@@ -162,6 +162,7 @@ header {
     padding: .7em .4em;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 1.1em;
+    text-transform: uppercase;
 }
 
 .nav li.active a {
@@ -251,22 +252,6 @@ header {
     text-decoration: none;
 }
 
-/**************    banner   ******************/
-.banner {
-    padding: .5em 1em;
-    text-align: right;
-}
-
-.banner h1 {
-    margin-bottom: .3em;
-}
-
-.banner p {
-    color: #444;
-    margin: 0;
-    font-size: 180%;
-}
-
 .fa-external-link-square {
     margin-left: .3em;
 }
@@ -274,7 +259,7 @@ header {
 /**************    section  ******************/
 section {
     max-width: 960px;
-    padding: 1em 5em;
+    padding: 1em;
     margin: 0 auto;
     box-sizing: border-box;
     text-align: left;
@@ -322,7 +307,7 @@ section:after {
 }
 
 .schedule-full .time {
-    color: #19b6f0;
+    color: #b9833b;
     font-weight: bold;
     font-size: 130%;
 }
@@ -367,7 +352,7 @@ section:after {
 
 /**************   footer   ******************/
 footer {
-    background: #000;
+    background: #111e33;
     color: #aaa;
     text-align: center;
 }
@@ -385,11 +370,10 @@ footer {
     top: 50%;
     right: 0;
     display: block;
-    background: url("../images/logo_rs2.svg") no-repeat 0 0;
+    background: url("../images/logo_rs3.svg") no-repeat 0 0;
     background-size: contain;
     width: 289px;
     height: 151px;
-    opacity: 0.7;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -407,7 +391,7 @@ footer {
 }
 
 .contacts-nav a {
-    color: #ccc;
+    color: #fff;
     font-size: 230%;
 }
 
