@@ -142,7 +142,6 @@ header {
 .speaker-photo {
     width: 100px;
     border-radius: 50%;
-    border: 1px solid #bbb;
 }
 
 
@@ -377,14 +376,18 @@ footer {
 }
 
 .copy {
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 80%;
+}
+
+.footer-nav-wrap a {
+    color: #f0bf19;
 }
 
 /**************   contacts-nav   ******************/
 .contacts-nav li {
     display: inline-block;
-    padding: 1em 1em 1em 0;
+    padding: 0 1em 1em 0;
 }
 
 .contacts-nav a {
