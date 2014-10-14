@@ -41,7 +41,7 @@ body {
 }
 
 a {
-    color: #E5194C;
+    color: #e5194c;
     text-decoration: none;
 }
 
@@ -111,6 +111,10 @@ h6 {
     text-align: center !important
 }
 
+.italic {
+    font-style: italic;
+}
+
 .vertical-margin {
     margin: 1em 0;
 }
@@ -123,6 +127,13 @@ section h1 {
     line-height: 1.1em;
     font-family: 'PT Sans Narrow', sans-serif;
     margin-top: .5em;
+}
+
+.asterisk {
+    color: #f00;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120%;
 }
 
 /*************  header ************/
@@ -295,7 +306,7 @@ section:after {
 .schedule-full .break {
     min-height: inherit;
     margin: 0 -1em;
-    padding: .6em 1em .6em 136px;
+    padding: 1em 1em 1em 136px;
 }
 
 .schedule-full .break h3 {
@@ -346,6 +357,11 @@ section:after {
     width: 140px;
 }
 
+.become-partner {
+    display: inline-block;
+
+}
+
 /**************   footer   ******************/
 footer {
     background: #111e33;
@@ -353,12 +369,14 @@ footer {
     text-align: center;
 }
 
-.footer-nav-wrap {
+.footer-wrap {
     position: relative;
     max-width: 960px;
     margin: 0 auto;
     padding: 1em;
     text-align: left;
+    min-height: 200px;
+    box-sizing: border-box;
 }
 
 .footer-logo {
@@ -380,7 +398,7 @@ footer {
     font-size: 80%;
 }
 
-.footer-nav-wrap a {
+.footer-wrap a {
     color: #f0bf19;
 }
 
@@ -403,6 +421,11 @@ footer {
     color: #f0bf19;
 }
 
+.contacts-nav-wrapper {
+    position: absolute;
+    bottom: 0;
+}
+
 /**************  conference page styles ******************/
 
 .rs-logo {
@@ -416,11 +439,12 @@ footer {
 }
 
 .conf-title {
-    background:url("../images/bg.jpg")no-repeat center 0;
+    background:url("../images/bg2.jpg")no-repeat center 0;
     background-size: cover;
     max-width: none;
-    padding: 0 0 2em;
+    padding: 0;
     min-height: 370px;
+    margin-bottom: 2em;
 }
 
 .conf-title h1 {
@@ -474,8 +498,9 @@ footer {
 .sign-up {
     position: relative;
     min-height: 100px;
-    background: #f1f1f1;
+    background:url("../images/opacity-black.png");
     max-width: none;
+    margin-top: 2em;
 }
 
 .sign-up-field {
