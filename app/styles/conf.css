@@ -376,7 +376,6 @@ section:after {
 footer {
     background: #111e33;
     color: #aaa;
-    text-align: center;
 }
 
 .footer-wrap {
@@ -463,11 +462,10 @@ footer {
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1.1em;
-    color: #fff;
     margin-top: 0;
 
     -webkit-text-stroke: 1px black;
-    color: white;
+    color: #fff;
     text-shadow:
         3px 3px 0 #000,
         -1px -1px 0 #000,
@@ -480,7 +478,6 @@ footer {
 .conf-title h2 {
     text-align: center;
     margin: 0;
-    color: #ccc;
     font-size: 260%;
     line-height: 1.4em;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -488,7 +485,7 @@ footer {
     border: none;
 
     -webkit-text-stroke: 1px black;
-    color: white;
+    color: #fff;
     text-shadow:
         3px 3px 0 #000,
         -1px -1px 0 #000,
