@@ -42,14 +42,8 @@
     }
 
     .nav li.active a {
-        background: #222;
-    }
-
-    section {
-        padding: 1em 2em;
-    }
-
-    section p {
+        background: #182946;
+        color: #f0bf19;
     }
 
     section h1 {
@@ -124,6 +118,10 @@
 
     .conf-title .rs-logo {
         display: none;
+    }
+
+    .frame-map, .frame-timelapse {
+       height: 200px;
     }
 
 }

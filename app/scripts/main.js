@@ -16,6 +16,11 @@ window.onload = function(){
         el.className = "vertical-mode-closed";
         navBtn.innerHTML = '&#x2261;';
     }
+
+    nav.onclick = function () {
+        el.className = "vertical-mode-closed";
+        navBtn.innerHTML = '&#x2261;';
+    }
 }
 
 if ("ontouchstart" in window){
