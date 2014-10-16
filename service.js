@@ -4,10 +4,27 @@ var express    = require('express');
 var fs         = require('fs');
 var path       = require('path');
 var app        = express();
+var rsRouter    = express.Router();
+var rsConfRouter    = express.Router();
+var subdomainRouter = express.Router();
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
-app.use(express.static('./dist'));
+
+subdomainRouter.use(function (req, res, next) {
+  if (req.subdomains.length > 0 && req.subdomains[0] == 'conf') {
+    rsConfRouter(req, res, next);
+  } else {
+    next();
+  }
+});
+
+rsRouter.use(express.static('./rs_dist'));
+rsConfRouter.use(express.static('./rsconf_dist'));
+
+app.use(subdomainRouter);
+app.use(rsRouter);
+app.use(rsConfRouter);
 
 app.get('/csvdb', function (req, res) {
   fs.readFile(path.join(__dirname, 'registered.txt'), 'utf8', function(_, data) {
