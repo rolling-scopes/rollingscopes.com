@@ -3,7 +3,9 @@
   "subdomain": "rollingscopes",
   "domains": [
     "rollingscopes.com",
-    "www.rollingscopes.com"
+    "www.rollingscopes.com",
+    "conf.rollingscopes.com",
+    "www.conf.rollingscopes.com"
   ],
   "repository": {
     "type": "git",
