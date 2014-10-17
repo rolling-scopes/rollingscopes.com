@@ -22,6 +22,11 @@ module.exports = function (grunt) {
     dist: 'appBin'
   };
 
+//    var config = {
+//        app: 'conference',
+//        dist: 'conferencebin'
+//    };
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -371,9 +376,19 @@ module.exports = function (grunt) {
     'htmlmin'
   ]);
 
+  grunt.registerTask('updateconfig', function() {
+      console.log("##############################################");
+      console.log("##############################################");
+      console.log("##############################################");
+      config.app = "conference";
+      config.dist = "conferencebin";
+      grunt.task.run(['build']);
+  });
+
   grunt.registerTask('default', [
-    'newer:jshint',
-    'test',
+//    'newer:jshint',
+//    'test',
     'build'
+//    'updateconfig'
   ]);
 };
