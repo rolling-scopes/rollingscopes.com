@@ -672,3 +672,30 @@ footer {
     width: 100%;
     text-align: center;
 }
+
+/******************  talks  ******************/
+
+.talks {
+    list-style-type: none;
+}
+
+.talk-item {
+    overflow: hidden;
+    padding: .5em 1em;
+    margin: .2em 0;
+    background: #ededed;
+}
+
+.talk-item-link {
+    display: block;
+    margin-right: 140px;
+}
+
+
+.talk-speaker {
+    display: block;
+    float: right;
+    width: 130px;
+    text-align: right;
+    font-size: 80%;
+}
