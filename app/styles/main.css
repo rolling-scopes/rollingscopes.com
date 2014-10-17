@@ -156,7 +156,6 @@ header {
 .speaker-photo {
     width: 100px;
     border-radius: 50%;
-    border: 1px solid #bbb;
 }
 
 .rs-tag {
@@ -391,7 +390,6 @@ iframe {
     width: 220px;
     margin: 0 auto;
     padding: .5em;
-    border-radius: 5px;
     box-sizing: border-box;
     text-align: center;
 }
