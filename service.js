@@ -19,8 +19,8 @@ subdomainRouter.use(function (req, res, next) {
   }
 });
 
-rsRouter.use(express.static('./rs_dist'));
-rsConfRouter.use(express.static('./rsconf_dist'));
+rsRouter.use(express.static('./rsdist'));
+rsConfRouter.use(express.static('./rsconfdist'));
 
 app.use(subdomainRouter);
 app.use(rsRouter);
