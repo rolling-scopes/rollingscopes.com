@@ -3,4 +3,5 @@ node_modules
 bower_components
 rs_dist
 rsconf_dist
+dist
 .idea
