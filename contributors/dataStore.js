@@ -124,6 +124,19 @@ var dataStore = [
 		"imagePath": "aliaksei_shitkin.jpg"
 	},
 	{
+		"name": "Uladzimir Abramchuk",
+		"ruName": "Владимир Абрамчук",
+		"talks": [
+			{
+				"title": "RS#9 - Лямбда-исчисление"
+			},
+			{
+				"title": "RS#12 - Why Y?"
+			}
+		],
+		"imagePath": "uladzimir_abramchuk.jpg"
+	},
+	{
 		"name": "Dzmitry Gerasimov",
 		"ruName": "Дмитрий Герасимов",
 		"talks": [
@@ -176,16 +189,6 @@ var dataStore = [
 		"imagePath": "viktor_khomyakov.jpg"
 	},
 	{
-		"name": "Uladzimir Abramchuk",
-		"ruName": "Владимир Абрамчук",
-		"talks": [
-			{
-				"title": "RS#9 - Лямбда-исчисление"
-			}
-		],
-		"imagePath": "uladzimir_abramchuk.jpg"
-	},
-	{
 		"name": "Artsiom Aliakseyenka",
 		"ruName": "Артём Алексеенко",
 		"talks": [
@@ -236,6 +239,16 @@ var dataStore = [
 		"imagePath": "dmitry_dudin.jpg"
 	},
 	{
+		"name": "Andrei Yemialyanchik",
+		"ruName": "Андрей Емельянчик",
+		"talks": [
+			{
+				"title": "RS#12 - How to not program on AngularJS"
+			}
+		],
+		"imagePath": "andrei_yemialyanchik.jpg"
+	},
+	{
 		"name": "Evgeny Zarya",
 		"ruName": "Евгений Заря",
 		"talks": [
@@ -274,6 +287,16 @@ var dataStore = [
 			}
 		],
 		"imagePath": "yauhen_ivashkevich.jpg"
+	},
+	{
+		"name": "Kiril Knysh",
+		"ruName": "Кирилл Кныш",
+		"talks": [
+			{
+				"title": "RS#12 - WebKit JavaScript Engine optimizations"
+			}
+		],
+		"imagePath": "kiril_knysh.jpg"
 	},
 	{
 		"name": "Nickolay Lavrynovich",
@@ -404,5 +427,15 @@ var dataStore = [
 			}
 		],
 		"imagePath": "dzianis_sheka.jpg"
+	},
+	{
+		"name": "Kanstantsin Yatskevich",
+		"ruName": "Константин Яцкевич",
+		"talks": [
+			{
+				"title": "RS#12 - AngularJS and how you shouldn’t use it"
+			}
+		],
+		"imagePath": "kanstantsin_yatskevich.jpg"
 	}
 ]
