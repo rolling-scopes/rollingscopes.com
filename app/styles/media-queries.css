@@ -147,7 +147,12 @@
         font-size: 150%;
         margin-bottom: 0;
     }
-
+    .talk-item-links {
+        width: 65px;
+    }
+    .talk-item-title, .talk-item-speaker {
+        margin-right: 75px;
+    }
 }
 
 @media only screen and (max-width: 20em) {
