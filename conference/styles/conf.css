@@ -531,6 +531,27 @@ footer {
     line-height: 3em;
 }
 
+.sign-up-btn.btn-inprogress .fa-cog{
+    animation: rotate 8s linear infinite;
+}
+
+.sign-up-btn.btn-complete {
+    background-color: green;
+}
+
+.sign-up-btn .fa-check {
+    color: white;
+}
+
+@keyframes rotate {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
 .sign-up-btn:hover {
     text-decoration: none;
 }

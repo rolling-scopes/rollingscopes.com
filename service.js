@@ -33,9 +33,24 @@ app.get('/csvdb', function (req, res) {
   });
 });
 
+app.get('/subscription', function (req, res) {
+    fs.readFile(path.join(__dirname, 'subscription.txt'), 'utf8', function(_, data) {
+        console.log(data);
+        res.send(data);
+    });
+});
+
 app.post('/register', function (req, res) {
   register(req.body);
   res.redirect('/');
 });
 
-app.listen(8080);
+app.post('/subscribe', function (req, res) {
+    console.log(JSON.stringify(req.query.email));
+
+    fs.writeFile('subscription.txt', req.query.email + ";", {flag: 'a'}, function (err) {});
+    res.send('done');
+});
+
+
+app.listen(80);
