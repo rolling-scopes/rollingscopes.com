@@ -48,7 +48,9 @@ app.post('/register', function (req, res) {
 app.post('/subscribe', function (req, res) {
     console.log(JSON.stringify(req.query.email));
 
-    fs.writeFile('subscription.txt', req.query.email + ";", {flag: 'a'}, function (err) {});
+    fs.writeFile('subscription.txt', req.query.email + ";", {flag: 'a'}, function (err) {
+        res.send('error');
+    });
     res.send('done');
 });
 
