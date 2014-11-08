@@ -91,8 +91,8 @@
     }
 
     .sign-up-btn {
-        background:url("../images/email.svg")no-repeat 0 0;
-        background-size:cover;
+        background: url("../images/email.svg") no-repeat 0 0;
+        background-size: cover;
         width: 66px;
         height: 48px;
         padding: 0;
@@ -108,9 +108,10 @@
     }
 
     .conf-title h1 {
-         font-size: 300%;
-         margin-bottom: 0;
-     }
+        font-size: 300%;
+        margin-bottom: 0;
+    }
+
     .conf-title h2 {
         font-size: 150%;
         margin-bottom: 0;
@@ -120,12 +121,11 @@
         display: none;
     }
 
-    .frame-map, .frame-timelapse {
-       height: 200px;
+    .video-box {
+        height: 200px;
     }
 
 }
-
 
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
