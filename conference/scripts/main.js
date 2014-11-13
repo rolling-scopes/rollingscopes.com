@@ -54,15 +54,18 @@ window.signupForUpdates = function(){
     }
 };
 
-document.querySelector(".sign-up-field").onkeyup = function(e){
-    if (e.keyCode == 13) {
-        window.signupForUpdates();
+var sigup = document.querySelector(".sign-up-field");
+if (sigup) {
+    sigup.onkeyup = function(e){
+        if (e.keyCode == 13) {
+            window.signupForUpdates();
+        }
     }
 }
 
 if ("ontouchstart" in window){
-    document.body.className += "isTouch";
+    document.body.className += " isTouch";
 } else {
-    document.body.className += "isDesktop";
+    document.body.className += " isDesktop";
 }
 
