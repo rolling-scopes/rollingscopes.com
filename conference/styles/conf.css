@@ -322,7 +322,7 @@ section:after {
 }
 
 .schedule-full .speaker-name {
-    color: #aaa;
+    font-weight: bold;
 }
 
 .schedule-full .speaker-photo {
