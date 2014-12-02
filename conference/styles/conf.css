@@ -185,6 +185,25 @@ header {
     text-decoration: none;
 }
 
+.buy-tickets-btn {
+    padding: 0 1em;
+    height: 2em;
+    background: #e5194c;
+    color: #fff;
+    text-align: center;
+    line-height: 2em;
+    position: absolute;
+    top: 0.3em;
+    right: 0.3em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.buy-tickets-btn:hover {
+    text-decoration: none;
+}
+
 .isDesktop .nav li a:before {
     visibility: hidden;
     color: #aaa;
