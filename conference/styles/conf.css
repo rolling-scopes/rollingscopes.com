@@ -350,6 +350,24 @@ section:after {
     left: 0;
 }
 
+.schedule-time {
+    position: absolute;
+    left: 0;
+}
+
+#schedule .schedule-full {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.schedule-speaker {
+    font-size: 1.1em;
+}
+
+.schedule-theme {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 /**************   partner-list ******************/
 .partner-list {
     list-style-type: none;
