@@ -73,6 +73,11 @@
         margin: 0 0.3em;
     }
 
+    .schedule-full .schedule-time {
+        right: 0;
+        left: auto;
+    }
+
     footer {
         margin-top: 20px;
     }
