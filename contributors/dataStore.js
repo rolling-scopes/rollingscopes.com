@@ -20,9 +20,31 @@ var dataStore = [
 			},
 			{
 				"title": "RS#8 - Keep calm & attend events: LondonJs"
+			},
+			{
+				"title": "RS#13 - dotJS conf overview"
 			}
 		],
 		"imagePath": "alexander_gerasimov.jpg"
+	},
+	{
+		"name": "Dzmitry Varabei",
+		"ruName": "Дмитрий Воробей",
+		"talks": [
+			{
+				"title": "RS#1 - Chrome DevTools"
+			},
+			{
+				"title": "RS#3 - SpainJS"
+			},
+			{
+				"title": "RS#3 - Chrome Internals: Paint and Composition"
+			},
+			{
+				"title": "RS#13 - dotJS conf overview"
+			}
+		],
+		"imagePath": "dzmitry_varabei.jpg"
 	},
 	{
 		"name": "Siarhei Mikhailau",
@@ -42,22 +64,6 @@ var dataStore = [
 			}
 		],
 		"imagePath": "siarhei_mikhailau.jpg"
-	},
-	{
-		"name": "Dzmitry Varabei",
-		"ruName": "Дмитрий Воробей",
-		"talks": [
-			{
-				"title": "RS#1 - Chrome DevTools"
-			},
-			{
-				"title": "RS#3 - SpainJS"
-			},
-			{
-				"title": "RS#3 - Chrome Internals: Paint and Composition"
-			}
-		],
-		"imagePath": "dzmitry_varabei.jpg"
 	},
 	{
 		"name": "Andre Gloukhmantchouk",
@@ -137,6 +143,19 @@ var dataStore = [
 		"imagePath": "uladzimir_abramchuk.jpg"
 	},
 	{
+		"name": "Kiryl Baranosnik",
+		"ruName": "Кирилл Бараношник",
+		"talks": [
+			{
+				"title": "RS#5 -Taming AngularJs: A Directive Lifecycle"
+			},
+			{
+				"title": "RS#13 - Test Driven Development: More Development Than Ever"
+			}
+		],
+		"imagePath": "kiryl_baranosnik.jpg"
+	},
+	{
 		"name": "Dzmitry Gerasimov",
 		"ruName": "Дмитрий Герасимов",
 		"talks": [
@@ -197,16 +216,6 @@ var dataStore = [
 			}
 		],
 		"imagePath": "artsiom_aliakseyenka.jpg"
-	},
-	{
-		"name": "Kiryl Baranosnik",
-		"ruName": "Кирилл Бараношник",
-		"talks": [
-			{
-				"title": "RS#5 -Taming AngularJs: A Directive Lifecycle"
-			}
-		],
-		"imagePath": "kiryl_baranosnik.jpg"
 	},
 	{
 		"name": "Serge Barysiuk",
@@ -377,6 +386,16 @@ var dataStore = [
 			}
 		],
 		"imagePath": "vladimir_petriko.jpg"
+	},
+	{
+		"name": "Yury Tatsenka",
+		"ruName": "Юрий Татенко",
+		"talks": [
+			{
+				"title": "RS#13 - dotCSS conf overview"
+			}
+		],
+		"imagePath": "yury_tatsenka.jpg"
 	},
 	{
 		"name": "Andrew Fan",
