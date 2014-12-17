@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Agile Estimation</title>
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">
+	<style>
+		img {
+			box-shadow: none !important;
+			background: none !important;
+			border: none !important;
+		}
+
+		.accent {
+			color: burlywood;
+			font-weight: bold;
+		}
+
+		.dialog .message {
+			background: white;
+			padding: 10px 20px;
+			box-sizing: border-box;
+			position: relative;
+			margin-bottom: 25px;
+			text-align: left;
+			color: darkslategray;
+			width: 80%;
+		}
+
+		.dialog .message.companion {
+			margin-left: 25px;
+			clear: right;
+		}
+
+		.dialog .message.me {
+			float: right;
+			margin-right: 25px;
+		}
+
+		.dialog .message:before, .dialog .message:after {
+			content: "";
+			display: block;
+			width: 0;
+			border-color: transparent;
+			border-width: 25px;
+			border-style: solid;
+			position: absolute;
+			border-top-color: white;
+			top: 0;
+		}
+
+		.dialog .message.companion:before {
+			border-right-width: 0px;
+			left: 0;
+			margin-left: -22px;
+		}
+
+		.dialog .message.companion:after {
+			display: none;
+		}
+
+		.dialog .message.me:before {
+			display: none;
+		}
+
+		.dialog .message.me:after {
+			border-left-width: 0px;
+			right: 0;
+			margin-right: -22px;
+		}
+
+		.mono {
+			font-family: monospace !important;
+		}
+
+		.tile {
+			padding: 10px !important;
+			background: dimgray;
+			text-align: center;
+			font-family: monospace;
+			box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+		}
+
+		.no-bullet {
+			list-style: none;
+		}
+
+		.text-center {
+			text-align: center;
+		}
+
+		.team {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 150px !important;
+			padding-left: 50px !important;
+			padding-right: 50px !important;
+		}
+
+		.team .person {
+			width: 150px;
+			height: 160px;
+			background: url(./img/man.png) no-repeat;
+			position: relative;
+			background-size: 100%;
+		}
+
+		.team .person .crown {
+			width: 100px;
+			height: 90px;
+			background: url(./img/crown.png);
+			position: absolute;
+			background-size: 100%;
+			top: 0;
+			left: 0;
+			right: 0;
+			margin: -70px auto;
+		}
+
+		@-webkit-keyframes blink {
+			0%, 45% {
+				opacity: 0;
+			}
+			50%, 60% {
+				opacity: 1;
+			}
+			65%, 100% {
+				opacity: 0;
+			}
+		}
+
+		@-moz-keyframes blink {
+			0%, 45% {
+				opacity: 0;
+			}
+			50%, 60% {
+				opacity: 1;
+			}
+			65%, 100% {
+				opacity: 0;
+			}
+		}
+
+		.team.talking .person:before {
+			content: "";
+			display: block;
+			background: url(./img/speech_bubble.png);
+			background-size: 100%;
+			width: 130px;
+			height: 115px;
+			margin-top: -90px;
+			margin-left: -80px;
+			opacity: 0;
+			-webkit-animation-name: blink;
+			-webkit-animation-iteration-count: infinite;
+			-moz-animation-name: blink;
+			-moz-animation-iteration-count: infinite;
+		}
+
+		.team.talking .person:nth-child(1):before {
+			-webkit-animation-delay: -5000ms;
+			-webkit-animation-duration: 7000ms;
+			-moz-animation-delay: -5000ms;
+			-moz-animation-duration: 7000ms;
+		}
+
+		.team.talking .person:nth-child(3):before {
+			-webkit-animation-delay: -3500ms;
+			-webkit-animation-duration: 7000ms;
+			-moz-animation-delay: -3500ms;
+			-moz-animation-duration: 7000ms;
+		}
+
+		.team.talking .person:nth-child(4):before {
+			-webkit-animation-delay: -2000ms;
+			-webkit-animation-duration: 7000ms;
+			-moz-animation-delay: -2000ms;
+			-moz-animation-duration: 7000ms;
+		}
+
+		.team.talking .person:nth-child(2):before {
+			-webkit-animation-delay: -500ms;
+			-webkit-animation-duration: 7000ms;
+			-moz-animation-delay: -500ms;
+			-moz-animation-duration: 7000ms;
+		}
+
+		.cards {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: -100px !important;
+			margin-top: 50px !important;
+			padding-left: 50px !important;
+			padding-right: 50px !important;
+		}
+
+		.cards .card {
+			width: 90px;
+			height: 120px;
+			margin: 0px 30px;
+			position: relative;
+		}
+
+		.cards .card-ace {
+			background: url(./img/ace.png);
+			background-size: 100% 100%;
+		}
+
+		.cards .card-joker {
+			background: url(./img/joker.png);
+			background-size: 100% 100%;
+		}
+
+		.cards .card.check:before, .cards .card.cross:before {
+			content: "";
+			opacity: 0;
+			display: block;
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin-right: -20px;
+			margin-top: -20px;
+			transition: .5s;
+		}
+
+		.cards .card.check:before {
+			background: url(./img/check.png) white;
+			background-size: 100% 100%;
+		}
+
+		.cards .card.cross:before {
+			background: url(./img/close.png) white;
+			background-size: 100% 100%;
+		}
+
+		.cards.visible.current-fragment .card.check:before,
+		.cards.visible.current-fragment .card.cross:before {
+			opacity: 0;
+		}
+
+		.cards.visible .card.check:before,
+		.cards.visible .card.cross:before {
+			opacity: 1;
+		}
+
+		.col {
+			display: flex !important;
+		}
+
+		.col.col3 > * {
+			width: 33%;
+		}
+
+		.flex-wrap {
+			flex-wrap: wrap;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<section>
+					<h2>Agile Estimations</h2>
+					<img src="./img/1.png" alt="">
+				</section>
+
+				<section>
+					<h2>Presenter</h2>
+					<div class="col col2" style="margin-top: 50px">
+						<div class="text-center">
+							<img src="./img/ann.png" alt="">
+						</div>
+
+						<div style="margin-left: 50px">
+							<h3>Anna Panicheva</h3>
+							<ul>
+								<li>Project Manager at E-Commerce Solution Practice</li>
+								<li>Agile Ambassador</li>
+							</ul>
+						</div>
+					</div>
+
+				</section>
+			</section>
+
+			<section>
+				<h2>Agenda</h2>
+				<ul>
+					<li class="fragment">So, estimates…</li>
+					<li class="fragment">Agile estimates</li>
+					<li class="fragment">Sizing Units</li>
+					<li class="fragment">Preparation for Estimation</li>
+					<li class="fragment">Planning poker</li>
+				</ul>
+			</section>
+
+			<section>
+				<section>
+					<h2>So, estimates...</h2>
+					<img src="./img/2.png" alt="">
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>Why Estimate?</h2>
+					<img src="./img/3.png" alt="">
+				</section>
+
+				<section>
+					<h2 style="margin-bottom: 100px;">Why Estimate?</h2>
+					<div style="margin-right: 20%; display:flex; justify-content: space-around">
+						<img class="fragment" src="./img/4.png" alt="" height="200px;">
+						<img class="fragment" src="./img/5.png" alt="" height="200px;">
+					</div>
+					<div style="margin-left: 20%; display:flex; justify-content: space-around">
+						<img class="fragment" src="./img/6.png" alt="" height="200px;">
+						<img class="fragment" src="./img/7.png" alt="" height="200px;">
+					</div>
+				</section>
+
+				<section>
+					<h2 style="margin-bottom: 100px;">Why Estimate?</h2>
+					<img class="fragment" src="./img/8.png" alt="">
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>Agile estimates</h2>
+					<img src="./img/9.png" alt="">
+				</section>
+
+				<section>
+					<h2>Context</h2>
+					<div class="fragment">
+						<p>Items described from <span class="accent">stakeholder/user</span> perspective</p>
+						<img src="./img/10.png" alt="">
+					</div>
+				</section>
+
+				<section>
+					<h2>Context</h2>
+					<div class="fragment">
+						<p><span class="accent">Context-dependent</span>: those, who do the work, estimate the work (in their specific context)</p>
+						<img src="./img/``.png" alt="">
+					</div>
+				</section>
+
+				<section>
+					<h2>Size</h2>
+					<ul>
+						<li class="fragment">Size is <span class="accent">NOT effort</span> (this is not a WBS as an input for a project schedule)</li>
+						<li class="fragment">Works on <span class="accent">higher level</span>, not on detail level</li>
+						<li class="fragment">Velocity <span class="accent">adjusts</span> for over/underestimation over time</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Also</h2>
+					<div class="fragment">
+						<p>Uncertainty increases with projection distance (<span class="accent">cone of uncertainty</span>)</p>
+						<img src="./img/12.png" alt="">
+					</div>
+				</section>
+
+				<section>
+					<h2>Also</h2>
+					<div class="fragment">
+						<p><span class="accent">Intuition</span> and <span class="accent">wisdom</span> of crowds (both make use of parallel processing)</p>
+						<img src="./img/13.png" alt="">
+					</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>Sizing Units</h2>
+					<img src="./img/14.png" alt="">
+				</section>
+				<section>
+					<div class="dialog">
+						<div class="message companion fragment">
+							<p>Hey, developer! Here is some tasks. What are your estimations?</p>
+						</div>
+						<div class="message me fragment">
+							<p>Hmm, let me see...</p>
+						</div>
+						<div class="message me fragment">
+							<p>Well, I think 18 hours is enough..</p>
+						</div>
+						<div class="message companion fragment">
+							<p>Ok. The clock starts ticking!</p>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h2><span class="accent">Hours</span> is not an option</h2>
+				</section>
+
+				<section>
+					<h2>We need abstraction</h2>
+
+					<ul>
+						<li class="fragment">T-Shirt sizes</li>
+						<li class="fragment">Story Points</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>T-Shirt sizes</h2>
+
+					<ul class="fragment">
+						<li>XXS</li>
+						<li>XS</li>
+						<li>S</li>
+						<li>M</li>
+						<li>L</li>
+						<li>XL</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Story points</h2>
+
+					<ul>
+						<li class="fragment no-bullet text-center">
+							<p>Fibonacci sequence including a zero</p>
+							<p class="mono tile">0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89</p>
+						</li>
+						<li class="fragment no-bullet text-center">
+							<p>"Standard" sequence</p>
+							<p class="mono tile">0, ½, 1, 2, 3, 5, 8, 13, 20, 40, 100</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<h2>Preparation for estimation</h2>
+				<img src="./img/15.png" alt="">
+			</section>
+
+			<section>
+				<h2>And Now We Just Play!</h2>
+				<p>Some rules</p>
+				<ul>
+					<li class="fragment">Please follow instructions suggested</li>
+					<li class="fragment"><i class="accent">Focus</i> on <i class="accent">trying</i> new technique</li>
+				</ul>
+			</section>
+
+			<section>
+				<section>
+					<h2>Poker Estimations</h2>
+					<div class="fragment">
+						<p>
+							Prepare your cards/mobile apps
+						</p>
+						<img src="./img/cards.png" alt="">
+					</div>
+				</section>
+
+				<section>
+					<h2>Poker Estimations</h2>
+					<div>
+						<p>
+							Pick / Imagine a Product Owner
+						</p>
+						<div class="team">
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"><div class="crown fragment"></div></div>
+							<div class="person"></div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h2>Poker Estimations</h2>
+					<div>
+						<p>
+							Discuss the feature
+						</p>
+						<div class="team talking">
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h2>Poker Estimations</h2>
+					<div>
+						<p>
+							<i class="accent">PRIVATELY</i> select one card to represent the estimate
+						</p>
+						<p class="fragment">
+							Reveal at the <i class="accent">same</i> time
+						</p>
+						<div class="cards fragment">
+							<div class="card card-ace check"></div>
+							<div class="card card-ace check"></div>
+							<div class="card card-ace check"></div>
+							<div class="card card-ace check"></div>
+						</div>
+						<div class="team">
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+						</div>
+						<div class="fragment"></div>
+					</div>
+				</section>
+
+				<section>
+					<h2>Poker Estimations</h2>
+					<p>Other story</p>
+					<div>
+						<div class="cards fragment">
+							<div class="card card-ace check"></div>
+							<div class="card card-joker cross"></div>
+							<div class="card card-ace check"></div>
+							<div class="card card-ace check"></div>
+						</div>
+						<div class="team">
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+						</div>
+						<div class="fragment" style="margin-top: 30px;"></div>
+					</div>
+					<p class="fragment">If smth went wrong</p>
+				</section>
+
+				<section>
+					<h2>Poker Estimations</h2>
+					<div>
+						<p>
+							Continue your discussion
+						</p>
+						<div class="team talking">
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+						</div>
+						<p class="fragment" style="margin-top: 20px">
+							If no consensus achieved, <i class="accent">defer</i> this item
+						</p>
+						<p class="fragment" style="margin-top: 20px">
+							<i class="accent">Product owner</i> could <i class="accent">consult</i> on controversial features
+						</p>
+					</div>
+				</section>
+			</section>
+
+			<section>
+				<h2>Got It?</h2>
+				<img src="./img/18.png" alt="">
+			</section>
+
+			<section>
+				<section>
+					<h2>Go Estimate!</h2>
+						<div>
+							<p>Estimate the relative land area of the following countries</p>
+							<ul class="col col3 flex-wrap" style="margin-top: 40px">
+								<li class="no-bullet text-center">Austria</li>
+								<li class="no-bullet text-center">India</li>
+								<li class="no-bullet text-center">Belarus</li>
+								<li class="no-bullet text-center">Spain</li>
+								<li class="no-bullet text-center">Belgium</li>
+								<li class="no-bullet text-center">Israel</li>
+								<li class="no-bullet text-center">Germany</li>
+								<li class="no-bullet text-center">Namibia</li>
+								<li class="no-bullet text-center">Bulgaria</li>
+								<li class="no-bullet text-center">Latvia</li>
+								<li class="no-bullet text-center">China</li>
+								<li class="no-bullet text-center">Kazakhstan</li>
+								<li class="no-bullet text-center">Canada</li>
+								<li class="no-bullet text-center">Norway</li>
+								<li class="no-bullet text-center">Switzerland</li>
+								<li class="no-bullet text-center">Australia</li>
+								<li class="no-bullet text-center">United Kingdom</li>
+								<li class="no-bullet text-center">Mexico</li>
+								<li class="no-bullet text-center">Chile</li>
+								<li class="no-bullet text-center">Cyprus</li>
+							</ul>
+						</div>
+				</section>
+			</section>
+
+			<section>
+				<h2>Questions</h2>
+				<img src="./img/18.png" alt="">
+			</section>
+
+			<section>
+				<section>
+					<h2>Magic Estimations</h2>
+					<img src="./img/16.png" alt="">
+				</section>
+
+				<section>
+					<h2>Magic Estimations</h2>
+					<p>Rules</p>
+					<ul>
+						<li class="fragment">No talking</li>
+						<li class="fragment">No non-verbal communication</li>
+						<li class="fragment"><span class="accent">Team</span> does the estimation, <span class="accent">product owner</span> can only <span class="accent">watch</span> (and learn)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Magic Estimations</h2>
+
+					<style>
+						.estimation-cards {
+							display: flex;
+						}
+
+						.estimation-cards .card {
+							flex-grow: 1;
+							padding: 20px;
+							border: 5px solid white;
+							margin: 10px;
+							border-radius: 10px;
+						}
+					</style>
+
+					<div class="estimation-cards-container fragment" style="margin-top: 50px;">
+						<p>Estimation cards are put on the floor <span class="accent">sorted ascending</span></p>
+						<div class="estimation-cards">
+							<div class="card">0</div>
+							<div class="card">½</div>
+							<div class="card">1</div>
+							<div class="card">2</div>
+							<div class="card">3</div>
+							<div class="card">5</div>
+							<div class="card">8</div>
+							<div class="card">13</div>
+							<div class="card">20</div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h2>Magic Estimations</h2>
+					<div class="estimation-cards">
+						<div class="card">0</div>
+						<div class="card">½</div>
+						<div class="card">1</div>
+						<div class="card">2</div>
+						<div class="card">3</div>
+						<div class="card">5</div>
+						<div class="card">8</div>
+						<div class="card">13</div>
+						<div class="card">20</div>
+					</div>
+
+					<style>
+						.stories-bunch {
+							left: 0;
+							right: 0;
+							margin: 0 auto !important;
+							width: 11%;
+							padding: 80px 20px !important;
+							background: white;
+							color: slategray;
+							box-shadow: 0px 0px 2px 0px slategray,
+													10px 10px 2px 0px white,
+													11px 11px 2px 0px slategray,
+													20px 20px 2px 0px white,
+													21px 21px 2px 0px slategray,
+													30px 30px 2px 0px white,
+													31px 31px 2px 0px slategray !important;
+						}
+					</style>
+					<div class="fragment" style="position: relative">
+						<p>The team <span class="accent">receives user stories</span></p>
+						<div class="stories-bunch">Stories</div>
+					</div>
+				</section>
+
+				<section>
+					<h2>Magic Estimations</h2>
+					<p>Each team member</p>
+					<ul>
+						<li class="fragment">estimates = places stories near points cards</li>
+						<li class="fragment">checks estimates</li>
+						<li class="fragment">re-estimate and move if desired <span class="accent">making marks on the story cards when moving to the left/right</span></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Magic Estimations</h2>
+					<p>Each team member one by one</p>
+
+					<style>
+						.stories {
+							display: flex;
+						}
+
+						.stories .story {
+							padding: 20px;
+							border: 5px solid white;
+							margin: 10px;
+							border-radius: 10px;
+							flex-grow: 1;
+						}
+
+						.magic .team .person {
+							opacity: 0.3;
+							transition: opacity .3s;
+						}
+
+						.magic .stories .story {
+							visibility: hidden;
+							transition: transform .5s;
+						}
+
+						.magic .stories .story:nth-child(2) {
+							transform: translate(108%, 0);
+						}
+
+						.magic .stories .story:nth-child(4) {
+							transform: translate(-328%, 0);
+						}
+
+						.magic .stories .story .move {
+							opacity: 1;
+						}
+
+						.magic .team {
+							margin-top: 20px !important;
+						}
+
+						.magic .stories .story .move:before {
+							content: "";
+							display: block;
+							font-size: 1.5em;
+							font-weight: bold;
+							opacity: 0;
+							transition: opacity .3s;
+						}
+
+						.magic .stories .story .move.moved-right:before {
+							content: "→"
+						}
+
+						.action1.visible ~ .team .person:nth-child(1) {
+							opacity: 1;
+						}
+
+						.action2.visible ~ .stories .story:nth-child(1) {
+							visibility: visible;
+						}
+
+						.action3.visible ~ .team .person:nth-child(2) {
+							opacity: 1;
+						}
+
+						.action3.visible ~ .team .person:nth-child(1) {
+							opacity: 0.3;
+						}
+
+						.action4.visible ~ .stories .story:nth-child(3) {
+							visibility: visible;
+						}
+
+						.action5.visible ~ .stories .story:nth-child(1) {
+							transform: translate(108%, 0);
+						}
+
+						.action5.visible ~ .stories .story:nth-child(1) .move:before {
+							opacity: 1;
+						}
+
+						.action6.visible ~ .team .person:nth-child(3) {
+							opacity: 1;
+						}
+
+						.action6.visible ~ .team .person:nth-child(2) {
+							opacity: 0.3;
+						}
+
+						.action7.visible ~ .stories .story:nth-child(3) {
+							transform: translate(108%, 0);
+						}
+
+						.action7.visible ~ .stories .story:nth-child(3) .move:before {
+							opacity: 1;
+						}
+
+						.action8.visible ~ .stories .story:nth-child(2) {
+							visibility: visible;
+						}
+
+						.action9.visible ~ .team .person:nth-child(4) {
+							opacity: 1;
+						}
+
+						.action9.visible ~ .team .person:nth-child(3) {
+							opacity: 0.3;
+						}
+
+						.action10.visible ~ .stories .story:nth-child(4) {
+							visibility: visible;
+						}
+					</style>
+					<div class="magic">
+						<div class="estimation-cards">
+							<div class="card">0</div>
+							<div class="card">½</div>
+							<div class="card">1</div>
+							<div class="card">2</div>
+						</div>
+
+						<div class="action1 fragment"></div>
+						<div class="action2 fragment"></div>
+						<div class="action3 fragment"></div>
+						<div class="action4 fragment"></div>
+						<div class="action5 fragment"></div>
+						<div class="action6 fragment"></div>
+						<div class="action7 fragment"></div>
+						<div class="action8 fragment"></div>
+						<div class="action9 fragment"></div>
+						<div class="action10 fragment"></div>
+
+						<div class="stories">
+							<div class="story">
+								<p>Story 1</p>
+								<div class="move moved-right"></div>
+							</div>
+							<div class="story">
+								<p>Story 2</p>
+								<div class="move"></div>
+							</div>
+							<div class="story">
+								<p>Story 3</p>
+								<div class="move moved-right"></div>
+							</div><div class="story">
+								<p>Story 4</p>
+								<div class="move"></div>
+							</div>
+						</div>
+
+						<div class="team">
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+							<div class="person"></div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h2>Magic Estimations</h2>
+					<p>Fall-outs</p>
+					<ul>
+						<li class="fragment">Product owner marks fall-outs (too large or keeps bouncing)</li>
+						<li class="fragment">Discuss fall-outs until reach agreement <span style="text-decoration: line-through; color: gray">or first blood</span> time is over</li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<h2>We're done!</h2>
+				<img src="./img/17.png" alt="">
+			</section>
+
+			<section>
+				<h2>Links for Reference</h2>
+				<p>
+					<a href="http://www.youtube.com/watch?v=QocEro1J65Y">Boris Gloger explaining Magic Estimation</a>
+				</p>
+				<p>
+					<a href="http://www.core-dump.net/agile/magic-estimation-%E2%80%93-rapidly-estimating-huge-backlogs/">Magic Estimation – rapidly estimating huge backlogs</a>
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.min.js"></script>
+
+	<script>
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+			dependencies: []
+		});
+	</script>
+</body>
+</html>
