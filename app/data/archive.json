@@ -1,0 +1,43 @@
+{"data": [
+	{
+		"id" : "rs13",
+		"name": "The Rolling Scopes #14",
+		"date": "16 декабря, 2014",
+		"location": "imaguru.co",
+		"locationLink": "http://imaguru.co/ru",
+		"schedule": [
+			{
+				"title": "Learn the rules of Agile estimates to break them properly",
+				"description": "Разговоры об Аджайл уже успели не только войти в моду, но и выйти из нее. При этом у многих осталось чувство недосказанности, как же на самом деле все это работает in real life. Одна из насущных тем – аджайл эстимейты. Как успеть оценить все фичи за отведенное время? Как ответить на вопрос «когда все будет», если вы эстимируете в пингвинах? Что мы вообще эстимируем и какие работы обычно входят в оценку? Приходите, попробуем проэстимировать тестовый беклог и разобраться во всех этих вопросах.",
+				"imagePath": "images/speakers/anna_panicheva.jpg",
+				"speaker": "Анна Паничева",
+				"time": "19:00",
+				"break": {
+					"time": "20:10"
+				}
+			},
+			{
+				"title": "Enhance your browser: Chrome Extensions",
+				"description": "Поговорим о том, как расширить функциональность браузера либо изменить его поведение или внешний вид с помощью дополнений, используя привычные web технологии, без необходимости погружения в native код. В данном докладе речь пойдет о разработке расширений Chrome Extensions для наиболее популярного браузера Google Chrome c хорошо развиваемым и гибким API.",
+				"imagePath": "images/speakers/mikalai_ausiannikau.jpg",
+				"speaker": "Николай Овсянников",
+				"time": "20:30"
+			}
+		],
+		"materials": [
+			{
+				"title": "Learn the rules of Agile estimates to break them properly",
+				"slidesLink": "http://rolling-scopes.github.io/slides/Agile-Estimations",
+				"videoLink": "https://www.youtube.com/watch?v=gmwqP0uxxQA",
+				"speaker": "Анна Паничева"
+			},
+			{
+				"title": "Enhance your browser: Chrome Extensions",
+				"slidesLink": "https://rawgit.com/onv/presentations/master/ChromeExtensions/index.html",
+				"videoLink": "https://www.youtube.com/watch?v=2HuKwwhpsgE",
+				"speaker": "Николай Овсянников"
+			}
+		]
+	}
+]
+}

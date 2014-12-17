@@ -319,6 +319,16 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
+    },
+
+    mustache_render: {
+      app: {
+        files: [{
+          data: "app/data/archive.json",
+          template: "app/templates/archive.mustache",
+          dest: "app/archive.html"
+        }]
+      }
     }
   });
 
