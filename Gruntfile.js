@@ -380,6 +380,7 @@ module.exports = function (grunt) {
     'concat',
     'cssmin',
     'uglify',
+    'mustache_render:app', //!!! Fix it, split for app & conference sites.
     'copy:dist',
     'rev',
     'usemin',
