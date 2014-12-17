@@ -38,6 +38,87 @@
 				"speaker": "Николай Овсянников"
 			}
 		]
+	},
+	{
+		"id" : "rs2",
+		"name": "The Rolling Scopes #2",
+		"date": "27 июня, 2013",
+		"location": "МЕ100 (Независимости, 58)",
+		"locationLink": "facebook.com/groups/me100",
+		"schedule": [
+			{
+				"title": "JavaScript framework для highload-сайтов и трудности при его проектировании",
+				"imagePath": "images/speakers/mikita_manko.jpg",
+				"speaker": "Никита Манько",
+				"time": "18:00"
+			},
+			{
+				"title": "WebComponents in action",
+				"imagePath": "images/speakers/aliaksei_shitkin.jpg",
+				"speaker": "Алексей Шиткин",
+				"time": "18:25"
+			},
+			{
+				"title": "Front-end project assets management",
+				"imagePath": "images/speakers/andre_gloukhmantchouk.jpg",
+				"speaker": "Андрей Глухманчук и Александр Герасимов",
+				"time": "18:50",
+				"break": {
+					"time": "19:40"
+				}
+			},
+			{
+				"title": "<Video>Хроника",
+				"imagePath": "images/speakers/alex_karlovich.jpg",
+				"speaker": "Александр Карлович",
+				"time": "20:00"
+			},
+			{
+				"title": "HTML-coder never dies",
+				"imagePath": "images/speakers/siarhei_mikhailau.jpg",
+				"speaker": "Сергей Михайлов",
+				"time": "20:20"
+			}
+		]
+	},
+	{
+		"id" : "rs1",
+		"name": "The Rolling Scopes #1",
+		"date": "21 мая, 2013",
+		"location": "Независимости, 58 (EPAM Office)",
+		"locationLink": "https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8+58,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C/@53.9174896,27.5916226,17z/data=!3m1!4b1!4m2!3m1!1s0x46dbcfa64f90adad:0x872f5081b03fa96d",
+		"schedule": [
+			{
+				"title": "Web Components",
+				"imagePath": "images/speakers/aliaksei_shitkin.jpg",
+				"speaker": "Алексей Шиткин",
+				"time": "18:30"
+			},
+			{
+				"title": "Introduction to Angular.js",
+				"imagePath": "images/speakers/denis_shamgin.jpg",
+				"speaker": "Денис Шамгин",
+				"time": "18:55"
+			},
+			{
+				"title": "Chrome DevTools",
+				"imagePath": "images/speakers/dzmitry_varabei.jpg",
+				"speaker": "Дмитрий Воробей",
+				"time": "19:25"
+			},
+			{
+				"title": "Introduction to Ember",
+				"imagePath": "images/speakers/andrew_fan.jpg",
+				"speaker": "Андрей Фан",
+				"time": "19:55"
+			},
+			{
+				"title": "Fast Websites",
+				"imagePath": "images/speakers/yauheni_leichanok.jpg",
+				"speaker": "Евгений Лейченок",
+				"time": "20:20"
+			}
+		]
 	}
 ]
 }
