@@ -1,6 +1,6 @@
 {"data": [
 	{
-		"id" : "rs13",
+		"id" : "rs14",
 		"name": "The Rolling Scopes #14",
 		"date": "16 декабря, 2014",
 		"location": "imaguru.co",
@@ -36,6 +36,282 @@
 				"slidesLink": "https://rawgit.com/onv/presentations/master/ChromeExtensions/index.html",
 				"videoLink": "https://www.youtube.com/watch?v=2HuKwwhpsgE",
 				"speaker": "Николай Овсянников"
+			}
+		]
+	},
+	{
+		"id" : "rs13",
+		"name": "The Rolling Scopes #13",
+		"date": "27 ноября, 2014",
+		"location": "imaguru.co",
+		"locationLink": "http://imaguru.co/ru",
+		"schedule": [
+			{
+				"title": "Увидеть Париж и угореть!",
+				"imagePath": "images/dot_logo.jpg",
+				"speaker": "Дмитрий Воробей, Александр Герасимов, Юрий Татенко",
+				"description" : "Саша, Дима и Юра вернулись из столицы Франции и готовы сделать обзор самых интересных и полезных докладов двух крупнейших конференций из мира фронтенда - dotJS и dotCSS.",
+				"time": "19:00",
+				"break": {
+					"time": "20:10"
+				}
+			},
+			{
+				"title": "Test Driven Development: More Development Than Ever",
+				"imagePath": "images/speakers/kiryl_baranosnik.jpg",
+				"speaker": "Кирилл Бараношник",
+				"description" : "TDD существует уже 15 лет, но до сих пор разработчики смотрят на эту технику как на новомодную игрушку, придуманную людьми, ничего не понимающими в программировании. Кирилл использует TDD в своей ежедневной практике не первый день и знаком с ней не понаслышке. В рамках своего доклада он расскажет, чем именно может быть полезна разработка через тестирование нам - программистам, и попытается показать, что именно мы как никто другой получаем от нее наибольшую выгоду.",
+				"time": "20:30"
+			}
+		],
+		"materials": [
+			{
+				"title": "Увидеть Париж и угореть! (Обзор dotJS и dotCSS)",
+				"slidesLink": "https://github.com/rolling-scopes/rs13-dotJS-overview",
+				"videoLink": "https://www.youtube.com/watch?v=pvFz9ob-mik",
+				"speaker": "Воробей Дмитрий и Юрий Татенко"
+			},
+			{
+				"title": "Перевод доклада от Angus Croll - The Book Nerd's Guide to JavaScript",
+				"slidesLink": "https://speakerdeck.com/anguscroll/the-book-nerds-guide-to-javascript",
+				"videoLink": "https://www.youtube.com/watch?v=pvFz9ob-mik&t=31m22s",
+				"speaker": "Александр Герасимов"
+			},
+			{
+				"title": "Test Driven Development: More Development Than Ever",
+				"slidesLink": "http://www.slideshare.net/kirbarn/test-driven-development-more-development-than-ever",
+				"videoLink": "https://www.youtube.com/watch?v=pvFz9ob-mik&t=1h48m15s",
+				"speaker": "Кирилл Бараношник"
+			}
+		]
+	},
+	{
+		"id" : "rs12",
+		"name": "The Rolling Scopes #12",
+		"date": "16 октября, 2014",
+		"location": "imaguru.co",
+		"locationLink": "http://imaguru.co/ru",
+		"schedule": [
+			{
+				"title": "Why Y?",
+				"imagePath": "images/speakers/uladzimir_abramchuk.jpg",
+				"speaker": "Владимир Абрамчук",
+				"time": "19:00"
+			},
+			{
+				"title": "How to not program on AngularJS",
+				"imagePath": "images/speakers/andrei_yemialyanchik.jpg",
+				"speaker": "Андрей Емельянчик",
+				"time": "19:45",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "AngularJS and how you shouldn’t use it",
+				"imagePath": "images/speakers/kanstantsin_yatskevich.jpg",
+				"speaker": "Константин Яцкевич",
+				"time": "20:40"
+			},
+			{
+				"title": "WebKit JavaScript Core optimizations layers",
+				"imagePath": "images/speakers/kiril_knysh.jpg",
+				"speaker": "Кирилл Кныш",
+				"time": "21:10"
+			}
+		],
+		"materials": [
+			{
+				"title": "Why Y?",
+				"slidesLink": "http://u-abramchuk.github.io/presentations/y-rolling-scopes-2014",
+				"videoLink": "https://www.youtube.com/watch?v=hZiMuwrYBEw",
+				"speaker": "Владимир Абрамчук"
+			},
+			{
+				"title": "How to not program on AngularJS ",
+				"slidesLink": "http://slides.com/andrewyemialyanchik/how-to-not-program-on-angularjs",
+				"videoLink": "https://www.youtube.com/watch?v=IDvb3QI98Uc",
+				"speaker": "Андрей Емельянчик"
+			},
+			{
+				"title": "AngularJS and how you shouldn’t use it? ",
+				"slidesLink": "http://rolling-scopes.github.io/slides/Angular_Js.pptx",
+				"videoLink": "https://www.youtube.com/watch?v=efM-0sxCUxs",
+				"speaker": "Константин Яцкевич"
+			},
+			{
+				"title": "WebKit JavaScript Engine optimizations",
+				"slidesLink": "http://rolling-scopes.github.io/slides/WebKit%20JavaScript%20Engine%20optimizations.pptx",
+				"videoLink": "https://www.youtube.com/watch?v=xALTXSE8GQA",
+				"speaker": "Кирилл Кныш"
+			}
+		]
+	},
+	{
+		"id" : "rs11",
+		"name": "The Rolling Scopes #11",
+		"date": "7 августа, 2014",
+		"location": "imaguru.co",
+		"locationLink": "http://imaguru.co/ru",
+		"schedule": [
+			{
+				"title": "Memory Profiling",
+				"imagePath": "images/speakers/artsiom_aliakseyenka.jpg",
+				"speaker": "Артём Алексеенко",
+				"time": "19:00"
+			},
+			{
+				"title": "Интеграция ReactJS в проект на RequireJS",
+				"imagePath": "images/speakers/konstantin_krivlenia.jpg",
+				"speaker": "Виктор Хомяков",
+				"time": "19:45",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "CSS Warm-Up ",
+				"imagePath": "images/speakers/alexander_gerasimov.jpg",
+				"speaker": "Александр Герасимов",
+				"time": "20:40"
+			}
+		]
+	},
+	{
+		"id" : "rs10",
+		"name": "The Rolling Scopes #10",
+		"date": "28 мая, 2014",
+		"location": "IBB",
+		"locationLink": "http://ibb.by/educational-center",
+		"schedule": [
+			{
+				"title": "News Digest",
+				"imagePath": "images/speakers/siarhei_melnik.jpg",
+				"speaker": "Сергей Мельник",
+				"time": "19:00"
+			},
+			{
+				"title": "DOM Sweet DOOM",
+				"imagePath": "images/speakers/konstantin_krivlenia.jpg",
+				"speaker": "Константин Кривленя",
+				"time": "19:35",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "Назад в будущее или мобильная разработка сегодня",
+				"imagePath": "images/speakers/dzianis_sheka.jpg",
+				"speaker": "Денис Шеко",
+				"time": "20:50"
+			},
+			{
+				"title": "Paper.js",
+				"imagePath": "images/speakers/nickolay_lavrynovich.jpg",
+				"speaker": "Николай Лавринович",
+				"time": "21:15"
+			}
+		]
+	},
+	{
+		"id" : "rs9",
+		"name": "The Rolling Scopes #9",
+		"date": "27 марта, 2014",
+		"location": "imaguru.co",
+		"locationLink": "http://imaguru.co/ru",
+		"schedule": [
+			{
+				"title": "Экзотические и полезные web API",
+				"imagePath": "images/speakers/dmitry_dudin.jpg",
+				"speaker": "Дмитрий Дудин",
+				"time": "19:00"
+			},
+			{
+				"title": "Лямбда-исчисление",
+				"imagePath": "images/speakers/uladzimir_abramchuk.jpg",
+				"speaker": "Владимир Абрамчук",
+				"time": "19:40",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "Google Glass",
+				"imagePath": "images/speakers/egor_miasnikov.jpg",
+				"speaker": "Егор Мясников и Михаил Ларченко",
+				"time": "20:50"
+			},
+			{
+				"title": "JavaScript Linters",
+				"imagePath": "images/speakers/aliaksei_shitkin.jpg",
+				"speaker": "Алексей Шиткин",
+				"time": "21:30"
+			}
+		]
+	},
+	{
+		"id" : "rs8",
+		"name": "The Rolling Scopes #8",
+		"date": "27 февраля, 2014",
+		"location": "IBB",
+		"locationLink": "http://ibb.by/educational-center",
+		"schedule": [
+			{
+				"title": "Slylish Stylus",
+				"imagePath": "images/speakers/alex_karlovich.jpg",
+				"speaker": "Александр Карлович",
+				"time": "19:00"
+			},
+			{
+				"title": "Keep Calm & Attend Events: LondonJs",
+				"imagePath": "images/speakers/alexander_gerasimov.jpg",
+				"speaker": "Александр Герасимов",
+				"time": "19:40",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "Some fresh ideas from better-dom",
+				"imagePath": "images/speakers/maksim_chemerisuk.jpg",
+				"speaker": "Максим Чемерисюк",
+				"time": "20:40"
+			}
+		]
+	},
+	{
+		"id" : "rs7",
+		"name": "The Rolling Scopes #7",
+		"date": "12 декабря, 2013",
+		"location": "МЕ100 (Независимости, 58)",
+		"locationLink": "facebook.com/groups/me100",
+		"schedule": [
+			{
+				"title": "Data processing with ql.io",
+				"imagePath": "images/speakers/kirill_kukhovets.jpg",
+				"speaker": "Кирилл Куховец",
+				"time": "19:00"
+			},
+			{
+				"title": "JavaScript Virtual Machines",
+				"imagePath": "images/speakers/serge_barysiuk.jpg",
+				"speaker": "Сергей Борисюк",
+				"time": "19:45",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "WebKit Project Overview",
+				"imagePath": "images/speakers/andrei_palchys.jpg",
+				"speaker": "Андрей Пальчис",
+				"time": "20:40"
+			},
+			{
+				"title": "RetroSpective",
+				"imagePath": "images/speakers/alexander_gerasimov.jpg",
+				"speaker": "Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович",
+				"time": "21:20"
 			}
 		]
 	},
@@ -183,8 +459,8 @@
 			},
 			{
 				"title": "Asm.js ",
-				"imagePath": "images/speakers/alex_karlovich.jpg",
-				"speaker": "Александр Карлович",
+				"imagePath": "images/speakers/andrei_palchys.jpg",
+				"speaker": "Андрей Пальчис",
 				"time": "20:00"
 			},
 			{
