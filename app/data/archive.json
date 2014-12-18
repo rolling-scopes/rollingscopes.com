@@ -40,6 +40,162 @@
 		]
 	},
 	{
+		"id" : "rs6",
+		"name": "The Rolling Scopes #6",
+		"date": "30 октября, 2013",
+		"location": "IBB",
+		"locationLink": "http://ibb.by/educational-center",
+		"schedule": [
+			{
+				"title": "NodeJS production on Windows Azure",
+				"imagePath": "images/speakers/yauhen_ivashkevich.jpg",
+				"speaker": "Евгений Ивашкевич",
+				"time": "19:00"
+			},
+			{
+				"title": "История одного стартапа: Angular.js и как мы его готовим",
+				"imagePath": "images/speakers/serge_barysiuk.jpg",
+				"speaker": "Сергей Борисюк",
+				"time": "19:40",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "RnJvbnQtZW5kIFF1aXo=",
+				"imagePath": "images/speakers/alexander_gerasimov.jpg",
+				"speaker": "Александр Герасимов",
+				"time": "20:40"
+			},
+			{
+				"title": "Hello, Data Binding",
+				"imagePath": "images/speakers/siarhei_mikhailau.jpg",
+				"speaker": "Сергей Михайлов",
+				"time": "21:20"
+			}
+		]
+	},
+	{
+		"id" : "rs5",
+		"name": "The Rolling Scopes #5",
+		"date": "2 октября, 2013",
+		"location": "IBB",
+		"locationLink": "http://ibb.by/educational-center",
+		"schedule": [
+			{
+				"title": "Seamless and partial page reload",
+				"imagePath": "images/speakers/viktor_khomyakov.jpg",
+				"speaker": "Виктор Хомяков",
+				"time": "19:00"
+			},
+			{
+				"title": "Going To Interview: Best Practices",
+				"imagePath": "images/speakers/andre_gloukhmantchouk.jpg",
+				"speaker": "Андрей Глухманчук",
+				"time": "19:40",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "Taming AngularJS: A Directive's Lifecycle",
+				"imagePath": "images/speakers/kiryl_baranosnik.jpg",
+				"speaker": "Кирилл Бараношник",
+				"time": "20:40"
+			},
+			{
+				"title": "Welcome to Node.js",
+				"imagePath": "images/speakers/kirill_kukhovets.jpg",
+				"speaker": "Кирилл Куховец",
+				"time": "21:20"
+			}
+		]
+	},
+	{
+		"id" : "rs4",
+		"name": "The Rolling Scopes #4",
+		"date": "29 августа, 2013",
+		"location": "IBB",
+		"locationLink": "http://ibb.by/educational-center",
+		"schedule": [
+			{
+				"title": "Knock-knock Flexbox",
+				"imagePath": "images/speakers/stanislau_zubovich.jpg",
+				"speaker": "Станислав Зубович",
+				"time": "19:00"
+			},
+			{
+				"title": "Testing JavaScript Applications",
+				"imagePath": "images/speakers/dzmitry_gerasimov.jpg",
+				"speaker": "Дмитрий Герасимов, Александр Герасимов",
+				"time": "19:25",
+				"break": {
+					"time": "20:20"
+				}
+			},
+			{
+				"title": "JavaScript Must Die!",
+				"imagePath": "images/speakers/konstantin_krivlenia.jpg",
+				"speaker": "Константин Кривленя",
+				"time": "20:30"
+			},
+			{
+				"title": "JavaScript: Non-classical inheritance",
+				"imagePath": "images/speakers/evgeny_zarya.jpg",
+				"speaker": "Евгений Заря",
+				"time": "21:00"
+			},
+			{
+				"title": "Popups - breaking the habits",
+				"imagePath": "images/speakers/siarhei_mikhailau.jpg",
+				"speaker": "Сергей Михайлов",
+				"time": "21:30"
+			}
+		]
+	},
+	{
+		"id" : "rs3",
+		"name": "The Rolling Scopes #3",
+		"date": "25 июля, 2013",
+		"location": "МЕ100 (Независимости, 58)",
+		"locationLink": "facebook.com/groups/me100",
+		"schedule": [
+			{
+				"title": "Chrome remote debugging protocol",
+				"imagePath": "images/speakers/vladimir_petriko.jpg",
+				"speaker": "Владимир Петрико",
+				"time": "18:45"
+			},
+			{
+				"title": "SpainJS",
+				"imagePath": "images/speakers/andre_gloukhmantchouk.jpg",
+				"speaker": "Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович",
+				"time": "19:15",
+				"break": {
+					"time": "19:50"
+				}
+			},
+			{
+				"title": "Browser internals ",
+				"imagePath": "images/speakers/dzmitry_varabei.jpg",
+				"speaker": "Дмитрий Воробей",
+				"time": "20:00"
+			},
+			{
+				"title": "Asm.js ",
+				"imagePath": "images/speakers/alex_karlovich.jpg",
+				"speaker": "Александр Карлович",
+				"time": "20:00"
+			},
+			{
+				"title": "Graceful Degradation and Progressive Enhancement",
+				"imagePath": "images/speakers/siarhei_mikhailau.jpg",
+				"speaker": "Сергей Михайлов",
+				"time": "21:15"
+			}
+		]
+	},
+	{
 		"id" : "rs2",
 		"name": "The Rolling Scopes #2",
 		"date": "27 июня, 2013",
@@ -60,8 +216,8 @@
 			},
 			{
 				"title": "Front-end project assets management",
-				"imagePath": "images/speakers/andre_gloukhmantchouk.jpg",
-				"speaker": "Андрей Глухманчук и Александр Герасимов",
+				"imagePath": "images/speakers/alexander_gerasimov.jpg",
+				"speaker": "Александр Герасимов и Андрей Глухманчук",
 				"time": "18:50",
 				"break": {
 					"time": "19:40"
