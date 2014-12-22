@@ -58,6 +58,14 @@
                 <span class="talk-item-speaker">{{speaker}}</span>
             </li>
             {{/materials}}
+            {{#usefulLinks}}
+                <li class="talk-item">
+                    <span>{{text}}</span>
+                    {{#link}}
+                    <a href="{{url}}" target="_blank">{{text}}</a>
+                    {{/link}}
+                </li>
+            {{/usefulLinks}}
         </ul>
     </section>
     <section class="schedule">

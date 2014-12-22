@@ -37,6 +37,15 @@
 				"videoLink": "https://www.youtube.com/watch?v=2HuKwwhpsgE",
 				"speaker": "Николай Овсянников"
 			}
+		],
+		"usefulLinks": [
+			{
+				"text": "Дополнительно об особенностях работы V8 можно прочитать тут:",
+				"link": {
+					"text": "Optimization-killers",
+					"url": "https://github.com/petkaantonov/bluebird/wiki/Optimization-killers"
+				}
+			}
 		]
 	},
 	{
