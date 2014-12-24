@@ -297,12 +297,22 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>/.htaccess'
         }]
       },
+
       styles: {
         expand: true,
         dot: true,
         cwd: '<%= config.app %>/styles',
         dest: '.tmp/styles/',
         src: '{,*/}*.css'
+      },
+
+      imageminFix: {
+        files: [{
+          expand: true,
+          cwd: '<%= config.app %>/images',
+          src: '{,*/}*.{gif,jpeg,jpg,png}',
+          dest: '<%= config.dist %>/images'
+        }]
       }
     },
 
@@ -316,7 +326,7 @@ module.exports = function (grunt) {
       ],
       dist: [
         'copy:styles',
-        'imagemin',
+        'copy:imageminFix',
         'svgmin'
       ]
     },
@@ -328,10 +338,12 @@ module.exports = function (grunt) {
           template: "app/templates/archive.mustache",
           dest: "app/archive.html"
         }]
+      },
+      options: {
+        escape: false
       }
     }
   });
-
 
   grunt.registerTask('serve', 'start the server and preview your app, --allow-remote for remote access', function (target) {
     if (grunt.option('allow-remote')) {
@@ -373,6 +385,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
+    'mustache_render', //!!! Fix it, split for app & conference sites.
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
@@ -380,7 +393,6 @@ module.exports = function (grunt) {
     'concat',
     'cssmin',
     'uglify',
-    'mustache_render:app', //!!! Fix it, split for app & conference sites.
     'copy:dist',
     'rev',
     'usemin',
