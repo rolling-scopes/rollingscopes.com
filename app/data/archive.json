@@ -171,7 +171,7 @@
 			},
 			{
 				"title": "Интеграция ReactJS в проект на RequireJS",
-				"imagePath": "images/speakers/konstantin_krivlenia.jpg",
+				"imagePath": "images/speakers/viktor_khomyakov.jpg",
 				"speaker": "Виктор Хомяков",
 				"time": "19:45",
 				"break": {
@@ -285,6 +285,18 @@
 				"imagePath": "images/speakers/maksim_chemerisuk.jpg",
 				"speaker": "Максим Чемерисюк",
 				"time": "20:40"
+			}
+		],
+		"materials": [
+			{
+				"title": "Stylish Stylus",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs8/stylish-stylus/slides",
+				"speaker": "Александр Карлович"
+			},
+			{
+				"title": "Keep Calm & Attend Events: LondonJs",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs8/londonjs-talk",
+				"speaker": "Александр Герасимов"
 			}
 		]
 	},
@@ -435,6 +447,28 @@
 				"imagePath": "images/speakers/siarhei_mikhailau.jpg",
 				"speaker": "Сергей Михайлов",
 				"time": "21:30"
+			}
+		],
+		"materials": [
+			{
+				"title": "Knock-knock Flexbox",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs4/Flexbox",
+				"speaker": "Станислав Зубович"
+			},
+			{
+				"title": "Testing JavaScript Applications",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs4/jstesting-talk",
+				"speaker": "Дмитрий Герасимов, Александр Герасимов"
+			},
+			{
+				"title": "JavaScript Must Die!",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs4/javascript_must_die",
+				"speaker": "Константин Кривленя"
+			},
+			{
+				"title": "Popups - breaking the habits",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs4/Popups-breaking-the-habits",
+				"speaker": "Сергей Михайлов"
 			}
 		]
 	},
