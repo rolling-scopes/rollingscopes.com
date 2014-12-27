@@ -593,6 +593,23 @@
 				"speaker": "Евгений Лейченок",
 				"time": "20:20"
 			}
+		],
+		"materials": [
+			{
+				"title": "Introduction to Angular.js",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs1/angular",
+				"speaker": "Денис Шамгин"
+			},
+			{
+				"title": "Chrome DevTools",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs1/chromeDevTools/chromeDevTools.html",
+				"speaker": "Дмитрий Воробей"
+			},
+			{
+				"title": "Fast Websites",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs1/fast-websites",
+				"speaker": "Евгений Лейченок"
+			}
 		]
 	}
 ]
