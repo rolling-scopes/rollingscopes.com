@@ -51,8 +51,12 @@
             {{#materials}}
             <li class="talk-item">
                 <span class="talk-item-links ">
+                    {{#slidesLink}}
                     <a href="{{slidesLink}}" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    {{/slidesLink}}
+                    {{#videoLink}}
                     <a href="{{videoLink}}" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    {{/videoLink}}
                  </span>
                 <span class="talk-item-title">{{title}}</span>
                 <span class="talk-item-speaker">{{speaker}}</span>

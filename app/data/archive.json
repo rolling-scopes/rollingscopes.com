@@ -543,7 +543,7 @@
 				}
 			},
 			{
-				"title": "<Video>Хроника",
+				"title": "&lt;Video&gt;Хроника",
 				"imagePath": "images/speakers/alex_karlovich.jpg",
 				"speaker": "Александр Карлович",
 				"time": "20:00"
@@ -553,6 +553,28 @@
 				"imagePath": "images/speakers/siarhei_mikhailau.jpg",
 				"speaker": "Сергей Михайлов",
 				"time": "20:20"
+			}
+		],
+		"materials": [
+			{
+				"title": "JavaScript framework для highload-сайтов и трудности при его проектировании",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs2/Developing-of-a-high-load-JavaScript-framework.pptx",
+				"speaker": "Никита Манько"
+			},
+			{
+				"title": "Front-end project assets management",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs2/front-end-project-assets-management",
+				"speaker": "Александр Герасимов и Андрей Глухманчук"
+			},
+			{
+				"title": "&lt;Video&gt;Хроника",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs2/videoХроника.pptx",
+				"speaker": "Александр Карлович"
+			},
+			{
+				"title": "Quiz",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs2/quiz",
+				"speaker": "Александр Герасимов"
 			}
 		]
 	},
