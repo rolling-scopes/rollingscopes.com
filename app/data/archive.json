@@ -256,6 +256,13 @@
 				"speaker": "Алексей Шиткин",
 				"time": "21:30"
 			}
+		],
+		"materials": [
+			{
+				"title": "JavaScript Linters",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs9/JavaScript-Linters/slides.html",
+				"speaker": "Алексей Шиткин"
+			}
 		]
 	},
 	{
@@ -334,6 +341,13 @@
 				"speaker": "Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович",
 				"time": "21:20"
 			}
+		],
+		"materials": [
+			{
+				"title": "RetroSpective",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs7/RetroSpective",
+				"speaker": "Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович"
+			}
 		]
 	},
 	{
@@ -370,6 +384,13 @@
 				"speaker": "Сергей Михайлов",
 				"time": "21:20"
 			}
+		],
+		"materials": [
+			{
+				"title": "RnJvbnQtZW5kIFF1aXo=",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs6/quiz-2",
+				"speaker": "Александр Герасимов"
+			}
 		]
 	},
 	{
@@ -405,6 +426,18 @@
 				"imagePath": "images/speakers/kirill_kukhovets.jpg",
 				"speaker": "Кирилл Куховец",
 				"time": "21:20"
+			}
+		],
+		"materials": [
+			{
+				"title": "Going To Interview: Best Practices",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs5/interview-talk",
+				"speaker": "Андрей Глухманчук"
+			},
+			{
+				"title": "Welcome to Node.js",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs5/Welcome-to-node.js",
+				"speaker": "Кирилл Куховец"
 			}
 		]
 	},
@@ -511,6 +544,13 @@
 				"imagePath": "images/speakers/siarhei_mikhailau.jpg",
 				"speaker": "Сергей Михайлов",
 				"time": "21:15"
+			}
+		],
+		"materials": [
+			{
+				"title": "Chrome remote debugging protocol",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs3/chrome-rdp-api/chrome-remote-debugging-protocol.html",
+				"speaker": "Владимир Петрико"
 			}
 		]
 	},
