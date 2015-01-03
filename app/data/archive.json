@@ -246,6 +246,22 @@
 		]
 	},
 	{
+		"id" : "rsqa2",
+		"name": "RS Q&A #2 с Олегом Засыпкиным",
+		"date": "29 апреля, 2014",
+		"location": "imaguru.co",
+		"locationLink": "http://imaguru.co/ru",
+		"schedule": [
+			{
+				"title": "How Mozilla Works",
+				"imagePath": "images/speakers/aleh_zasypkin.jpg",
+				"speaker": "Олег Засыпкин",
+				"time": "19:00",
+				"description": "В гостях у #TheRollingScopes будет Олег Засыпкин (Aleh Zasypkin) - Front-end Engineer, Mozilla, с темой доклада \"How Mozilla Works\". Немного о докладчике: работает в Mozilla относительно недавно, но уже успел поработать с такими проектами как \"Firefox for Windows 8 Touch\" и \"SMS app for Fifefox OS\"; за плечами у Олега большой опыт работы в IT, и даже компании Google не удалось удержать его в силиконовой долине. На митапе будет немного промо-продукции от Mozilla и конечно же девайсы на Firefox OS. - Как стать контрибьютором Mozilla? - Почему прекратили разработку Firefox под Window8 touch, что будет с кодом и проектом дальше? - Как там Брендан Эйк? :) Эти и многие другие вопросы вы можете задать на митапе, через twitter #rollingscopes, здесь в фейсбук, и на подготовленной Олегом онлайн-форме. А лучше приходите и пообщайтесь офлайн. До встречи!"
+			}
+		]
+	},
+	{
 		"id" : "rs9",
 		"name": "The Rolling Scopes #9",
 		"date": "27 марта, 2014",
