@@ -390,6 +390,21 @@
 		]
 	},
 	{
+		"id" : "rsqa1",
+		"name": "RS Q&A #1 c Виталием Фридманом",
+		"date": "29 ноября, 2013",
+		"location": "imaguru.co",
+		"locationLink": "http://imaguru.co/ru",
+		"schedule": [
+			{
+				"title": "Responsive Web Design",
+				"imagePath": "images/speakers/vitaly_friedman.jpg",
+				"speaker": "Виталий Фридман",
+				"time": "19:00"
+			}
+		]
+	},
+	{
 		"id" : "rs6",
 		"name": "The Rolling Scopes #6",
 		"date": "30 октября, 2013",
@@ -481,6 +496,22 @@
 		]
 	},
 	{
+		"id" : "rsw2",
+		"name": "RS Workshop #2",
+		"date": "17 сентября, 2013",
+		"location": "IBB",
+		"locationLink": "http://ibb.by/educational-center",
+		"schedule": [
+			{
+				"title": "WebSocket Challenge",
+				"imagePath": "images/speakers/pavel_nasovich.jpg",
+				"speaker": "Павел Насович",
+				"time": "19:00",
+				"description": "Приглашаем всех пообщаться, принять участие в небольшом дружеском соревновании, ну и, конечно, пописать код на нашем воркшопе #2"
+			}
+		]
+	},
+	{
 		"id" : "rs4",
 		"name": "The Rolling Scopes #4",
 		"date": "29 августа, 2013",
@@ -541,6 +572,22 @@
 				"title": "Popups - breaking the habits",
 				"slidesLink": "http://rolling-scopes.github.io/slides/rs4/Popups-breaking-the-habits",
 				"speaker": "Сергей Михайлов"
+			}
+		]
+	},
+	{
+		"id" : "rsw1",
+		"name": "RS Workshop #1",
+		"date": "20 августа, 2013",
+		"location": "IBB",
+		"locationLink": "http://ibb.by/educational-center",
+		"schedule": [
+			{
+				"title": "Тестирование JavaScript приложений",
+				"imagePath": "images/speakers/dzmitry_gerasimov.jpg",
+				"speaker": "Александр Герасимов, Дмитрий Герасимов",
+				"time": "19:00",
+				"description": "Основные теги: BDD, funtional testing, Mocha, Chai, Jasmine, Casperjs"
 			}
 		]
 	},
