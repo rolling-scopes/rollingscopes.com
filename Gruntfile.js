@@ -313,6 +313,14 @@ module.exports = function (grunt) {
           src: '{,*/}*.{gif,jpeg,jpg,png}',
           dest: '<%= config.dist %>/images'
         }]
+      },
+      svgminFix: {
+        files: [{
+          expand: true,
+          cwd: '<%= config.app %>/images',
+          src: '{,*/}*.svg',
+          dest: '<%= config.dist %>/images'
+        }]
       }
     },
 
@@ -327,7 +335,7 @@ module.exports = function (grunt) {
       dist: [
         'copy:styles',
         'copy:imageminFix',
-        'svgmin'
+        'copy:svgminFix'
       ]
     },
 
