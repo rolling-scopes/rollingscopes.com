@@ -482,10 +482,10 @@ footer {
     display: inline-block;
     background: url(../images/logo_rs.svg) no-repeat;
     background-size: contain;
-    max-width: 250px;
+    max-width: 280px;
     width: 100%;
-    height: 211px;
-    margin: 2em 2em 0 -2em;
+    height: 300px;
+    margin-top: 1em;
 }
 
 .conf-title {
