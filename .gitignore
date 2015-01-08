@@ -5,3 +5,4 @@ appBin
 conferenceBin
 .idea
 service.js
+bower_components
