@@ -334,10 +334,19 @@ section:after {
     margin-bottom: 0;
 }
 
+.schedule-full-workshops .break{
+    margin: 0;
+    padding: .6em 0 .6em 190px;
+}
+
 .schedule-full .time {
     color: #b9833b;
     font-weight: bold;
     font-size: 130%;
+}
+
+.schedule-lang {
+    color: #777;
 }
 
 .schedule-full .speaker-name {
@@ -350,9 +359,18 @@ section:after {
     left: 0;
 }
 
+.schedule-full .speaker-photo-tech {
+    left: 78px;
+    background-color: white;
+}
+
 .schedule-time {
     position: absolute;
     left: 0;
+}
+
+.schedule-full-workshops li {
+    padding-left: 190px;
 }
 
 #schedule .schedule-full {

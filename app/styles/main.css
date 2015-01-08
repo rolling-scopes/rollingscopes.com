@@ -360,6 +360,10 @@ section:after {
     left: 0;
 }
 
+.schedule-lang {
+    color: #777;
+}
+
 iframe {
     width: 100%;
     height: 300px;
