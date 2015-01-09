@@ -34,10 +34,14 @@ app.get('/csvdb', function (req, res) {
 });
 
 app.get('/subscription', function (req, res) {
-    fs.readFile(path.join(__dirname, 'subscription.txt'), 'utf8', function(_, data) {
-        console.log(data);
-        res.send(data);
-    });
+  fs.readFile(path.join(__dirname, 'subscription.txt'), 'utf8', function(_, data) {
+      console.log(data);
+      res.send(data);
+  });
+});
+
+app.get('/buy-ticket', function (req, res) {
+  res.redirect('http://www.kvitki.by/ru/event/23971');
 });
 
 app.post('/register', function (req, res) {
@@ -46,12 +50,12 @@ app.post('/register', function (req, res) {
 });
 
 app.post('/subscribe', function (req, res) {
-    console.log(JSON.stringify(req.query.email));
+  console.log(JSON.stringify(req.query.email));
 
-    fs.writeFile('subscription.txt', req.query.email + ";", {flag: 'a'}, function (err) {
-        res.send('error');
-    });
-    res.send('done');
+  fs.writeFile('subscription.txt', req.query.email + ";", {flag: 'a'}, function (err) {
+      res.send('error');
+  });
+  res.send('done');
 });
 
 
