@@ -18,9 +18,20 @@ module.exports = function (grunt) {
 
   // Configurable paths
   var config = {
-    app: 'conference',
-    dist: 'conferenceBin'
+    app: 'app',
+    dist: 'appBin',
   };
+
+  switch(process.argv[process.argv.length - 1]) {
+    case '--site':
+      config.app = 'app';
+      config.dist = 'appBin'
+      break;
+    case '--conf':
+      config.app = 'conference';
+      config.dist = 'conferenceBin';
+      break;
+  }
 
 //    var config = {
 //        app: 'conference',
@@ -406,15 +417,6 @@ module.exports = function (grunt) {
     'usemin',
     'htmlmin'
   ]);
-
-  grunt.registerTask('updateconfig', function() {
-      console.log("##############################################");
-      console.log("##############################################");
-      console.log("##############################################");
-      config.app = "conference";
-      config.dist = "conferencebin";
-      grunt.task.run(['build']);
-  });
 
   grunt.registerTask('default', [
 //    'newer:jshint',
