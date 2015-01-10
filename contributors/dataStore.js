@@ -456,5 +456,23 @@ var dataStore = [
 			}
 		],
 		"imagePath": "kanstantsin_yatskevich.jpg"
-	}
+	}, {
+        "name": "Anna Panicheva",
+        "ruName": "Анна Паничева",
+        "talks": [
+            {
+                "title": "RS#14 - Learn the rules of Agile estimates to break them properly"
+            }
+        ],
+        "imagePath": "anna_panicheva.jpg"
+    }, {
+        "name": "Mikalai Ausiannikau",
+        "ruName": "Николай Овсянников",
+        "talks": [
+            {
+                "title": "RS#14 - Enhance your browser: Chrome Extensions"
+            }
+        ],
+        "imagePath": "mikalai_ausiannikau.jpg"
+    }
 ]
