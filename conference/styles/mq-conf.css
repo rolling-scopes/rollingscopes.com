@@ -64,6 +64,7 @@
 
     .schedule-full .break {
         padding: .6em 1em;
+        padding-left: 0px;
     }
 
     .schedule-full .speaker-photo {
