@@ -59,12 +59,12 @@
     }
 
     .schedule-full li {
-        padding-left: 0;
+        padding-left: 5px;
     }
 
     .schedule-full .break {
-        padding: .6em 1em;
-        padding-left: 0px;
+        padding: .6em 1em .6em 5px;
+        margin: 0;
     }
 
     .schedule-full .speaker-photo {

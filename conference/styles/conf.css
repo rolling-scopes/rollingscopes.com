@@ -324,10 +324,14 @@ section:after {
     padding: .6em 0 .6em 120px;
 }
 
+.schedule-full li:nth-child(2n) {
+	background: #f1f5fa;
+}
+
 .schedule-full .break {
     min-height: inherit;
-    margin: 0 -1em;
-    padding: 1em 1em 1em 136px;
+    margin: 0;
+    padding: 1em 1em 1em 120px;
 }
 
 .schedule-full .break h3 {
@@ -341,7 +345,6 @@ section:after {
 
 .schedule-full .time {
     color: #b9833b;
-    font-weight: bold;
     font-size: 130%;
 }
 
@@ -350,13 +353,13 @@ section:after {
 }
 
 .schedule-full .speaker-name {
-    font-weight: bold;
+    color: #999;
 }
 
 .schedule-full .speaker-photo {
     position: absolute;
-    top: 1em;
-    left: 0;
+    left: 8px;
+    top: 8px;
 }
 
 .schedule-full .speaker-photo-tech {
