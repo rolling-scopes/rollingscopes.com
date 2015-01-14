@@ -27,7 +27,7 @@
 		"materials": [
 			{
 				"title": "Learn the rules of Agile estimates to break them properly",
-				"slidesLink": "http://rolling-scopes.github.io/slides/Agile-Estimations",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs14/Agile-Estimations",
 				"videoLink": "https://www.youtube.com/watch?v=gmwqP0uxxQA",
 				"speaker": "Анна Паничева"
 			},
@@ -144,13 +144,13 @@
 			},
 			{
 				"title": "AngularJS and how you shouldn’t use it? ",
-				"slidesLink": "http://rolling-scopes.github.io/slides/Angular_Js.pptx",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs12/Angular_Js.pptx",
 				"videoLink": "https://www.youtube.com/watch?v=efM-0sxCUxs",
 				"speaker": "Константин Яцкевич"
 			},
 			{
 				"title": "WebKit JavaScript Engine optimizations",
-				"slidesLink": "http://rolling-scopes.github.io/slides/WebKit%20JavaScript%20Engine%20optimizations.pptx",
+				"slidesLink": "http://rolling-scopes.github.io/slides/WebKit-JavaScript-Engine-optimizations.pptx",
 				"videoLink": "https://www.youtube.com/watch?v=xALTXSE8GQA",
 				"speaker": "Кирилл Кныш"
 			}
