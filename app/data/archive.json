@@ -75,10 +75,15 @@
 		],
 		"materials": [
 			{
-				"title": "Увидеть Париж и угореть! (Обзор dotJS и dotCSS)",
-				"slidesLink": "https://github.com/rolling-scopes/rs13-dotJS-overview",
+				"title": "Увидеть Париж и угореть! (Обзор dotJS)",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs13/dotJS-overview",
 				"videoLink": "https://www.youtube.com/watch?v=pvFz9ob-mik",
-				"speaker": "Воробей Дмитрий и Юрий Татенко"
+				"speaker": "Дмитрий Воробей"
+			},
+			{
+				"title": "Увидеть Париж и угореть! (Обзор dotCSS)",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs13/dotJS-overview/yt/dotCSS.pptx",
+				"speaker": "Юрий Татенко"
 			},
 			{
 				"title": "Перевод доклада от Angus Croll - The Book Nerd's Guide to JavaScript",
