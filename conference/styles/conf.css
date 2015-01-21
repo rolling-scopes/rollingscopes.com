@@ -367,6 +367,10 @@ section:after {
     background-color: white;
 }
 
+.schedule-full .speaker-photo-fr {
+    left: 90px;
+}
+
 .schedule-time {
     position: absolute;
     left: 0;
