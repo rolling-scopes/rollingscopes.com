@@ -630,3 +630,8 @@ footer {
 .partners h3 {
     text-align: center;
 }
+
+.talk-item-links {
+    float: right;
+    font-size: 20px;
+}
