@@ -1,4 +1,4 @@
-@media only screen and (max-width: 35em) {
+@media only screen and (max-width: 45em) {
     /* Style adjustments for viewports that meet the condition */
     h1 {
         font-size: 1.8em
@@ -77,6 +77,16 @@
     .schedule-full .schedule-time {
         right: 0;
         left: auto;
+    }
+
+    .schedule-full .talk-item-links {
+      float: none;
+      display: block;
+      padding: 10px 0 0;
+    }
+
+    .schedule-full .talk-item-links a {
+      margin: 0;
     }
 
     footer {

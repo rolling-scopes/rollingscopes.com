@@ -622,8 +622,8 @@ footer {
     text-align: center;
 }
 
-.video-box {
-    width: 100%;
+.video-box, .map-box {
+    width: 100% !important;
     max-width: 700px;
     height: 360px;
 }
@@ -634,4 +634,8 @@ footer {
 .talk-item-links {
     float: right;
     font-size: 20px;
+}
+
+.talk-item-links a {
+  margin: 0 5px;
 }
