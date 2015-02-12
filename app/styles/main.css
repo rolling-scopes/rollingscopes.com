@@ -364,11 +364,6 @@ section:after {
     color: #777;
 }
 
-iframe {
-    width: 100%;
-    height: 300px;
-}
-
 .map img {
     width: 615px;
     margin: 0 1em .5em 0;
