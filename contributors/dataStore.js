@@ -238,6 +238,16 @@ var dataStore = [
 		"imagePath": "kiryl_verkhovin.jpg"
 	},
 	{
+		"name": "Kiryl Dziamura.jpg",
+		"ruName": "Кирилл Демура",
+		"talks": [
+			{
+				"title": "RS#15 -  Анимации в вебе"
+			}
+		],
+		"imagePath": "kiryl_dziamura.jpg"
+	},
+	{
 		"name": "Dmitry Dudin",
 		"ruName": "Дмитрий Дудин",
 		"talks": [
