@@ -1,5 +1,39 @@
 {"data": [
 	{
+		"id" : "rs15",
+		"name": "The Rolling Scopes #15",
+		"date": "24 февраля, 2015",
+		"location": "imaguru.co",
+		"locationLink": "http://imaguru.co/ru",
+		"schedule": [
+			{
+				"title": "Анимации в вебе",
+				"description": "Тема анимаций c помощью CSS и JavaScript сейчас поднимается очень часто. Rolling Scopes тоже не смогли обойти её стороной. О потрясающих возможностях данной технологии, тонкостях работы и своих экспериментах с ней расскажет Кирилл Демура.",
+				"imagePath": "images/speakers/kiryl_dziamura.jpg",
+				"speaker": "Кирилл Демура",
+				"time": "19:00",
+				"break": {
+					"time": "20:00"
+				}
+			},
+			{
+				"title": "CSS Quickdraw",
+				"description": "Кто был на #RSConf уже успел познакомиться (а кто-то даже поучаствовал и выиграл хромбук) в CSS квизе. Но далеко не все взяли ноутбуки и были лишь в качестве зрителей. Исправляемся, берем на митап лэптопы и играем вместе с Сашей Герасимовым. Вас ждут: - новые задания; - пофиксанный бекенд; - лицензии от JetBrains в качестве приза первой тройке; - почетное звание фронтендщик \"руки-ножницы\" победителю. Let's Roll!",
+				"imagePath": "images/speakers/alexander_gerasimov.jpg",
+				"speaker": "Александр Герасимов",
+				"time": "20:20"
+			}
+		],
+		"materials": [
+			{
+				"title": "Анимации в вебе",
+				"slidesLink": "http://rolling-scopes.github.io/slides/rs15/animations-in-front-end",
+				"videoLink": "https://www.youtube.com/watch?v=WM3BdSLOTVo",
+				"speaker": "Кирилл Демура"
+			}
+		]
+	},
+	{
 		"id" : "rs14",
 		"name": "The Rolling Scopes #14",
 		"date": "16 декабря, 2014",
