@@ -15,6 +15,10 @@
     "start": "node ./service"
   },
   "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-imagemin": "^2.2.1",
+    "imagemin-pngquant": "^4.0.0",
+    "minimist": "^1.1.1"
   },
   "engines": {
     "node": ">=0.10.0"
