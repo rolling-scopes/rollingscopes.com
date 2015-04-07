@@ -44,3 +44,6 @@ gulp.task('useref', function () {
   .pipe(htmlmin({collapseWhitespace: true}))
   .pipe(gulp.dest(options.dest));
 });
+
+gulp.task('build', ['imagemin', 'useref']);
+gulp.task('default', ['build']);
