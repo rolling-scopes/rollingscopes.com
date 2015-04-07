@@ -1,4 +1,5 @@
 var gulp        = require('gulp');
+var del         = require('del');
 var gulpif      = require('gulp-if');
 
 var minimist    = require('minimist');
@@ -14,6 +15,12 @@ var useref      = require('gulp-useref');
 var uglify      = require('gulp-uglify');
 var minifyCss   = require('gulp-minify-css');
 var htmlmin     = require('gulp-htmlmin');
+
+var runSequence = require('run-sequence');
+
+gulp.task('clean', function (cb) {
+  del([options.dest], cb);
+});
 
 gulp.task('imagemin', function () {
   return gulp.src(
@@ -45,5 +52,12 @@ gulp.task('useref', function () {
   .pipe(gulp.dest(options.dest));
 });
 
-gulp.task('build', ['imagemin', 'useref']);
+gulp.task('build', function (cb) {
+  runSequence(
+    'clean',
+    ['imagemin', 'useref'],
+    cb
+  );
+});
+
 gulp.task('default', ['build']);
