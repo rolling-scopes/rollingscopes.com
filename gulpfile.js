@@ -19,6 +19,13 @@ gulp.task('clean', function (cb) {
   ], cb);
 });
 
+gulp.task('copy', function () {
+  return gulp.src(
+    options.src + '/*.{ico,png,txt}'
+  )
+  .pipe(gulp.dest(options.dest));
+})
+
 gulp.task('imagemin', function () {
   return gulp.src(
     options.src + '/images/**/*'
@@ -79,7 +86,7 @@ gulp.task('build:site', function (cb) {
   runSequence(
     'clean',
     'mustache',
-    ['imagemin', 'useref'],
+    ['copy', 'imagemin', 'useref'],
     cb
   );
 });
@@ -90,7 +97,7 @@ gulp.task('build:conf', function (cb) {
 
   runSequence(
     'clean',
-    ['imagemin', 'useref'],
+    ['copy', 'imagemin', 'useref'],
     cb
   );
 });
