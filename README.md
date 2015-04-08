@@ -2,10 +2,15 @@
 ### Build
 To build rs-site
 ```sh
-gulp
+gulp build:site
 ```
 
 To build conference site
 ```sh
-gulp --src conference
+gulp build:conf
+```
+
+To build both
+```sh
+gulp
 ```

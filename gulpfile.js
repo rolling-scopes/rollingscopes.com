@@ -6,10 +6,11 @@ var runSequence = require('run-sequence');
 var pngquant    = require('imagemin-pngquant');
 var $           = require('gulp-load-plugins')();
 
-var gulpOptions = require('./gulp-options');
-var options = minimist(process.argv.slice(2), gulpOptions);
-options.dest = options.src + 'Bin';
-
+var options = {
+  src: 'app',
+  staging: '.tmp',
+  dest: 'appBin'
+};
 
 gulp.task('clean', function (cb) {
   del([
@@ -74,7 +75,19 @@ gulp.task('useref', ['css'], function () {
   .pipe(gulp.dest(options.dest));
 });
 
-gulp.task('build', function (cb) {
+gulp.task('build:site', function (cb) {
+  runSequence(
+    'clean',
+    'mustache',
+    ['imagemin', 'useref'],
+    cb
+  );
+});
+
+gulp.task('build:conf', function (cb) {
+  options.src = 'conference';
+  options.dest = 'conferenceBin';
+
   runSequence(
     'clean',
     ['imagemin', 'useref'],
@@ -82,4 +95,10 @@ gulp.task('build', function (cb) {
   );
 });
 
-gulp.task('default', ['build']);
+gulp.task('default', function (cb) {
+  runSequence(
+    'build:site',
+    'build:conf',
+    cb
+  );
+});
