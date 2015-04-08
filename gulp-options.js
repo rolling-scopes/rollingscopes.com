@@ -1,6 +1,7 @@
 module.exports = {
   string: 'src',
   default: {
-    src: 'app'
+    src: 'app',
+    staging: '.tmp'
   }
 };

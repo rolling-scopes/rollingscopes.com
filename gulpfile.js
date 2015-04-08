@@ -11,7 +11,10 @@ options.dest = options.src + 'Bin';
 
 
 gulp.task('clean', function (cb) {
-  del([options.dest], cb);
+  del([
+    options.dest,
+    options.staging
+  ], cb);
 });
 
 gulp.task('imagemin', function () {
@@ -27,6 +30,17 @@ gulp.task('imagemin', function () {
   .pipe(
     gulp.dest(options.dest + '/images')
   );
+});
+
+gulp.task('css', function () {
+  return gulp.src(
+    options.src + '/styles/*.css'
+  )
+  .pipe($.autoprefixer({
+    browsers: ['last 2 versions'],
+    cascade: false
+  }))
+  .pipe(gulp.dest(options.staging));
 });
 
 gulp.task('useref', function () {
