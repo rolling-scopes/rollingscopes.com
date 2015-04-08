@@ -1,3 +1,4 @@
+var fs          = require('fs');
 var gulp        = require('gulp');
 var del         = require('del');
 var minimist    = require('minimist');
@@ -41,6 +42,19 @@ gulp.task('css', function () {
     cascade: false
   }))
   .pipe(gulp.dest(options.staging));
+});
+
+gulp.task('mustache', function () {
+  var archive = JSON.parse(
+    fs.readFileSync(options.src + '/data/archive.json')
+  );
+
+  return gulp.src(
+    options.src + '/templates/*.mustache'
+  )
+  .pipe($.mustache(archive, {extension: '.html'}))
+  .pipe(gulp.dest(options.src));
+
 });
 
 gulp.task('useref', ['css'], function () {
