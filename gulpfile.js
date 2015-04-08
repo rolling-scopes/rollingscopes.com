@@ -43,8 +43,10 @@ gulp.task('css', function () {
   .pipe(gulp.dest(options.staging));
 });
 
-gulp.task('useref', function () {
-  var assets = $.useref.assets();
+gulp.task('useref', ['css'], function () {
+  var assets = $.useref.assets({
+    searchPath: ['.tmp', options.src]
+  });
 
   return gulp.src(
     options.src + '/*.html'
