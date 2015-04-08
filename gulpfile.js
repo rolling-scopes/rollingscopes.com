@@ -53,7 +53,7 @@ gulp.task('useref', ['css'], function () {
   )
   .pipe(assets)
   .pipe($.if('*.js', $.uglify()))
-  .pipe($.if('*.css', $.minifyCss()))
+  .pipe($.if('*.css', $.csso()))
   .pipe(assets.restore())
   .pipe($.useref())
   .pipe($.htmlmin({collapseWhitespace: true}))
