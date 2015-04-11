@@ -92,6 +92,7 @@ gulp.task('fa:copy-used', function () {
   .pipe(faIcons.copy({
     src: './fa/icons/'
   }))
+  .pipe($.htmlmin({collapseWhitespace: true}))
   .pipe(gulp.dest(options.staging + '/fa-icons'))
 })
 
@@ -128,5 +129,3 @@ gulp.task('default', function (cb) {
     cb
   );
 });
-
-gulp.start('fa:copy-used');
