@@ -4,6 +4,7 @@ var del         = require('del');
 var minimist    = require('minimist');
 var runSequence = require('run-sequence');
 var pngquant    = require('imagemin-pngquant');
+var fontcustom  = require('fontcustom');
 var faIcons = require('./gulp-tasks/fa-icons');
 var $           = require('gulp-load-plugins')();
 
@@ -93,6 +94,12 @@ gulp.task('fa:copy-used', function () {
   }))
   .pipe(gulp.dest(options.staging + '/fa-icons'))
 })
+
+gulp.task('fontcustom', function () {
+  return fontcustom({
+    config: './fa/config.yml'
+  });
+});
 
 gulp.task('build:site', function (cb) {
   runSequence(
