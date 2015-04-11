@@ -1,0 +1,7 @@
+<%= font_face %>
+
+.fa {
+<%= glyph_properties %>
+}
+
+<%= glyphs %>

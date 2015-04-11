@@ -1,0 +1,19 @@
+font_name: font-awesome
+css_selector: .fa-{{glyph}}
+preprocessor_path: ""
+autowidth: false
+no_hash: false
+force: true
+debug: false
+quiet: false
+
+input:
+  vectors: .tmp/fa-icons
+  templates: fa/templates
+
+templates:
+- fontcustom.css
+
+output:
+  fonts: .tmp/fonts
+  css: .tmp/styles
