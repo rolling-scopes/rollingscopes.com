@@ -1,5 +1,8 @@
 # http://rollingscopes.com/
 ### Build
+
+Install [fontcustom](http://fontcustom.com/)
+
 To build rs-site
 ```sh
 gulp build:site
