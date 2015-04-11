@@ -28,6 +28,15 @@ gulp.task('copy', function () {
   .pipe(gulp.dest(options.dest));
 })
 
+gulp.task('copy:fonts', function () {
+  return gulp.src(
+    options.staging + '/fonts/*'
+  )
+  .pipe(gulp.dest(
+    options.dest + '/fonts'
+  ));
+});
+
 gulp.task('imagemin', function () {
   return gulp.src(
     options.src + '/images/**/*'
@@ -43,10 +52,11 @@ gulp.task('imagemin', function () {
   );
 });
 
-gulp.task('css', function () {
-  return gulp.src(
-    options.src + '/styles/*.css'
-  )
+gulp.task('css', ['fontcustom'], function () {
+  return gulp.src([
+    options.src + '/styles/*.css',
+    options.staging + '/styles/*.css'
+  ])
   .pipe($.autoprefixer({
     browsers: ['last 2 versions'],
     cascade: false
@@ -96,7 +106,7 @@ gulp.task('fa:copy-used', function () {
   .pipe(gulp.dest(options.staging + '/fa-icons'))
 })
 
-gulp.task('fontcustom', function () {
+gulp.task('fontcustom', ['fa:copy-used'], function () {
   return fontcustom({
     config: './fa/config.yml'
   });
@@ -107,6 +117,7 @@ gulp.task('build:site', function (cb) {
     'clean',
     'mustache',
     ['copy', 'imagemin', 'useref'],
+    'copy:fonts',
     cb
   );
 });
@@ -118,6 +129,7 @@ gulp.task('build:conf', function (cb) {
   runSequence(
     'clean',
     ['copy', 'imagemin', 'useref'],
+    'copy:fonts',
     cb
   );
 });
