@@ -4,6 +4,7 @@ var del         = require('del');
 var minimist    = require('minimist');
 var runSequence = require('run-sequence');
 var pngquant    = require('imagemin-pngquant');
+var faIcons = require('./gulp-tasks/fa-icons');
 var $           = require('gulp-load-plugins')();
 
 var options = {
@@ -82,6 +83,17 @@ gulp.task('useref', ['css'], function () {
   .pipe(gulp.dest(options.dest));
 });
 
+gulp.task('fa:copy-used', function () {
+  return gulp.src(
+    options.src + '/*.html'
+  )
+  .pipe(faIcons.used())
+  .pipe(faIcons.copy({
+    src: './fa/icons/'
+  }))
+  .pipe(gulp.dest(options.staging + '/fa-icons'))
+})
+
 gulp.task('build:site', function (cb) {
   runSequence(
     'clean',
@@ -109,3 +121,5 @@ gulp.task('default', function (cb) {
     cb
   );
 });
+
+gulp.start('fa:copy-used');
