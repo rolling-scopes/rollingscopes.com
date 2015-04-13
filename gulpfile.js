@@ -4,6 +4,8 @@ var del         = require('del');
 var minimist    = require('minimist');
 var runSequence = require('run-sequence');
 var pngquant    = require('imagemin-pngquant');
+var fontcustom  = require('fontcustom');
+var faIcons = require('./gulp-tasks/fa-icons');
 var $           = require('gulp-load-plugins')();
 
 var options = {
@@ -26,6 +28,15 @@ gulp.task('copy', function () {
   .pipe(gulp.dest(options.dest));
 })
 
+gulp.task('copy:fonts', function () {
+  return gulp.src(
+    options.staging + '/fonts/*'
+  )
+  .pipe(gulp.dest(
+    options.dest + '/fonts'
+  ));
+});
+
 gulp.task('imagemin', function () {
   return gulp.src(
     options.src + '/images/**/*'
@@ -41,10 +52,11 @@ gulp.task('imagemin', function () {
   );
 });
 
-gulp.task('css', function () {
-  return gulp.src(
-    options.src + '/styles/*.css'
-  )
+gulp.task('css', ['fontcustom'], function () {
+  return gulp.src([
+    options.src + '/styles/*.css',
+    options.staging + '/styles/*.css'
+  ])
   .pipe($.autoprefixer({
     browsers: ['last 2 versions'],
     cascade: false
@@ -82,11 +94,30 @@ gulp.task('useref', ['css'], function () {
   .pipe(gulp.dest(options.dest));
 });
 
+gulp.task('fa:copy-used', function () {
+  return gulp.src(
+    options.src + '/*.html'
+  )
+  .pipe(faIcons.used())
+  .pipe(faIcons.copy({
+    src: './fa/icons/'
+  }))
+  .pipe($.htmlmin({collapseWhitespace: true}))
+  .pipe(gulp.dest(options.staging + '/fa-icons'))
+})
+
+gulp.task('fontcustom', ['fa:copy-used'], function () {
+  return fontcustom({
+    config: './fa/config.yml'
+  });
+});
+
 gulp.task('build:site', function (cb) {
   runSequence(
     'clean',
     'mustache',
     ['copy', 'imagemin', 'useref'],
+    'copy:fonts',
     cb
   );
 });
@@ -98,6 +129,7 @@ gulp.task('build:conf', function (cb) {
   runSequence(
     'clean',
     ['copy', 'imagemin', 'useref'],
+    'copy:fonts',
     cb
   );
 });
