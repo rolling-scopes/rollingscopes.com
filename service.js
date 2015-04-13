@@ -1,15 +1,17 @@
-var bodyParser = require('body-parser');
-var register   = require('./register.js');
-var express    = require('express');
-var fs         = require('fs');
-var path       = require('path');
-var app        = express();
-var rsRouter    = express.Router();
+var bodyParser      = require('body-parser');
+var register        = require('./register.js');
+var express         = require('express');
+var fs              = require('fs');
+var path            = require('path');
+var compression     = require('compression');
+var app             = express();
+var rsRouter        = express.Router();
 var rsConfRouter    = express.Router();
 var subdomainRouter = express.Router();
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
+app.use(compression());
 
 subdomainRouter.use(function (req, res, next) {
   if (req.subdomains.length > 0 && req.subdomains[0] == 'conf') {
