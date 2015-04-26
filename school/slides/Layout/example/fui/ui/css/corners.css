@@ -1,0 +1,179 @@
+/* CORNERS */
+.item,
+.itemBg {position:relative; width:760px; padding:20px; margin:0 0 30px;}
+.itemBg {background:url(../img/corners/bg.jpg) no-repeat 50% 50%;}
+
+/* fixed, border */
+.fixedBorder {width:444px; background:#fff; border:2px solid #f26722;}
+
+.fixedBorder .topBg, 
+.fixedBorder .bottomBg {background:url(../img/corners/fixed/border-spr.png) no-repeat 0 0;}
+
+.fixedBorder .topBg {position:relative; margin:-2px;}
+.fixedBorder .bottomBg {padding:12px; background-position:-448px 100%;}
+
+/* fixed, border, transparent */
+.fixedBorderTransparent,
+.fixedBorderTransparent .bottomBg {background:url(../img/corners/fixed/border-transparent-spr.png) no-repeat 0 0;}
+
+.fixedBorderTransparent {width:448px; padding:11px 0 0;}
+.fixedBorderTransparent .bottomBg {padding:0 0 11px; background-position:-448px 100%;}
+.fixedBorderTransparent .contentBlock {padding:0 11px; background:#fff; border:2px solid #f26722; border-width:0 2px;}
+
+/* fixed, solid */
+.fixedSolid, 
+.fixedSolid .contentBlock {background:url(../img/corners/fixed/solid-spr.png) no-repeat 0 0;}
+
+.fixedSolid {width:448px; background-color:#f26722;}
+.fixedSolid .contentBlock {padding:10px; background-position:-448px 100%;}
+
+/* fixed, solid, transparent */
+.fixedSolidTransparent,
+.fixedSolidTransparent .bottomBg {background:url(../img/corners/fixed/solid-transparent-spr.png) no-repeat 0 0;}
+
+.fixedSolidTransparent {width:448px; padding:9px 0 0;}
+.fixedSolidTransparent .bottomBg {padding:0 0 9px; background-position:-448px 100%;}
+.fixedSolidTransparent .contentBlock {padding:0 9px; background:#f26722;}
+
+/* fixed, solid, png24 */
+.fixedSolid24 {width:448px;}
+
+.fixedSolid24 .topBg,
+.fixedSolid24 .bottomBg {height:10px; font-size:0; line-height:0;}
+
+.fixedSolid24 .topBg {background:url(../img/corners/fixed/solid-top-png24.png) no-repeat 0 0;}
+.fixedSolid24 .bottomBg {background:url(../img/corners/fixed/solid-bottom-png24.png) no-repeat 0 0;}
+.fixedSolid24 .contentBlock {padding:0 10px; background:#f26722;}
+
+/* fixed, shadow */
+.fixedShadow .topBg, 
+.fixedShadow .bottomBg {width:459px; height:29px; font-size:0; line-height:0;}
+
+.fixedShadow .topBg {background:url(../img/corners/fixed/shadow-top.png) no-repeat 0 0;}
+.fixedShadow .bottomBg {background:url(../img/corners/fixed/shadow-bottom.png) no-repeat 0 0;}
+.fixedShadow .centerBg {width:425px; padding:0 17px; background:url(../img/corners/fixed/shadow-center.png) repeat-y 0 0;}
+
+.fixedShadow .contentBlock {position:relative; padding:0 8px; background:#fff;}
+
+
+/* stretchy, border, nested */
+.stretchyBorderNested {border:2px solid #f26722; background:#fff;}
+
+.stretchyBorderNested .t-l,
+.stretchyBorderNested .t-r {background:url(../img/corners/stretchy/border-nested-top-spr.png) no-repeat 100% 0;}
+.stretchyBorderNested .t-l {position:relative; margin:-2px; background-position:0 0;}
+
+.stretchyBorderNested .b-l,
+.stretchyBorderNested .b-r {background:url(../img/corners/stretchy/border-nested-bottom-spr.png) no-repeat 0 100%;}
+.stretchyBorderNested .b-r {padding:12px; background-position:100% 100%;}
+
+/* stretchy, border, nested 2 */
+.stretchyBorderNested2 {padding:12px; border:2px solid #f26722; background:#fff;}
+.stretchyBorderNested2 .t-l,
+.stretchyBorderNested2 .t-r {height:11px; background:url(../img/corners/stretchy/border-nested-top-spr.png) no-repeat 100% 0; font-size:0; line-height:0;}
+.stretchyBorderNested2 .t-l {position:relative; margin:-14px -14px 0; background-position:0 0;}
+
+.stretchyBorderNested2 .b-l,
+.stretchyBorderNested2 .b-r {height:11px; background:url(../img/corners/stretchy/border-nested-bottom-spr.png) no-repeat 100% 100%; font-size:0; line-height:0;}
+.stretchyBorderNested2 .b-l {position:relative; margin:0 -14px -14px; background-position:0 100%;}
+
+/* stretchy, border, circle */
+.stretchyBorderCircle {position:relative; border:2px solid #f26722; background:#fff;}
+
+.stretchyBorderCircle .t-l,
+.stretchyBorderCircle .t-r,
+.stretchyBorderCircle .b-l,
+.stretchyBorderCircle .b-r {position:absolute; width:11px; height:11px; background:url(../img/corners/stretchy/border-circle-spr.png) no-repeat 0 0; font-size:0; line-height:0;}
+
+.stretchyBorderCircle .t-l {top:-2px; left:-2px;}
+.stretchyBorderCircle .t-r {top:-2px; right:-2px; background-position:-11px 0;}
+.stretchyBorderCircle .b-l {bottom:-2px; left:-2px; background-position:0 -11px;}
+.stretchyBorderCircle .b-r {bottom:-2px; right:-2px; background-position:-11px -11px;}
+.stretchyBorderCircle .contentBlock {position:relative; padding:8px; background:#fff;}
+
+/* stretchy, star */
+.star {position:relative; padding:0 0 29px; overflow:hidden;}
+.starWraper {position:relative; zoom:1; overflow:hidden;}
+.starContent {position:relative; z-index:1; margin:29px 29px 0; background:#fff;}
+
+.star .t-l,
+.star .t-r,
+.star .b-l,
+.star .b-r {position:absolute; z-index:0; width:100%; height:100%; overflow:hidden; background:url(../img/corners/stretchy/star-spr.png) no-repeat 0 0;}
+.star .t-l {top:-29px; left:-29px; height:1000px;}
+.star .t-r {top:-29px; left:-29px; width:29px; margin-left:100%; height:1000px;}
+.star .b-l {left:-29px; height:29px;}
+.star .b-r {left:-29px; width:29px; height:29px; margin:0 0 0 100%;}
+
+/* stretchy, cube */
+.cube {position:relative; padding:0 16px 16px 0;}
+
+.cubeWraper {top:16px; left:16px; text-align:right;}
+
+.cubeWraper,
+.cubeContent {position:relative; z-index:2; min-height:0;}
+
+.cubeContainer,
+.cubeWraper {padding:0 16px 16px 0;}
+
+.cubeContent {background:#fff; text-align:left;}
+
+.cube .t-r,
+.cube .b-l,
+.cube .b-r {position:absolute; z-index:1;}
+
+.cube .t-r,
+.cube .b-r {top:0; right:0;}
+
+.cube .b-l,
+.cube .b-r {bottom:0; left:0;}
+
+.cube .t-r,
+.cube .b-l {width:16px; height:16px; overflow:hidden;}
+
+.cube .t-l,
+.cube .t-r,
+.cube .b-l,
+.cube .b-r {background:url(../img/corners/stretchy/cube-spr.png) no-repeat 0 0;}
+
+.cube .t-r {background-position:100% 0;}
+.cube .b-l {background-position:0 -584px;}
+.cube .b-r {background-position:100% 100%;}
+
+/* stretchy, circle */
+.circle {padding:29px;}
+.circleWraper {position:relative;}
+.circleContent {position:relative; width:100%; padding:0 29px; margin:0 -29px; overflow:hidden;}
+.circleContentBg {background:#fff;}
+
+.circle .t-l,
+.circle .t-r,
+.circle .b-l,
+.circle .b-r {position:absolute; width:29px; height:29px; overflow:hidden;}
+.circle .t-l {top:-29px; left:-29px;}
+.circle .t-r {top:-29px; margin-left:100%;}
+.circle .b-l {left:-29px;}
+.circle .b-r {margin:0 0 0 100%;}
+
+.circle .t-l div,
+.circle .t-r div,
+.circle .b-l div,
+.circle .b-r div {position:absolute; top:0; left:0; width:58px; height:58px; background:url(../img/corners/stretchy/circle-corners-spr.png) no-repeat 0 0;}
+.circle .t-r div {left:-29px;}
+.circle .b-l div {top:-29px;}
+.circle .b-r div {top:-29px; left:-29px;}
+
+.circle .t,
+.circle .b {position:absolute; width:100%; height:29px;}
+.circle .t {top:-29px; background:url(../img/corners/stretchy/circle-top.png) repeat-x 0 0;}
+.circle .b {background:url(../img/corners/stretchy/circle-bottom.png) repeat-x 0 0;}
+
+.circle .l,
+.circle .r {position:absolute; top:0; width:29px; height:10000px;}
+.circle .l {left:0; background:url(../img/corners/stretchy/circle-left.png) repeat-y 0 0;}
+.circle .r {margin:0 0 0 100%; left:-29px; background:url(../img/corners/stretchy/circle-right.png) repeat-y 0 0;}
+
+
+
+
+

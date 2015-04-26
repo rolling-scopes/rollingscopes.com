@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Javscript Strict Mode	</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/slides.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+                    <h2>Javascript Strict Mode</h2>
+                    <img class="nodecorations" src="img/strict-teacher.png">
+                    <p>
+                        <small><font class="blue">by Dmitrey Gerasimov</font></small>
+                    </p>
+                </section>
+                <section>
+                    <section>
+                        <h3>What is it?</h3>
+                        <img class="nodecorations" src="img/question-mark.png">
+                    </section>
+                    <section>
+                        <h3>Before</h2>
+                        <img class="nodecorations" src="img/facepalm.png">
+                    </section>
+                    <section>
+                        <h3>After</h2>
+                        <img class="nodecorations" src="img/angry.png">
+                    </section>
+                </section>
+                <section>
+                    <h3>Browser Support</h3>
+                    <img src="img/browsers.png">
+                </section>
+                <section>
+                    <h3><font class="green">'use strict'</font></h3>
+                </section>
+                <section>
+                	<section>
+                		<h3>Applies to</h3>
+                		<ul>
+							<li>entire scripts</li>
+							<li>individual functions</li>
+                		</ul>
+                	</section>
+                	<section>
+                		<h3>No block scope</h3>
+                		<img class="small nodecorations" src="img/no-block-scope.png">
+                	</section>
+                	<section>
+                		<h3>Strict for scripts</h3>
+                		<pre><code>// Put it before any statement
+'use strict';
+var v = "Strict is watching you";</code></pre>
+                	</section>
+                	<section>
+                		<h3>Caution</h3>
+                		<img class="small nodecorations" src="img/caution-sign.png">
+                	</section>
+                	<section>
+                		<h3>Strict for functions</h3>
+                		<pre><code>function strict() {
+  // Also put it before any statement (of function)
+  'use strict';
+  function nested() { return "And so am I!"; }
+  return "I'm strict!" + nested();
+}
+function notStrict() { return "I'm not strict."; }</code></pre>
+                	</section>
+                </section>
+                <section>
+                	<section>
+                		<h3>Difference</h3>
+                		<img class="medium nodecorations" src="img/thinking.png" />
+                	</section>
+                	<section>
+						<h3>Exposing hidden "enemies"</h3>
+						<img class="medium nodecorations" src="img/evil-genius.png">
+                	</section>
+                	<section>
+                		<h3>unexpected globals</h3>
+                		<pre><code>'use strict';
+// Some code withouy any vars
+answer = 42; // throws a ReferenceError</code></pre>
+                	</section>
+                	<section>
+                		<h3>bending unbendable</h3>
+                		<pre><code>'use strict';
+
+// Assignment to a non-writable property
+var obj1 = {};
+Object.defineProperty(obj1, "x", { value: 42, writable: false });
+obj1.x = 9; // throws a TypeError
+
+// Assignment to a getter-only property
+var obj2 = { get x() { return 17; } };
+obj2.x = 5; // throws a TypeError</code></pre>
+                	</section>
+                	<section>
+                		<h3>bending unbendable</h3>
+                		<pre><code>// Assignment to a new property on a non-extensible object
+var fixed = {};
+Object.preventExtensions(fixed);
+fixed.newProp = "ohai"; // throws a TypeError
+
+// Assignment to NaN
+NaN = 'not NaN';
+
+// Delete undeletable
+delete Object.prototype; // throws a TypeError</code></pre>
+                	</section>
+                    <section>
+                        <h3>No clones in my republic</h3>
+                        <pre><code>'use strict';
+var o = { p: 1, p: 2 }; // !!! syntax error</code></pre>
+                        <pre><code>function sum(a, a, c){ // !!! syntax error
+  'use strict';
+  return a + b + c; // wrong if this code ran
+}</code></pre>
+                    </section>
+                    <section>
+                        <h3>052</h3>
+                        <pre><code>'use strict';
+var sum = 030 + 022; // Syntax error;</code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Simplifying yours and compiler's life</h3>
+                        <img class="medium nodecorations" src="img/good-life.png">
+                    </section>
+                    <section>
+                        <h3>without 'with'</h3>
+                        <pre><code>'use strict';
+var x = 42;
+with (obj) // Syntax error
+{
+  x;
+}</code></pre>
+                    </section>
+                    <section>
+                        <h3>evil</h3>
+                        <pre><code>var x = 17;
+var evilX = eval("'use strict'; var x = 42; x");
+assert(x === 17);
+assert(evalX === 42);</code></pre>
+                        <a style="font-size: 26px;" href="http://jsfiddle.net/6mTg3/1/">example</a>
+                    </section>
+                    <section>
+                        <h3>Even more evil</h3>
+                        <pre><code>function strict1(str){
+  'use strict';
+  return eval(str); // str will be treated as strict mode code
+}
+function strict2(f, str){
+  'use strict';
+  return f(str); // str is strict if and only if it invokes strict mode
+}
+function nonstrict(str){
+  return eval(str); // str is strict if and only if it invokes strict mode
+}</code></pre>
+                    </section>
+                    <section>
+                        <h3>plain names</h3>
+                        <pre><code>'use strict';
+var x;
+delete x; // Syntax error</code></pre>
+                    <a style="font-size: 26px;" href="http://jsfiddle.net/Ns9Ch/1/">example</a>
+                    </section>
+                    <section>
+                        <h3>Evil arguments</h3>
+                        <pre><code>'use strict';
+eval = 42;
+arguments++;
+++eval;
+var obj = { set p(arguments) { } };
+var eval;
+try { } catch (arguments) { }
+function x(eval) { }
+function arguments() { }
+var y = function eval() { };
+var f = new Function("arguments", "'use strict'; return 42;");</code></pre>
+                    </section>
+                    <section>
+                        <h3>no aliases</h3>
+                        <pre><code>function f(a){
+  'use strict';
+  a = 42;
+  return [a, arguments[0]];
+}
+var pair = f(17);
+assert(pair[0] === 42);
+assert(pair[1] === 17);</code></pre>
+                        <a style="font-size: 26px;" href="http://jsfiddle.net/wC4eM/"></a>
+                    </section>
+                    <section>
+                        <h3>function callee</h3>
+                        <pre><code>'use strict';
+var f = function() { return arguments.callee; };
+f(); // throws a TypeError</code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Securing your code</h3>
+                        <img class="nodecorations" src="img/knight.png" />
+                    </section>
+                    <section>
+                        <h3>this is always as is</h3>
+                        <pre><code>'use strict';
+function fun() { return this; }
+assert(fun() === undefined);
+assert(fun.call(2) === 2);
+assert(fun.apply(null) === null);
+assert(fun.call(undefined) === undefined);
+assert(fun.bind(true)() === true);</code></pre>
+                    <a style="font-size: 26px;" href="http://jsfiddle.net/ncyYR/">example</a>
+                    </section>
+                    <section>
+                        <h3>no stackwalker</h3>
+                        <pre><code>unction restricted()
+{
+  'use strict';
+  restricted.caller;    // throws a TypeError
+  restricted.arguments; // throws a TypeError
+}
+function privilegedInvoker()
+{
+  return restricted();
+}
+privilegedInvoker();</code></pre>
+                    </section>
+                    <section>
+                        <h3>r.i.p. Caller</h3>
+                        <pre><code>'use strict';
+function fun(a, b)
+{
+  'use strict';
+  var v = 12;
+  return arguments.caller; // throws a TypeError
+}
+fun(1, 2); // doesn't expose v (or a or b)</code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Building future</h3>
+                        <img class="nodecorations" src="img/builder.png" />
+                    </section>
+                    <section>
+                        <h3>restricted words</h3>
+                        <pre><code>function package(protected){ // !!!
+  'use strict';
+  var implements; // !!!
+
+  interface: // !!!
+  while (true){
+    break interface; // !!!
+  }
+
+  function private() { } // !!!
+}
+function fun(static) { 'use strict'; } // !!!</code></pre>
+                    </section>
+                    <section>
+                        <h3>not kosher</h3>
+                        <pre><code>'use strict';
+if (true){
+  function f() { } // !!! syntax error
+  f();
+}
+
+for (var i = 0; i < 5; i++){
+  function f2() { } // !!! syntax error
+  f2();
+}
+
+function baz(){
+  function eit() { }
+}</code></pre>
+                    </section>
+
+                </section>
+                <section>
+                    <h3>don't rely on it</h3>
+                    <img class="nodecorations" src="img/42.png">
+                </section>
+                <section>
+                    <h1>Thank you</h1>
+                </section>
+            </div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

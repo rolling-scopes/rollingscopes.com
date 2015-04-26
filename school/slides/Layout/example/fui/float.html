@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+<link href="ui/css/base/reset.css" rel="stylesheet" type="text/css" />
+<link href="ui/css/base/general.css" rel="stylesheet" type="text/css" />
+
+<link href="ui/css/float.css" rel="stylesheet" type="text/css" />
+
+<title>Float</title>
+</head>
+
+<body>
+
+	<div class="body">
+	
+		<h1>Float</h1>
+		
+		<h2>Train layout:</h2>
+		<h3>Fixed</h3>
+		<div class="layout trainLayoutFixed clearfix">
+			<div class="leftColumn">
+				Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+			</div>
+			<div class="centerColumn">
+				Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+			</div>
+			<div class="rightColumn">
+				Right<br /><br /><br /><br /><br /><br />Right
+			</div>
+		</div><!-- .trainLayoutFixed -->
+		
+		<h3>Stretched</h3>
+		<div class="layout trainLayoutStretched clearfix">
+			<div class="leftColumn">
+				Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+			</div>
+			<div class="centerColumn">
+				Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+			</div>
+			<div class="rightColumn">
+				Right<br /><br /><br /><br /><br /><br />Right
+			</div>
+		</div><!-- .trainLayoutStretched -->
+		
+		<div class="notes">
+			<table>
+				<tr>
+					<th>+</th>
+					<th>-</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Применим для резины и статики</li>
+						</ol>
+					</td>
+					<td>
+						<ol>
+							<li>Не возможно поместить центр первым</li>
+							<li>При резине необходим фикс нечетной ширины окна браузера в IE</li>
+							<li>Необходимо указывать ширину всех колонок</li>
+							<li>Нет возможности указать ширину одной колонки в пикселях, другой в процентах</li>
+						</ol>
+					</td>
+				</tr>
+			</table>
+		</div><!-- .notes -->
+		
+		
+		<h2>Margin layout:</h2>
+		<h3>Fixed</h3>
+		<div class="layout marginLayoutFixed clearfix">
+			<div class="leftColumn">
+				Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+			</div>
+			<div class="rightColumn">
+				Right<br /><br /><br /><br /><br /><br />Right
+			</div>
+			<div class="centerColumn">
+				Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+			</div>
+		</div><!-- .marginLayoutFixed -->
+		
+		<h3>Stretched</h3>
+		<div class="layout marginLayoutStretched clearfix">
+			<div class="leftColumn">
+				Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+			</div>
+			<div class="rightColumn">
+				Right<br /><br /><br /><br /><br /><br />Right
+			</div>
+			<div class="centerColumn">
+				Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+			</div>
+		</div><!-- .marginLayoutStretched -->
+		
+		<div class="notes">
+			<table>
+				<tr>
+					<th>+</th>
+					<th>-</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Применим для резины и статики</li>
+						</ol>
+					</td>
+					<td>
+						<ol>
+							<li>Центр всегда последний по коду</li>
+						</ol>
+					</td>
+				</tr>
+			</table>
+		</div><!-- .notes -->
+		
+		<h2>Two stretched magic layout:</h2>
+		<div class="layout twoStretchedMagicLayout clearfix">
+			<div class="leftColumn">
+				Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+			</div>
+			<div class="rightColumn">
+				Right<br /><br /><br /><br /><br /><br /><br /><br />Right
+			</div>
+		</div><!-- .twoStretchedMagicLayout -->
+		
+		<div class="notes">
+			<table>
+				<tr>
+					<th>+</th>
+					<th>-</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Любая последовательность колонок</li>
+							<li>Нет бага в IE с нечетной шириной окна браузера</li>
+						</ol>
+					</td>
+					<td>
+						<ol>
+							<li>Только  две колонки!</li>
+						</ol>
+					</td>
+				</tr>
+			</table>
+		</div><!-- .notes -->
+		
+		<h2>Fixed magic layout:</h2>
+		<div class="layout fixedMagicLayout clearfix">
+			<div class="columnWraper">
+				<div class="centerColumn">
+					Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+				</div>
+				<div class="leftColumn">
+					Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+				</div>
+				<div class="rightColumn">
+					Right<br /><br /><br /><br /><br /><br />Right
+				</div>
+			</div>
+		</div><!-- .fixedMagicLayout -->
+		
+		<div class="notes">
+			<table>
+				<tr>
+					<th>+</th>
+					<th>-</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Любая последовательность колонок!</li>
+						</ol>
+					</td>
+					<td>
+						<ol>
+							<li>Колонки, кроме центра, должны быть статик, т.к. ширина будет рассчитываться от доступного пространства внутри врапера</li>
+							<li>Фикс дабл маржина в IE</li>
+						</ol>
+					</td>
+				</tr>
+			</table>
+		</div><!-- .notes -->
+		
+		<h2>Layer layout:</h2>
+		<h3>Fixed</h3>
+		<div class="layout layerLayoutFixed clearfix">
+			<div class="columnWraper">
+				<div class="centerColumn">
+					Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+				</div>
+			</div>
+			<div class="leftColumn">
+				Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+			</div>
+			<div class="rightColumn">
+				Right<br /><br /><br /><br /><br /><br />Right
+			</div>
+		</div><!-- .layerLayoutFixed -->
+		
+		<h3>Stretched</h3>
+		<div class="layout layerLayoutStretched clearfix">
+			<div class="columnWraper">
+				<div class="centerColumn">
+					Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+				</div>
+			</div>
+			<div class="leftColumn">
+				Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+			</div>
+			<div class="rightColumn">
+				Right<br /><br /><br /><br /><br /><br />Right
+			</div>
+		</div><!-- .layerLayoutStretched -->
+		
+		<div class="notes">
+			<table>
+				<tr>
+					<th>+</th>
+					<th>-</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Центр по коду первый</li>
+							<li>Применим для резины и статики</li>
+							<li>Нет бага с дабл маржином</li>
+						</ol>
+					</td>
+					<td>Нет</td>
+				</tr>
+			</table>
+		</div><!-- .notes -->
+		
+		<h2>Magic layer layout:</h2>
+		<h3>Fixed</h3>
+		<div class="layout magicLayerLayoutFixed clearfix">
+			<div class="columnWraper">
+				<div class="centerColumn">
+					Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+				</div>
+			</div>
+			<div class="columnWraper">
+				<div class="leftColumn">
+					Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+				</div>
+			</div>
+			<div class="columnWraper">
+				<div class="rightColumn">
+					Right<br /><br /><br /><br /><br /><br />Right
+				</div>
+			</div>
+		</div><!-- .magicLayerLayoutFixed -->
+		
+		<h3>Stretched</h3>
+		<div class="layout magicLayerLayoutStretched clearfix">
+			<div class="columnWraper">
+				<div class="centerColumn">
+					Center<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Center
+				</div>
+			</div>
+			<div class="columnWraper">
+				<div class="leftColumn">
+					Left<br /><br /><br /><br /><br /><br /><br /><br />Left
+				</div>
+			</div>
+			<div class="columnWraper">
+				<div class="rightColumn">
+					Right<br /><br /><br /><br /><br /><br />Right
+				</div>
+			</div>
+		</div><!-- .magicLayerLayoutStretched -->
+		
+		<div class="notes">
+			<table>
+				<tr>
+					<th>+</th>
+					<th>-</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Любая последовательность колонок!</li>
+							<li>Применим для резины и статики</li>
+						</ol>
+					</td>
+					<td>Нет</td>
+				</tr>
+			</table>
+		</div><!-- .notes -->
+		
+		<h2>Toggle column layout:</h2>
+		<div class="layout toggleColumnLayout clearfix">
+			<div class="imageBlock"><!-- --></div>
+			<div class="textBlock">Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text</div>
+		</div><!-- .toggleColumnLayout -->
+		
+		<div class="notes">
+			<table>
+				<tr>
+					<th>+</th>
+					<th>-</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Левая колонка может быть, может не быть</li>
+							<li>Ненужно указывать ширину для колонки с контентом</li>
+							<li>Ненужно реализовывать логику с навешиванием класса на обёртку</li>
+						</ol>
+					</td>
+					<td>
+						<ol>
+							<li>Только 2 блока</li>
+						</ol>
+					</td>
+				</tr>
+			</table>
+		</div><!-- .notes -->
+		
+	</div><!-- .body -->
+
+</body>
+</html>

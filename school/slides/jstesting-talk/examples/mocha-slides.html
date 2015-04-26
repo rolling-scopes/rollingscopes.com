@@ -1,0 +1,103 @@
+                <section>
+                    <section><h2>Mocha</h2><p>['mɔkə]</p></section>
+                    <section>
+                        <h2>Mocha</h2>
+                        <ul>
+                            <li>Supports TDD assertions and BDD should/expect</li>
+                            <li>Reporting &amp; CI integration</li>
+                            <li>JavaScript API</li>
+                            <li>Browser Test Runner</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Mocha</h2>
+                        <pre><code class="javascript">describe('Array', function(){
+  describe('#indexOf()', function(){
+    it('should return -1 when the value is not present', function(){
+      [1,2,3].indexOf(5).should.equal(-1);
+      [1,2,3].indexOf(0).should.equal(-1);
+    })
+  })
+})
+</code></pre>
+                    </section>
+                    <section>
+                        <h2>Mocha</h2>
+                        <pre><code class="javascript">describe('User', function(){
+  describe('#save()', function(){
+    it('should save without error', function(done){
+      var user = new User('Luna');
+      user.save(function(err){
+        if (err) throw err;
+        done();
+      });
+    })
+  })
+})
+</code></pre>
+                    </section>
+
+                    <section>
+                        <h2>Mocha</h2>
+                        <p>Hooks: before(), after(), beforeEach(), afterEach() </p>
+                        <pre><code class="javascript">beforeEach(function(done){
+db.clear(function(err){
+  if (err) return done(err);
+    db.save([tobi, loki, jane], done);
+  });
+})</code></pre>
+                    </section>
+
+                    <section>
+                        <h2>Mocha</h2>
+                        <img src="img/Screen Shot 2012-03-01 at 2.31.31 PM.png" alt="">
+                    </section>
+
+                    <section>
+                        <h2>Mocha</h2>
+                        <p>Console reporter</p>
+                        <img src="img/reporter-spec-duration.png" alt="">
+                    </section>
+
+                    <section>
+                        <h2>Mocha</h2>
+                        <p>HTML reporter</p>
+                        <img src="img/reporter-html.png" alt="">
+                    </section>
+
+                    <section>
+                        <h2>Mocha</h2>
+                        <p>Nyan reporter</p>
+                        <img src="img/Screen Shot 2012-08-22 at 3.59.08 PM.png" alt="">
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Chai</h2>
+                        <img class='nodecorations' src="img/chai-logo-small.png" alt="">
+                    </section>
+
+                    <section>
+                        <h2>Chai</h2>
+                        <p>Assert, expect/should</p>
+                            <pre><code class="javascript">chai.should();
+foo.should.be.a('string');
+foo.should.equal('bar');
+foo.should.have.length(3);
+tea.should.have.property('flavors')
+  .with.length(3);</code></pre>
+                    </section>
+
+                    <section data-background="gold" style="color:black;">
+                        <h1>Question Time!</h1>
+                        <p>How would you test an RNG?</p>
+                    </section>
+
+                    <section>
+                        <h2>Chai</h2>
+                        <p>Plugins</p>
+                        <a href="http://chaijs.com/plugins/">here</a>
+                    </section>
+
+                </section>

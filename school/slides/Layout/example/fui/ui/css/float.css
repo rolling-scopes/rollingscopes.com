@@ -1,0 +1,80 @@
+h1, h2, h3 {padding-left:30px;}
+.body {padding:40px 0;}
+
+/*  FLOAT */
+.leftColumn {background:#66f;}
+.centerColumn {background:#fc0;}
+.rightColumn {background:#0c3;}
+
+.layout {margin:0 0 60px;}
+
+
+/** Train layout **/
+/* Fixed */
+.trainLayoutFixed .leftColumn {float:left; width:100px;}
+.trainLayoutFixed .centerColumn {float:left; width:300px;}
+.trainLayoutFixed .rightColumn {float:left; width:200px;}
+
+/* Stretched */
+.trainLayoutStretched .leftColumn {float:left; width:20%;}
+.trainLayoutStretched .centerColumn {float:left; width:50%;}
+.trainLayoutStretched .rightColumn {float:right; width:30%; margin-left:-1px}
+
+
+/** Margin layout **/
+/* Fixed */
+.marginLayoutFixed .leftColumn {float:left; width:200px;}
+.marginLayoutFixed .rightColumn {float:right; width:300px;}
+.marginLayoutFixed .centerColumn {margin:0 300px 0 200px;}
+
+/* Stretched */
+.marginLayoutStretched .leftColumn {float:left; width:20%;}
+.marginLayoutStretched .rightColumn {float:right; width:30%;}
+.marginLayoutStretched .centerColumn {margin:0 30% 0 20%;}
+
+
+/** Two stretched magic layout **/
+.twoStretchedMagicLayout .leftColumn {float:left; width:50%; margin-right:-50%;}
+.twoStretchedMagicLayout .rightColumn {float:right; width:50%; margin-left:-50%;}
+
+
+/** Fixed magic layout **/
+.fixedMagicLayout .columnWraper {padding:0 300px 0 200px;}
+.fixedMagicLayout .centerColumn {float:left; width:100%; margin-right:-100%;}
+.fixedMagicLayout .leftColumn {float:left; width:200px; margin-left:-200px; display:inline;}
+.fixedMagicLayout .rightColumn {float:right; width:300px; margin-right:-300px; display:inline;}
+
+
+/** Layer layout **/
+/* Fixed */
+.layerLayoutFixed .columnWraper {float:left; width:100%;}
+.layerLayoutFixed .centerColumn {margin:0 300px 0 200px;}
+.layerLayoutFixed .leftColumn {float:left; width:200px; margin-left:-100%;}
+.layerLayoutFixed .rightColumn {float:left; width:300px; margin-left:-300px;}
+
+/* Stretched */
+.layerLayoutStretched .columnWraper {float:left; width:100%;}
+.layerLayoutStretched .centerColumn {margin:0 30% 0 20%;}
+.layerLayoutStretched .leftColumn {float:left; width:20%; margin-left:-100%;}
+.layerLayoutStretched .rightColumn {float:left; width:30%; margin-left:-30%;}
+
+
+/** Magic layer layout **/
+/* Fixed */
+.magicLayerLayoutFixed .columnWraper {float:left; width:100%; margin-right:-100%;}
+.magicLayerLayoutFixed .centerColumn {position:relative; margin:0 300px 0 200px;}
+.magicLayerLayoutFixed .leftColumn {position:relative; float:left; width:200px;}
+.magicLayerLayoutFixed .rightColumn {position:relative; float:right; width:300px;}
+
+/* Stretched */
+.magicLayerLayoutStretched .columnWraper {float:left; width:100%; margin-right:-100%;}
+.magicLayerLayoutStretched .centerColumn {position:relative; margin:0 30% 0 20%;}
+.magicLayerLayoutStretched .leftColumn {position:relative; float:left; width:20%;}
+.magicLayerLayoutStretched .rightColumn {position:relative; float:right; width:30%;}
+
+
+/** Toggle column layout **/
+.toggleColumnLayout {width:400px;}
+.toggleColumnLayout .imageBlock {float:left; width:100px; height:100px; margin:0 20px 0 0; background:#f00;}
+* html .toggleColumnLayout .imageBlock {margin:0 17px 0 0;}
+.toggleColumnLayout .textBlock {overflow:hidden; background:#ff0; zoom:1;}

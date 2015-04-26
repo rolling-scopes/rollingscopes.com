@@ -1,0 +1,33 @@
+doctype html
+html
+  head(lang='en')
+    meta(charset='UTF-8')
+    title Front-end Course
+    link(rel='shortcut icon', href='favicon.ico')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css', rel='stylesheet')
+    link(media='all', type='text/css', rel='stylesheet', href='css/media-queries.css')
+    link(rel='stylesheet' href='css/tasks.css')
+    link(rel='stylesheet', href='bower_components/github-markdown-css/github-markdown.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/github.min.css')
+    script(src='./bower_components/fetch/fetch.js')
+    script(src='./bower_components/marked/marked.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js')
+    base(target='_blank')
+  body
+    .wrapper
+      article.markdown-body(style="float:left")
+      section.tasks-wrapper(style="float:right")
+        h2 Tasks
+        ul.tasks
+          each task in tasks
+            li
+              if task.md
+                a(href='##{task.md}' target='_self')
+                  | #{task.title}
+              else
+                a(href='#{task.link}')
+                  | #{task.title}
+
+
+    script(src="./scripts/tasks.js")

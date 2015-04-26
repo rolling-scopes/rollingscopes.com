@@ -1,0 +1,8 @@
+{
+  "name": "frontendcourse",
+  "private": true,
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jade": "0.13.0"
+  }
+}

@@ -1,0 +1,175 @@
+.reveal section .tech-img {
+	max-height: 180px;
+	max-width: 300px;
+	vertical-align: middle;
+	position: absolute;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.reveal section .circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: #FFFFFF;
+	position: relative;
+}
+
+
+.reveal section .tech-wrap h3 {
+	float: right;
+	vertical-align: middle;
+	line-height: 180px;
+}
+
+.reveal section .tech-wrap p {
+	float: right;
+	vertical-align: middle;
+	max-width: 50%;
+}
+
+.reveal section .tech-wrap {
+	text-align: left;
+	line-height: 180px;
+	vertical-align: middle;
+	padding: 0 0 4em 0;
+	min-height: 4em;
+}
+
+.reveal section .js-img {
+	max-height: 400px;
+}
+
+.reveal section .clear-img {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+.text-green {
+	color: rgb(25, 255, 55);
+}
+
+.text-red {
+	color: rgb(255, 25, 55);
+}
+
+.half {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.reveal section .circular-large {
+	width: 600px;
+	height: 600px;
+	border-radius: 300px;
+	-webkit-border-radius: 300px;
+	-moz-border-radius: 300px;
+	background: #FFFFFF;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.reveal section .circular-mid {
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	background: #FFFFFF;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.reveal section .circular-large img, .reveal section .circular-mid img {
+	background: none;
+	border: none;
+	box-shadow: none;
+	position: absolute;
+}
+
+.float-left {
+	float: left;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.background-white {
+	background-color: #FFFFFF !important;
+}
+
+.reveal section .current-topic {
+	position: absolute;
+	left: 5px;
+	bottom: -1em;
+	color: rgba(155, 255, 155, .5);
+}
+
+.reveal section ul {
+	list-style-image: url(images/bullet-blue.png)
+}
+
+.reveal section ul ul {
+	list-style-image: url(images/bullet-green.png)
+}
+
+.reveal section ul.bullet-red {
+	list-style-image: url(images/bullet-red.png)
+}
+
+.reveal section ul li p {
+	font-style: italic;
+	color: rgb(255, 200, 200);
+	padding: 0 10px;
+}
+
+.reveal pre code {
+	box-shadow: inset 0px 0px 13px -3px #666666;
+	/*border: 1px solid #666;*/
+	background: none;
+    font-size: 170%;
+    line-height: 1.5;
+	/*font-family: "Myriad Pro", Calibri, Helvetica, Arial, sans-serif;*/
+	font-family: Consolas, 'Andale Mono', 'Courier New', monospace;
+}
+
+div.groups {
+  float: left;
+  width: 400px;
+  margin-bottom: 60px;
+}
+div.groups ul li {
+  width: 300px;
+}
+
+.text-green {
+  color: rgb(25, 255, 55);
+}
+
+.text-red {
+  color: rgb(255, 25, 55);
+}
+
+.float-left {
+  float: left;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}

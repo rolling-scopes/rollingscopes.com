@@ -1,0 +1,45 @@
+@media only screen and (max-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+    h1 {
+        font-size: 1.8em
+    }
+
+    h2 {
+        font-size: 1.35em
+    }
+
+    h3 {
+        font-size: 1em
+    }
+
+    h4 {
+        font-size: 0.95em
+    }
+
+    h5 {
+        font-size: 0.95em
+    }
+
+    h6 {
+        font-size: 0.8em
+    }
+
+    p {
+        line-height: 1.2em;
+        margin-bottom: .3em;
+    }
+
+    .header-wrap {
+        padding:0 1rem;
+    }
+
+    section {
+        padding: .5rem 1rem;
+        border-radius: 4px;
+    }
+
+    .course-title {
+        font-size: 160%;
+        padding:1rem 1rem 0;
+    }
+}

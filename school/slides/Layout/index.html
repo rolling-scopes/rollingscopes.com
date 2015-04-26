@@ -1,0 +1,314 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>HTMLCSS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>HTML &amp; CSS Layout</h1>
+		<p>Stanislau Zubovich</p>
+	</header>
+	
+	<section class="slide shout cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Layout</h2>
+	</div></section>
+	
+	<section class="slide shout cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2 style="color: #53CDC4; top:250px;text-align: left;padding-left: 50px;">HTML:</h2>
+		<h2 style="top:400px;font-size: 90px;padding-left: 50px;text-align: left;">Table, &lt;div&gt;</h2>
+	</div></section>
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Table layout</h2>
+		<ul>
+		    <li>&lt;table&gt; inside of &lt;body&gt;</li>
+		    <li>&lt;tr&gt; and &lt;td&gt; for layout</li>
+		    <li><a href="example/example1.html">example</a></li>
+		</ul>
+	</div></section>
+	
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <img style="" src="pictures/bart.png" alt="">
+	</div></section>	
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>DIV or Block layout</h2>
+		<ul>
+		    <li>Layout based on &lt;div&gt; of semantic "divs"</li>
+		    <li>CSS for layouting</li>
+		    <li><a href="example/fui/index.html">example</a></li>
+		</ul>
+	</div></section>
+	
+	<section class="slide shout cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2 style="color: #C3F571; top:250px;text-align: left;padding-left: 50px;">CSS:</h2>
+		<h2 style="top:450px;font-size: 90px;padding-left: 50px;text-align: left;">Floats, Positioning,<br> display: table,<br> display: inline-block</h2>
+	</div></section>
+	
+	<section class="slide shout cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Floats</h2>
+	</div></section>
+		
+	<section class="slide shout cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>basic one</h2>
+	</div></section>
+	
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>basic one:</h2>
+        <p>
+            .float {<br>
+            &nbsp;&nbsp;float: left;<br>
+            &nbsp;&nbsp;margin-right: 20px;<br>
+            &nbsp;&nbsp;margin-bottom: 20px;<br>
+            }
+        </p>
+	</div></section>
+		
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>basic one</h2>
+		<img src="pictures/float1.png" style="top:200px; left:100px" alt="">
+	</div></section>
+	
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>Another basic one:</h2>
+        <p>
+            .float {<br>
+            &nbsp;&nbsp;float: left;<br>
+            &nbsp;&nbsp;width: 150px;<br>
+            &nbsp;&nbsp;margin-right: 20px;<br>
+            &nbsp;&nbsp;margin-bottom: 20px;<br>
+            }
+        </p>
+	</div></section>
+	
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>Another basic one:</h2>
+        <p>
+            .content {<br>
+            &nbsp;&nbsp;matgin-left: 150px;<br>
+            }
+        </p>
+	</div></section>
+		
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>Another basic one</h2>
+		<img src="pictures/float2.png" style="top:200px; left:100px" alt="">
+	</div></section>	
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Be aware:</h2>
+		<ul>
+		    <li>Floats widthout width and the width of the content will be the width</li>
+		    <li>Long text within float requires that you set a width. Otherwise it's 100%</li>
+		    <li>A tall floated item must be cleared, or you will end up with floats within floats</li>
+		</ul>
+	</div></section>
+        
+    <section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>Uncleared floats:</h2>
+        <p>
+            .float {<br>
+            &nbsp;&nbsp;float: right;<br>
+            &nbsp;&nbsp;margin-right: 20px;<br>
+            &nbsp;&nbsp;margin-bottom: 20px;<br>
+            }
+        </p>
+	</div></section>
+		
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>Uncleared floats:</h2>
+		<img src="pictures/float3.png" style="top:200px; left:100px" alt="">
+	</div></section>
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Clear your floats:</h2>
+		<ul>
+		    <li>No need to use extra markup to clear your floats. Self-clearing is the only way.</li>
+		    <li class="next">Clearfix mixin can help you, but better to use custom one</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Self Clearing Floats:</h2>
+        <p>
+            .selector:after {<br>
+            &nbsp;&nbsp;content: "";<br>
+            &nbsp;&nbsp;display: block;<br>
+            &nbsp;&nbsp;height: 0;<br>
+            &nbsp;&nbsp;clear: both;<br>
+            &nbsp;&nbsp;visibility: hidden;<br>
+            }
+        </p>
+	</div></section>
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Crazy Floats:</h2>
+        <p>
+            .float {<br>
+            &nbsp;&nbsp;float: left;<br>
+            &nbsp;&nbsp;margin-left: -50px;<br>
+            &nbsp;&nbsp;margin-right: 20px;<br>
+            &nbsp;&nbsp;margin-bottom: 20px;<br>
+            }
+        </p>
+	</div></section>
+		
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>Uncleared floats:</h2>
+		<img src="pictures/float4.png" style="top:200px; left:50px" alt="">
+	</div></section>
+	
+	<section class="slide shout cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2><a href="example/fui/index.html">examples</a></h2>
+	</div></section>
+	
+	<section class="slide shout cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Positioning</h2>
+	</div></section>
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Things to remember:</h2>
+		<ul>
+		    <li>Absolutely positioned elements are positioned relative to the nearest relatively positioned element, or the body element if none.</li>
+		    <li class="next">Fixed and sticky positioned elements are positioned to the body element every time.</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Absolute positioning:</h2>
+        <p style="width: 45%;display: table-cell;">
+            .parent {<br>
+            &nbsp;&nbsp;position: relative;<br>
+            }<br>
+        </p>
+        <p style="width: 400px;display: table-cell;">
+            .clild {<br>
+            &nbsp;&nbsp;position: absolute;<br>
+            &nbsp;&nbsp;top: 0;<br>
+            &nbsp;&nbsp;left: 0;<br>
+            }
+        </p>
+	</div></section>
+		
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>Absolute positioning</h2>
+		<img src="pictures/position1.png" style="top:200px; left:100px" alt="">
+	</div></section>
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Fixed positioning:</h2>
+        <p style="width: 45%;display: table-cell;">
+            .parent {<br>
+            &nbsp;&nbsp;position: relative;<br>
+            }<br>
+        </p>
+        <p style="width: 400px;display: table-cell;">
+            .clild {<br>
+            &nbsp;&nbsp;position: fixed;<br>
+            &nbsp;&nbsp;top: 0;<br>
+            &nbsp;&nbsp;left: 0;<br>
+            &nbsp;&nbsp;right: 0;<br>
+            }
+        </p>
+	</div></section>
+		
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>Fixed positioning</h2>
+		<img src="pictures/position2.png" style="top:200px; left:100px" alt="">
+	</div></section>
+	
+	<section class="slide cover shout"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Display Table "layout"</h2>
+	</div></section>	
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Usage:</h2>
+		<ul>
+		    <li>Represent your div as table element.</li>
+		    <li>...</li>
+		    <li>Look at &lt;table&gt; element</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide cover tile_head"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>Usage:</h2>
+		<ul style="margin-top:-20px">
+		    <li>table</li>
+		    <li>table-caption</li>
+		    <li>table-header-group</li>
+		    <li>table-row</li>
+		    <li>table-row-group</li>
+		    <li>table-cell</li>
+		    <li>table-column</li>
+		    <li>table-column-group</li>
+		    <li>table-footer-group</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide cover shout"><div>
+		<img src="pictures/blackboard_cover.png" alt="">
+		<h2>The End</h2>
+	</div></section>
+	
+	
+	
+	
+	
+	
+	<div class="progress"><div></div></div>
+	<script src="shower/shower.min.js"></script>
+	<!-- Copyright © 2013 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
+
+
+<!--
+
+	
+	<section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+        <h2>CSS IN REAL LIFE</h2>
+	</div></section>
+    <section class="slide cover"><div>
+        <img src="pictures/blackboard_cover.png" alt="">
+		<h2></h2>
+	</div></section>
+
+http://www.coreservlets.com/html5-tutorial/input-types.html?val=02041009#
+-->

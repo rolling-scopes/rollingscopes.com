@@ -1,0 +1,77 @@
+/* CORNERS */
+* html .iepng {filter:expression(fixPNG(this));}
+
+/* fixed, border */
+.fixedBorder .topBg {zoom:1;}
+
+/* fixed, solid, png24 */
+* html .fixedSolid24 .topBg,
+* html .fixedSolid24 .bottomBg {filter:expression(fixPNG(this));}
+
+/* fixed, shadow */
+* html .fixedShadow .topBg,
+* html .fixedShadow .bottomBg {filter:expression(fixPNG(this));}
+* html .fixedShadow .centerBg {filter:expression(fixPNG(this, 1));}
+
+/* stretchy, border, nested */
+.stretchyBorderNested,
+.stretchyBorderNested .t-l,
+.stretchyBorderNested .b-l {zoom:1;}
+
+/* stretchy, border, nested 2 */
+.stretchyBorderNested2 {zoom:1;}
+
+/* stretchy, border, circle */
+.stretchyBorderCircle {zoom:1;}
+* html .oddSizeAbsoluteFix1 .t-r {right:expression(this.parentNode.offsetWidth % 2 ? '-3px' : '-2px');}
+* html .oddSizeAbsoluteFix1 .b-r {bottom:expression(this.parentNode.offsetHeight % 2 ? '-3px' : '-2px'); right:expression(this.parentNode.offsetWidth % 2 ? '-3px' : '-2px');}
+
+/* stretchy, star */
+.star {zoom:1;}
+* html .star .t-l,
+* html .star .t-r,
+* html .star .b-l,
+* html .star .b-r {filter:expression(fixPNG(this));}
+
+/* stretchy, cube */
+* html .cube {float:left;}
+* html .cube .t-l,
+* html .cubeWraper,
+* html .cubeContent {float:left; display:inline;}
+* html .cubeContent {width:100%;}
+
+* html .cube .t-l,
+* html .cube .t-r,
+* html .cube .b-l,
+* html .cube .b-r {filter:expression(fixPNG(this));}
+
+/* Fix one px bug */
+* html .cube .t-r {right:auto; margin-left:100%;}
+* html .cube .b-l {bottom:auto;}
+* html .cube .b-r,
+* html .cube .b-l {clear:left}
+
+* html .cube .b-r {position:static; display:inline;}
+.cube .b-r {zoom:1;}
+
+* html .cube .t-r {left:-1000px;}
+* html .cube .b-l {margin-top:-584px;}
+* html .cube .t-r,
+* html .cube .b-r {width:1000px;}
+* html .cube .b-l,
+* html .cube .b-r {height:600px;}
+* html .cube .b-r {margin:-584px -16px -16px -984px;}
+
+* html .cube .t-r {clip:rect(0 100% 16px 984px);}
+* html .cube .b-l {clip:rect(584px 16px 100% 0);}
+
+/* stretchy, circle */
+.circleWraper {zoom:1;}
+* html .circle .t-l div,
+* html .circle .t-r div,
+* html .circle .b-l div,
+* html .circle .b-r div {filter:expression(fixPNG(this));}
+* html .circle .t,
+* html .circle .b,
+* html .circle .l,
+* html .circle .r {filter:expression(fixPNG(this, 1));}

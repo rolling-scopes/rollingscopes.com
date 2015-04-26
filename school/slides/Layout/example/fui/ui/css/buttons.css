@@ -1,0 +1,64 @@
+/*  BUTTONS */
+
+/** Similar background **/
+/* Input */
+.btnInput {margin:0 10px 0 0; background-color:#7c7c7c;}
+.btnInput,
+.btnInput span {height:26px; display:inline-block; background:url(../img/buttons/similar/button-bg.png) no-repeat 0 0;}
+.btnInput span {padding:0 16px; background-position:100% -38px;}
+.btnInput input {height:26px; padding:0 16px; margin:0 -16px; display:inline-block; overflow:visible; background:none; border:none; vertical-align:middle; font-family:Tahoma, Geneva, sans-serif; font-weight:bold; cursor:pointer; color:#fff;}
+@-moz-document url-prefix() {
+  .btnInput input {padding:0 14px 3px;}
+}
+
+.btnInput input:active {position:relative; top:1px; left:1px;}
+
+/* Button */
+.btnButton {padding:0 1px 1px 0; margin:0 10px 0 0; overflow:visible; background:none; border:none; vertical-align:middle; font-family:Tahoma, Geneva, sans-serif; font-weight:bold; cursor:pointer; color:#fff;}
+.btnButton::-moz-focus-inner {border:0; padding:0}/* fix extra padding in FF */
+.btnButton div {background:url(../img/buttons/similar/button-bg.png) no-repeat 0 0 #7c7c7c; cursor:pointer;}
+.btnButton div div {padding:0 16px; background-color:transparent; background-position:100% -38px; line-height:26px;}
+
+.btnButton:active {position:relative; top:1px; left:1px;}
+
+/* Link */
+.btnLink,
+.btnLink:hover {margin:0 7px 0 0; font-weight:bold; text-decoration:none; cursor:pointer; color:#fff;}
+.btnLink:active {position:relative; top:1px; left:1px;}
+.btnLink,
+.btnLink span {display:inline-block; background:url(../img/buttons/similar/button-bg.png) no-repeat 0 0 #7c7c7c;}
+.btnLink span {padding:0 16px; background-color:transparent; background-position:100% -38px; line-height:26px;}
+
+/** Dissimilar background **/
+/* Input */
+.btnInput2 {margin:0 10px 0 0;}
+.btnInput2,
+.btnInput2 span {height:26px; display:inline-block; background:url(../img/buttons/dissimilar/button-bg.png) no-repeat 0 -32px;}
+.btnInput2 {padding:0 0 0 10px;}
+.btnInput2 span {padding:0 10px 0 0; background-position:100% -64px;}
+.btnInput2 span span {padding:0 6px; background-position:0 0; background-repeat:repeat-x; background-color:#7c7c7c;}
+
+.btnInput2 input {height:26px; padding:0 16px; margin:0 -16px; display:inline-block; overflow:visible; background:none; border:none; vertical-align:middle; font-family:Tahoma, Geneva, sans-serif; font-weight:bold; cursor:pointer; color:#fff;}
+@-moz-document url-prefix() {
+  .btnInput2 input {padding:0 14px 3px;}
+}
+
+.btnInput2 input:active {position:relative; top:1px; left:1px;}
+
+/* Button */
+.btnButton2 {padding:0 1px 1px 0; margin:0 10px 0 0; overflow:visible; background:none; border:none; vertical-align:middle; font-family:Tahoma, Geneva, sans-serif; font-weight:bold; cursor:pointer; color:#fff;}
+.btnButton2::-moz-focus-inner {border:0; padding:0} /* fix extra padding in FF */
+.btnButton2 div {padding:0 0 0 10px; background:url(../img/buttons/dissimilar/button-bg.png) no-repeat 0 -32px; cursor:pointer;}
+.btnButton2 div div {padding:0 10px 0 0; background-position:100% -64px;}
+.btnButton2 div div div {padding:0 6px; background-position:0 0; background-repeat:repeat-x; background-color:#7c7c7c; line-height:26px;}
+
+.btnButton2:active {position:relative; top:1px; left:1px;}
+
+/* Link */
+.btnLink2,
+.btnLink2:hover {padding:0 0 0 10px; margin:0 7px 0 0; font-weight:bold; text-decoration:none; cursor:pointer; color:#fff;}
+.btnLink2:active {position:relative; top:1px; left:1px;}
+.btnLink2,
+.btnLink2 span {display:inline-block; background:url(../img/buttons/dissimilar/button-bg.png) no-repeat 0 -32px;}
+.btnLink2 span {padding:0 10px 0 0; background-position:100% -64px;}
+.btnLink2 span span {padding:0 6px; background-position:0 0; background-repeat:repeat-x; background-color:#7c7c7c; line-height:26px;}

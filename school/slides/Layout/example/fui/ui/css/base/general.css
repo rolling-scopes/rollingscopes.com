@@ -1,0 +1,36 @@
+html, body {height:100%;}
+
+body {font-family:Tahoma, Geneva, sans-serif; font-size:12px;}
+
+h1 {margin:0 0 36px; font-size:30px;}
+h2 {margin:0 0 24px; font-size:26px;}
+h2 i {font-size:16px;}
+h3 {margin:0 0 18px; font-size:22px;}
+h3 i {font-size:14px;}
+
+dt {padding:0 0 6px; font-size:14px; font-weight:bold;}
+dd {padding:0 0 16px 18px;}
+
+.clearfix {clear:both; zoom:1;}
+.clearfix:after {content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0;}
+
+.clear {clear:both; height:0; line-height:0; overflow:hidden;}
+
+.body {padding:40px;}
+
+.column {float:left; width:360px; margin:0 20px 0 0;}
+
+.notes {margin:22px 0;}
+.notes h4 {margin:0 0 14px;}
+.notes ol {list-style:decimal;}
+.notes ul {list-style:circle;}
+.notes ul,
+.notes ol {margin:10px 0 10px 20px;}
+.notes li {padding:2px 0;}
+.notes p {margin:10px 0; line-height:144%;}
+.notes td,
+.notes th {padding:4px 14px;}
+.notes th {font-size:13px;}
+
+.menuList li {margin:0 0 12px; font-size:18px; font-weight:bold;}
+.menuListInside li {margin:0 0 10px; font-size:16px; font-weight:bold;}

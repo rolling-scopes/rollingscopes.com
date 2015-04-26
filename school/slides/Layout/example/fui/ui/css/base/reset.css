@@ -1,0 +1,49 @@
+body, div, dl, dt, dd, 
+ul, ol, li, 
+h1, h2, h3, h4, h5, h6, pre, code, 
+form, fieldset, legend, 
+p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+fieldset, img, abbr, acronym {
+	border:0;
+}
+ul, ol {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td, th, sup {
+	vertical-align:top;
+}
+sub {
+	vertical-align:bottom;
+}
+input, textarea, select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+input, textarea {
+	margin:0;
+}
+
+h1, h2, h3, h4, h5, h6, input, select, textarea {
+	font-size:100%;
+}

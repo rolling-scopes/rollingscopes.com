@@ -7,6 +7,7 @@ var compression     = require('compression');
 var app             = express();
 var rsRouter        = express.Router();
 var rsConfRouter    = express.Router();
+var schoolRouter    = express.Router();
 var subdomainRouter = express.Router();
 
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -14,8 +15,17 @@ app.use(bodyParser.json());
 app.use(compression());
 
 subdomainRouter.use(function (req, res, next) {
-  if (req.subdomains.length > 0 && req.subdomains[0] == 'conf') {
-    rsConfRouter(req, res, next);
+  if (req.subdomains.length > 0) {
+    switch (req.subdomains[0]) {
+      case 'conf':
+        rsConfRouter(req, res, next);
+        break;
+      case 'school':
+        schoolRouter(req, res, next);
+        break;
+      default:
+        rsRouter(req, res, next);
+    }
   } else {
     next();
   }
@@ -23,6 +33,7 @@ subdomainRouter.use(function (req, res, next) {
 
 rsRouter.use(express.static('./appBin'));
 rsConfRouter.use(express.static('./conferenceBin'));
+schoolRouter.use(express.static('./schoolBin'));
 
 app.use(subdomainRouter);
 app.use(rsRouter);

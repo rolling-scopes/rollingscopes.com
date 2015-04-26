@@ -1,0 +1,54 @@
+.grunt-slide-logo {
+	height: 80px;
+	margin: 0 16px 0 0 !important;
+	position: relative;
+	top: 10px;
+}
+
+.grunt-resource-icon {
+	border:0 !important;
+	margin: 0!important;
+}
+
+.steal-logo {
+	display:inline-block;
+	width: 34px;
+	height: 44px;
+	background-image: -webkit-linear-gradient(top,#DAE133,#BCD74D);
+	color: #717175;
+	text-shadow: white 1px 1px;
+	border-radius: 8px;
+}
+
+.steal-logo-space {
+	width: 2px;
+	display:inline-block;
+}
+
+.steal-logo-wr {
+	display: inline-block;
+	position: relative;
+	top: -12px;
+}
+
+.steal-h2 {
+	display: inline-block;
+}
+
+.abilities-list li {
+	list-style: none;
+	position: relative;
+}
+
+.abilities-list li {
+	padding-left: 120px;
+	height: 105px;
+}
+
+.abilities-list li img {
+	position: absolute;
+	left: 0;
+	height: 90px;
+	vertical-align: middle;
+	margin: 0;
+}

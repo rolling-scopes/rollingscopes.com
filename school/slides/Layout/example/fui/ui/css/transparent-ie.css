@@ -1,0 +1,4 @@
+/* Transparent block */
+
+* html .block h4 i {width:expression(this.parentNode.offsetWidth + "px"); height:expression(this.parentNode.offsetHeight + "px");}
+.block h4 i {filter:alpha(opacity=50);}

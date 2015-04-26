@@ -1,0 +1,43 @@
+¿POR QUÉ? - зачем писать тесты [перед кодом] (агрессивный вопрос) 0.5мин
+¡PORQUE! - причины и мотивация 2мин
+TDD & BDD - 2мин
+TDD assertions - 2мин (один пример с chaijs.com)
+BDD slides - TDD --> BDD, BDD style, full BDD 5мин 
+EXPECT&SHOULD -> 2мин
+FUNCTIONAL 3 мин
+  AUTOMATION & CONTROL -> theLure
+
+TOOLS & EXAMPLES озвучить список 0.5мин
+TECHNIQUES 2мин
+JASMINE 9мин
+MOCHA 3мин
+CHAI 2мин
+CASPERJS 2мин
+ISTANBUL 1 мин
+TESTING + CI = ❤ 2 мин
+IRL, 100% COVERAGE IS A LIE & MUTATION TESTING  2 мин
+
+1. PORQUE! - maybe imagify
+2. TDD & BDD expand
+3. TDD & BDD remove list
+4. Scale Tests First image
+5. Car testing image
+6. Integrate assert examples
+7. Remove BDDs list
+8. Given-When-Then enlarge font and JIRA pic
+9. Cucumber slides
+10. Enlarge code examples' font
+11. Functional de-list
+12. Enlarge automation control
+13. Techniques images
+14. SuitEs 
+15. Spies method args example
+16. Comment out Jasmine clock example
+17. Just mention that Jasmine can (?) into async 
+18. Jasmine reporting
+19. Don't use Chai plugin link
+20. Remove casperjs list
+21. Bad guy into POST-GREEN REFACTORING
+22. Code Coverage Istanbul picture
+23. Github screenshot 
+24. X-men pic

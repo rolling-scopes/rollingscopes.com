@@ -1,0 +1,19 @@
+/* CATALOG */
+
+.catalog {text-align:left;}
+
+.catalog h3 {height:20px; overflow:hidden; margin:0 0 14px; font-size:16px; text-align:center;}
+.catalog h3 a {text-decoration:none; color:#093;}
+.catalog h3 a:hover {text-decoration:underline;}
+
+.catalog ins {position:relative; width:240px; min-height:290px; padding:8px 8px 32px; margin:0 20px 20px 0; display:inline-block; border:1px solid #000; vertical-align:top; text-decoration:none;}
+* html .catalog ins {height:290px;}
+
+.catalog .itemImage {height:140px; margin:0 0 10px; text-align:center;}
+.catalog .itemImage a {display:inline-block; vertical-align:middle;}
+.catalog .itemImage i {width:0; height:100%; display:inline-block; vertical-align:middle;}
+
+.catalog p {line-height:144%;}
+
+.catalog .add {position:absolute; bottom:12px; left:8px;}
+.catalog .add a {color:#33c;}

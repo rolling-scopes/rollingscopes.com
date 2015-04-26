@@ -1,0 +1,24 @@
+// nib - transparent mixins + variables
+@import 'nib';
+
+$light_blue = #3D94F6;
+$dark_blue = #1E62D0;
+
+.header {
+	text-align: center;
+}
+
+.stylish-enjoy-button {
+	background-image: linear-gradient($light_blue 5%, $dark_blue 100%);
+	display: inline-block;
+	padding: 6px 24px;
+	color: #fff;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+
+	&:hover {
+		background-image: linear-gradient($dark_blue 5%, $light_blue 100%);
+	}
+}

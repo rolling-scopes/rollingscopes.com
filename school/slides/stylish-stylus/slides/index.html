@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Stylish Stylus</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<script>
+		document.write('<link rel="stylesheet" href="css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
+	</script>
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<h1>Stylish Stylus</h1>
+				<p>
+					<small>Created by <a href="https://www.facebook.com/AlexKarlovich">Alex Karlovich</a> / <a href="http://twitter.com/alexkarlovich">@alexkarlovich</a></small>
+				</p><br />
+			</section>
+			<section>
+				<blockquote>
+					“I once wrote that there was no need
+						to use a CSS pre-processor like LESS or Sass.<br />
+					I was wrong. Very sorry.”
+				</blockquote>
+				<img class="clear-img float-left profile-photo" src="images/andy-clarke.jpg" class="photo" width="100" height="100" alt="Andy Clarke">
+				<p class="text-left">Andy Clarke</p>
+				<p class="text-left text-small">Freelance creative and Director;<br>
+					owner at Clarke Direction LLC.</p>
+			</section>
+			<section>
+				<h2>Three Whales</h2>
+				<img class="clear-img" src="images/three-whales.jpg" />
+			</section>
+			<section>
+				<ul class="float-left list-with-left-image">
+					<li>
+						<div class="circular circular-min">
+							<img class="clear-img" style="left: 6px; top: 52px" src="images/less-logo.png">
+							<span class="text-with-left-image text-middle">LESS, built upon JavaScript</span>
+						</div>
+					</li>
+					<li class="fragment">
+						<div class="circular circular-min">
+							<img class="clear-img" style="left: 28px; top: 15px" src="images/sass-logo.png">
+							<span class="text-with-left-image text-middle">Sass, needs Ruby in order to work</span>
+						</div>
+					</li>
+					<li class="fragment">
+						<div class="circular circular-min">
+							<img class="clear-img" style="left: 8px; top: -7px" src="images/stylus-logo.png">
+							<span class="text-with-left-image text-middle">Stylus, NodeJS related</span>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Workflow</h2>
+				<img class="clear-img" src="images/complex-workflow.png" />
+			</section>
+			<section>
+				<div class="circular-mid float-left">
+					<img style="left: 28px; top: 10px" src="images/80-20.png">
+				</div>
+				<div class="text-right">
+					<h3>80% of SASS, LESS and Stylus is <span style="color: #ffd800;">the same</span>.</h3>
+					<br />
+					<h3>The 20% that is <span style="color: #c0504e">different</span> is in advanced usage.</h3>
+				</div>
+			</section>
+			<section>
+				<h2>Lets'talk about</h2>
+				<div class="circular-mid">
+					<img style="left: 88px; top: 79px" src="images/stylus-logo.png">
+				</div>
+			</section>
+			<section>
+				<h2>
+					<img class="clear-img" style="height: 100px; position: relative; top: 30px; left: -30px;" src="images/packman.png" />Features</h2>
+				<ul class="list-style-type-packman">
+					<li class="fragment">Variables
+					</li>
+					<li class="fragment">Color Functions
+					</li>
+					<li class="fragment">Mixins
+					</li>
+					<li class="fragment">Nesting
+					</li>
+					<li class="fragment">Inheritance (Not in LESS)
+					</li>
+					<li class="fragment">Math Operations
+					</li>
+					<li class="fragment">Loops &amp; Conditionals (Not in LESS)
+					</li>
+					<li class="fragment">Importing
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h3>Stylus Syntax</h3>
+				<ul class="list-style-type-none">
+					<li>
+						<p class="text-left">Will this code be compiled into CSS?</p>
+						<pre><code class="css">h1 {
+  color: #0982c1;
+}
+h2
+  color red</code></pre>
+					</li>
+					<li class="fragment">
+						<p class="text-left">Absolutely!</p>
+						<pre><code class="css">h1 {
+  color: #0982c1;
+}
+h2 {
+  color: #f00;
+}</code></pre>
+					</li>
+					<li class="fragment">Brackets, colons, and semi-colons are all optional
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h3>Error Reporting</h3>
+				<p class="text-left">Stylus Code</p>
+				<pre><code class="css">.text-entry {
+  .title {
+    color: color: rgba(#ffcc00, 0,5);
+  }
+}</code></pre>
+				<p class="text-left">Error</p>
+				<pre><code class="css">Error: base.styl:3
+   1| .text-entry {
+   2|  .title {
+ > 3|     color: rgba(#ffcc00, 0,5);
+   4|   }
+   5| }
+TypeError: expected "red" to be a unit, but got rgba:#fc0
+    at ".title " (base.styl:2)
+    at ".text-entry " (base.styl:1)</code></pre>
+			</section>
+			<section>
+				<h3>Literal Css</h3>
+				<pre><code class="css">@css {
+  body {
+    background-color: red;
+  }
+}
+
+.text-entry {
+  .title {
+    color: rgba(#ffcc00, 0.5);
+  }
+}</code></pre>
+			</section>
+			<section>
+				<h2>Nib: add-on for Stylus</h2>
+				<p class="text-left">Transparent mixins for CSS properties</p>
+				<pre><code class="css">* {
+  box-sizing: border-box;
+}</code></pre>
+				<p class="text-left">CSS</p>
+				<pre><code class="css">* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}</code></pre>
+			</section>
+			<section>
+				<h2>Nib: add-on for Stylus</h2>
+				<p class="text-left">Extend css with new properties & values</p>
+				<pre><code class="css">.text-entry {
+  fixed: bottom right;
+}</code></pre>
+				<p class="text-left">CSS</p>
+				<pre><code class="css">.text-entry {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}</code></pre>
+			</section>
+			<section>
+				<h2>Nib: add-on for Stylus</h2>
+				<p class="text-left">Gradients</p>
+				<pre><code class="css">body {
+  background: linear-gradient(top, white, black);
+}</code></pre>
+				<p class="text-left">CSS</p>
+				<pre><code class="css">body {
+  background: -webkit-gradient(linear, left top, left bottom,
+               color-stop(0, #fff), color-stop(1, #000));
+  background: -webkit-linear-gradient(top, #fff 0%, #000 100%);
+  background: -moz-linear-gradient(top, #fff 0%, #000 100%);
+  background: linear-gradient(top, #fff 0%, #000 100%);
+}</code></pre>
+			</section>
+			<section>
+				<h2>Nib: add-on for Stylus</h2>
+				<p class="text-left">Gradients for old browsers</p>
+				<pre><code class="css">body {
+  background: linear-gradient-image(50px, yellow, blue);
+}</code></pre>
+				<p class="text-left">CSS</p>
+				<pre><code class="css">body {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA...);
+}</code></pre>
+			</section>
+			<section>
+				<h3>Javascript API</h3>
+				<blockquote>When there’s something you cannot do in Stylus, define it in JavaScript!</blockquote>
+				<img class="clear-img float-left profile-photo" src="images/stylus-logo.png" class="photo" width="100" height="100" alt="Andy Clarke">
+				<p class="text-left">Stylus documentation,</p>
+				<p class="text-left text-small">page "JavaScript API",<br>
+					section ".define(name, fn)"</p>
+			</section>
+			<section>
+				<h2 style="position: absolute; right: 0;">Poll Results</h2>
+				<ul class="float-left list-with-left-image">
+					<li>
+						<div class="circular circular-min">
+							<img class="clear-img" style="left: 33px; top: 20px; height: 135px;" src="images/have-tried.png">
+							<span class="text-with-left-image" style="top: 65px;">
+								<span style="color: #5d99b8">54%</span> Have tried to use CSS preprocessor<br />
+								<span style="color: #b96e38">46%</span> Never tried
+							</span>
+						</div>
+					</li>
+					<li class="fragment">
+						<div class="circular circular-min">
+							<img class="clear-img" style="left: 33px; top: 20px; height: 135px;" src="images/have-pref.png">
+							<span class="text-with-left-image" style="top: 34px;">
+								<span style="color: #5d99b8;">83%</span> Have preference<br />
+								<span style="color: #618346;">13%</span> No preference<br />
+								<span style="color: #ba6f39;">4%&nbsp;&nbsp;&nbsp;</span> Don't like any CSS preprocessor
+							</span>
+						</div>
+					</li>
+					<li class="fragment">
+						<div class="circular circular-min">
+							<img class="clear-img" style="left: 33px; top: 20px; height: 135px;" src="images/comparative-stats.png">
+							<span class="text-with-left-image" style="top: 16px;">
+								<span style="color: #5d99b8;">51%</span> LESS<br />
+								<span style="color: #618345;">41%</span> Sass<br />
+								<span style="color: #ce9c59;">6%&nbsp;&nbsp;&nbsp;</span> Stylus<br />
+								<span style="color: #f86885;">2%&nbsp;&nbsp;&nbsp;</span> Other
+							</span>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<div class="circular-large">
+					<img style="left: 130px; top: 100px;" src="images/questions.jpg">
+				</div>
+			</section>
+		</div>
+
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+
+	<script>
+
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			theme: Reveal.getQueryHash().theme || '', // available themes are in /css/theme
+			transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+			// Parallax scrolling
+			// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+			// parallaxBackgroundSize: '2100px 900px',
+
+			// Optional libraries used to extend on reveal.js
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+				{ src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+			]
+		});
+
+	</script>
+
+</body>
+</html>

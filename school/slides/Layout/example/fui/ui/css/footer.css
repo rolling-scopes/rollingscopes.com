@@ -1,0 +1,11 @@
+/*  BUTTONS */
+
+html,
+body {height:100%;}
+
+.siteBody {position:relative; min-height:100%;}
+* html .siteBody {height:100%;}
+
+.siteFooter {height:60px; margin:-60px 0 0; background:#f00;}
+
+.forFooter {position:relative; height:60px;}

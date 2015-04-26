@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+section font.bold {
+	font-weight: bold;
+}
+
+section font.italic {
+	font-style: italic;
+}
+
+section font.blue {
+	color: #0Cf;
+}
+
+section font.green {
+	color: #0C3;
+}
+
+section font.yellow {
+	color: #FF3;
+}
+
+section font.orange {
+	color: #FC3;
+}
+
+section img {
+    max-height: 75%!important;
+}
+
+section img.nodecorations {
+	border: none;
+	background: none;
+	box-shadow: none;
+}
+
+section img.small {
+	max-height: 45%!important;
+}
+
+section img.medium {
+	max-height: 60%!important;
+}

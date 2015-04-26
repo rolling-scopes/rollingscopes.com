@@ -1,0 +1,8 @@
+/* Transparent block */
+
+.block {position:relative;}
+.block img {display:block;}
+
+.block h4 {position:absolute; top:0; left:0; padding:14px 18px; color:#fff;}
+.block h4 i {position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.5;}
+.block h4 span {position:relative;}

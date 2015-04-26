@@ -1,0 +1,22 @@
+@media (max-width: 800px) {
+  .container{
+    flex-flow: column wrap;
+  }
+  .header {
+    order: 2;
+  }
+  .aside {  
+    order: 5;
+    width: 100%;
+  }
+  .nav {
+    order: 1;
+    width: 100%;
+  }
+  .content {
+    order: 3;
+  }
+  .footer {
+    order: 4;
+  }
+}

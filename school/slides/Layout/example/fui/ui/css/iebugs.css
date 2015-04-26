@@ -1,0 +1,66 @@
+.body {padding:40px 0;}
+h1, h2, h3 {padding-left:30px;}
+.column {width:150px;}
+
+/** Double margin **/
+.doubleMarginWraper {margin:0 0 30px;}
+.doubleMargin {float:left; width:100px; height:100px; margin:0 0 0 40px; background:#f00;}
+.doubleMarginFix {display:inline;}
+
+/** min- and max-widht **/
+.minAndMaxWidth {min-width:770px; max-width:1000px; height:40px; margin:0 auto 30px; background:#f00;}
+* html .minAndMaxWidth {width:expression(document.body.clientWidth > 1000 ? "1000px" : (document.body.clientWidth < 771 ? "770px" : "auto"));}
+
+/** max-height **/
+.maxHeight {width:300px; max-height:270px; margin:0 0 30px 30px; overflow:auto; border:1px solid #000;}
+* html .maxHeight {height:expression(this.scrollHeight > 270 ? "270px" : "auto");}
+
+/** Odd size **/
+/* absolute */
+.oddSizeAbsolute {position:relative; width:301px; height:201px; margin:0 0 30px 30px; border:1px solid #000;}
+.t-r,
+.b-r {position:absolute; width:20px; height:20px; background:#f00;}
+.t-r {top:0; right:0;}
+.b-r {right:0;}
+.oddSizeAbsoluteBug .b-r {bottom:0;}
+
+/* fix 1 */
+* html .oddSizeAbsoluteFix1 .t-r {right:expression(this.parentNode.offsetWidth % 2 ? '-1px' : 0);}
+* html .oddSizeAbsoluteFix1 .b-r {bottom:expression(this.parentNode.offsetHeight % 2 ? '-1px' : 0); right:expression(this.parentNode.offsetWidth % 2 ? '-1px' : 0);}
+
+/* fix 2 */
+.oddSizeAbsoluteFix2 {height:auto;}
+.oddSizeAbsoluteFix2 .oddSizeWraper {position:relative; line-height:121%; font-size:15px;}
+.oddSizeAbsoluteFix2 .t-r {left:-20px; margin-left:100%;}
+.oddSizeAbsoluteFix2 .b-r {left:-20px; margin:-20px 0 0 100%;}
+
+/* float */
+.oddSizeFloat {margin:0 0 30px}
+.oddSizeFloat .left-col {float:left; width:30%; background:#0c0;}
+.oddSizeFloat .right-col {float:right; width:70%; background:#f00;}
+
+/* for ie */
+.oddSizeFloatFix .right-col {margin-left:-1px;}
+
+/** Space between list **/
+.spaceBetweenList {padding:0 30px 30px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:18px;}
+.spaceBetweenList li {width:140px;}
+.spaceBetweenList a {padding:7px; display:block;}
+.spaceBetweenListFix li {vertical-align:bottom;}
+
+/** Double Conten **/
+.doubleConten {width:250px; margin:0 0 30px; border:2px solid #000; line-height:144%;}
+.firstFloat {float:left; width:250px; background:#0c0;}
+.secondFloat {float:left; width:250px; background:#fc9;}
+
+/** png 24 **/
+* html .iepng {filter:expression(fixPNG(this));}
+.testCrop,
+.testScale {padding:10px; margin:0 0 30px; background:url(../pic/png24.png) no-repeat 0 0; zoom:1;}
+.testCrop div,
+.testScale div {position:relative;}
+
+* html .testCrop {filter:expression(fixPNG(this));}
+* html .testScale {filter:expression(fixPNG(this, 1));}
+
+

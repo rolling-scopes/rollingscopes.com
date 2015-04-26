@@ -1,0 +1,33 @@
+body {
+	font-family: sans-serif;
+}
+
+.markdown-body {
+	min-width: 200px;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 30px;
+	background: white;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.tasks {
+	width: 200px;
+	padding: 0;
+}
+
+.tasks li {
+	margin: 5px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.tasks li a {
+	text-decoration: none;
+	color: #4183c4;
+}

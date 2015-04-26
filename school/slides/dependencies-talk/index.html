@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="reveal/css/reveal.min.css">
+	<link rel="stylesheet" href="reveal/css/theme/default.css" id="theme">
+	<link rel="stylesheet" href="talk.css">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section>
+				<h2>
+					Front-end&nbsp;project assets&nbsp;<br>management
+				</h2>
+				<br>
+				<p><em>Inspired by <a href="http://twitter.com/jakobmattsson">Jakob Mattsson @jakobmattsson</a></em></p>
+			</section>
+
+			<section>
+				<h2>SCALE OF MODERN FRONT-END APPS</h2>
+				<div>
+					<br>
+				</div>
+				<p style="text-align: left; ">
+				</p>
+				<ul>
+					<li>Client Web Applications are not as they used to be</li>
+					<li>...they are more complicated</li>
+					<li>...harder to develop, debug and maintain</li>
+					<li>...freaking huge and cumbersome when built</li>
+					<li>...and get out of control easiliy</li>
+				</ul>
+			</section>
+			<section>
+				<img src="images/kitten.jpg">
+				<h3>Web apps - not kitten homepages</h3>
+			</section>
+
+			<section>
+				<p>But ﬁrst some quizzing...</p>
+				<br>
+				<blockquote>
+					"It's a piece of the stack
+					that's been notably missing
+					for years and after using it
+					for a while now, I'm not sure
+					how I lived without it."
+				</blockquote>
+				<br>
+				<p>What is this referring to?</p>
+			</section>
+
+			<section>
+				<div class="tech-wrap">
+					<h3>&gt; apt-get install foobar</h3>
+					<div class="circular"><img class="tech-img" style="left: 70px; top: 40px;" src="images/linux.jpg"></div>
+				</div>
+				<img class="arrow-img clear-img" src="images/arrow0.png">
+				<h3>Discovering UNIX</h3>
+			</section>
+
+			<section>
+				<!-- <div class="tech-wrap">
+					<img class="tech-img" src="images/mac.jpg">
+					<h3>&gt; port install foobar</h3>
+				</div> -->
+				<div class="tech-wrap">
+					<h3>&gt; port install foobar</h3>
+					<div class="circular"><img class="tech-img" style="left: 60px; top: 40px;" src="images/mac.jpg"></div>
+				</div>
+				<img class="arrow-img clear-img" src="images/arrow1.png">
+				<h3>Mac could do it as well</h3>
+			</section>
+
+			<section>
+				<!-- <div class="tech-wrap">
+					<img class="tech-img" src="images/ruby.jpg">
+					<h3>&gt; gem install foobar</h3>
+				</div> -->
+				<div class="tech-wrap">
+					<h3>&gt; gem install foobar</h3>
+					<div class="circular"><img class="tech-img" style="left: 60px; top: 40px;" src="images/ruby.jpg"></div>
+				</div>
+				<img class="arrow-img clear-img" src="images/arrow2.png">
+				<h3>Ruby and its gems</h3>
+			</section>
+
+			<section>
+				<!-- <div class="tech-wrap">
+					<img class="tech-img" src="images/iphone.jpg">
+					<h3>App Store</h3>
+				</div> -->
+				<div class="tech-wrap">
+					<h3>App Store</h3>
+					<div class="circular"><img class="tech-img" style="left: 40px; top: 60px;" src="images/iphone.jpg"></div>
+				</div>
+				<img class="arrow-img clear-img" src="images/arrow3.png">
+				<h3>Along came the iPhone</h3>
+			</section>
+
+			<section>
+				<!-- <div class="tech-wrap">
+					<img class="tech-img" src="images/node.jpg">
+					<h3>&gt; npm install foobar</h3>
+				</div> -->
+				<div class="tech-wrap">
+					<h3>&gt; npm install foobar</h3>
+					<div class="circular"><img class="tech-img" style="left: 20px; top: 80px;" src="images/node.jpg"></div>
+				</div>
+				<img class="arrow-img clear-img" src="images/arrow4.png">
+				<h3>Node package manager</h3>
+			</section>
+
+			<section>
+				<div class="tech-wrap">
+					<blockquote>
+						"It's a piece of the stack
+						that's been notably missing
+						for years and after using it
+						for a while now, I'm not sure
+						how I lived without it."
+					</blockquote>
+					<div class="circular"><img class="tech-img" style="left: 60px; top: 40px;" src="images/question-mark.jpg"></div>
+				</div>
+				<img class="arrow-img clear-img" src="images/arrow5.png">
+				<h3>What was the next?</h3>
+			</section>
+
+			<section>
+				<!-- <div class="tech-wrap">
+					<p>NuGet is a free and open
+source package manager
+for the .NET Framework</p>
+					<img class="tech-img" src="images/nuget.jpg">
+				</div> -->
+				<div class="tech-wrap">
+					<p>NuGet is a free and open
+source package manager
+for the .NET Framework</p>
+					<div class="circular"><img class="tech-img" style="left: 60px; top: 100px;" src="images/nuget.jpg"></div>
+				</div>
+				<img class="arrow-img clear-img" src="images/arrow5.png">
+				<h3>Even Microsoft is catching on!</h3>
+			</section>
+
+			<section>
+				<img class="js-img clear-img" src="images/js.png">
+				<h3>What is the JS approach?</h3>
+			</section>
+
+			<section>
+				<img class="js-img clear-img" src="images/js-way0.png">
+				<h3>1. Find a library you want to use</h3>
+			</section>
+
+			<section>
+				<img class="js-img clear-img" src="images/js-way1.png">
+				<h3>2. Download the source</h3>
+			</section>
+
+			<section>
+				<img class="js-img clear-img" src="images/js-way2.png">
+				<h3>3. Put it alongside your own code</h3>
+			</section>
+
+			<section>
+				<img class="js-img clear-img" src="images/js-way3.png">
+				<h3>4. Let the global pollution begin</h3>
+			</section>
+
+			<section>
+				<!-- <img class="" src="images/mess.jpg"> -->
+				<div class="circular-large">
+					<img style="top: 0px; left: 40px;" src="images/mess.jpg">
+				</div>
+				<h3>Tons of libraries in repositories</h3>
+			</section>
+
+			<section>
+				<img class="" src="images/nightmare.png">
+				<h3>A maintenance nightmare</h3>
+			</section>
+
+			<section>
+				<img class="" src="images/as-seen-by-devs.jpg">
+				<h3>Web devs as seen by system devs</h3>
+			</section>
+
+			<section>
+				<img class="" src="images/lang-trends.jpg">
+				<h3>JavaScript is popular!</h3>
+			</section>
+
+			<section>
+				<img class="" src="images/medieval-ages.jpg">
+				<h3>The medieval ages are over</h3>
+			</section>
+
+			<section>
+				<img class="clear-img" src="images/all.png">
+				<h3>There are solutions</h3>
+			</section>
+
+			<section>
+				<section>
+					<div class="circular-mid float-left">
+						<img style="top: 120px; left: 30px;" src="images/npm.jpg">
+					</div>
+					<div class="text-right">
+						<h2>NPM</h2>
+						<h3>Package manager.</h3>
+						<h3>Installs, publishes and manages node programs.</h3>
+					</div>
+				</section>
+
+				<section>
+					<h4 class="text-left">There are a lot of packages for browser</h4>
+					<br>
+					<h4>> npm install jquery</h4>
+					<h4>> npm install backbone</h4>
+					<br>
+					<br>
+					<h3>NPM is an index</h3>
+				</section>
+
+				<section>
+<pre><code class="javascript">{
+  "name": "backbone",
+  "description": "Give your JS App some Backbone.",
+  "url": "http://backbonejs.org",
+  "keywords": ["util", "server", "browser"],
+  "author": "Jeremy Ashkenas",
+  "dependencies": {
+    "underscore": ">=1.3.1"
+  },
+  "main": "backbone.js",
+  "version": "0.9.2"
+}</code></pre>
+					<br>
+					<br>
+					<h3>Use Package.json</h3>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<div class="circular-mid float-left">
+						<img style="top: 130px; left: 40px;" src="images/jam.jpg">
+					</div>
+					<div class="text-right">
+						<h2>Jam</h2>
+						<h3>A package manager for JavaScript.</h3>
+						<h3>”Unlike other repositories, we put the browser first.”</h3>
+					</div>
+				</section>
+
+				<section>
+					<h4>> jam install jquery</h4>
+					<br>
+					<br>
+					<h3>JAM is an index</h3>
+				</section>
+
+				<section>
+					<h4>> jam publish</h4>
+<pre><code class="javascript">{
+  "name": "myproject",
+  "version": "0.0.1",
+  "description": "An example Node.js project",
+  "dependencies": {
+    "async": "0.1.22" //NPM dependencies
+  },
+  "jam": {
+    "dependencies": {
+      "jquery": "1.7.1", //Jam dependencies
+      "underscore": null
+  }
+}</code></pre>
+					<br>
+					<br>
+					<h3>Use Package.json</h3>
+					</section>
+			</section>
+
+			<section>
+				<section>
+					<div class="circular-mid float-left">
+						<img style="top: 20px; left: 40px;" src="images/bower.jpg">
+					</div>
+					<div class="text-right">
+						<h2>Bower</h2>
+						<h3>A package manager for the web.</h3>
+						<h3>"A generic, unopinionated solution to the problem of front-end package management."</h3>
+					</div>
+				</section>
+
+				<section>
+					<h4>>bower install jquery</h4>
+					<h4>>bower install git://github.com/components/jquery.git</h4>
+					<h4>>bower install http://foo.com/jquery.awesome-plugin.js</h4>
+					<h4>>bower install ./repos/jquery</h4>
+					<br>
+					<br>
+					<h3>Bower is an index</h3>
+				</section>
+
+				<section>
+<pre><code class="javascript">{
+  "name": "my-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "mocha": "1.8.1",
+    "angular-ui": "0.3.1",
+    "select2": "3.2.0",
+    "bootstrap": "2.1.1",
+    "jquery-ui": "1.9.2",
+    "jquery": "1.8.3"
+  }
+}</code></pre>
+					<br>
+					<br>
+					<h3>Use bower.json</h3>
+				</section>
+
+			</section>
+
+			<section>
+				<section>
+					<h3>CommonJS</h3>
+					<h4>CommonJS is a project with the goal of specifying an ecosystem for JavaScript outside the browser</h4>
+				</section>
+
+				<section>
+					<h4 class="text-left">main.js</h4>
+<pre><code class="javascript">var foo = require('./foo.js');
+console.log(foo.square(4));
+var bar = require('./bar.js');
+console.log(bar.version);
+console.log(bar.cube(4));</code></pre>
+					<br>
+					<br>
+					<h3>We can load other files</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">foo.js</h4>
+<pre><code class="javascript">exports.square = function(x) {
+  return x * x;
+};
+console.log('loaded foo');</code></pre>
+					<br>
+					<br>
+					<h3>A module can have side-effects</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">bar.js</h4>
+<pre><code class="javascript">exports.version = '0.1.0';
+exports.cube = function(x) {
+  return x * x * x;
+};
+console.log('loaded bar');</code></pre>
+					<br>
+					<br>
+					<h3>Modules can export multiple values</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">main.js</h4>
+<pre><code class="javascript">var coin = Math.random() > 0.5;
+var name = coin ? 'foo' : 'bar';
+var mod = require('./' + name + '.js');
+console.log(mod.version);</code></pre>
+					<br>
+					<br>
+					<h3>We can load dynamically</h3>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<div class="circular-mid float-left">
+						<img style="top: 40px; left: 80px;" src="images/browserify.jpg">
+					</div>
+					<div class="text-right">
+						<h2>Browserify</h2>
+						<h3>Make node-style require() work in the browser with a server-side build step, as if by magic!</h3>
+					</div>
+				</section>
+
+				<section>
+					<h4 class="text-left">Step 1:</h4>
+					<h4>> browserify main.js -o bundle.js</h4>
+					<h4 class="text-left">Step 2:</h4>
+<pre><code class="html"><script src="bundle.js"></script></script></code></pre>
+					<br>
+					<br>
+					<h3>CommonJS in the browser!</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">main.js</h4>
+<pre><code class="javascript">//use relative requires
+var foo = require('./foo');
+var bar = require('../lib/bar');
+
+//or use modules installed by npm
+var domready = require('domready');
+domready(function() {
+  var elem = document.getElementById('result');
+  elem.textContent = foo(100) + bar('baz');
+});</code></pre>
+					<br>
+					<br>
+					<h3>Write files as if it was node.js</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">main.js</h4>
+<pre><code class="javascript">require.define("/main.js", function(
+    require,
+    module,
+    exports,
+    __dirname,
+    __filename,
+    process) {
+  // code from main.js
+  // ...
+});</code></pre>
+					<br>
+					<br>
+					<h3>Define your own module</h3>
+				</section>
+
+			</section>
+
+			<section>
+				<section>
+					<div class="circular-mid float-left">
+						<img style="top: 30px; left: 50px;" src="images/requirejs.jpg">
+					</div>
+					<div class="text-right">
+						<h2>RequireJS</h2>
+						<h3>A JavaScript module loader.</h3>
+					</div>
+				</section>
+				<section>
+					<h4 class="text-left">main.js</h4>
+<pre><code class="javascript">require(['helper/util'], function(util) {
+  //use util...
+});</code></pre>
+					<br>
+					<br>
+					<h3>Asynchronous Module Definition</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">util.js</h4>
+<pre><code class="javascript">define(['dep1', 'dep2'], function(dep1, dep2) {
+  return {
+    foo: function() {
+      //...
+    },
+    bar: 42
+  };
+});</code></pre>
+					<br>
+					<br>
+					<h3>Define Util</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">util.js</h4>
+<pre><code class="javascript">define(function(require) {
+  var dep1 = require('dep1');
+  var dep2 = require('dep2');
+  return {
+    foo: function() {
+      //...
+    },
+    bar: 42
+  };
+});</code></pre>
+					<br>
+					<br>
+					<h3>The CommonJS style</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">util.js</h4>
+<pre><code class="javascript">define(function(require) {
+  var dice = Math.random() > 0.5;
+  var name = dice ? 'foo' : 'bar';
+  var mod = require('./' + name + '.js'); //doh!!
+  console.log(mod.version);
+  return {};
+});</code></pre>
+					<br>
+					<br>
+					<h3>Non-static dependencies fails</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">Optimization:</h4>
+					<a href="http://requirejs.org/docs/optimization.html">RequireJS Optimizer (r.js)</a>
+					<br>
+					<h4 class="text-left">Build:</h4>
+					<h4>> node ../../r.js -o app.build.js</h4>
+					<br>
+					<br>
+					<h3>Production package</h3>
+				</section>
+
+				<section>
+					<h3>RequireJS</h3>
+					<a href="https://github.com/tastejs/todomvc/tree/gh-pages/dependency-examples/backbone_require">more</a>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<div class="circular-mid float-left">
+						<img style="top: 130px; left: 40px;" src="images/jam.jpg">
+					</div>
+					<div class="text-right">
+						<h2>Jam</h2>
+						<h3>A package manager for JavaScript.</h3>
+						<h3>”Unlike other repositories, we put the browser first.”</h3>
+					</div>
+				</section>
+
+				<section>
+					<h4 class="text-left">Step 1:</h4>
+					<h4>> jam install jquery</h4>
+					<h4 class="text-left">Step 2:</h4>
+<pre><code class="html"><script src="jam/require.js"></script></code></pre>
+					<br>
+					<br>
+					<h3>JAM is an index</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">Step 3:</h4>
+<pre><code class="javascript">require(['jquery'], function($) {
+  $(document.body).text('Hello, world!');
+});</code></pre>
+					<br>
+					<br>
+
+					<h3>Use it with RequireJS</h3>
+				</section>
+
+				<section>
+					<h4 class="text-left">Build:</h4>
+					<h4>> jam compile compiled.min.js</h4>
+					<br>
+					<br>
+					<h4 class="text-left">Keep packages up to date:</h4>
+					<h4>> jam upgrade</h4>
+				</section>
+
+				<section>
+					<h4>> jam publish</h4>
+<pre><code class="javascript">{
+  "name": "myproject",
+  "version": "0.0.1",
+  "description": "An example Node.js project",
+  "dependencies": {
+    "async": "0.1.22" //NPM dependencies
+  },
+  "jam": {
+    "dependencies": {
+      "jquery": "1.7.1", //Jam dependencies
+      "underscore": null
+  }
+}</code></pre>
+					<br>
+					<br>
+					<h3>Use Package.json</h3>
+					</section>
+
+			</section>
+
+			<section>
+				<section>
+					<div class="circular-mid float-left">
+						<img style="top: 80px; left: 50px;" src="images/smartsprites.png">
+					</div>
+					<div class="text-right">
+						<h2>SmartSprites</h2>
+						<h3>”CSS Sprite Generator Done Right.”</h3>
+						<a href="http://csssprites.org/">more</a>
+					</div>
+				</section>
+
+				<section>
+					<div class="circular-large">
+						<img style="top: 100px; left: 40px;" src="images/all-images.jpg">
+					</div>
+				</section>
+				<section>
+					<div class="circular-large">
+						<img style="top: 130px; left: 150px;" src="images/sprite-images.jpg">
+					</div>
+				</section>
+
+				<section>
+					<h3>Sprites that are smart!</h3>
+					<img style="top: 80px; left: 50px;" src="images/how-smartsprites-works.jpg">
+				</section>
+
+				<section>
+					<h3>base.css</h3>
+<pre><code class="css">.error-icon {
+  background-image: url(../images/error-icon.png);
+  background-repeat: no-repeat;
+  ...
+}
+
+.pdf-icon {
+  background-image: url(../images/pdf-icon.png);
+  background-repeat: no-repeat;
+  ...
+}</code></pre>
+				</section>
+
+				<section>
+<pre><code class="css">.error-icon {
+  background-image: url(../images/basesprite.png);
+  background-position: left -48px;
+  background-repeat: no-repeat;
+  ...
+}
+
+.pdf-icon {
+  background-image: url(../images/basesprite.png);
+  background-position: left -65px;
+  background-repeat: no-repeat;
+  ...
+}</code></pre>
+					<h3>Can we do it smart?</h3>
+				</section>
+
+				<section>
+					<h3>Prepare css file</h3>
+<pre><code class="css">/** sprite: basesprite;
+    sprite-image: url('../images/sprites/basesprite.png');
+    sprite-layout: vertical */
+
+.error-icon {
+  background-image: url(../images/error-icon.png); /** sprite-ref: basesprite; */
+  background-repeat: no-repeat;
+  ...
+}
+
+.pdf-icon {
+  background-image: url(../images/pdf-icon.png); /** sprite-ref: basesprite; */
+  background-repeat: no-repeat;
+  ...
+}</code></pre>
+				</section>
+
+				<section>
+					<h3>Run smartsprites</h3>
+					<p class="text-left">&gt; smartsprites --root-dir-path resources/css</p>
+				</section>
+
+				<section>
+					<h3>base-sprite.css</h3>
+<pre><code class="css">.error-icon {
+  background-image: url(../images/basesprite.png);
+  background-position: left -48px;
+  background-repeat: no-repeat;
+  ...
+}
+
+.pdf-icon {
+  background-image: url(../images/basesprite.png);
+  background-position: left -65px;
+  background-repeat: no-repeat;
+  ...
+}</code></pre>
+				</section>
+			</section>
+
+			<section>
+				<div class="circular-large">
+					<img style="top: 150px; left: 20px;" src="images/templates.jpg">
+				</div>
+				<h3>Templating engines are like weed</h3>
+			</section>
+
+			<section>
+				<div class="circular-large">
+					<img style="top: 80px; left: 40px;" src="images/frameworks.jpg">
+				</div>
+				<h3>Frameworks are like weed</h3>
+			</section>
+
+			<section>
+				<h3>JavaScript is <span class="text-green">great</span> because there
+are so many different environments
+and so many different solutions</h3>
+			</section>
+
+			<section>
+				<h3>JavaScript is <span class="text-red">hard</span> because there
+are so many different environments
+and so many different solutions</h3>
+			</section>
+
+			<section>
+				<img class="" src="images/brain.jpg">
+				<h3>Use this</h3>
+			</section>
+
+			<section>
+				<!-- <img class="" src="images/mess.jpg"> -->
+				<div class="circular-large">
+					<img style="top: 0px; left: 40px;" src="images/mess.jpg">
+				</div>
+				<h3>Whatever you do - stop this!</h3>
+			</section>
+
+	</div>
+
+
+	<script src="reveal/lib/js/head.min.js"></script>
+	<script src="reveal/js/reveal.min.js"></script>
+
+	<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme || 'night', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+				{ src: 'reveal/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					// { src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+					]
+				});
+
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+/******************  general  ******************/
+html, body, div, span, h1, h2, h3, h4, p, img, strong, ul, li, form, label, article, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    outline: 0;
+}
+
+body {
+    margin: 0 auto;
+    background: #444;
+    color: #fff;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    line-height: 1.46em;
+    text-align: center;
+}
+
+a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-style: normal;
+    color: #444;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    line-height: 1.2125em
+}
+
+h1 {
+    font-size: 2.125em
+}
+
+h2 {
+    font-size: 1.6875em;
+    color: #444;
+    margin: .5em 0;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-top: 1em;
+    color: #ba002f;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1em;
+    padding: .5em 0 0;
+    margin: 0;
+}
+
+.left {
+    float: left !important
+}
+
+.right {
+    float: right !important
+}
+
+.text-left {
+    text-align: left !important
+}
+
+.text-right {
+    text-align: right !important
+}
+
+.text-center {
+    text-align: center !important
+}
+
+/******************  header  ******************/
+.header-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.header-links {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: .5em;
+}
+
+.header-link-item {
+    display: inline-block;
+    padding: 0 0 0 1em;
+}
+
+.header-link-item a {
+    color: #07c2ff;
+}
+
+.course-title {
+    color: #fff;
+    font-size: 200%;
+    font-weight: normal;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 2rem 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/******************  section  ******************/
+
+section {
+    max-width: 960px;
+    margin: 1em auto;
+    padding: 1em 2rem;
+    text-align: left;
+    box-sizing: border-box;
+    background: #fff;
+    color: #444;
+    border-radius: 10px;
+}
+
+article {
+    padding: 0 0 2em;
+}
+
+/******************  tasks  ******************/
+.tasks {
+    line-height: 1.8em;
+    padding: 0;
+    list-style-position: inside;
+}
+
+/******************  talks  ******************/
+
+.talk-title {
+    position: relative;
+    padding-right: 100px;
+}
+
+.talks {
+    list-style-type: none;
+}
+
+.talk-item {
+    overflow: hidden;
+    padding: .5em 1em;
+    margin: .2em 0;
+    background: #ededed;
+}
+
+.talk-item-link {
+    display: block;
+    margin-right: 140px;
+}
+
+
+.talk-speaker {
+    display: block;
+    float: right;
+    width: 130px;
+    text-align: right;
+    font-size: 80%;
+}
+
+.links {
+    list-style-type: none;
+    font-size: 80%;
+    text-align: right;
+}
+
+.btn-feedback {
+    position: absolute;
+    right: 0;
+    top: .2em;
+    display: inline-block;
+    color: #fff;
+    background: #008cba;
+    font-size: .8rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 0 1rem;
+}
+
+.btn-feedback:hover {
+    background: #007095;
+    text-decoration: none;
+}
+
