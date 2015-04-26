@@ -3,5 +3,6 @@ node_modules
 bower_components
 appBin
 conferenceBin
+schoolBin
 .idea
-bower_components
+.DS_Store
