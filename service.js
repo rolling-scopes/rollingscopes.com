@@ -38,6 +38,7 @@ schoolRouter.use(express.static('./schoolBin'));
 app.use(subdomainRouter);
 app.use(rsRouter);
 app.use(rsConfRouter);
+app.use(schoolRouter);
 
 app.get('/csvdb', function (req, res) {
   fs.readFile(path.join(__dirname, 'registered.txt'), 'utf8', function(_, data) {
