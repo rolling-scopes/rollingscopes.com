@@ -35,7 +35,7 @@
     "name": "Stanislau Zubovich",
     "slides": [{
       "title": "HTML & CSS Basics",
-      "href": "./slides/HTMLCSS?full#1"
+      "href": "https://www.dropbox.com/s/i953d8k80k8bqwo/HTMLCSS.zip?dl=0"
     }]
   }],
   "links": [{
@@ -55,7 +55,7 @@
     "name": "Stanislau Zubovich",
     "slides": [{
       "title": "HTML & CSS",
-      "href": "./slides/HTMLCSS/"
+      "href": "https://www.dropbox.com/s/i953d8k80k8bqwo/HTMLCSS.zip?dl=0"
     }]
   }],
   "links": [{
@@ -75,10 +75,10 @@
     "name": "Stanislau Zubovich",
     "slides": [{
       "title": "Layout",
-      "href": "./slides/Layout/"
+      "href": "https://www.dropbox.com/s/0icv10ps4ll76w2/Layout.zip?dl=0"
     }, {
       "title": "Layout modules. Flex Box",
-      "href": "./slides/Layout modules. Flexbox/"
+      "href": "https://www.dropbox.com/s/7neg6zv52ljesxy/Layout_part2.zip?dl=0"
     }]
   }],
   "links": [{
@@ -95,7 +95,7 @@
     "name": "Stanislau Zubovich",
     "slides": [{
       "title": "RWD",
-      "href": "./slides/RWD/"
+      "href": "https://www.dropbox.com/s/e2plw27yjj2s7qz/RWD.zip?dl=0"
     }]
   }],
   "links": [],
