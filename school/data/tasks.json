@@ -37,4 +37,7 @@
 }, {
   "title": "Gulp Build",
   "md": "gulp-build"
+}, {
+  "title": "Animations",
+  "md": "animations"
 }]
