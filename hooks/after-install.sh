@@ -1,7 +1,8 @@
 #!/bin/sh
-cd ~/webapp
+sudo -i
+cd /webapp
 npm i
-cd ~/webapp/school
-bower i
-cd ~/webapp
+cd /webapp/school
+bower i --allow-root
+cd /webapp
 gulp
