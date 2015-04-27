@@ -1,7 +1,7 @@
 #!/bin/sh
 cd /webapp
 npm i
-cd school
+cd /webapp/school
 bower i
-cd ..
+cd /webapp
 gulp
