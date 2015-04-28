@@ -329,5 +329,48 @@
       "href": "https://docs.google.com/presentation/d/1VBKZ9OzOlJ1jl7Fb-REtP_ijVBS-XZwLrciW2QrO1ig/embed?slide=id.p"
     }]
   }],
-  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=20&entry.1387272617"
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=21&entry.1387272617"
+}, {
+  "title": "How browser works. Paint and Compositing. Network Basics",
+  "speakers": [{
+    "name": "Dzmitry Varabei",
+    "slides": [{
+      "title": "How browser works. Paint and Compositing",
+      "href": "./slides/chrome-paint-and-compositing/ChromeInternalsPaint.pptx"
+    }, {
+      "title": "Network Basics",
+      "href": ""
+    }]
+  }],
+  "links": [{
+    "title": "How Browser Works",
+    "href": "http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=22&entry.1387272617"
+}, {
+  "title": "Network Basics. HTTP. WebSockets Basics + Workshop",
+  "speakers": [{
+    "name": "Aliaksandr Karlovich",
+    "slides": [{
+      "title": "HTTP",
+      "href": "http://karlovich.github.io/shows/2013-HTTP-For-Lab/#/"
+    }, {
+      "title": "Periculum Est In Mora",
+      "href": "http://karlovi.ch/solit2015"
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=23&entry.1387272617"
+}, {
+  "title": "Ajax. Promise Pattern",
+  "speakers": [{
+    "name": "Andrei Yanovich",
+    "slides": [{
+      "title": "Ajax",
+      "href": "./slides/ajax-talk"
+    }, {
+      "title": "Promises",
+      "href": "./slides/jquery-deferred-promise-talk"
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=24&entry.1387272617"
 }]
