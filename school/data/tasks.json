@@ -27,7 +27,7 @@
   "md": "make"
 }, {
   "title": "JS Test",
-  "md": "\"JS-Intro\"-test"
+  "md": "js-intro-test"
 }, {
   "title": "Custom JQuery",
   "md": "custom-jquery"
