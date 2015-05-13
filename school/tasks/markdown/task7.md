@@ -10,12 +10,12 @@
 
 Required API:
 ```javascript
-- iterator.forward(n);  // moves iteration window forward on n items 
+iterator.forward(n);  // moves iteration window forward on n items 
                         // and returns current values (if n isn't passed moves on 1 item).
-- iterator.backward(n); // moves iteration window backward on n items
+iterator.backward(n); // moves iteration window backward on n items
                         // and returns current values (if n isn't passed moves on 1 item).
-- iterator.current();   // returns current values.
-- iterator.jumpTo(i);   // moves iteration window to i'th posiiton (don't return values).
+iterator.current();   // returns current values.
+iterator.jumpTo(i);   // moves iteration window to i'th posiiton (don't return values).
 ```
 
 The whole functionality ~~should~~ must be covered with tests. The best solution to follow TDD.
