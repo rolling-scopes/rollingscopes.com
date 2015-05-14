@@ -4,11 +4,14 @@ var express         = require('express');
 var fs              = require('fs');
 var path            = require('path');
 var compression     = require('compression');
+var nconf           = require('nconf');
 var app             = express();
 var rsRouter        = express.Router();
 var rsConfRouter    = express.Router();
 var schoolRouter    = express.Router();
 var subdomainRouter = express.Router();
+
+nconf.env();
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
@@ -73,4 +76,7 @@ app.post('/subscribe', function (req, res) {
 });
 
 
-app.listen(80);
+var PORT = nconf.get('service:port') || 3000;
+app.listen(PORT, function () {
+  console.log('server is listening on port ' + PORT);
+});

@@ -36,7 +36,8 @@
   "dependencies": {
     "body-parser": "^1.9.0",
     "compression": "^1.4.3",
-    "express": "^4.9.5"
+    "express": "^4.9.5",
+    "nconf": "^0.7.1"
   },
   "version": "0.2.0"
 }
