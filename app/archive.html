@@ -10,7 +10,11 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css styles/main.css -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <link media="all" type="text/css" rel="stylesheet" href="styles/media-queries.css"/>
     <!-- endbuild -->
@@ -36,32 +40,126 @@
             </nav>
         </div>
     </header>
-    <section id="rs14" class="banner">
-        <h1>The Rolling Scopes #14</h1>
-        <h2>16 декабря, 2014<a class="location" href="http://imaguru.co/ru" target="_blank">imaguru.co</a></h2>
+    <section id="rs16" class="banner">
+        <h1>The Rolling Scopes #16</h1>
+        <h2>7 апреля, 2015<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/Agile-Estimations" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=gmwqP0uxxQA" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs15&#x2F;animations-in-front-end" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=WM3BdSLOTVo" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                 </span>
+                <span class="talk-item-title">Isomorphic JavaScript</span>
+                <span class="talk-item-speaker">Андрей Янович</span>
+            </li>
+        </ul>
+    </section>
+    <section class="schedule">
+        <h2>Афиша</h2>
+        <ul class="schedule-full">
+            <li>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;siarhei_melnik.jpg" alt="photo Сергей Мельник"/>
+                <p class="time">19:00</p>
+                <h3>Flux для твоей бабушки</h3>
+                <p class="speaker-name">Сергей Мельник</p>
+                <p>О Flux архитектуре и её вариациях</p>
+            </li>
+            <li>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;aliaksei_petrachenkau.jpg" alt="photo Алексей Петроченков"/>
+                <p class="time">19:30</p>
+                <h3>Как мы готовим React</h3>
+                <p class="speaker-name">Алексей Петроченков</p>
+                <p>Как мы в течении трех месяцев с нуля делали SPA на базе React, Flux, babel, webpack, и тд</p>
+            </li>
+            <li class="break">
+                <p class="time">20:00</p>
+                <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
+            </li>
+            <li>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;victor_grinchik.jpg" alt="photo Виктор Гринчик"/>
+                <p class="time">19:00</p>
+                <h3>Immutable.js: борьба с изменяемым состоянием в JS</h3>
+                <p class="speaker-name">Виктор Гринчик</p>
+                <p>Изменяемое состояние объектов, проблемы и опасности. Неэффективное использование ресурсов встроенными структурами данных на операциях копирования, map, reduce, filter. Решение - использование Immutable.js от Facebook.</p>
+            </li>
+            <li>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;andrei_yanovich.jpg" alt="photo Андрей Янович"/>
+                <p class="time">19:00</p>
+                <h3>Isomorphic JavaScript</h3>
+                <p class="speaker-name">Андрей Янович</p>
+                <p>Isomorphic JavaScript</p>
+            </li>
+        </ul>
+    </section>
+    <section id="rs15" class="banner">
+        <h1>The Rolling Scopes #15</h1>
+        <h2>24 февраля, 2015<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
+    </section>
+    <section>
+        <h2>Материалы</h2>
+        <ul class="talks">
+            <li class="talk-item">
+                <span class="talk-item-links ">
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs15&#x2F;animations-in-front-end" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=WM3BdSLOTVo" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                 </span>
+                <span class="talk-item-title">Анимации в вебе</span>
+                <span class="talk-item-speaker">Кирилл Демура</span>
+            </li>
+        </ul>
+    </section>
+    <section class="schedule">
+        <h2>Афиша</h2>
+        <ul class="schedule-full">
+            <li>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;kiryl_dziamura.jpg" alt="photo Кирилл Демура"/>
+                <p class="time">19:00</p>
+                <h3>Анимации в вебе</h3>
+                <p class="speaker-name">Кирилл Демура</p>
+                <p>Тема анимаций c помощью CSS и JavaScript сейчас поднимается очень часто. Rolling Scopes тоже не смогли обойти её стороной. О потрясающих возможностях данной технологии, тонкостях работы и своих экспериментах с ней расскажет Кирилл Демура.</p>
+            </li>
+            <li class="break">
+                <p class="time">20:00</p>
+                <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
+            </li>
+            <li>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;alexander_gerasimov.jpg" alt="photo Александр Герасимов"/>
+                <p class="time">20:20</p>
+                <h3>CSS Quickdraw</h3>
+                <p class="speaker-name">Александр Герасимов</p>
+                <p>Кто был на #RSConf уже успел познакомиться (а кто-то даже поучаствовал и выиграл хромбук) в CSS квизе. Но далеко не все взяли ноутбуки и были лишь в качестве зрителей. Исправляемся, берем на митап лэптопы и играем вместе с Сашей Герасимовым. Вас ждут: - новые задания; - пофиксанный бекенд; - лицензии от JetBrains в качестве приза первой тройке; - почетное звание фронтендщик &quot;руки-ножницы&quot; победителю. Let&#39;s Roll!</p>
+            </li>
+        </ul>
+    </section>
+    <section id="rs14" class="banner">
+        <h1>The Rolling Scopes #14</h1>
+        <h2>16 декабря, 2014<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
+    </section>
+    <section>
+        <h2>Материалы</h2>
+        <ul class="talks">
+            <li class="talk-item">
+                <span class="talk-item-links ">
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs14&#x2F;Agile-Estimations" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=gmwqP0uxxQA" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
                  </span>
                 <span class="talk-item-title">Learn the rules of Agile estimates to break them properly</span>
                 <span class="talk-item-speaker">Анна Паничева</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="https://rawgit.com/onv/presentations/master/ChromeExtensions/index.html" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=2HuKwwhpsgE" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs14&#x2F;ChromeExtensions" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=2HuKwwhpsgE" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
                  </span>
                 <span class="talk-item-title">Enhance your browser: Chrome Extensions</span>
                 <span class="talk-item-speaker">Николай Овсянников</span>
             </li>
                 <li class="talk-item">
                     <span>Дополнительно об особенностях работы V8 можно прочитать тут:</span>
-                    <a href="https://github.com/petkaantonov/bluebird/wiki/Optimization-killers" target="_blank">Optimization-killers</a>
+                    <a href="https:&#x2F;&#x2F;github.com&#x2F;petkaantonov&#x2F;bluebird&#x2F;wiki&#x2F;Optimization-killers" target="_blank">Optimization-killers</a>
                 </li>
         </ul>
     </section>
@@ -69,7 +167,7 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/anna_panicheva.jpg" alt="photo Анна Паничева"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;anna_panicheva.jpg" alt="photo Анна Паничева"/>
                 <p class="time">19:00</p>
                 <h3>Learn the rules of Agile estimates to break them properly</h3>
                 <p class="speaker-name">Анна Паничева</p>
@@ -80,7 +178,7 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/mikalai_ausiannikau.jpg" alt="photo Николай Овсянников"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;mikalai_ausiannikau.jpg" alt="photo Николай Овсянников"/>
                 <p class="time">20:30</p>
                 <h3>Enhance your browser: Chrome Extensions</h3>
                 <p class="speaker-name">Николай Овсянников</p>
@@ -90,31 +188,38 @@
     </section>
     <section id="rs13" class="banner">
         <h1>The Rolling Scopes #13</h1>
-        <h2>27 ноября, 2014<a class="location" href="http://imaguru.co/ru" target="_blank">imaguru.co</a></h2>
+        <h2>27 ноября, 2014<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="https://github.com/rolling-scopes/rs13-dotJS-overview" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=pvFz9ob-mik" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs13&#x2F;dotJS-overview" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=pvFz9ob-mik" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
                  </span>
-                <span class="talk-item-title">Увидеть Париж и угореть! (Обзор dotJS и dotCSS)</span>
-                <span class="talk-item-speaker">Воробей Дмитрий и Юрий Татенко</span>
+                <span class="talk-item-title">Увидеть Париж и угореть! (Обзор dotJS)</span>
+                <span class="talk-item-speaker">Дмитрий Воробей</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="https://speakerdeck.com/anguscroll/the-book-nerds-guide-to-javascript" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=pvFz9ob-mik&t=31m22s" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs13&#x2F;dotJS-overview&#x2F;yt&#x2F;dotCSS.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
-                <span class="talk-item-title">Перевод доклада от Angus Croll - The Book Nerd's Guide to JavaScript</span>
+                <span class="talk-item-title">Увидеть Париж и угореть! (Обзор dotCSS)</span>
+                <span class="talk-item-speaker">Юрий Татенко</span>
+            </li>
+            <li class="talk-item">
+                <span class="talk-item-links ">
+                    <a href="https:&#x2F;&#x2F;speakerdeck.com&#x2F;anguscroll&#x2F;the-book-nerds-guide-to-javascript" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=pvFz9ob-mik&amp;t=31m22s" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                 </span>
+                <span class="talk-item-title">Перевод доклада от Angus Croll - The Book Nerd&#39;s Guide to JavaScript</span>
                 <span class="talk-item-speaker">Александр Герасимов</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://www.slideshare.net/kirbarn/test-driven-development-more-development-than-ever" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=pvFz9ob-mik&t=1h48m15s" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;www.slideshare.net&#x2F;kirbarn&#x2F;test-driven-development-more-development-than-ever" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=pvFz9ob-mik&amp;t=1h48m15s" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
                  </span>
                 <span class="talk-item-title">Test Driven Development: More Development Than Ever</span>
                 <span class="talk-item-speaker">Кирилл Бараношник</span>
@@ -125,7 +230,7 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/dot_logo.jpg" alt="photo Дмитрий Воробей, Александр Герасимов, Юрий Татенко"/>
+                <img class="speaker-photo" src="images&#x2F;dot_logo.jpg" alt="photo Дмитрий Воробей, Александр Герасимов, Юрий Татенко"/>
                 <p class="time">19:00</p>
                 <h3>Увидеть Париж и угореть!</h3>
                 <p class="speaker-name">Дмитрий Воробей, Александр Герасимов, Юрий Татенко</p>
@@ -136,7 +241,7 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/kiryl_baranosnik.jpg" alt="photo Кирилл Бараношник"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;kiryl_baranosnik.jpg" alt="photo Кирилл Бараношник"/>
                 <p class="time">20:30</p>
                 <h3>Test Driven Development: More Development Than Ever</h3>
                 <p class="speaker-name">Кирилл Бараношник</p>
@@ -146,39 +251,39 @@
     </section>
     <section id="rs12" class="banner">
         <h1>The Rolling Scopes #12</h1>
-        <h2>16 октября, 2014<a class="location" href="http://imaguru.co/ru" target="_blank">imaguru.co</a></h2>
+        <h2>16 октября, 2014<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://u-abramchuk.github.io/presentations/y-rolling-scopes-2014" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=hZiMuwrYBEw" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;u-abramchuk.github.io&#x2F;presentations&#x2F;y-rolling-scopes-2014" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=hZiMuwrYBEw" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
                  </span>
                 <span class="talk-item-title">Why Y?</span>
                 <span class="talk-item-speaker">Владимир Абрамчук</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://slides.com/andrewyemialyanchik/how-to-not-program-on-angularjs" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=IDvb3QI98Uc" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;slides.com&#x2F;andrewyemialyanchik&#x2F;how-to-not-program-on-angularjs" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IDvb3QI98Uc" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
                  </span>
                 <span class="talk-item-title">How to not program on AngularJS </span>
                 <span class="talk-item-speaker">Андрей Емельянчик</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/Angular_Js.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=efM-0sxCUxs" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs12&#x2F;Angular_Js.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=efM-0sxCUxs" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
                  </span>
                 <span class="talk-item-title">AngularJS and how you shouldn’t use it? </span>
                 <span class="talk-item-speaker">Константин Яцкевич</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/WebKit%20JavaScript%20Engine%20optimizations.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
-                    <a href="https://www.youtube.com/watch?v=xALTXSE8GQA" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs12&#x2F;WebKit-JavaScript-Engine-optimizations.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=xALTXSE8GQA" target="_blank"><i class="fa fa-youtube-play"></i> Video</a>
                  </span>
                 <span class="talk-item-title">WebKit JavaScript Engine optimizations</span>
                 <span class="talk-item-speaker">Кирилл Кныш</span>
@@ -189,14 +294,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/uladzimir_abramchuk.jpg" alt="photo Владимир Абрамчук"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;uladzimir_abramchuk.jpg" alt="photo Владимир Абрамчук"/>
                 <p class="time">19:00</p>
                 <h3>Why Y?</h3>
                 <p class="speaker-name">Владимир Абрамчук</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/andrei_yemialyanchik.jpg" alt="photo Андрей Емельянчик"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;andrei_yemialyanchik.jpg" alt="photo Андрей Емельянчик"/>
                 <p class="time">19:45</p>
                 <h3>How to not program on AngularJS</h3>
                 <p class="speaker-name">Андрей Емельянчик</p>
@@ -207,14 +312,14 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/kanstantsin_yatskevich.jpg" alt="photo Константин Яцкевич"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;kanstantsin_yatskevich.jpg" alt="photo Константин Яцкевич"/>
                 <p class="time">20:40</p>
                 <h3>AngularJS and how you shouldn’t use it</h3>
                 <p class="speaker-name">Константин Яцкевич</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/kiril_knysh.jpg" alt="photo Кирилл Кныш"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;kiril_knysh.jpg" alt="photo Кирилл Кныш"/>
                 <p class="time">21:10</p>
                 <h3>WebKit JavaScript Core optimizations layers</h3>
                 <p class="speaker-name">Кирилл Кныш</p>
@@ -224,7 +329,7 @@
     </section>
     <section id="rs11" class="banner">
         <h1>The Rolling Scopes #11</h1>
-        <h2>7 августа, 2014<a class="location" href="http://imaguru.co/ru" target="_blank">imaguru.co</a></h2>
+        <h2>7 августа, 2014<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
@@ -235,14 +340,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/artsiom_aliakseyenka.jpg" alt="photo Артём Алексеенко"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;artsiom_aliakseyenka.jpg" alt="photo Артём Алексеенко"/>
                 <p class="time">19:00</p>
                 <h3>Memory Profiling</h3>
                 <p class="speaker-name">Артём Алексеенко</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/viktor_khomyakov.jpg" alt="photo Виктор Хомяков"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;viktor_khomyakov.jpg" alt="photo Виктор Хомяков"/>
                 <p class="time">19:45</p>
                 <h3>Интеграция ReactJS в проект на RequireJS</h3>
                 <p class="speaker-name">Виктор Хомяков</p>
@@ -253,7 +358,7 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/alexander_gerasimov.jpg" alt="photo Александр Герасимов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;alexander_gerasimov.jpg" alt="photo Александр Герасимов"/>
                 <p class="time">20:40</p>
                 <h3>CSS Warm-Up </h3>
                 <p class="speaker-name">Александр Герасимов</p>
@@ -263,14 +368,14 @@
     </section>
     <section id="rsw3" class="banner">
         <h1>RS Workshop #3</h1>
-        <h2>29 июля, 2014<a class="location" href="http://imaguru.co/ru" target="_blank">imaguru.co</a></h2>
+        <h2>29 июля, 2014<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rsw-3-d3/d3-demo.zip" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rsw-3-d3&#x2F;d3-demo.zip" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Обработка и визуализация данных: демо</span>
                 <span class="talk-item-speaker">Кирилл Верховин</span>
@@ -281,7 +386,7 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/kiryl_verkhovin.jpg" alt="photo Кирилл Верховин"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;kiryl_verkhovin.jpg" alt="photo Кирилл Верховин"/>
                 <p class="time">19:00</p>
                 <h3>Обработка и визуализация данных с помощью библиотеки D3.js на примере создания интерактивной карты Беларуси.</h3>
                 <p class="speaker-name">Кирилл Верховин</p>
@@ -291,7 +396,7 @@
     </section>
     <section id="rs10" class="banner">
         <h1>The Rolling Scopes #10</h1>
-        <h2>28 мая, 2014<a class="location" href="http://ibb.by/educational-center" target="_blank">IBB</a></h2>
+        <h2>28 мая, 2014<a class="location" href="http:&#x2F;&#x2F;ibb.by&#x2F;educational-center" target="_blank">IBB</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
@@ -302,14 +407,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/siarhei_melnik.jpg" alt="photo Сергей Мельник"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;siarhei_melnik.jpg" alt="photo Сергей Мельник"/>
                 <p class="time">19:00</p>
                 <h3>News Digest</h3>
                 <p class="speaker-name">Сергей Мельник</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/konstantin_krivlenia.jpg" alt="photo Константин Кривленя"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;konstantin_krivlenia.jpg" alt="photo Константин Кривленя"/>
                 <p class="time">19:35</p>
                 <h3>DOM Sweet DOOM</h3>
                 <p class="speaker-name">Константин Кривленя</p>
@@ -320,14 +425,14 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/dzianis_sheka.jpg" alt="photo Денис Шеко"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;dzianis_sheka.jpg" alt="photo Денис Шеко"/>
                 <p class="time">20:50</p>
                 <h3>Назад в будущее или мобильная разработка сегодня</h3>
                 <p class="speaker-name">Денис Шеко</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/nickolay_lavrynovich.jpg" alt="photo Николай Лавринович"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;nickolay_lavrynovich.jpg" alt="photo Николай Лавринович"/>
                 <p class="time">21:15</p>
                 <h3>Paper.js</h3>
                 <p class="speaker-name">Николай Лавринович</p>
@@ -336,8 +441,8 @@
         </ul>
     </section>
     <section id="rsqa2" class="banner">
-        <h1>RS Q&A #2 с Олегом Засыпкиным</h1>
-        <h2>29 апреля, 2014<a class="location" href="http://imaguru.co/ru" target="_blank">imaguru.co</a></h2>
+        <h1>RS Q&amp;A #2 с Олегом Засыпкиным</h1>
+        <h2>29 апреля, 2014<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
@@ -348,24 +453,24 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/aleh_zasypkin.jpg" alt="photo Олег Засыпкин"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;aleh_zasypkin.jpg" alt="photo Олег Засыпкин"/>
                 <p class="time">19:00</p>
                 <h3>How Mozilla Works</h3>
                 <p class="speaker-name">Олег Засыпкин</p>
-                <p>В гостях у #TheRollingScopes будет Олег Засыпкин (Aleh Zasypkin) - Front-end Engineer, Mozilla, с темой доклада "How Mozilla Works". Немного о докладчике: работает в Mozilla относительно недавно, но уже успел поработать с такими проектами как "Firefox for Windows 8 Touch" и "SMS app for Fifefox OS"; за плечами у Олега большой опыт работы в IT, и даже компании Google не удалось удержать его в силиконовой долине. На митапе будет немного промо-продукции от Mozilla и конечно же девайсы на Firefox OS. - Как стать контрибьютором Mozilla? - Почему прекратили разработку Firefox под Window8 touch, что будет с кодом и проектом дальше? - Как там Брендан Эйк? :) Эти и многие другие вопросы вы можете задать на митапе, через twitter #rollingscopes, здесь в фейсбук, и на подготовленной Олегом онлайн-форме. А лучше приходите и пообщайтесь офлайн. До встречи!</p>
+                <p>В гостях у #TheRollingScopes будет Олег Засыпкин (Aleh Zasypkin) - Front-end Engineer, Mozilla, с темой доклада &quot;How Mozilla Works&quot;. Немного о докладчике: работает в Mozilla относительно недавно, но уже успел поработать с такими проектами как &quot;Firefox for Windows 8 Touch&quot; и &quot;SMS app for Fifefox OS&quot;; за плечами у Олега большой опыт работы в IT, и даже компании Google не удалось удержать его в силиконовой долине. На митапе будет немного промо-продукции от Mozilla и конечно же девайсы на Firefox OS. - Как стать контрибьютором Mozilla? - Почему прекратили разработку Firefox под Window8 touch, что будет с кодом и проектом дальше? - Как там Брендан Эйк? :) Эти и многие другие вопросы вы можете задать на митапе, через twitter #rollingscopes, здесь в фейсбук, и на подготовленной Олегом онлайн-форме. А лучше приходите и пообщайтесь офлайн. До встречи!</p>
             </li>
         </ul>
     </section>
     <section id="rs9" class="banner">
         <h1>The Rolling Scopes #9</h1>
-        <h2>27 марта, 2014<a class="location" href="http://imaguru.co/ru" target="_blank">imaguru.co</a></h2>
+        <h2>27 марта, 2014<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs9/JavaScript-Linters/slides.html" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs9&#x2F;JavaScript-Linters&#x2F;slides.html" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">JavaScript Linters</span>
                 <span class="talk-item-speaker">Алексей Шиткин</span>
@@ -376,14 +481,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/dmitry_dudin.jpg" alt="photo Дмитрий Дудин"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;dmitry_dudin.jpg" alt="photo Дмитрий Дудин"/>
                 <p class="time">19:00</p>
                 <h3>Экзотические и полезные web API</h3>
                 <p class="speaker-name">Дмитрий Дудин</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/uladzimir_abramchuk.jpg" alt="photo Владимир Абрамчук"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;uladzimir_abramchuk.jpg" alt="photo Владимир Абрамчук"/>
                 <p class="time">19:40</p>
                 <h3>Лямбда-исчисление</h3>
                 <p class="speaker-name">Владимир Абрамчук</p>
@@ -394,14 +499,14 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/egor_miasnikov.jpg" alt="photo Егор Мясников и Михаил Ларченко"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;egor_miasnikov.jpg" alt="photo Егор Мясников и Михаил Ларченко"/>
                 <p class="time">20:50</p>
                 <h3>Google Glass</h3>
                 <p class="speaker-name">Егор Мясников и Михаил Ларченко</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/aliaksei_shitkin.jpg" alt="photo Алексей Шиткин"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;aliaksei_shitkin.jpg" alt="photo Алексей Шиткин"/>
                 <p class="time">21:30</p>
                 <h3>JavaScript Linters</h3>
                 <p class="speaker-name">Алексей Шиткин</p>
@@ -411,23 +516,23 @@
     </section>
     <section id="rs8" class="banner">
         <h1>The Rolling Scopes #8</h1>
-        <h2>27 февраля, 2014<a class="location" href="http://ibb.by/educational-center" target="_blank">IBB</a></h2>
+        <h2>27 февраля, 2014<a class="location" href="http:&#x2F;&#x2F;ibb.by&#x2F;educational-center" target="_blank">IBB</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs8/stylish-stylus/slides" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs8&#x2F;stylish-stylus&#x2F;slides" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Stylish Stylus</span>
                 <span class="talk-item-speaker">Александр Карлович</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs8/londonjs-talk" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs8&#x2F;londonjs-talk" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
-                <span class="talk-item-title">Keep Calm & Attend Events: LondonJs</span>
+                <span class="talk-item-title">Keep Calm &amp; Attend Events: LondonJs</span>
                 <span class="talk-item-speaker">Александр Герасимов</span>
             </li>
         </ul>
@@ -436,16 +541,16 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/alex_karlovich.jpg" alt="photo Александр Карлович"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;alex_karlovich.jpg" alt="photo Александр Карлович"/>
                 <p class="time">19:00</p>
                 <h3>Slylish Stylus</h3>
                 <p class="speaker-name">Александр Карлович</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/alexander_gerasimov.jpg" alt="photo Александр Герасимов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;alexander_gerasimov.jpg" alt="photo Александр Герасимов"/>
                 <p class="time">19:40</p>
-                <h3>Keep Calm & Attend Events: LondonJs</h3>
+                <h3>Keep Calm &amp; Attend Events: LondonJs</h3>
                 <p class="speaker-name">Александр Герасимов</p>
                 <p></p>
             </li>
@@ -454,7 +559,7 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/maksim_chemerisuk.jpg" alt="photo Максим Чемерисюк"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;maksim_chemerisuk.jpg" alt="photo Максим Чемерисюк"/>
                 <p class="time">20:40</p>
                 <h3>Some fresh ideas from better-dom</h3>
                 <p class="speaker-name">Максим Чемерисюк</p>
@@ -464,14 +569,14 @@
     </section>
     <section id="rs7" class="banner">
         <h1>The Rolling Scopes #7</h1>
-        <h2>12 декабря, 2013<a class="location" href="facebook.com/groups/me100" target="_blank">МЕ100 (Независимости, 58)</a></h2>
+        <h2>12 декабря, 2013<a class="location" href="facebook.com&#x2F;groups&#x2F;me100" target="_blank">МЕ100 (Независимости, 58)</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs7/RetroSpective" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs7&#x2F;RetroSpective" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">RetroSpective</span>
                 <span class="talk-item-speaker">Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович</span>
@@ -482,14 +587,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/kirill_kukhovets.jpg" alt="photo Кирилл Куховец"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;kirill_kukhovets.jpg" alt="photo Кирилл Куховец"/>
                 <p class="time">19:00</p>
                 <h3>Data processing with ql.io</h3>
                 <p class="speaker-name">Кирилл Куховец</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/serge_barysiuk.jpg" alt="photo Сергей Борисюк"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;serge_barysiuk.jpg" alt="photo Сергей Борисюк"/>
                 <p class="time">19:45</p>
                 <h3>JavaScript Virtual Machines</h3>
                 <p class="speaker-name">Сергей Борисюк</p>
@@ -500,14 +605,14 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/andrei_palchys.jpg" alt="photo Андрей Пальчис"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;andrei_palchys.jpg" alt="photo Андрей Пальчис"/>
                 <p class="time">20:40</p>
                 <h3>WebKit Project Overview</h3>
                 <p class="speaker-name">Андрей Пальчис</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/alexander_gerasimov.jpg" alt="photo Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;alexander_gerasimov.jpg" alt="photo Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович"/>
                 <p class="time">21:20</p>
                 <h3>RetroSpective</h3>
                 <p class="speaker-name">Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович</p>
@@ -516,8 +621,8 @@
         </ul>
     </section>
     <section id="rsqa1" class="banner">
-        <h1>RS Q&A #1 c Виталием Фридманом</h1>
-        <h2>29 ноября, 2013<a class="location" href="http://imaguru.co/ru" target="_blank">imaguru.co</a></h2>
+        <h1>RS Q&amp;A #1 c Виталием Фридманом</h1>
+        <h2>29 ноября, 2013<a class="location" href="http:&#x2F;&#x2F;imaguru.co&#x2F;ru" target="_blank">imaguru.co</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
@@ -528,7 +633,7 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/vitaly_friedman.jpg" alt="photo Виталий Фридман"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;vitaly_friedman.jpg" alt="photo Виталий Фридман"/>
                 <p class="time">19:00</p>
                 <h3>Responsive Web Design</h3>
                 <p class="speaker-name">Виталий Фридман</p>
@@ -538,14 +643,14 @@
     </section>
     <section id="rs6" class="banner">
         <h1>The Rolling Scopes #6</h1>
-        <h2>30 октября, 2013<a class="location" href="http://ibb.by/educational-center" target="_blank">IBB</a></h2>
+        <h2>30 октября, 2013<a class="location" href="http:&#x2F;&#x2F;ibb.by&#x2F;educational-center" target="_blank">IBB</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs6/quiz-2" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs6&#x2F;quiz-2" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">RnJvbnQtZW5kIFF1aXo=</span>
                 <span class="talk-item-speaker">Александр Герасимов</span>
@@ -556,14 +661,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/yauhen_ivashkevich.jpg" alt="photo Евгений Ивашкевич"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;yauhen_ivashkevich.jpg" alt="photo Евгений Ивашкевич"/>
                 <p class="time">19:00</p>
                 <h3>NodeJS production on Windows Azure</h3>
                 <p class="speaker-name">Евгений Ивашкевич</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/serge_barysiuk.jpg" alt="photo Сергей Борисюк"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;serge_barysiuk.jpg" alt="photo Сергей Борисюк"/>
                 <p class="time">19:40</p>
                 <h3>История одного стартапа: Angular.js и как мы его готовим</h3>
                 <p class="speaker-name">Сергей Борисюк</p>
@@ -574,14 +679,14 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/alexander_gerasimov.jpg" alt="photo Александр Герасимов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;alexander_gerasimov.jpg" alt="photo Александр Герасимов"/>
                 <p class="time">20:40</p>
                 <h3>RnJvbnQtZW5kIFF1aXo=</h3>
                 <p class="speaker-name">Александр Герасимов</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/siarhei_mikhailau.jpg" alt="photo Сергей Михайлов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;siarhei_mikhailau.jpg" alt="photo Сергей Михайлов"/>
                 <p class="time">21:20</p>
                 <h3>Hello, Data Binding</h3>
                 <p class="speaker-name">Сергей Михайлов</p>
@@ -591,21 +696,21 @@
     </section>
     <section id="rs5" class="banner">
         <h1>The Rolling Scopes #5</h1>
-        <h2>2 октября, 2013<a class="location" href="http://ibb.by/educational-center" target="_blank">IBB</a></h2>
+        <h2>2 октября, 2013<a class="location" href="http:&#x2F;&#x2F;ibb.by&#x2F;educational-center" target="_blank">IBB</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs5/interview-talk" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs5&#x2F;interview-talk" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Going To Interview: Best Practices</span>
                 <span class="talk-item-speaker">Андрей Глухманчук</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs5/Welcome-to-node.js" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs5&#x2F;Welcome-to-node.js" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Welcome to Node.js</span>
                 <span class="talk-item-speaker">Кирилл Куховец</span>
@@ -616,14 +721,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/viktor_khomyakov.jpg" alt="photo Виктор Хомяков"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;viktor_khomyakov.jpg" alt="photo Виктор Хомяков"/>
                 <p class="time">19:00</p>
                 <h3>Seamless and partial page reload</h3>
                 <p class="speaker-name">Виктор Хомяков</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/andre_gloukhmantchouk.jpg" alt="photo Андрей Глухманчук"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;andre_gloukhmantchouk.jpg" alt="photo Андрей Глухманчук"/>
                 <p class="time">19:40</p>
                 <h3>Going To Interview: Best Practices</h3>
                 <p class="speaker-name">Андрей Глухманчук</p>
@@ -634,14 +739,14 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/kiryl_baranosnik.jpg" alt="photo Кирилл Бараношник"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;kiryl_baranosnik.jpg" alt="photo Кирилл Бараношник"/>
                 <p class="time">20:40</p>
-                <h3>Taming AngularJS: A Directive's Lifecycle</h3>
+                <h3>Taming AngularJS: A Directive&#39;s Lifecycle</h3>
                 <p class="speaker-name">Кирилл Бараношник</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/kirill_kukhovets.jpg" alt="photo Кирилл Куховец"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;kirill_kukhovets.jpg" alt="photo Кирилл Куховец"/>
                 <p class="time">21:20</p>
                 <h3>Welcome to Node.js</h3>
                 <p class="speaker-name">Кирилл Куховец</p>
@@ -651,7 +756,7 @@
     </section>
     <section id="rsw2" class="banner">
         <h1>RS Workshop #2</h1>
-        <h2>17 сентября, 2013<a class="location" href="http://ibb.by/educational-center" target="_blank">IBB</a></h2>
+        <h2>17 сентября, 2013<a class="location" href="http:&#x2F;&#x2F;ibb.by&#x2F;educational-center" target="_blank">IBB</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
@@ -662,7 +767,7 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/pavel_nasovich.jpg" alt="photo Павел Насович"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;pavel_nasovich.jpg" alt="photo Павел Насович"/>
                 <p class="time">19:00</p>
                 <h3>WebSocket Challenge</h3>
                 <p class="speaker-name">Павел Насович</p>
@@ -672,35 +777,35 @@
     </section>
     <section id="rs4" class="banner">
         <h1>The Rolling Scopes #4</h1>
-        <h2>29 августа, 2013<a class="location" href="http://ibb.by/educational-center" target="_blank">IBB</a></h2>
+        <h2>29 августа, 2013<a class="location" href="http:&#x2F;&#x2F;ibb.by&#x2F;educational-center" target="_blank">IBB</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs4/Flexbox" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs4&#x2F;Flexbox" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Knock-knock Flexbox</span>
                 <span class="talk-item-speaker">Станислав Зубович</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs4/jstesting-talk" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs4&#x2F;jstesting-talk" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Testing JavaScript Applications</span>
                 <span class="talk-item-speaker">Дмитрий Герасимов, Александр Герасимов</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs4/javascript_must_die" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs4&#x2F;javascript_must_die" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">JavaScript Must Die!</span>
                 <span class="talk-item-speaker">Константин Кривленя</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs4/Popups-breaking-the-habits" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs4&#x2F;Popups-breaking-the-habits" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Popups - breaking the habits</span>
                 <span class="talk-item-speaker">Сергей Михайлов</span>
@@ -711,14 +816,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/stanislau_zubovich.jpg" alt="photo Станислав Зубович"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;stanislau_zubovich.jpg" alt="photo Станислав Зубович"/>
                 <p class="time">19:00</p>
                 <h3>Knock-knock Flexbox</h3>
                 <p class="speaker-name">Станислав Зубович</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/dzmitry_gerasimov.jpg" alt="photo Дмитрий Герасимов, Александр Герасимов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;dzmitry_gerasimov.jpg" alt="photo Дмитрий Герасимов, Александр Герасимов"/>
                 <p class="time">19:25</p>
                 <h3>Testing JavaScript Applications</h3>
                 <p class="speaker-name">Дмитрий Герасимов, Александр Герасимов</p>
@@ -729,21 +834,21 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/konstantin_krivlenia.jpg" alt="photo Константин Кривленя"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;konstantin_krivlenia.jpg" alt="photo Константин Кривленя"/>
                 <p class="time">20:30</p>
                 <h3>JavaScript Must Die!</h3>
                 <p class="speaker-name">Константин Кривленя</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/evgeny_zarya.jpg" alt="photo Евгений Заря"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;evgeny_zarya.jpg" alt="photo Евгений Заря"/>
                 <p class="time">21:00</p>
                 <h3>JavaScript: Non-classical inheritance</h3>
                 <p class="speaker-name">Евгений Заря</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/siarhei_mikhailau.jpg" alt="photo Сергей Михайлов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;siarhei_mikhailau.jpg" alt="photo Сергей Михайлов"/>
                 <p class="time">21:30</p>
                 <h3>Popups - breaking the habits</h3>
                 <p class="speaker-name">Сергей Михайлов</p>
@@ -753,7 +858,7 @@
     </section>
     <section id="rsw1" class="banner">
         <h1>RS Workshop #1</h1>
-        <h2>20 августа, 2013<a class="location" href="http://ibb.by/educational-center" target="_blank">IBB</a></h2>
+        <h2>20 августа, 2013<a class="location" href="http:&#x2F;&#x2F;ibb.by&#x2F;educational-center" target="_blank">IBB</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
@@ -764,7 +869,7 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/dzmitry_gerasimov.jpg" alt="photo Александр Герасимов, Дмитрий Герасимов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;dzmitry_gerasimov.jpg" alt="photo Александр Герасимов, Дмитрий Герасимов"/>
                 <p class="time">19:00</p>
                 <h3>Тестирование JavaScript приложений</h3>
                 <p class="speaker-name">Александр Герасимов, Дмитрий Герасимов</p>
@@ -774,14 +879,14 @@
     </section>
     <section id="rs3" class="banner">
         <h1>The Rolling Scopes #3</h1>
-        <h2>25 июля, 2013<a class="location" href="facebook.com/groups/me100" target="_blank">МЕ100 (Независимости, 58)</a></h2>
+        <h2>25 июля, 2013<a class="location" href="facebook.com&#x2F;groups&#x2F;me100" target="_blank">МЕ100 (Независимости, 58)</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs3/chrome-rdp-api/chrome-remote-debugging-protocol.html" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs3&#x2F;chrome-rdp-api&#x2F;chrome-remote-debugging-protocol.html" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Chrome remote debugging protocol</span>
                 <span class="talk-item-speaker">Владимир Петрико</span>
@@ -792,14 +897,14 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/vladimir_petriko.jpg" alt="photo Владимир Петрико"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;vladimir_petriko.jpg" alt="photo Владимир Петрико"/>
                 <p class="time">18:45</p>
                 <h3>Chrome remote debugging protocol</h3>
                 <p class="speaker-name">Владимир Петрико</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/andre_gloukhmantchouk.jpg" alt="photo Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;andre_gloukhmantchouk.jpg" alt="photo Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович"/>
                 <p class="time">19:15</p>
                 <h3>SpainJS</h3>
                 <p class="speaker-name">Андрей Глухманчук, Александр Герасимов, Дмитрий Воробей, Александр Карлович</p>
@@ -810,21 +915,21 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/dzmitry_varabei.jpg" alt="photo Дмитрий Воробей"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;dzmitry_varabei.jpg" alt="photo Дмитрий Воробей"/>
                 <p class="time">20:00</p>
                 <h3>Browser internals </h3>
                 <p class="speaker-name">Дмитрий Воробей</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/andrei_palchys.jpg" alt="photo Андрей Пальчис"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;andrei_palchys.jpg" alt="photo Андрей Пальчис"/>
                 <p class="time">20:00</p>
                 <h3>Asm.js </h3>
                 <p class="speaker-name">Андрей Пальчис</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/siarhei_mikhailau.jpg" alt="photo Сергей Михайлов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;siarhei_mikhailau.jpg" alt="photo Сергей Михайлов"/>
                 <p class="time">21:15</p>
                 <h3>Graceful Degradation and Progressive Enhancement</h3>
                 <p class="speaker-name">Сергей Михайлов</p>
@@ -834,35 +939,35 @@
     </section>
     <section id="rs2" class="banner">
         <h1>The Rolling Scopes #2</h1>
-        <h2>27 июня, 2013<a class="location" href="facebook.com/groups/me100" target="_blank">МЕ100 (Независимости, 58)</a></h2>
+        <h2>27 июня, 2013<a class="location" href="facebook.com&#x2F;groups&#x2F;me100" target="_blank">МЕ100 (Независимости, 58)</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs2/Developing-of-a-high-load-JavaScript-framework.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs2&#x2F;Developing-of-a-high-load-JavaScript-framework.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">JavaScript framework для highload-сайтов и трудности при его проектировании</span>
                 <span class="talk-item-speaker">Никита Манько</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs2/front-end-project-assets-management" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs2&#x2F;front-end-project-assets-management" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Front-end project assets management</span>
                 <span class="talk-item-speaker">Александр Герасимов и Андрей Глухманчук</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs2/videoХроника.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs2&#x2F;videoХроника.pptx" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
-                <span class="talk-item-title">&lt;Video&gt;Хроника</span>
+                <span class="talk-item-title">&amp;lt;Video&amp;gt;Хроника</span>
                 <span class="talk-item-speaker">Александр Карлович</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs2/quiz" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs2&#x2F;quiz" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Quiz</span>
                 <span class="talk-item-speaker">Александр Герасимов</span>
@@ -873,21 +978,21 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/mikita_manko.jpg" alt="photo Никита Манько"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;mikita_manko.jpg" alt="photo Никита Манько"/>
                 <p class="time">18:00</p>
                 <h3>JavaScript framework для highload-сайтов и трудности при его проектировании</h3>
                 <p class="speaker-name">Никита Манько</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/aliaksei_shitkin.jpg" alt="photo Алексей Шиткин"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;aliaksei_shitkin.jpg" alt="photo Алексей Шиткин"/>
                 <p class="time">18:25</p>
                 <h3>WebComponents in action</h3>
                 <p class="speaker-name">Алексей Шиткин</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/alexander_gerasimov.jpg" alt="photo Александр Герасимов и Андрей Глухманчук"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;alexander_gerasimov.jpg" alt="photo Александр Герасимов и Андрей Глухманчук"/>
                 <p class="time">18:50</p>
                 <h3>Front-end project assets management</h3>
                 <p class="speaker-name">Александр Герасимов и Андрей Глухманчук</p>
@@ -898,14 +1003,14 @@
                 <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/alex_karlovich.jpg" alt="photo Александр Карлович"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;alex_karlovich.jpg" alt="photo Александр Карлович"/>
                 <p class="time">20:00</p>
-                <h3>&lt;Video&gt;Хроника</h3>
+                <h3>&amp;lt;Video&amp;gt;Хроника</h3>
                 <p class="speaker-name">Александр Карлович</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/siarhei_mikhailau.jpg" alt="photo Сергей Михайлов"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;siarhei_mikhailau.jpg" alt="photo Сергей Михайлов"/>
                 <p class="time">20:20</p>
                 <h3>HTML-coder never dies</h3>
                 <p class="speaker-name">Сергей Михайлов</p>
@@ -915,28 +1020,28 @@
     </section>
     <section id="rs1" class="banner">
         <h1>The Rolling Scopes #1</h1>
-        <h2>21 мая, 2013<a class="location" href="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8+58,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C/@53.9174896,27.5916226,17z/data=!3m1!4b1!4m2!3m1!1s0x46dbcfa64f90adad:0x872f5081b03fa96d" target="_blank">Независимости, 58 (EPAM Office)</a></h2>
+        <h2>21 мая, 2013<a class="location" href="https:&#x2F;&#x2F;www.google.com&#x2F;maps&#x2F;place&#x2F;%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9D%D0%B5%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8+58,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C&#x2F;@53.9174896,27.5916226,17z&#x2F;data=!3m1!4b1!4m2!3m1!1s0x46dbcfa64f90adad:0x872f5081b03fa96d" target="_blank">Независимости, 58 (EPAM Office)</a></h2>
     </section>
     <section>
         <h2>Материалы</h2>
         <ul class="talks">
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs1/angular" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs1&#x2F;angular" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Introduction to Angular.js</span>
                 <span class="talk-item-speaker">Денис Шамгин</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs1/chromeDevTools/chromeDevTools.html" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs1&#x2F;chromeDevTools&#x2F;chromeDevTools.html" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Chrome DevTools</span>
                 <span class="talk-item-speaker">Дмитрий Воробей</span>
             </li>
             <li class="talk-item">
                 <span class="talk-item-links ">
-                    <a href="http://rolling-scopes.github.io/slides/rs1/fast-websites" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
+                    <a href="http:&#x2F;&#x2F;rolling-scopes.github.io&#x2F;slides&#x2F;rs1&#x2F;fast-websites" target="_blank"><i class="fa fa-slideshare"></i> Slides</a>
                  </span>
                 <span class="talk-item-title">Fast Websites</span>
                 <span class="talk-item-speaker">Евгений Лейченок</span>
@@ -947,35 +1052,35 @@
         <h2>Афиша</h2>
         <ul class="schedule-full">
             <li>
-                <img class="speaker-photo" src="images/speakers/aliaksei_shitkin.jpg" alt="photo Алексей Шиткин"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;aliaksei_shitkin.jpg" alt="photo Алексей Шиткин"/>
                 <p class="time">18:30</p>
                 <h3>Web Components</h3>
                 <p class="speaker-name">Алексей Шиткин</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/denis_shamgin.jpg" alt="photo Денис Шамгин"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;denis_shamgin.jpg" alt="photo Денис Шамгин"/>
                 <p class="time">18:55</p>
                 <h3>Introduction to Angular.js</h3>
                 <p class="speaker-name">Денис Шамгин</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/dzmitry_varabei.jpg" alt="photo Дмитрий Воробей"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;dzmitry_varabei.jpg" alt="photo Дмитрий Воробей"/>
                 <p class="time">19:25</p>
                 <h3>Chrome DevTools</h3>
                 <p class="speaker-name">Дмитрий Воробей</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/andrew_fan.jpg" alt="photo Андрей Фан"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;andrew_fan.jpg" alt="photo Андрей Фан"/>
                 <p class="time">19:55</p>
                 <h3>Introduction to Ember</h3>
                 <p class="speaker-name">Андрей Фан</p>
                 <p></p>
             </li>
             <li>
-                <img class="speaker-photo" src="images/speakers/yauheni_leichanok.jpg" alt="photo Евгений Лейченок"/>
+                <img class="speaker-photo" src="images&#x2F;speakers&#x2F;yauheni_leichanok.jpg" alt="photo Евгений Лейченок"/>
                 <p class="time">20:20</p>
                 <h3>Fast Websites</h3>
                 <p class="speaker-name">Евгений Лейченок</p>
@@ -1014,6 +1119,13 @@
         <p class="copy">&copy; 2014 The Rolling Scopes </p>
     </div>
 </footer>
+
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<!-- endbower -->
+<!-- endbuild -->
+
 <script>
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-55428637-1']);

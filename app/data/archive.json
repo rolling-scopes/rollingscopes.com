@@ -1,4 +1,52 @@
 {"data": [
+  {
+    "id" : "rs16",
+    "name": "The Rolling Scopes #16",
+    "date": "7 апреля, 2015",
+    "location": "imaguru.co",
+    "locationLink": "http://imaguru.co/ru",
+    "schedule": [
+      {
+        "title": "Flux для твоей бабушки",
+        "description": "О Flux архитектуре и её вариациях",
+        "imagePath": "images/speakers/siarhei_melnik.jpg",
+        "speaker": "Сергей Мельник",
+        "time": "19:00"
+      },
+      {
+        "title": "Как мы готовим React",
+        "description": "Как мы в течении трех месяцев с нуля делали SPA на базе React, Flux, babel, webpack, и тд",
+        "imagePath": "images/speakers/aliaksei_petrachenkau.jpg",
+        "speaker": "Алексей Петроченков",
+        "time": "19:30",
+        "break": {
+          "time": "20:00"
+        }
+      },
+      {
+        "title": "Immutable.js: борьба с изменяемым состоянием в JS",
+        "description": "Изменяемое состояние объектов, проблемы и опасности. Неэффективное использование ресурсов встроенными структурами данных на операциях копирования, map, reduce, filter. Решение - использование Immutable.js от Facebook.",
+        "imagePath": "images/speakers/victor_grinchik.jpg",
+        "speaker": "Виктор Гринчик",
+        "time": "19:00"
+      },
+      {
+        "title": "Isomorphic JavaScript",
+        "description": "Isomorphic JavaScript",
+        "imagePath": "images/speakers/andrei_yanovich.jpg",
+        "speaker": "Андрей Янович",
+        "time": "19:00"
+      }
+    ],
+    "materials": [
+      {
+        "title": "Isomorphic JavaScript (линки не актуальные, надо исправить)",
+        "slidesLink": "http://rolling-scopes.github.io/slides/rs15/animations-in-front-end",
+        "videoLink": "https://www.youtube.com/watch?v=WM3BdSLOTVo",
+        "speaker": "Андрей Янович"
+      }
+    ]
+  },
 	{
 		"id" : "rs15",
 		"name": "The Rolling Scopes #15",
