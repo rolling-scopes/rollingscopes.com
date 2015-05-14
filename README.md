@@ -10,7 +10,12 @@ To build conference site
 gulp build:conf
 ```
 
-To build both
+To build school site
+```sh
+gulp build:school
+```
+
+To build all
 ```sh
 gulp
 ```
