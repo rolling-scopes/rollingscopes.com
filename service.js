@@ -11,7 +11,7 @@ var rsConfRouter    = express.Router();
 var schoolRouter    = express.Router();
 var subdomainRouter = express.Router();
 
-nconf.env();
+nconf.env('__');
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json());
