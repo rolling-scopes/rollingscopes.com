@@ -5,6 +5,7 @@ var fs              = require('fs');
 var path            = require('path');
 var compression     = require('compression');
 var nconf           = require('nconf');
+var mongoose        = require('mongoose');
 var app             = express();
 var rsRouter        = express.Router();
 var rsConfRouter    = express.Router();
@@ -12,8 +13,12 @@ var schoolRouter    = express.Router();
 var subdomainRouter = express.Router();
 
 nconf.env('__');
+mongoose.connect(
+  nconf.get('mongo:connection_string') ||
+  'mongodb://localhost/rs-test'
+);
 
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(compression());
 
