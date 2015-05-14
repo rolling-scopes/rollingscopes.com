@@ -101,7 +101,14 @@ gulp.task('mustache:school', function () {
   }
 
   addIndices(data.talks);
-  data.talks.reverse();
+  data.talks
+    .reverse()
+    .forEach(function (talk) {
+      if (talk.links && talk.links.length) {
+        talk.hasLinks = true;
+      }
+    });
+
   data.tasks.forEach(function (task) {
     task.task_page_link = task.link;
     if (task.md) {

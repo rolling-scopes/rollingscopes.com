@@ -60,6 +60,14 @@
           </li>
           {{/speakers}}
         </ul>
+        {{#hasLinks}}
+          <h4 class="text-right">Useful links</h4>
+          <ul class="links">
+            {{#links}}
+            <li><a href="{{&href}}">{{title}}</a></li>
+            {{/links}}
+          </ul>
+        {{/hasLinks}}
       </article>
       {{/talks}}
     </section>
