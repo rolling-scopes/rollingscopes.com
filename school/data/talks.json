@@ -376,4 +376,86 @@
     }]
   }],
   "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=24&entry.1387272617"
+}, {
+  "title": "WebSocket Challenge",
+  "speakers": [{
+    "name": "Alexander Gerasimov",
+    "slides": [{
+      "title": "WebSocket Challenge",
+      "href": ""
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=25&entry.1387272617"
+}, {
+  "title": "Network. WebPageTest. Google PageSpeed Insights",
+  "speakers": [{
+    "name": "Dzmitry Varabei",
+    "slides": [{
+      "title": "Network. WebPageTest. Google PageSpeed Insights",
+      "href": "http://dzmitry-varabei.github.io/front-end-course/network.pptx"
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=26&entry.1387272617"
+}, {
+  "title": "Testing JavaScript Applications",
+  "speakers": [{
+    "name": "Dzmitry Hersimov",
+    "slides": [{
+      "title": "Testing JavaScript Applications",
+      "href": "./slides/jstesting-talk"
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=27&entry.1387272617"
+}, {
+  "title": "Testing JavaScript Applications Practice",
+  "speakers": [{
+    "name": "Dzmitry Hersimov",
+    "slides": [{
+      "title": "Testing JavaScript Applications",
+      "href": "./slides/jstesting-talk"
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=28&entry.1387272617"
+}, {
+  "title": "Iterator implementation. CSS preprocessors. Stylus",
+  "speakers": [{
+    "name": "Dzmitry Hersimov",
+    "slides": [{
+      "title": "Iterator implementation",
+      "href": ""
+    }]
+  }, {
+    "name": "Alexander Karlovich",
+    "slides": [{
+      "title": "CSS preprocessors. Stylus",
+      "href": ""
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=29&entry.1387272617"
+}, {
+  "title": "Testing JavaScript Applications",
+  "speakers": [{
+    "name": "Dzmitry Hersimov",
+    "slides": [{
+      "title": "Testing JavaScript Applications",
+      "href": "./slides/jstesting-talk"
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=30&entry.1387272617"
+}, {
+  "title": "Custom JQuery task typical errors. AngularJS Intro",
+  "speakers": [{
+    "name": "Andrei Volchenko",
+    "slides": [{
+      "title": "Custom JQuery task typical errors",
+      "href": ""
+    }]
+  }, {
+    "name": "Kanstantsin Yatskevich",
+    "slides": [{
+      "title": "AngularJS Intro",
+      "href": ""
+    }]
+  }],
+  "feedback_url": "https://docs.google.com/forms/d/1323j2e0tsMYEOJkKvaJQo4MlHFlF91Op2iNCFgOqZUs/viewform?entry.1910623467=31&entry.1387272617"
 }]
