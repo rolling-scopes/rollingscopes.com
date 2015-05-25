@@ -756,7 +756,7 @@
 				}
 			},
 			{
-				"title": "&lt;Video&gt;Хроника",
+				"title": "<Video>Хроника",
 				"imagePath": "images/speakers/alex_karlovich.jpg",
 				"speaker": "Александр Карлович",
 				"time": "20:00"
