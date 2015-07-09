@@ -102,8 +102,11 @@ gulp.task('mustache:school', function () {
 
   addIndices(data.talks);
   data.talks
-    .reverse()
+    //.reverse()
     .forEach(function (talk) {
+      if (talk.description) {
+        talk.description = talk.description.replace(/\n/g,"<br />");
+      }
       if (talk.links && talk.links.length) {
         talk.hasLinks = true;
       }
