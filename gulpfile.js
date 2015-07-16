@@ -165,6 +165,17 @@ gulp.task('build:conf', function (cb) {
   );
 });
 
+gulp.task('build:conf-archive', function (cb) {
+  options.src = 'conference/archive/2015';
+  options.dest = 'conferenceBin/archive/2015';
+
+  runSequence(
+    'clean',
+    ['copy', 'imagemin', 'useref'],
+    cb
+  );
+});
+
 gulp.task('build:school', function (cb) {
   options.src = 'school';
   options.dest = 'schoolBin';
@@ -181,6 +192,7 @@ gulp.task('default', function (cb) {
   runSequence(
     'build:site',
     'build:conf',
+    'build:conf-archive',
     'build:school',
     cb
   );
