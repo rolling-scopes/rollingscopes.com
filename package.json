@@ -37,8 +37,10 @@
     "body-parser": "^1.9.0",
     "compression": "^1.4.3",
     "express": "^4.9.5",
+    "md5": "^2.0.0",
     "mongoose": "^4.0.3",
-    "nconf": "^0.7.1"
+    "nconf": "^0.7.1",
+    "request": "^2.59.0"
   },
   "version": "0.2.0"
 }
