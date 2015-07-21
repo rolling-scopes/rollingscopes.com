@@ -11,6 +11,7 @@ var rsRouter        = express.Router();
 var rsConfRouter    = express.Router();
 var schoolRouter    = express.Router();
 var subdomainRouter = express.Router();
+var mailchimp       = require('./mailchimp');
 
 nconf.env('__');
 mongoose.connect(
@@ -48,20 +49,6 @@ app.use(rsRouter);
 app.use(rsConfRouter);
 app.use(schoolRouter);
 
-app.get('/csvdb', function (req, res) {
-  fs.readFile(path.join(__dirname, 'registered.txt'), 'utf8', function(_, data) {
-    console.log(data);
-    res.send(data);
-  });
-});
-
-app.get('/subscription', function (req, res) {
-  fs.readFile(path.join(__dirname, 'subscription.txt'), 'utf8', function(_, data) {
-      console.log(data);
-      res.send(data);
-  });
-});
-
 app.get('/buy-ticket', function (req, res) {
   res.redirect('http://www.kvitki.by/ru/event/23971');
 });
@@ -72,12 +59,33 @@ app.post('/register', function (req, res) {
 });
 
 app.post('/subscribe', function (req, res) {
-  console.log(JSON.stringify(req.query.email));
+  var email = req.body.email;
+  email = email.toLowerCase();
 
-  fs.writeFile('subscription.txt', req.query.email + ";", {flag: 'a'}, function (err) {
-      res.send('error');
-  });
-  res.send('done');
+  var valid = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/.test(email);
+
+  if (!email || !valid) {
+    return res.status(500)
+      .end();
+  }
+
+  mailchimp.isSubscribed(email)
+    .then(success)
+    .catch(subscribe);
+
+  function subscribe() {
+    mailchimp.subscribe(email)
+      .then(success)
+      .catch(error)
+  }
+
+  function success() {
+    res.status(200).send('done');
+  }
+
+  function error() {
+    res.status(500).end();
+  }
 });
 
 
