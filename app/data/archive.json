@@ -1,5 +1,48 @@
 {"data": [
   {
+    "id" : "rs17",
+    "name": "The Rolling Scopes #17",
+    "date": "21 мая, 2015",
+    "location": "imaguru.co",
+    "locationLink": "http://imaguru.co/ru",
+    "schedule": [
+      {
+        "title": "Железо, как хобби: от светодиода до \"умного\" дома",
+        "description": "Рассказ о том, что занятные девайсы в наше время вполне можно делать самостоятельно, обладая даже небольшими познаниями в электронике и программировании.",
+        "imagePath": "images/speakers/andrey_voroshkov.jpg",
+        "speaker": "Андрей Ворошков",
+        "time": "19:00",
+        "break": {
+          "time": "20:00"
+        }
+      },
+      {
+        "title": "Программирование Parrot AR Drone на JS",
+        "description": "Парни покажут и расскажут о программировании квадрокоптера Parrot AR Drone.",
+        "imagePath": "images/speakers/dzmitry_gerasimov.jpg",
+        "speaker": "Дмитрий Герасимов и Кирилл Демура",
+        "time": "20:20"
+      }
+    ],
+    "materials": [
+      {
+        "title": "Железо, как хобби: от светодиода до \"умного\" дома",
+        "videoLink": "https://www.youtube.com/watch?v=rcM1hNBzTD0",
+        "speaker": "Андрей Ворошков"
+      },
+      {
+        "title": "Leapmotion, Tessel demos",
+        "videoLink": "https://www.youtube.com/watch?v=pdVF82loP6Q",
+        "speaker": "Дмитрий Герасимов"
+      },
+      {
+        "title": "Программирование Parrot AR Drone на JS",
+        "videoLink": "https://www.youtube.com/watch?v=pdVF82loP6Q#t=33m29s",
+        "speaker": "Кирилл Демура"
+      }
+    ]
+  },
+  {
     "id" : "rs16",
     "name": "The Rolling Scopes #16",
     "date": "7 апреля, 2015",
