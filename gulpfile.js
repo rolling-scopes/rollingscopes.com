@@ -89,6 +89,9 @@ gulp.task('mustache:school', function () {
     ),
     tasks: JSON.parse(
       fs.readFileSync(options.src + '/data/tasks.json')
+    ),
+    webinar_talks: JSON.parse(
+      fs.readFileSync(options.src + '/data/js-webinar/talks.json')
     )
   };
 
@@ -101,6 +104,7 @@ gulp.task('mustache:school', function () {
   }
 
   addIndices(data.talks);
+  addIndices(data.webinar_talks);
   data.talks
     //.reverse()
     .forEach(function (talk) {
@@ -121,7 +125,7 @@ gulp.task('mustache:school', function () {
   });
 
   return gulp.src(
-    options.src + '/templates/*.mustache'
+    options.src + '/templates/**/*.mustache'
   )
   .pipe($.mustache(data, {extension: '.html'}))
   .pipe(gulp.dest(options.dest));
