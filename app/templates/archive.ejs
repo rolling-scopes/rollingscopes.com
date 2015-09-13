@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title><%= page.title %></title>
+  <meta name="viewport" content="width=device-width">
+  <% include common/styles %>
+</head>
+<body>
+<% include common/browsehappy %>
+<div class="page-wrap">
+  <% include common/header %>
+  <% events.forEach(function (event) { %>
+    <% include index/meetup-banner %>
+    <% include common/materials %>
+    <section class="schedule">
+      <% include common/scedule %>
+    </section>
+  <% }) %>
+  <% include common/call-for-speakers %>
+</div>
+<% include common/footer %>
+<% include common/scripts %>
+</body>
+</html>

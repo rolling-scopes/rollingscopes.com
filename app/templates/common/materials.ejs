@@ -1,0 +1,27 @@
+<% if (event.materials && event.materials.length) { %>
+<section>
+  <h2>Материалы</h2>
+  <ul class="talks">
+    <% event.materials.forEach(function (material) { %>
+      <li class="talk-item">
+        <span class="talk-item-links">
+          <% if (material.videoLink) { %>
+            <a href="material.videoLink" target="_blank">
+              <i class="fa fa-youtube-play"></i>
+              Video
+            </a>
+          <% } %>
+          <% if (material.slidesLink) { %>
+            <a href="material.slidesLink" target="_blank">
+              <i class="fa fa-slideshare"></i>
+              Slides
+            </a>
+          <% } %>
+        </span>
+        <span class="talk-item-title"><%- material.title %></span>
+        <span class="talk-item-speaker"><%= material.speakers.join(', ') %></span>
+      </li>
+    <% }); %>
+  </ul>
+</section>
+<% } %>

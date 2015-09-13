@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title><%= page.title %></title>
+  <meta name="viewport" content="width=device-width">
+  <% include common/styles %>
+</head>
+<body>
+<% include common/browsehappy %>
+<div class="page-wrap">
+  <% include common/header %>
+  <section>
+    <h1>Наши докладчики</h1>
+    <ul class="speaker-list">
+      <% speakers.forEach(function (speaker) { %>
+        <li>
+            <img class="speaker-photo" src="images/speakers/<%= speaker.photo %>"/>
+            <h3><%= speaker.name %></h3>
+            <% speaker.talks.forEach(function (talk) { %>
+              <p class="report">
+                <%= talk.eventId.toUpperCase() %> - <%= talk.title %>
+              </p>
+            <% }) %>
+        </li>
+      <% }) %>
+    </ul>
+  </section>
+  <% include common/call-for-speakers %>
+</div>
+<% include common/footer %>
+<% include common/scripts %>
+</body>
+</html>

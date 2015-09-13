@@ -1,0 +1,232 @@
+[
+  {
+    "id": 0,
+    "name": "Александр Герасимов",
+    "photo": "alexander_gerasimov.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Александр Карлович",
+    "photo": "alex_karlovich.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Алексей Петроченков",
+    "photo": "aliaksei_petrachenkau.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Алексей Шиткин",
+    "photo": "aliaksei_shitkin.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Андрей Ворошков",
+    "photo": "andrey_voroshkov.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Андрей Глухманчук",
+    "photo": "andre_gloukhmantchouk.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Андрей Емельянчик",
+    "photo": "andrei_yemialyanchik.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Андрей Пальчис",
+    "photo": "andrei_palchys.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Андрей Фан",
+    "photo": "andrew_fan.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Андрей Янович",
+    "photo": "andrei_yanovich.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Анна Паничева",
+    "photo": "anna_panicheva.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Артём Алексеенко",
+    "photo": "artsiom_aliakseyenka.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Виктор Гринчик",
+    "photo": "victor_grinchik.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Виктор Хомяков",
+    "photo": "viktor_khomyakov.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Виталий Фридман",
+    "photo": "vitaly_friedman.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Владимир Абрамчук",
+    "photo": "uladzimir_abramchuk.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Владимир Петрико",
+    "photo": "vladimir_petriko.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Денис Шамгин",
+    "photo": "denis_shamgin.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Денис Шеко",
+    "photo": "dzianis_sheka.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Дмитрий Воробей",
+    "photo": "dzmitry_varabei.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Дмитрий Герасимов",
+    "photo": "dzmitry_gerasimov.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Дмитрий Дудин",
+    "photo": "dmitry_dudin.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Евгений Заря",
+    "photo": "evgeny_zarya.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Евгений Ивашкевич",
+    "photo": "yauhen_ivashkevich.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Евгений Лейченок",
+    "photo": "yauheni_leichanok.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Егор Мясников",
+    "photo": "egor_miasnikov.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Кирилл Бараношник",
+    "photo": "kiryl_baranosnik.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Кирилл Верховин",
+    "photo": "kiryl_verkhovin.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Кирилл Демура",
+    "photo": "kiryl_dziamura.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Кирилл Кныш",
+    "photo": "kiril_knysh.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Кирилл Куховец",
+    "photo": "kirill_kukhovets.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Константин Кривленя",
+    "photo": "konstantin_krivlenia.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Константин Яцкевич",
+    "photo": "kanstantsin_yatskevich.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Максим Чемерисюк",
+    "photo": "maksim_chemerisuk.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Михаил Ларченко",
+    "photo": "mikhail_larchanka.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Никита Манько",
+    "photo": "mikita_manko.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Николай Лавринович",
+    "photo": "nickolay_lavrynovich.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Николай Овсянников",
+    "photo": "mikalai_ausiannikau.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Олег Засыпкин",
+    "photo": "aleh_zasypkin.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Павел Насович",
+    "photo": "pavel_nasovich.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Сергей Борисюк",
+    "photo": "serge_barysiuk.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Сергей Мельник",
+    "photo": "siarhei_melnik.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Сергей Михайлов",
+    "photo": "siarhei_mikhailau.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Станислав Зубович",
+    "photo": "stanislau_zubovich.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Юрий Татенко",
+    "photo": "yury_tatsenka.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Илья Сачок",
+    "photo": "ilja_sachok.jpg"
+  }
+]

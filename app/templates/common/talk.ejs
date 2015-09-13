@@ -1,0 +1,14 @@
+<li>
+  <img class="speaker-photo" src="<%= talk.imagePath %>"/>
+  <p class="time"><%= talk.time %></p>
+  <h3><%- talk.title %></h3>
+  <p class="speaker-name"><%= talk.speakers.join(', ') %></p>
+  <p><%- talk.description %>
+  </p>
+</li>
+<% if (talk.break) { %>
+  <li class="break">
+    <p class="time"><%= talk.break.time %></p>
+    <h3><span class="icon-coffee">&nbsp;</span> Кофе пауза</h3>
+  </li>
+<% } %>

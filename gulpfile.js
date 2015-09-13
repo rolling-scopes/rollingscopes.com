@@ -6,6 +6,8 @@ var minimist    = require('minimist');
 var runSequence = require('run-sequence');
 var pngquant    = require('imagemin-pngquant');
 var $           = require('gulp-load-plugins')();
+var pages       = require('./app/pages');
+var tasks       = require('./gulp-tasks');
 
 var options = {
   src: 'app',
@@ -69,17 +71,12 @@ gulp.task('css', function () {
   .pipe(gulp.dest(options.staging));
 });
 
-gulp.task('mustache', function () {
-  var archive = JSON.parse(
-    fs.readFileSync(options.src + '/data/archive.json')
-  );
+gulp.task('views', function () {
+  var pageConfig;
 
-  return gulp.src(
-    options.src + '/templates/*.mustache'
-  )
-  .pipe($.mustache(archive, {extension: '.html'}))
-  .pipe(gulp.dest(options.src));
-
+  return gulp.src(options.src + '/templates/*.ejs')
+    .pipe(tasks.ejs(pages))
+    .pipe(gulp.dest(options.staging));
 });
 
 gulp.task('mustache:school', function () {
@@ -137,9 +134,10 @@ gulp.task('useref', ['css'], function () {
     searchPath: ['.tmp', options.src]
   });
 
-  return gulp.src(
+  return gulp.src([
+    options.staging + '/*.html',
     options.src + '/*.html'
-  )
+  ])
   .pipe(assets)
   .pipe($.if('*.js', $.uglify()))
   .pipe($.if('*.css', $.csso()))
@@ -152,7 +150,7 @@ gulp.task('useref', ['css'], function () {
 gulp.task('build:site', function (cb) {
   runSequence(
     'clean',
-    'mustache',
+    'views',
     ['copy', 'imagemin', 'useref'],
     cb
   );
