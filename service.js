@@ -1,17 +1,18 @@
-var bodyParser      = require('body-parser');
-var register        = require('./register.js');
-var express         = require('express');
-var fs              = require('fs');
-var path            = require('path');
-var compression     = require('compression');
-var nconf           = require('nconf');
-var mongoose        = require('mongoose');
-var app             = express();
-var rsRouter        = express.Router();
-var rsConfRouter    = express.Router();
-var schoolRouter    = express.Router();
-var subdomainRouter = express.Router();
-var mailchimp       = require('./mailchimp');
+var bodyParser          = require('body-parser');
+var register            = require('./register.js');
+var express             = require('express');
+var fs                  = require('fs');
+var path                = require('path');
+var compression         = require('compression');
+var nconf               = require('nconf');
+var mongoose            = require('mongoose');
+var app                 = express();
+var rsRouter            = express.Router();
+var rsConfRouter        = express.Router();
+var rsConfArchiveRouter = express.Router();
+var schoolRouter        = express.Router();
+var subdomainRouter     = express.Router();
+var mailchimp           = require('./mailchimp');
 
 nconf.env('__');
 mongoose.connect(
@@ -25,9 +26,17 @@ app.use(compression());
 
 subdomainRouter.use(function (req, res, next) {
   if (req.subdomains.length > 0) {
-    switch (req.subdomains[0]) {
-      case 'conf':
+    var subdomain = req.subdomains.reverse().join('.');
+    console.log(subdomain);
+    switch (subdomain) {
+      case '2016.conf':
         rsConfRouter(req, res, next);
+        break;
+      case '2015.conf':
+        rsConfArchiveRouter(req, res, next);
+        break;
+      case 'conf':
+        res.redirect('http://2016.conf.rollingscopes.com:3000');
         break;
       case 'school':
         schoolRouter(req, res, next);
@@ -42,6 +51,7 @@ subdomainRouter.use(function (req, res, next) {
 
 rsRouter.use(express.static('./appBin'));
 rsConfRouter.use(express.static('./conferenceBin'));
+rsConfArchiveRouter.use(express.static('./conferenceBin/archive/2015'));
 schoolRouter.use(express.static('./schoolBin'));
 
 app.use(subdomainRouter);
