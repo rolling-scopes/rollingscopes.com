@@ -36,7 +36,7 @@ subdomainRouter.use(function (req, res, next) {
         rsConfArchiveRouter(req, res, next);
         break;
       case 'conf':
-        res.redirect('http://2016.conf.rollingscopes.com:3000');
+        res.redirect('http://2016.conf.rollingscopes.com');
         break;
       case 'school':
         schoolRouter(req, res, next);
