@@ -4,11 +4,21 @@
         <a id="nav-btn" onclick="toggleClass()" href="javascript:void(0);" class="nav-btn">&#x2261;</a>
         <nav id="nav" class="vertical-mode-closed">
             <ul class="nav">
-                <li class="active"><a href="index.html">Главная</a></li>
-                <li><a href="archive.html">Архив</a></li>
-                <li><a href="hall-of-fame.html">Зал славы</a></li>
-                <li><a href="about.html">О сообществе</a></li>
-                <li><a href="http://conf.rollingscopes.com/">RSCONF</a></li>
+                <li <%- pageName == 'index' ? 'class="active"' : '' %>>
+                  <a href="index.html">Главная</a>
+                </li>
+                <li <%- pageName == 'archive' ? 'class="active"' : '' %>>
+                  <a href="archive.html">Архив</a>
+                </li>
+                <li <%- pageName == 'hall-of-fame' ? 'class="active"' : '' %>>
+                  <a href="hall-of-fame.html">Зал славы</a>
+                </li>
+                <li <%- pageName == 'about' ? 'class="active"' : '' %>>
+                  <a href="about.html">О сообществе</a>
+                </li>
+                <li>
+                  <a href="http://conf.rollingscopes.com/">RSCONF</a>
+                </li>
             </ul>
         </nav>
     </div>
