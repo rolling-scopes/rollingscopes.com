@@ -114,10 +114,8 @@ gulp.task('mustache:school', function () {
     });
 
   data.tasks.forEach(function (task) {
-    task.task_page_link = task.link;
     if (task.md) {
-      task.link = './tasks.html#' + task.md;
-      task.task_page_link = '#' + task.md;
+      task.link = 'https://github.com/rolling-scopes-school/tasks/blob/master/tasks/' + task.md;
     }
   });
 
