@@ -1,0 +1,20 @@
+{
+  "app": {
+    "service": {
+      "port": 3000,
+      "publicPath": "public/appBin"
+    }
+  },
+  "conf": {
+    "service": {
+      "port": 3001,
+      "publicPath": "public/conferenceBin"
+    }
+  },
+  "school": {
+    "service": {
+      "port": 3002,
+      "publicPath": "public/schoolBin"
+    }
+  }
+}

@@ -1,4 +1,3 @@
-var fs = require('fs');
 var mongoose = require('mongoose');
 
 var emailRegex = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -20,10 +19,4 @@ attendeeSchema
     return emailRegex.test(email);
   });
 
-var Attendee = mongoose.model('Attendee', attendeeSchema);
-
-function register(person) {
-  Attendee.create(person);
-}
-
-module.exports = register
+module.exports = mongoose.model('Attendee', attendeeSchema);
