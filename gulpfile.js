@@ -193,7 +193,7 @@ gulp.task('default', function (cb) {
     'build:site',
     'build:conf',
     'build:conf-archive',
-    'build:school',
+    // 'build:school',
     cb
   );
 });
