@@ -36,6 +36,7 @@ gulp.task('copy:school', ['copy'], function () {
     options.src + '/slides/**/*',
     options.src + '/tasks/**/*',
     options.src + '/materials/**/*',
+    options.src + '/images/**/*',
     options.src + '/bower_components/**/*',
     options.src + '/*.html'
   ], {
@@ -76,54 +77,6 @@ gulp.task('views', function () {
   return gulp.src(options.src + '/templates/*.ejs')
     .pipe(tasks.ejs(pages))
     .pipe(gulp.dest(options.staging));
-});
-
-gulp.task('mustache:school', function () {
-  var data = {
-    talks: JSON.parse(
-      fs.readFileSync(options.src + '/data/talks.json')
-    ),
-    tasks: JSON.parse(
-      fs.readFileSync(options.src + '/data/tasks.json')
-    ),
-    webinar_talks: JSON.parse(
-      fs.readFileSync(options.src + '/data/js-webinar/talks.json')
-    )
-  };
-
-  function addIndices(collection, reverse) {
-    var length = collection.length;
-    collection.forEach(function (item, index) {
-      index++;
-      item.index = reverse ? length - index : index;
-    });
-  }
-
-  addIndices(data.talks);
-  addIndices(data.webinar_talks);
-  data.talks
-    .reverse()
-    .forEach(function (talk) {
-      if (talk.description) {
-        talk.description = talk.description.replace(/\n/g,"<br />");
-      }
-      if (talk.links && talk.links.length) {
-        talk.hasLinks = true;
-      }
-    });
-
-  data.tasks.forEach(function (task) {
-    if (task.md) {
-      task.link = 'https://github.com/rolling-scopes-school/tasks/blob/master/tasks/' + task.md;
-    }
-  });
-
-  return gulp.src(
-    options.src + '/templates/**/*.mustache'
-  )
-  .pipe($.mustache(data, {extension: '.html'}))
-  .pipe(gulp.dest(options.dest));
-
 });
 
 gulp.task('useref', ['css'], function () {
@@ -177,13 +130,13 @@ gulp.task('build:conf-archive', function (cb) {
 });
 
 gulp.task('build:school', function (cb) {
-  options.src = 'school';
-  options.dest = 'schoolBin';
+  options.src = 'public/school';
+  options.dest = 'public/schoolBin';
 
   runSequence(
     'clean',
-    'mustache:school',
-    'copy:school',
+    'views',
+    ['copy:school', 'useref'],
     cb
   );
 });
@@ -193,7 +146,8 @@ gulp.task('default', function (cb) {
     'build:site',
     'build:conf',
     'build:conf-archive',
-    // 'build:school',
+    'build:school',
+    'build:webinar',
     cb
   );
 });
