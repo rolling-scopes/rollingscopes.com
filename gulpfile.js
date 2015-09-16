@@ -103,7 +103,7 @@ gulp.task('mustache:school', function () {
   addIndices(data.talks);
   addIndices(data.webinar_talks);
   data.talks
-    //.reverse()
+    .reverse()
     .forEach(function (talk) {
       if (talk.description) {
         talk.description = talk.description.replace(/\n/g,"<br />");
