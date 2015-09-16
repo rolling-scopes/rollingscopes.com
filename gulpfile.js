@@ -147,7 +147,6 @@ gulp.task('default', function (cb) {
     'build:conf',
     'build:conf-archive',
     'build:school',
-    'build:webinar',
     cb
   );
 });
