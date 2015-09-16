@@ -27,7 +27,6 @@ app.use(compression());
 subdomainRouter.use(function (req, res, next) {
   if (req.subdomains.length > 0) {
     var subdomain = req.subdomains.reverse().join('.');
-    console.log(subdomain);
     switch (subdomain) {
       case '2016.conf':
         rsConfRouter(req, res, next);
@@ -49,9 +48,9 @@ subdomainRouter.use(function (req, res, next) {
   }
 });
 
-rsRouter.use(express.static('./appBin'));
-rsConfRouter.use(express.static('./conferenceBin'));
-rsConfArchiveRouter.use(express.static('./conferenceBin/archive/2015'));
+rsRouter.use(express.static('./public/appBin'));
+rsConfRouter.use(express.static('./public/conferenceBin'));
+rsConfArchiveRouter.use(express.static('./public/conferenceBin/archive/2015'));
 schoolRouter.use(express.static('./schoolBin'));
 
 app.use(subdomainRouter);
