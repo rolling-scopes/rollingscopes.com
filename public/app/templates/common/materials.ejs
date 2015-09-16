@@ -6,13 +6,13 @@
       <li class="talk-item">
         <span class="talk-item-links">
           <% if (material.videoLink) { %>
-            <a href="material.videoLink" target="_blank">
+            <a href="<%- material.videoLink %>" target="_blank">
               <i class="fa fa-youtube-play"></i>
               Video
             </a>
           <% } %>
           <% if (material.slidesLink) { %>
-            <a href="material.slidesLink" target="_blank">
+            <a href="<%- material.slidesLink %>" target="_blank">
               <i class="fa fa-slideshare"></i>
               Slides
             </a>
