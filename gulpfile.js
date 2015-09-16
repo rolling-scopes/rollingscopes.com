@@ -6,13 +6,12 @@ var minimist    = require('minimist');
 var runSequence = require('run-sequence');
 var pngquant    = require('imagemin-pngquant');
 var $           = require('gulp-load-plugins')();
-var pages       = require('./app/pages');
 var tasks       = require('./gulp-tasks');
 
 var options = {
-  src: 'app',
-  staging: '.tmp',
-  dest: 'appBin'
+  src: 'public/app',
+  staging: 'public/.tmp',
+  dest: 'public/appBin'
 };
 
 gulp.task('clean', function (cb) {
@@ -72,7 +71,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('views', function () {
-  var pageConfig;
+  var pages = require('./' + options.src + '/pages');
 
   return gulp.src(options.src + '/templates/*.ejs')
     .pipe(tasks.ejs(pages))
@@ -129,7 +128,7 @@ gulp.task('mustache:school', function () {
 
 gulp.task('useref', ['css'], function () {
   var assets = $.useref.assets({
-    searchPath: ['.tmp', options.src]
+    searchPath: [options.staging, options.src]
   });
 
   return gulp.src([
@@ -155,19 +154,20 @@ gulp.task('build:site', function (cb) {
 });
 
 gulp.task('build:conf', function (cb) {
-  options.src = 'conference';
-  options.dest = 'conferenceBin';
+  options.src = 'public/conference';
+  options.dest = 'public/conferenceBin';
 
   runSequence(
     'clean',
+    'views',
     ['copy', 'imagemin', 'useref'],
     cb
   );
 });
 
 gulp.task('build:conf-archive', function (cb) {
-  options.src = 'conference/archive/2015';
-  options.dest = 'conferenceBin/archive/2015';
+  options.src = 'public/conference/archive/2015';
+  options.dest = 'public/conferenceBin/archive/2015';
 
   runSequence(
     'clean',
