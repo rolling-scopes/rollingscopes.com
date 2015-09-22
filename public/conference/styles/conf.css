@@ -530,7 +530,6 @@ footer {
     line-height: 1.1em;
     margin-top: 0;
 
-    -webkit-text-stroke: 1px black;
     color: #fff;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
@@ -545,7 +544,6 @@ footer {
     text-transform: inherit;
     border: none;
 
-    -webkit-text-stroke: 1px black;
     color: #fff;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
