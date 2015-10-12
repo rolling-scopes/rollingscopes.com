@@ -4,7 +4,6 @@ var gulp        = require('gulp');
 var del         = require('del');
 var minimist    = require('minimist');
 var runSequence = require('run-sequence');
-var pngquant    = require('imagemin-pngquant');
 var $           = require('gulp-load-plugins')();
 var tasks       = require('./gulp-tasks');
 
@@ -22,9 +21,10 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('copy', function () {
-  return gulp.src(
-    options.src + '/*.{ico,png,txt}'
-  )
+  return gulp.src([
+    options.src + '/*.{ico,png,txt}',
+    options.src + '/images/**/*'
+  ], { base: options.src })
   .pipe(gulp.dest(options.dest));
 });
 
@@ -43,21 +43,6 @@ gulp.task('copy:school', ['copy'], function () {
     base: path.join(__dirname, options.src)
   })
   .pipe(gulp.dest(options.dest));
-});
-
-gulp.task('imagemin', function () {
-  return gulp.src(
-    options.src + '/images/**/*'
-  )
-  .pipe($.imagemin({
-      progressive: true,
-      svgoPlugins: [{removeViewBox: false}],
-      multipass: true,
-      use: [pngquant()]
-  }))
-  .pipe(
-    gulp.dest(options.dest + '/images')
-  );
 });
 
 gulp.task('css', function () {
@@ -101,7 +86,7 @@ gulp.task('build:site', function (cb) {
   runSequence(
     'clean',
     'views',
-    ['copy', 'imagemin', 'useref'],
+    ['copy', 'useref'],
     cb
   );
 });
@@ -113,7 +98,7 @@ gulp.task('build:conf', function (cb) {
   runSequence(
     'clean',
     'views',
-    ['copy', 'imagemin', 'useref'],
+    ['copy', 'useref'],
     cb
   );
 });
@@ -124,7 +109,7 @@ gulp.task('build:conf-archive', function (cb) {
 
   runSequence(
     'clean',
-    ['copy', 'imagemin', 'useref'],
+    ['copy', 'useref'],
     cb
   );
 });
