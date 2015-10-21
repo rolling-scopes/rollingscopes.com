@@ -22,7 +22,7 @@
         "imagePath": "images/protractor-qa-logo.png",
         "time": "20:00",
         "break": {
-          "time": "20:20"
+          "time": "21:00"
         },
         "speakerIDs": [
           7,
@@ -32,7 +32,7 @@
       {
         "title": "Code Review",
         "description": "Продолжим обсуждать лучшие инженерные практики",
-        "time": "20:40",
+        "time": "21:00",
         "speakerIDs": [
           19
         ]
