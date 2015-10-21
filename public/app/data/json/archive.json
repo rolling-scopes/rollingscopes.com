@@ -12,17 +12,20 @@
         "description": "Обзор полезных тулов, плагинов которые позволят Вам увеличить скорость разработки и уделять больше времени попиванию кофе и поеданию печенек",
         "imagePath": "images/fast-typing.gif",
         "time": "19:00",
+        "break": {
+          "time": "20:00"
+        },
         "speakerIDs": [
           46
         ]
       },
       {
         "title": "Нам больше не нужны тестеры или protractor.js",
-        "description": "",
+        "description": "Расскажем про то, как команда разработчиков пыталась (и пытается) писать end to end тесты паралельно с разработкой нескольких single page hybrid-applications. Будет интересно тем, кто хочет автоматизировать Cпойлер: Доклад не связан с Angular",
         "imagePath": "images/protractor-qa-logo.png",
-        "time": "20:00",
+        "time": "20:20",
         "break": {
-          "time": "20:30"
+          "time": "20:50"
         },
         "speakerIDs": [
           7,
@@ -33,7 +36,7 @@
         "title": "Нам больше не нужны тестеры или protractor.js. Часть II",
         "description": "",
         "imagePath": "images/protractor-qa-logo.png",
-        "time": "20:50",
+        "time": "21:00",
         "speakerIDs": [
           7,
           47
