@@ -228,5 +228,15 @@
     "id": 45,
     "name": "Илья Сачок",
     "photo": "ilja_sachok.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Андрей Волченко",
+    "photo": "andrei_vouchanka.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Евгений Ковалев",
+    "photo": ""
   }
 ]

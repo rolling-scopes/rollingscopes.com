@@ -1,5 +1,45 @@
 [
   {
+    "id": "rs#19",
+    "name": "The Rolling Scopes #19",
+    "date": "5 ноября, 2015",
+    "location": "imaguru.co",
+    "locationLink": "http://imaguru.co/ru",
+    "registrationAvailable": true,
+    "schedule": [
+      {
+        "title": "Improve perfomance of <strike>your app</strike> developer",
+        "description": "Обзор полезных тулов, плагинов которые позволят Вам увеличить скорость разработки и уделять больше времени попиванию кофе и поеданию печенек",
+        "imagePath": "images/fast-typing.gif",
+        "time": "19:00",
+        "speakerIDs": [
+          46
+        ]
+      },
+      {
+        "title": "Нам больше не нужны тестеры или protractor.js",
+        "description": "",
+        "imagePath": "images/protractor-qa-logo.png",
+        "time": "20:00",
+        "break": {
+          "time": "20:20"
+        },
+        "speakerIDs": [
+          7,
+          47
+        ]
+      },
+      {
+        "title": "Code Review",
+        "description": "Продолжим обсуждать лучшие инженерные практики",
+        "time": "20:40",
+        "speakerIDs": [
+          19
+        ]
+      }
+    ]
+  },
+  {
     "id": "rs#18",
     "name": "The Rolling Scopes #18",
     "date": "20 августа, 2015",

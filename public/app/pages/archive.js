@@ -13,5 +13,5 @@ module.exports = {
   page: {
     title: 'RS | Архив'
   },
-  events: events
+  events: events.slice(1, events.length)
 }
