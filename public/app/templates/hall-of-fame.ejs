@@ -19,7 +19,7 @@
             <h3><%= speaker.name %></h3>
             <% speaker.talks.forEach(function (talk) { %>
               <p class="report">
-                <%= talk.eventId.toUpperCase() %> - <%= talk.title %>
+                <%= talk.eventId.toUpperCase() %> - <%- talk.title %>
               </p>
             <% }) %>
         </li>
