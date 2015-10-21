@@ -22,7 +22,7 @@
         "imagePath": "images/protractor-qa-logo.png",
         "time": "20:00",
         "break": {
-          "time": "21:00"
+          "time": "20:30"
         },
         "speakerIDs": [
           7,
@@ -30,11 +30,13 @@
         ]
       },
       {
-        "title": "Code Review",
-        "description": "Продолжим обсуждать лучшие инженерные практики",
-        "time": "21:00",
+        "title": "Нам больше не нужны тестеры или protractor.js. Часть II",
+        "description": "",
+        "imagePath": "images/protractor-qa-logo.png",
+        "time": "20:50",
         "speakerIDs": [
-          19
+          7,
+          47
         ]
       }
     ]
