@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title><%= page.title %></title>
+  <meta name="viewport" content="width=device-width">
+  <% include common/styles %>
+</head>
+<body>
+<% include common/browsehappy %>
+<div class="page-wrap">
+  <% include common/header %>
+  <section class="banner">
+      <h1>Двухдневная Front-end тусовка на выезде</h1>
+      <h2>
+        21 ноября, 2015
+        <a class="location" href="javascript:void(0)">Брест</a>
+      </h2>
+      <p>
+        <a class="register-button" href="https://docs.google.com/forms/d/1ECXQbXDHComWqfg98DF_QBPNKVWEoK6o6Snieeo2KbE/viewform">
+          <i class="fa fa-sign-in"></i>
+          Регистрация
+        </a>
+        <a class="register-button" href="https://docs.google.com/document/d/16x2gSBosITnKlz0xlB0gEIL6kKdiwfwIiEMPpOsosbg/edit">
+          Подробнее
+        </a>
+      </p>
+  </section>
+  <section class="schedule">
+    <h2>Афиша</h2>
+    <ul class="schedule-full">
+      <li style="padding-left: 0">
+        <h3>Доклад-обсуждение: Тренды front-end разработки 2015: Процессы, Фреймворки, Библиотеки, Инструменты.</h3>
+        <p class="speaker-name">Дмитрий Воробей</p>
+      </li>
+      <li style="padding-left: 0">
+        <h3>CSS Quickdraw</h3>
+        <p class="speaker-name">Андрей Волченко</p>
+      </li>
+      <li style="padding-left: 0">
+        <h3>Программирование железа на JS - Tessel.io, NodeCopter</h3>
+        <p class="speaker-name">Дмитрий Герасимов</p>
+      </li>
+      <li style="padding-left: 0">
+        <h3>WCAG 2.0 или боль доступного веба</h3>
+        <p class="speaker-name">Станислав Зубович</p>
+      </li>
+      <li style="padding-left: 0">
+        <h3>Глобальные оптимизации Глобальной карты или как подружить leaflet, lodash и marionette</h3>
+        <p class="speaker-name">Денис Шеко</p>
+      </li>
+      <li style="padding-left: 0">
+        <h3>Жизнь с Ember</h3>
+        <p class="speaker-name">Василий Ванчук</p>
+      </li>
+      <li style="padding-left: 0">
+        <h3>Жизнь с React &amp; Flux</h3>
+        <p class="speaker-name">Александр Чуев</p>
+      </li>
+      <li style="padding-left: 0">
+        <h3>How it works: WebSockets</h3>
+        <p class="speaker-name">Александр Оргиш</p>
+      </li>
+    </ul>
+  </section>
+  <% include common/call-for-speakers %>
+</div>
+<% include common/footer %>
+<% include common/scripts %>
+</body>
+</html>
