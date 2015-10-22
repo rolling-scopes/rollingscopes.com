@@ -24,19 +24,6 @@
         "description": "Расскажем про то, как команда разработчиков пыталась (и пытается) писать end to end тесты паралельно с разработкой нескольких single page hybrid-applications. Будет интересно тем, кто хочет автоматизировать Cпойлер: Доклад не связан с Angular",
         "imagePath": "images/protractor-qa-logo.png",
         "time": "20:20",
-        "break": {
-          "time": "20:50"
-        },
-        "speakerIDs": [
-          7,
-          47
-        ]
-      },
-      {
-        "title": "Нам больше не нужны тестеры или protractor.js. Часть II",
-        "description": "",
-        "imagePath": "images/protractor-qa-logo.png",
-        "time": "21:00",
         "speakerIDs": [
           7,
           47
