@@ -5,6 +5,20 @@
   <title><%= page.title %></title>
   <meta name="viewport" content="width=device-width">
   <% include common/styles %>
+  <style>
+  .schedule-full ul {
+    margin-left: 20px;
+  }
+
+  .schedule-full > li {
+    min-height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .schedule-full ul > li {
+    padding: 0;
+  }
+  </style>
 </head>
 <body>
 <% include common/browsehappy %>
@@ -41,37 +55,60 @@
   <section class="schedule">
     <h2>Афиша митапа</h2>
     <ul class="schedule-full">
-      <li style="padding-left: 0">
+      <li>
+        <img src="./images/speakers/dzmitry_varabei.jpg" alt="" class="speaker-photo">
         <h3>Доклад-обсуждение: Тренды front-end разработки 2015: Процессы, Фреймворки, Библиотеки, Инструменты.</h3>
         <p class="speaker-name">Дмитрий Воробей</p>
       </li>
-      <li style="padding-left: 0">
+      <li>
+        <img src="./images/speakers/andrei_vouchanka.jpg" alt="" class="speaker-photo">
         <h3>CSS Quickdraw</h3>
         <p class="speaker-name">Андрей Волченко</p>
+        <p>Real-time онлайн дуэль. CSS-селекторы - Ваш Colt .47! Выжившим - призы от JetBrains</p>
       </li>
-      <li style="padding-left: 0">
+      <li>
+        <img src="./images/speakers/dzmitry_gerasimov.jpg" alt="" class="speaker-photo">
         <h3>Программирование железа на JS - Tessel.io, NodeCopter</h3>
         <p class="speaker-name">Дмитрий Герасимов</p>
       </li>
-      <li style="padding-left: 0">
+      <li>
+        <img class="speaker-photo" src="./images/speakers/stanislau_zubovich.jpg" alt="Станислав Зубович фото">
         <h3>WCAG 2.0 или боль доступного веба</h3>
         <p class="speaker-name">Станислав Зубович</p>
+        <ul>
+          <li>Introduction to accessibility</li>
+          <li>Techniques you can implement today</li>
+          <li>Introduction to screen readers and ARIA</li>
+          <li>Testing tips and tricks&tricks</li>
+        </ul>
       </li>
       <li style="padding-left: 0">
         <h3>Глобальные оптимизации Глобальной карты или как подружить leaflet, lodash и marionette</h3>
         <p class="speaker-name">Денис Шеко</p>
+        <p>Доклад о том, как оптимизировалась отрисовка Глобальной карты (пошаговая стратегия в браузере), какие проблемы пришлось решать, решения применять и какие выводы можно сделать.</p>
       </li>
-      <li style="padding-left: 0">
-        <h3>Жизнь с Ember</h3>
+      <li>
+        <h3>Полгода жизни с хомяком</h3>
+        <img src="./images/speakers/vasiliy_vanchuk.jpg" alt="" class="speaker-photo">
         <p class="speaker-name">Василий Ванчук</p>
+        <p>История вливания в проект на Ember.js.  Какие ощущение появляются когда впервые знакомишься с "янтарным" фреймворком и как эти ощущения меняются с течением времени. Если бы я знал как это будет ...</p>
       </li>
       <li style="padding-left: 0">
         <h3>Жизнь с React &amp; Flux</h3>
         <p class="speaker-name">Александр Чуев</p>
+        <ul>
+          <li>Использование JSX</li>
+          <li>Компоненты React</li>
+          <li>Виртуальный DOM</li>
+          <li>Архитектура Flux</li>
+          <li>Сборка проекта</li>
+        </ul>
       </li>
-      <li style="padding-left: 0">
+      <li>
+        <img class="speaker-photo" src="./images/speakers/alexander_orgish.jpg" alt="Александр Оргиш фото">
         <h3>How it works: WebSockets</h3>
         <p class="speaker-name">Александр Оргиш</p>
+        <p>Как работают веб-сокеты, взгляд изнутри: протокол, сообщения, возможность расширения</p>
       </li>
     </ul>
   </section>
