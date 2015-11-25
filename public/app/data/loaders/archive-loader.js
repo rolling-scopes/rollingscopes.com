@@ -28,11 +28,19 @@ module.exports = function () {
       talk.speakers = getSpeakersByID(talk.speakerIDs);
 
       _.each(talk.materials, function (material) {
+        if (!material.speakerIDs) {
+          material.speakerIDs = talk.speakerIDs;
+        }
+
         material.speakers = _.pluck(
           getSpeakersByID(material.speakerIDs),
           'name'
         );
-      })
+
+        if (!material.title) {
+          material.title = talk.title;
+        }
+      });
 
       materials.push.apply(materials, talk.materials);
     });

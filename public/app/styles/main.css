@@ -708,3 +708,16 @@ footer {
 .talk-item-links i {
     margin-left: .3em;
 }
+
+.schedule-full ul {
+  margin-left: 20px;
+}
+
+.schedule-full > li {
+  min-height: 120px;
+  margin-bottom: 10px;
+}
+
+.schedule-full ul > li {
+  padding: 0;
+}

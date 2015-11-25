@@ -237,6 +237,16 @@
   {
     "id": 47,
     "name": "Евгений Ковалев",
-    "photo": ""
+    "photo": "unknown_speaker.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Василий Ванчук",
+    "photo": "vasiliy_vanchuk.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Александр Оргиш",
+    "photo": "alexander_orgish.jpg"
   }
 ]

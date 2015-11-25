@@ -1,11 +1,98 @@
 [
   {
+    "id": "rs#20",
+    "name": "RS on Tour. Brest",
+    "date": "21 ноября, 2015",
+    "location": "г. Брест, ул.Гоголя,13",
+    "locationLink": "https://www.google.by/maps/place/Gogolia+St+13,+Brest/@52.090187,23.6789445,16.06z/data=!4m2!3m1!1s0x47210bec15bc9109:0x5e28b6234bb723b0?hl=en",
+    "schedule": [
+      {
+        "title": "Доклад-обсуждение: Тренды front-end разработки 2015: Процессы, Фреймворки, Библиотеки, Инструменты.",
+        "imagePath": "images/speakers/dzmitry_varabei.jpg",
+        "speakerIDs": [
+          19
+        ],
+        "description": "",
+        "time": "16:00"
+      },
+      {
+        "title": "Полгода жизни с хомяком",
+        "imagePath": "images/speakers/vasiliy_vanchuk.jpg",
+        "speakerIDs": [
+          48
+        ],
+        "description": "История вливания в проект на Ember.js.  Какие ощущение появляются когда впервые знакомишься с \"янтарным\" фреймворком и как эти ощущения меняются с течением времени. Если бы я знал как это будет ...",
+        "time": "16:45",
+        "materials": [
+          {
+            "slidesLink": "http://rolling-scopes.github.io/slides/rs20/trends/#/21"
+          }
+        ]
+      },
+      {
+        "title": "WCAG 2.0 или боль доступного веба",
+        "imagePath": "images/speakers/stanislau_zubovich.jpg",
+        "speakerIDs": [
+          43
+        ],
+        "description": "<ul><li>Introduction to accessibility</li><li>Techniques you can implement today</li><li>Introduction to screen readers and ARIA</li><li>Testing tips and tricks&amp;tricks</li></ul>",
+        "time": "17:30",
+        "materials": [
+          {
+            "slidesLink": "http://stanislauzubovich.github.io/WCAG/"
+          }
+        ]
+      },
+      {
+        "title": "Глобальные оптимизации Глобальной карты или как подружить leaflet, lodash и marionette",
+        "imagePath": "images/speakers/denis_sheko.jpg",
+        "speakerIDs": [
+          18
+        ],
+        "description": "Доклад о том, как оптимизировалась отрисовка Глобальной карты (пошаговая стратегия в браузере), какие проблемы пришлось решать, решения применять и какие выводы можно сделать.",
+        "time": "18:20",
+        "materials": [
+          {
+            "slidesLink": "http://rolling-scopes.github.io/slides/rs20/global-map-performance.pptx"
+          }
+        ]
+      },
+      {
+        "title": "How it works: WebSockets",
+        "imagePath": "images/speakers/alexander_orgish.jpg",
+        "speakerIDs": [
+          49
+        ],
+        "description": "Как работают веб-сокеты, взгляд изнутри: протокол, сообщения, возможность расширения",
+        "time": "19:00",
+        "materials": [
+          {
+            "slidesLink": "http://rolling-scopes.github.io/slides/rs20/web-sockets-internals-slides/#/"
+          }
+        ]
+      },
+      {
+        "title": "Программирование железа на JS - Tessel.io, NodeCopter",
+        "imagePath": "images/speakers/dzmitry_gerasimov.jpg",
+        "speakerIDs": [
+          20
+        ],
+        "description": "",
+        "time": "19:50",
+        "materials": [
+          {
+            "slidesLink": "https://github.com/rootTheLure/tessel-talk"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "rs#19",
     "name": "The Rolling Scopes #19",
     "date": "5 ноября, 2015",
     "location": "imaguru.co",
     "locationLink": "http://imaguru.co/ru",
-    "registrationAvailable": true,
     "schedule": [
       {
         "title": "Improve performance of <strike>your app</strike> developer",
@@ -17,6 +104,16 @@
         },
         "speakerIDs": [
           46
+        ],
+        "materials": [
+          {
+            "title": "Improve performance of <strike>your app</strike> developer",
+            "slidesLink": "http://rolling-scopes.github.io/slides/rs19/dev-perf",
+            "videoLink": "https://www.youtube.com/watch?v=wPtPazwndKg",
+            "speakerIDs": [
+              46
+            ]
+          }
         ]
       },
       {
