@@ -250,6 +250,11 @@
         },
         "speakerIDs": [
           2
+        ],
+        "materials": [
+          {
+            "slidesLink": "http://rolling-scopes.github.io/slides/rs16/cook-reack.pptx"
+          }
         ]
       },
       {
