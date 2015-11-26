@@ -13,7 +13,12 @@
           19
         ],
         "description": "",
-        "time": "16:00"
+        "time": "16:00",
+        "materials": [
+          {
+            "slidesLink": "http://rolling-scopes.github.io/slides/rs20/trends/"
+          }
+        ]
       },
       {
         "title": "Полгода жизни с хомяком",
@@ -25,7 +30,7 @@
         "time": "16:45",
         "materials": [
           {
-            "slidesLink": "http://rolling-scopes.github.io/slides/rs20/trends/#/21"
+            "slidesLink": "http://rolling-scopes.github.io/slides/rs20/ember-presentation.pptx"
           }
         ]
       },
