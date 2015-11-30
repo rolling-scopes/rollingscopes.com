@@ -129,6 +129,11 @@
         "speakerIDs": [
           7,
           47
+        ],
+        "materials": [
+          {
+            "slidesLink": "http://rolling-scopes.github.io/slides/rs19/automation.pptx"
+          }
         ]
       }
     ]
