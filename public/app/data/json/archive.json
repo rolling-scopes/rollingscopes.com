@@ -1,5 +1,23 @@
 [
   {
+    "id": "rs#21",
+    "name": "The Rolling Scopes #21",
+    "date": "17 декабря, 2015",
+    "location": "imaguru.co",
+    "locationLink": "http://imaguru.co/ru",
+    "registrationAvailable": true,
+    "schedule": [
+      {
+        "title": "Полгода жизни с хомяком",
+        "imagePath": "images/speakers/vasiliy_vanchuk.jpg",
+        "speakerIDs": [
+          48
+        ],
+        "description": "История вливания в проект на Ember.js. Какие ощущение появляются когда впервые знакомишься с \"янтарным\" фреймворком и как эти ощущения меняются с течением времени. Если бы я знал как это будет ..."
+      }
+    ]
+  },
+  {
     "id": "rs#20",
     "name": "RS on Tour. Brest",
     "date": "21 ноября, 2015",
