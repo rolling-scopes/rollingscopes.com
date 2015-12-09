@@ -10,6 +10,10 @@
       {
         "title": "Полгода жизни с хомяком",
         "imagePath": "images/speakers/vasiliy_vanchuk.jpg",
+        "time": "19:00",
+        "break": {
+          "time": "20:00"
+        },
         "speakerIDs": [
           48
         ],
@@ -18,6 +22,7 @@
       {
         "title": "Какой к черту Angular2, с цензурой и без хомяков",
         "imagePath": "images/aurelia-logo.png",
+        "time": "20:20",
         "speakerIDs": [
           50,
           51
