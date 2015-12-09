@@ -248,5 +248,15 @@
     "id": 49,
     "name": "Александр Оргиш",
     "photo": "alexander_orgish.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Александр Михалченко",
+    "photo": "alexander_mikhalchenko.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Егор Малкевич",
+    "photo": "egor_malkevich.jpg"
   }
 ]
