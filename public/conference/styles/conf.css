@@ -353,7 +353,8 @@ section:after {
 }
 
 .schedule-full .speaker-name {
-    color: #999;
+    color: Black;
+    font-weight: bold;
 }
 
 .schedule-full .speaker-photo {
