@@ -157,6 +157,9 @@ header {
     border-radius: 50%;
 }
 
+.speaker-twitter {
+  font-weight: normal;
+}
 /**************    navigation  ******************/
 .nav {
     list-style-type: none;
