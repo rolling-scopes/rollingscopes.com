@@ -35,7 +35,7 @@ html, body, div, span, h1, h2, h3, h4, p, img, strong, ul, li, form, label, arti
 body {
     background: #fff;
     color: #444;
-    font-family: 'PT Serif', serif;
+    font-family: sans-serif;
     line-height: 1.56em;
     text-align: center;
 }
