@@ -4,9 +4,5 @@ module.exports = {
   'register'    : require('./register'),
   'about'       : require('./about'),
   'hall-of-fame': require('./hall-of-fame'),
-  'frontend-trip': {
-    page: {
-      title: 'RS | Брест'
-    }
-  }
+  'brest'       : require('./brest')
 };
