@@ -1,7 +1,7 @@
 <li>
   <img class="speaker-photo" src="<%= talk.imagePath %>"/>
   <p class="time"><%= talk.time %></p>
-  <h3><%- talk.title %></h3>
+  <h3><%= talk.title %></h3>
   <p class="speaker-name"><%= talk.speakers.map(speaker => speaker.name).join(', ') %></p>
   <p><%- talk.description %>
   </p>

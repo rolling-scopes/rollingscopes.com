@@ -1,7 +1,9 @@
 var _            = require('lodash');
 var loadEvents   = require('../data/loaders/archive-loader');
 
-var events = loadEvents();
+var events = loadEvents().filter(function (event) {
+  return !event.upcoming;
+});
 
 module.exports = {
   page: {
