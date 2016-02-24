@@ -5,5 +5,6 @@ module.exports = {
   'about'       : require('./about'),
   'hall-of-fame': require('./hall-of-fame'),
   'brest'       : require('./brest'),
-  'gomel'       : require('./gomel')
+  'gomel'       : require('./gomel'),
+  'minsk'       : require('./minsk')
 };
