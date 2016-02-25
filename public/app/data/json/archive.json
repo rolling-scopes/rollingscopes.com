@@ -1,10 +1,74 @@
 [
   {
-    "id": "rs#22",
+    "id": "rs#23",
     "name": "RS on Tour. Gomel",
     "location": "г. Гомель",
     "schedule": []
-  },
+  },{
+  "id": "rs#22",
+  "name": "The Rolling Scopes #22. Brest",
+  "date": "12 марта, 2016",
+  "location": "г. Брест, ул.Гоголя,13",
+  "locationLink": "https://www.google.by/maps/place/Gogolia+St+13,+Brest/@52.090187,23.6789445,16.06z/data=!4m2!3m1!1s0x47210bec15bc9109:0x5e28b6234bb723b0?hl=en",
+  "schedule": [
+    {
+      "title": "Под капотом у Reactjs.",
+      "imagePath": "images/speakers/vitali_fokin.jpg",
+      "speakerIDs": [
+        52
+      ],
+      "description": "В современном мире Frontend разработки Reactjs набирает все большую популярность и оказывает огромное влияние на развитие индустрии в целом. Предлагаю разобраться откуда растут ноги у этого явления и почему все говорят, что React очень быстрый. В процессе мы познакомимся с принципами работы Reactjs и узнаем как все работает внутри.",
+      "time": "15:00"
+    },
+    {
+      "title": "Социальный проект Brest Fortress Hidden History",
+      "imagePath": "images/speakers/dmitriy_rybalko.jpg",
+      "speakerIDs": [
+        53
+      ],
+      "description": "Что может получиться, когда интересный проект разрабатывает команда с не менее \"интересными\" навыками. Приходи и узнай всю скрытую историю о том как мобильное приложение на cordova\\ionic\\crosswalk разрабатывалось в студенческой лаборатории.",
+      "time": "15:45",
+      "break": {
+        "time": "16:30"
+      }
+    },
+    {
+      "title": "Progressive Web Apps",
+      "imagePath": "images/speakers/alexander_orgish.jpg",
+      "speakerIDs": [
+        49
+      ],
+      "description": "Что стоит за новым баззвордом Prоgressive Web App? Действительно ли это новый шаг в эволюции веб и мобильных приложений? Как сейчас создают прогрессивные, привлекательные и высоко-производительные онлайн\\оффлайн веб-приложения. ",
+      "time": "16:50"
+    },
+    {
+      "title": "Asyncable ES для тех, кто еще не в теме",
+      "imagePath": "images/speakers/denis_vlassenko.jpg",
+      "speakerIDs": [
+        54
+      ],
+      "description": "Говорят, shift happens. Иногда внезапно. Но сейчас не тот случай. Будучи уверенным, что все мы уже активно транспилим наши гиперсовременные скрипты посредством babeljs, создаем бесконечные последовательности данных функциями-генераторами, эффективно проксируем объекты и  конечно же утилизируем 92 процентную поддержку ES2015, предоставляемую Chrome Canary... Да, будучи уверенным во все этом, предлагаю обсудить будущее ECMAScript: async/await.",
+      "time": "17:35",
+      "break": {
+        "time": "18:20"
+      }
+    },
+    {
+      "title": "TV in browsers: live cases",
+      "imagePath": "images/speakers/alex_karlovich.jpg",
+      "speakerIDs": [
+        1
+      ],
+      "description": "До сих пор многие медиа-компании используют для стриминга видео контента Flash или Silverlight. Посмотрим, как начать жить проще и по HTML5-стандартам.",
+      "time": "18:40",
+      "party": {
+        "time": "20:00",
+        "title": "Beer.js party",
+        "description": "Место проведения определим позже!"
+      }
+    }
+  ]
+},
   {
     "id": "rs#21",
     "name": "The Rolling Scopes #21",

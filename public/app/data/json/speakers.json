@@ -258,5 +258,20 @@
     "id": 51,
     "name": "Егор Малкевич",
     "photo": "egor_malkevich.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Виталий Фокин",
+    "photo": "vitali_fokin.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Дмитрий Рыбалко",
+    "photo": "dmitriy_rybalko.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Денис Влассенко",
+    "photo": "denis_vlassenko.jpg"
   }
 ]
