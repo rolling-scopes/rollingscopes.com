@@ -1,10 +1,4 @@
-[
-  {
-    "id": "rs#23",
-    "name": "RS on Tour. Gomel",
-    "location": "г. Гомель",
-    "schedule": []
-  },{
+[{
   "id": "rs#22",
   "name": "The Rolling Scopes #22. Brest",
   "date": "12 марта, 2016",
@@ -1364,5 +1358,11 @@
         ]
       }
     ]
+  },
+  {
+    "id": "rs#23",
+    "name": "RS on Tour. Gomel",
+    "location": "г. Гомель",
+    "schedule": []
   }
 ]
