@@ -273,5 +273,10 @@
     "id": 54,
     "name": "Денис Влассенко",
     "photo": "denis_vlassenko.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Владимир Дёмин",
+    "photo": "vladimir_demin.jpg"
   }
 ]
