@@ -1371,7 +1371,17 @@
   {
     "id": "rs#23",
     "name": "RS on Tour. Gomel",
+    "date": "9 апреля, 2016",
     "location": "г. Гомель",
-    "schedule": []
+    "schedule": [
+      {
+        "title": "Web Accessibility",
+        "description": "В ходе доклада рассмотрим: <ul><li>Что такое Accessibility</li><li>WCAG 2.0</li><li>Accessibility Checklists</li><li>Keyboard-only Access</li><li>Accessible Forms</li><li>Accessible Visuel information</li><li>Screen Readers</li><li>WAI-ARIA</li><li>High Contrast Mode</li></ul>",
+        "time": "15:00",
+        "speakerIDs": [
+          43
+        ]
+      }
+    ]
   }
 ]
