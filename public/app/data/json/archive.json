@@ -1381,6 +1381,17 @@
         "speakerIDs": [
           43
         ]
+      },{
+        "title": "NightwatchJS. Легенды ночных стражей",
+        "imagePath": "images/speakers/vasiliy_vanchuk.jpg",
+        "time": "15:45",
+        "break": {
+          "time": "16:15"
+        },
+        "speakerIDs": [
+          48
+        ],
+        "description": "Как сова помогала ловить баги. Укрощение Selenium в асинхронном стиле."
       }
     ]
   }
