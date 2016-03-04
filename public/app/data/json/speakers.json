@@ -278,5 +278,10 @@
     "id": 55,
     "name": "Владимир Дёмин",
     "photo": "vladimir_demin.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Ксения Колтун",
+    "photo": "kseniya_koltun.jpg"
   }
 ]
