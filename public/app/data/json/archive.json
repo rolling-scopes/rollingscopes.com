@@ -1,4 +1,57 @@
 [{
+    "id": "rs#23",
+    "name": "RS on Tour. Gomel",
+    "date": "9 апреля, 2016",
+    "location": "г. Гомель",
+    "schedule": [
+      {
+        "title": "Web Accessibility",
+        "description": "В ходе доклада рассмотрим: <ul><li>Что такое Accessibility</li><li>WCAG 2.0</li><li>Accessibility Checklists</li><li>Keyboard-only Access</li><li>Accessible Forms</li><li>Accessible Visuel information</li><li>Screen Readers</li><li>WAI-ARIA</li><li>High Contrast Mode</li></ul>",
+        "time": "15:00",
+        "speakerIDs": [
+          43
+        ]
+      },{
+        "title": "NightwatchJS. Легенды ночных стражей",
+        "imagePath": "images/speakers/vasiliy_vanchuk.jpg",
+        "time": "15:45",
+        "break": {
+          "time": "16:15"
+        },
+        "speakerIDs": [
+          48
+        ],
+        "description": "Как сова помогала ловить баги. Укрощение Selenium в асинхронном стиле."
+      },{
+        "title": "TV in browsers: live cases",
+        "imagePath": "images/speakers/alex_karlovich.jpg",
+        "speakerIDs": [
+          1
+        ],
+        "description": "До сих пор многие медиа-компании используют для стриминга видео контента Flash или Silverlight. Посмотрим, как начать жить проще и по HTML5-стандартам.",
+        "time": "16:35"
+      },{
+        "title": "Welcome to V/A/M R.",
+        "imagePath": "images/speakers/paul_yuhnovich.jpg",
+        "speakerIDs": [
+          57
+        ],
+        "break": {
+          "time": "17:40"
+        },
+        "description": "Что же кроется за этими тремя буквами VAM? Как мы к такому пришли? Что на самом деле сейчас происходит в мире VR? Зачем вообще идти в VR, если здесь тепло и есть печеньки?",
+        "time": "17:10"
+      },{
+        "title": "Migrating from angular 1.4 to 2.0",
+        "imagePath": "images/speakers/oleg_kaplya.jpeg",
+        "speakerIDs": [
+          58
+        ],
+        "description": "Рассмотрим стратегию и подводные камни миграции приложения на angular 2.0",
+        "time": "18:00"
+      }
+    ]
+  }, {
   "id": "rs#22",
   "name": "The Rolling Scopes #22. Brest",
   "date": "12 марта, 2016",
@@ -1374,60 +1427,6 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": "rs#23",
-    "name": "RS on Tour. Gomel",
-    "date": "9 апреля, 2016",
-    "location": "г. Гомель",
-    "schedule": [
-      {
-        "title": "Web Accessibility",
-        "description": "В ходе доклада рассмотрим: <ul><li>Что такое Accessibility</li><li>WCAG 2.0</li><li>Accessibility Checklists</li><li>Keyboard-only Access</li><li>Accessible Forms</li><li>Accessible Visuel information</li><li>Screen Readers</li><li>WAI-ARIA</li><li>High Contrast Mode</li></ul>",
-        "time": "15:00",
-        "speakerIDs": [
-          43
-        ]
-      },{
-        "title": "NightwatchJS. Легенды ночных стражей",
-        "imagePath": "images/speakers/vasiliy_vanchuk.jpg",
-        "time": "15:45",
-        "break": {
-          "time": "16:15"
-        },
-        "speakerIDs": [
-          48
-        ],
-        "description": "Как сова помогала ловить баги. Укрощение Selenium в асинхронном стиле."
-      },{
-        "title": "TV in browsers: live cases",
-        "imagePath": "images/speakers/alex_karlovich.jpg",
-        "speakerIDs": [
-          1
-        ],
-        "description": "До сих пор многие медиа-компании используют для стриминга видео контента Flash или Silverlight. Посмотрим, как начать жить проще и по HTML5-стандартам.",
-        "time": "16:35"
-      },{
-        "title": "Welcome to V/A/M R.",
-        "imagePath": "images/speakers/paul_yuhnovich.jpg",
-        "speakerIDs": [
-          57
-        ],
-        "break": {
-          "time": "17:40"
-        },
-        "description": "Что же кроется за этими тремя буквами VAM? Как мы к такому пришли? Что на самом деле сейчас происходит в мире VR? Зачем вообще идти в VR, если здесь тепло и есть печеньки?",
-        "time": "17:10"
-      },{
-        "title": "Migrating from angular 1.4 to 2.0",
-        "imagePath": "images/speakers/oleg_kaplya.jpeg",
-        "speakerIDs": [
-          58
-        ],
-        "description": "Рассмотрим стратегию и подводные камни миграции приложения на angular 2.0",
-        "time": "18:00"
       }
     ]
   }
