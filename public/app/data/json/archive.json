@@ -2,7 +2,8 @@
     "id": "rs#23",
     "name": "RS on Tour. Gomel",
     "date": "9 апреля, 2016",
-    "location": "г. Гомель",
+    "location": "г. Гомель, ул.Ланге, д.17",
+    "locationLink": "https://goo.gl/maps/S3w8FZD4kJE2",
     "schedule": [
       {
         "title": "NightwatchJS. Легенды ночных стражей",

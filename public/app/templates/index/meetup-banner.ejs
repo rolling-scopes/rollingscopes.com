@@ -2,7 +2,7 @@
     <h1><%= event.name %></h1>
     <h2>
       <%= event.date %>
-      <a class="location" href="<%= event.locationLink %>"><%= event.location %></a>
+      <a class="location" target="_blank" href="<%= event.locationLink %>"><%= event.location %></a>
     </h2>
     <% if (event.registrationAvailable) { %>
       <p>
