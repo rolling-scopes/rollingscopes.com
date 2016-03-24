@@ -2,26 +2,116 @@
 <html class="no-js">
 <head>
   <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=cyrillic-ext,latin-ext'
+        rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <title><%= page.title %></title>
-  <meta name="viewport" content="width=device-width">
-  <% include common/styles %>
+  <link rel="stylesheet" href="styles/new-main.css">
 </head>
 <body>
 <% include common/browsehappy %>
 <div class="page-wrap">
-  <% include common/header %>
-  <% include index/meetup-banner %>
-  <% include common/materials %>
-  <section class="banner"><p><a class="register-button" href="https://docs.google.com/forms/d/1RIksRMvs8buDxRKu_Mc_lFGOtIB0DDGChgKdMoA9uKM/viewform"><i class="fa fa-sign-in"></i> Зарегистрироваться!</a></p></section>
-  <section class="schedule">
-    <h2>Афиша</h2>
-    <% include common/scedule %>
+
+  <div class="header-wrapper">
+    <header>
+      <ul class="nav">
+        <li><a href="http://www.front-end.by/"><i class="fa fa-slack"></i></a></li>
+        <li><a href="https://www.facebook.com/groups/TheRollingScopes/"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.youtube.com/user/therollingscopes"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://vk.com/therollingscopes"><i class="fa fa-vk"></i></a></li>
+        <li><a href="https://twitter.com/rollingscopes"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/explore/tags/rollingscopes/"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+
+      <ul class="nav">
+        <li><a href="http://rollingscopes.com/hall-of-fame.html">Зал славы</a></li>
+        <li><a href="http://rollingscopes.com/about.html">О сообществе</a></li>
+        <li><a href="http://rollingscopes.com/archive.html">Архив</a></li>
+      </ul>
+
+      <a class="logo" href="#"><img src="http://rollingscopes.com/images/logo_rs_text.svg" alt=""/></a>
+
+
+    </header>
+  </div>
+  <section>
+    <ul class="main-nav">
+      <li class="main-nav-item"><a href="http://minsk.rollingscopes.com/"><img src="images/locations/minsk.jpg" alt=""/>
+
+          <div class="title">Минск</div>
+        </a></li>
+      <li class="main-nav-item"><a href="http://brest.rollingscopes.com/"><img src="images/locations/brest.jpg" alt=""/>
+
+          <div class="title">Брест</div>
+        </a></li>
+      <li class="main-nav-item"><a href="http://gomel.rollingscopes.com/"><img src="images/locations/gomel.jpg" alt=""/>
+
+          <div class="title">Гомель</div>
+        </a></li>
+      <li class="main-nav-item"><a href="http://2016.conf.rollingscopes.com/"><img src="images/RS-conf-2016.jpg" alt=""/>
+
+          <div class="title">RS CONF <br/> 2016</div>
+        </a></li>
+      <li class="main-nav-item"><a href="http://2015.conf.rollingscopes.com/"><img src="images/RS-conf-2015.jpg" alt=""/>
+
+          <div class="title">RS CONF <br/> 2015</div>
+        </a></li>
+      <li class="main-nav-item"><a href="http://school.rollingscopes.com/"><img src="images/RS-school.jpg" alt=""/>
+
+          <div class="title">RS <br/> School</div>
+        </a></li>
+    </ul>
   </section>
+
+  <% include common/materials %>
+  <div class="schedule-wrapper">
+    <% include index/meetup-banner %>
+
+    <section class="banner"><p><a class="register-button" href="https://docs.google.com/forms/d/1RIksRMvs8buDxRKu_Mc_lFGOtIB0DDGChgKdMoA9uKM/viewform"><i class="fa fa-sign-in"></i> Зарегистрироваться!</a></p></section>
+
+    <section class="schedule">
+      <h2>Афиша</h2>
+      <% include common/scedule %>
+    </section>
+
   <section class="banner"><p><a class="register-button" href="https://docs.google.com/forms/d/1RIksRMvs8buDxRKu_Mc_lFGOtIB0DDGChgKdMoA9uKM/viewform"><i class="fa fa-sign-in"></i> Зарегистрироваться!</a></p></section>
+  </div>
   <% include index/venue %>
-  <% include common/call-for-speakers %>
+
+  <div class="speaker-wanted">
+    <section><h2>Мы ищем докладчиков</h2>
+
+      <p>Мы всегда рады сотрудничеству.<br>Если у вас есть какие-либо предложения или просто желание выступить и
+        поделиться
+        своим опытом, то, пожалуйста, напишите нам <a href="mailto:rolling.scopes@gmail.com">rolling.scopes@gmail.com</a>
+      </p></section>
+  </div>
+
 </div>
-<% include common/footer %>
+
+<div class="footer-wrapper">
+  <footer><p>Присоединяйтесь к нам в социальных сетях, наш хештег <a class="rs-tag"
+                                                                     href="https://twitter.com/search?f=realtime&amp;q=%23rollingscopes&amp;src=typd">#rollingscopes</a>
+    </p>
+    <ul class="nav">
+      <li><a target="_blank" href="http://www.front-end.by/"><i class="fa fa-slack"></i></a></li>
+      <li><a target="_blank" href="https://www.facebook.com/groups/TheRollingScopes/"><i class="fa fa-facebook"></i></a></li>
+      <li><a target="_blank" href="https://www.youtube.com/user/therollingscopes"><i class="fa fa-youtube"></i></a></li>
+      <li><a target="_blank" href="https://vk.com/therollingscopes"><i class="fa fa-vk"></i></a></li>
+      <li><a target="_blank" href="https://twitter.com/rollingscopes"><i class="fa fa-twitter"></i></a></li>
+      <li><a target="_blank" href="https://www.instagram.com/explore/tags/rollingscopes/"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+
+    <p class="copy">&copy; 2013 – 2016 The Rolling Scopes</p>
+
+    <a href="http://rollingscopes.com/" class="footer-logo"></a>
+
+  </footer>
+</div>
+
 <% include common/scripts %>
 </body>
 </html>

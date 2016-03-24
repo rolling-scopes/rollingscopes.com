@@ -45,6 +45,13 @@ gulp.task('copy:school', ['copy'], function () {
   .pipe(gulp.dest(options.dest));
 });
 
+gulp.task('compile-sass', function () {
+  return gulp.src(options.src + '/sass/*.scss')
+    .pipe($.sass().on('error', $.sass.logError))
+    .pipe($.autoprefixer({browsers: ['last 2 versions']}))
+    .pipe(gulp.dest(options.dest + "/styles"));
+});
+
 gulp.task('css', function () {
   return gulp.src(
     options.src + '/styles/*.css'
@@ -86,7 +93,7 @@ gulp.task('build:site', function (cb) {
   runSequence(
     'clean',
     'views',
-    ['copy', 'useref'],
+    ['copy', 'useref', 'compile-sass'],
     cb
   );
 });
