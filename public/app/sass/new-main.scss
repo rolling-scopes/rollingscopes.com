@@ -213,7 +213,6 @@ header {
   h1 {
     font-weight: normal;
     color: #f0bf19;
-    font-size: 40px;
   }
   h2 {
     font-weight: normal;
@@ -376,10 +375,10 @@ footer {
   .logo img {
     height: 70px;
   }
-  //
-  //.header-wrapper + section {
-  //  padding-top: 90px;
-  //}
+
+  .banner h2 {
+    font-size: 100%;
+  }
 
   .nav + .nav {
     clear: both;
