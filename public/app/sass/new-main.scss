@@ -415,45 +415,36 @@ footer {
   }
 
   .header-wrapper {
-    height: 80px;
+    height: 55px;
   }
 
   .logo img {
     position: absolute;
     top: 0;
-    height: 55px;
+    height: 40px;
     left: 50%;
     transform: translateX(-50%);
   }
 
   header {
-    //padding: 0 10px 0;
-    min-height: 130px;
     text-align: center;
   }
 
+  .header-wrapper + section {
+    padding-top: 65px;
+  }
   .main-nav li .title {
     font-size: 30px;
     line-height: 30px;
   }
 
-  .nav, .nav + .nav {
-    padding-left: 0;
-    float: none;
+  .nav {
+    margin-top: 12px;
   }
 
-  .nav li .title {
-    font-size: 36px;
-    line-height: 36px;
+  .nav li a {
+    font-size: 14px;
   }
-
-  //.nav {
-  //  margin: 20px 0 0 0;
-  //}
-  //
-  //.nav + .nav {
-  //  margin: 20px 0 0 0;
-  //}
 
   .schedule-full {
     li {
@@ -497,9 +488,11 @@ footer {
   header {
     padding: 0 10px 0;
   }
-
-  .logo img {
-    opacity: 0.6;
+  .nav {
+    padding: 0;
+  }
+  .nav li a {
+    font-size: 12px;
   }
 }
 
@@ -510,11 +503,5 @@ footer {
 @media only screen and (max-width: 320px) {
   section {
     max-width: 300px;
-  }
-  .nav {
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: space-between;
   }
 }
