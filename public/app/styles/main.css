@@ -112,7 +112,6 @@ h6 {
 }
 
 section h1 {
-
     color: #19b6f0;
     font-size: 300%;
     font-weight: 100;
@@ -122,6 +121,25 @@ section h1 {
     text-align: right;
     margin-top: .5em 0;
 }
+
+.accent-section {
+    padding: 30px 0;
+    background: #404040;
+    color: #fff;
+}
+
+.accent-section h2 {
+    font-weight: normal;
+    color: #f0bf19;
+}
+
+.accent-section h3 {
+    color: #fff;
+    margin-top: 40px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
 
 /*************  header ************/
 header {
