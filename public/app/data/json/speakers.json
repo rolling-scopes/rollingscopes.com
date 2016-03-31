@@ -298,5 +298,10 @@
     "id": 59,
     "name": "Иван Селицкий",
     "photo": "ivan_sialitski.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Иван Акулов",
+    "photo": "ivan_akulow.jpg"
   }
 ]
