@@ -174,7 +174,7 @@
       {
         "title": "Ленивая история про ленивый JavaScript",
         "imagePath": "images/speakers/denis_vlassenko.jpg",
-        "time": "15:00",
+        "time": "19:00",
         "speakerIDs": [
           54
         ],
@@ -187,9 +187,9 @@
           31
         ],
         "description": " ",
-        "time": "16:00",
+        "time": "20:00",
         "break": {
-          "time": "16:45"
+          "time": "20:45"
         }
       },
       {
@@ -199,7 +199,7 @@
           60
         ],
         "description": " ",
-        "time": "17:05"
+        "time": "21:05"
       }
     ]
   },
