@@ -412,6 +412,11 @@ section:after {
     text-align: center;
 }
 
+.speaker-list li .speaker-photo-wrapper {
+  position: relative;
+  padding-bottom: 100%;
+}
+
 /*.speaker-list li:hover {*/
 /*background-color: #f7f7f7;*/
 /*}*/
@@ -424,6 +429,14 @@ section:after {
 .speaker-list li .speaker-photo {
     width: 100%;
     height: auto;
+}
+
+.speaker-list.hall-of-fame li .speaker-photo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .speaker-list li .report {

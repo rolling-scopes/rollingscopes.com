@@ -12,10 +12,12 @@
   <% include common/header %>
   <section>
     <h1>Наши докладчики</h1>
-    <ul class="speaker-list">
+    <ul class="speaker-list hall-of-fame">
       <% speakers.forEach(function (speaker) { %>
         <li>
-            <img class="speaker-photo" src="images/speakers/<%= speaker.photo %>"/>
+            <div class="speaker-photo-wrapper">
+              <img class="speaker-photo" src="images/speakers/<%= speaker.photo %>"/>
+            </div>
             <h3><%= speaker.name %></h3>
             <% speaker.talks.forEach(function (talk) { %>
               <p class="report">
