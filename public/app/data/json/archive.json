@@ -186,7 +186,7 @@
         "speakerIDs": [
           31
         ],
-        "description": " ",
+        "description": "Атоматизация процесса разработки задач. С  микросервисами на Meteor и Koa.",
         "time": "20:00",
         "break": {
           "time": "20:45"
