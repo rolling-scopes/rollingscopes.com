@@ -137,9 +137,11 @@ section h1 {
     color: #fff;
     margin-top: 40px;
     font-weight: normal;
-    text-decoration: underline;
 }
 
+.accent-color {
+    color: #f0bf19;
+}
 
 /*************  header ************/
 header {
