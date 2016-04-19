@@ -37,6 +37,44 @@
     }
   ]
 },{
+  "id": "rs#26",
+  "name": "The Rolling Scopes #26. Krakow",
+  "date": "June 16, 2016",
+  "location": "Krakow",
+  "locationLink": "http://imaguru.co/ru",
+  "schedule": [
+    {
+      "title": "TypeScript and what's the hack Javascript",
+      "time": "18:00",
+      "speakerIDs": [
+        61
+      ],
+      "description": "TypeScript is amazing/awful! What about ES6? How to use and when, what to choose? Introduction to the future of Javascript, how it fits with NodeJS. Compilation processes, must know things.",
+      "break": {
+        "time": "18:50"
+      }
+    },
+    {
+      "title": "3D visualization of datasets in browsers",
+      "speakerIDs": [
+        62
+      ],
+      "description": "The common case in every financial project (and not only) is \"how to present a big set of grid data in best way?\". Every developer already know about standard of 2D visualization in Highcharts, d3.js, etc. But what about 3D? WebGL brings new level of high-end quality of data presenting and managing.",
+      "time": "19:10",
+      "break": {
+        "time": "20:45"
+      }
+    },
+    {
+      "title": "CSS QuickDraw!",
+      "description": "Your CSS is fast, but are you?",
+      "time": "20:00",
+      "speakerIDs": [
+        0
+      ]
+    }
+  ]
+},{
     "id": "rs#23",
     "name": "RS on Tour. Gomel",
     "date": "9 апреля, 2016",

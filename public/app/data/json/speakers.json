@@ -298,5 +298,15 @@
     "id": 60,
     "name": "Иван Акулов",
     "photo": "ivan_akulov.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Vadzim Yakushau",
+    "photo": "vadzim_yakushau.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Oleksandr Pastukhov",
+    "photo": "oleksandr_pastukhov.jpg"
   }
 ]
