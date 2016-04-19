@@ -305,12 +305,12 @@ header {
 
 .location {
     display: inline-block;
-    padding-left: 1em;
+    /*padding-left: 1em;*/
     line-height: 1.3em;
-    background: url("../images/icon-location.svg") no-repeat 0 center;
+    /*background: url("../images/icon-location.svg") no-repeat 0 center;*/
     background-size: .9em;
     color: #bbb;
-    margin-left: 1em;
+    /*margin-left: 1em;*/
     font-weight: 100;
 }
 
