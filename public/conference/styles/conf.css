@@ -589,6 +589,7 @@ footer {
     padding: 0;
     min-height: 370px;
     margin-bottom: 2em;
+    padding-bottom: 25px;
 }
 
 .conf-title h1 {

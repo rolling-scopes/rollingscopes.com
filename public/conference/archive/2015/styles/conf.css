@@ -519,6 +519,7 @@ footer {
     background-size: cover;
     max-width: none;
     padding: 0;
+    padding-bottom: 25px;
     min-height: 370px;
     margin-bottom: 2em;
 }

@@ -111,14 +111,8 @@ gulp.task('build:conf', function (cb) {
 });
 
 gulp.task('build:conf-archive', function (cb) {
-  options.src = 'public/conference/archive/2015';
-  options.dest = 'public/conferenceBin/archive/2015';
-
-  runSequence(
-    'clean',
-    ['copy', 'useref'],
-    cb
-  );
+  return gulp.src('public/conference/archive/**/*')
+    .pipe(gulp.dest('public/conferenceBin/archive/'));
 });
 
 gulp.task('build:school', function (cb) {
