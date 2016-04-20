@@ -66,8 +66,8 @@
       }
     },
     {
-      "title": "CSS QuickDraw!",
-      "description": "Your CSS is fast, but are you?",
+      "title": "CSS QuickDraw",
+      "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit!",
       "time": "20:00",
       "speakerIDs": [
         0
@@ -1524,4 +1524,3 @@
     ]
   }
 ]
-
