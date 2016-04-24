@@ -1,4 +1,32 @@
 [{
+  "id": "rs#25",
+  "name": "The Rolling Scopes #25",
+  "date": "4го июня, 2016",
+  "location": "TBD",
+  "locationLink": "",
+  "schedule": [
+    {
+      "title": "Code review",
+      "time": "17:30",
+      "speakerIDs": [
+        13
+      ],
+      "description": "Часто встречающиеся ошибки на основе анализа реального production-кода."
+    }, {
+      "title": "Безусловное программирование",
+      "speakerIDs": [
+        49
+      ],
+      "description": "Можно ли писать программу без ветвлений? Так ли обязательны условия для алгоритмов fizz-buzz и крестики-нолики? Попробуем научиться мыслить \"прямолинейно\".",
+      "time": "18:30",
+      "party": {
+        "time": "20:00",
+        "title": "Beer.js party",
+        "description": "Place: TBD"
+      }
+    }
+  ]
+},{
   "id": "rs#24",
   "name": "The Rolling Scopes #24",
   "date": "21 апреля, 2016",
