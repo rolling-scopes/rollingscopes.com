@@ -6,6 +6,14 @@
   "locationLink": "",
   "schedule": [
     {
+      "title": "Выжимаем максимум из React.js",
+      "speakerIDs": [
+        52
+      ],
+      "description": "Рассмотрим, как оптимизировать SPA, написанный с использованием React.js",
+      "time": "17:00"
+    },
+    {
       "title": "Code review",
       "time": "17:30",
       "speakerIDs": [
