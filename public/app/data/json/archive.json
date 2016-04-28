@@ -76,7 +76,7 @@
   "id": "rs#26",
   "name": "The Rolling Scopes #26. Krakow",
   "date": "June 16, 2016",
-  "location": "Quattro Business Center (ul.Bora-Komorovskiego, 25)",
+  "location": "Quattro Business Center (Krakow, ul.Bora-Komorovskiego, 25)",
   "locationLink": "http://www.buma.com.pl/quattro/",
   "schedule": [
     {
@@ -112,7 +112,7 @@
     },
     {
       "title": "CSS QuickDraw",
-      "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit!<br />(Please bring your laptop!)",
+      "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit! <br />(Please bring your laptop!)",
       "time": "19:45",
       "speakerIDs": [
         0
