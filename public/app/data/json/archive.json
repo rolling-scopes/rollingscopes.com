@@ -80,8 +80,17 @@
   "locationLink": "http://www.buma.com.pl/quattro/",
   "schedule": [
     {
-      "title": "TypeScript and what's the hack Javascript",
+      "title": "Introduction of The Rolling Scopes",
       "time": "18:00",
+      "imagePath": "images/logo_rs2.svg",
+      "speakerIDs": [
+        0, 19
+      ],
+      "description": ""
+    },
+    {
+      "title": "TypeScript and what's the hack Javascript",
+      "time": "18:10",
       "speakerIDs": [
         61
       ],
