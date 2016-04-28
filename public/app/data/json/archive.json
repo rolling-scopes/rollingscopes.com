@@ -76,8 +76,8 @@
   "id": "rs#26",
   "name": "The Rolling Scopes #26. Krakow",
   "date": "June 16, 2016",
-  "location": "Krakow",
-  "locationLink": "http://imaguru.co/ru",
+  "location": "Quattro Business Center (ul.Bora-Komorovskiego, 25)",
+  "locationLink": "http://www.buma.com.pl/quattro/",
   "schedule": [
     {
       "title": "TypeScript and what's the hack Javascript",
@@ -87,7 +87,7 @@
       ],
       "description": "TypeScript is amazing/awful! What about ES6? How to use and when, what to choose? Introduction to the future of Javascript, how it fits with NodeJS. Compilation processes, must know things.",
       "break": {
-        "time": "18:50"
+        "time": "18:40"
       }
     },
     {
@@ -96,15 +96,15 @@
         62
       ],
       "description": "The common case in every financial project (and not only) is \"how to present a big set of grid data in best way?\". Every developer already know about standard of 2D visualization in Highcharts, d3.js, etc. But what about 3D? WebGL brings new level of high-end quality of data presenting and managing.",
-      "time": "19:10",
+      "time": "18:45",
       "break": {
-        "time": "20:45"
+        "time": "19:25"
       }
     },
     {
       "title": "CSS QuickDraw",
-      "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit!",
-      "time": "20:00",
+      "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit!<br />(Please bring your laptop!)",
+      "time": "19:45",
       "speakerIDs": [
         0
       ]
@@ -1056,7 +1056,7 @@
           "time": "20:20"
         },
         "speakerIDs": [
-          40
+          31
         ]
       },
       {
