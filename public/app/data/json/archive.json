@@ -14,6 +14,14 @@
       "time": "17:00"
     },
     {
+      "title": "Welcome to V/A/M R.",
+      "speakerIDs": [
+        57
+      ],
+      "description": "Что же кроется за этими тремя буквами VAM? Как мы к такому пришли? Что на самом деле сейчас происходит в мире VR? Зачем вообще идти в VR, если здесь тепло и есть печеньки?",
+      "time": "17:00"
+    },
+    {
       "title": "Code review",
       "time": "17:30",
       "speakerIDs": [
@@ -96,7 +104,7 @@
       ],
       "description": "TypeScript is amazing/awful! What about ES6? How to use and when, what to choose? Introduction to the future of Javascript, how it fits with NodeJS. Compilation processes, must know things.",
       "break": {
-        "time": "18:40"
+        "time": "18:45"
       }
     },
     {
@@ -105,15 +113,23 @@
         62
       ],
       "description": "The common case in every financial project (and not only) is \"how to present a big set of grid data in best way?\". Every developer already know about standard of 2D visualization in Highcharts, d3.js, etc. But what about 3D? WebGL brings new level of high-end quality of data presenting and managing.",
-      "time": "18:45",
+      "time": "18:50",
       "break": {
         "time": "19:25"
       }
     },
     {
+      "title": "Virtual Augmented Mixed Reality: Day 0",
+      "speakerIDs": [
+        57
+      ],
+      "description": "Everybody knows that VAMR is amazing, but what does it actually stand for?<br />So we are going to take a look back into VAMR history and compare it with the current events, thus we might try to predict what is going to happen tomorrow.<br />Hold on! Why on Earth should I dive into this Wonderland in the first place? Let’s find the answer together.<br />",
+      "time": "19:45"
+    },
+    {
       "title": "CSS QuickDraw",
       "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit! <br />(Please bring your laptop!)",
-      "time": "19:45",
+      "time": "20:10",
       "speakerIDs": [
         0
       ]
