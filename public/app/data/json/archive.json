@@ -108,28 +108,28 @@
       }
     },
     {
-      "title": "3D visualization of datasets in browsers",
-      "speakerIDs": [
-        62
-      ],
-      "description": "The common case in every financial project (and not only) is \"how to present a big set of grid data in best way?\". Every developer already know about standard of 2D visualization in Highcharts, d3.js, etc. But what about 3D? WebGL brings new level of high-end quality of data presenting and managing.",
-      "time": "18:50",
-      "break": {
-        "time": "19:25"
-      }
-    },
-    {
       "title": "Virtual Augmented Mixed Reality: Day 0",
       "speakerIDs": [
         57
       ],
       "description": "Everybody knows that VAMR is amazing, but what does it actually stand for?<br />So we are going to take a look back into VAMR history and compare it with the current events, thus we might try to predict what is going to happen tomorrow.<br />Hold on! Why on Earth should I dive into this Wonderland in the first place? Let’s find the answer together.<br />",
-      "time": "19:45"
+      "time": "18:50",
+      "break": {
+        "time": "19:20"
+      }
+    },
+    {
+      "title": "3D visualization of datasets in browsers",
+      "speakerIDs": [
+        62
+      ],
+      "description": "The common case in every financial project (and not only) is \"how to present a big set of grid data in best way?\". Every developer already know about standard of 2D visualization in Highcharts, d3.js, etc. But what about 3D? WebGL brings new level of high-end quality of data presenting and managing.",
+      "time": "19:40"
     },
     {
       "title": "CSS QuickDraw",
       "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit! <br />(Please bring your laptop!)",
-      "time": "20:10",
+      "time": "20:15",
       "speakerIDs": [
         0
       ]
