@@ -308,5 +308,15 @@
     "id": 62,
     "name": "Oleksandr Pastukhov",
     "photo": "oleksandr_pastukhov.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Анастасия Шпакова",
+    "photo": "anastasiya_shpakava.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Виктория Рылькова",
+    "photo": "unknown_speaker.jpg"
   }
 ]
