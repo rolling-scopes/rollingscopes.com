@@ -19,6 +19,13 @@
       ],
       "description": "Современный дизайн заставляет нас ломать голову над основной разметкой страницы. Благодаря спецификации CSS Grid Layout, скоро всё изменится!",
       "time": "30m"
+    },{
+      "title": "How to FAIL Web Accessibility",
+      "speakerIDs": [
+        43
+      ],
+      "description": "Ошибки, заблуждения, мелочи, и просто глупые аспекты современной веб-доступности",
+      "time": "25m"
     },
     {
       "title": "Best UI Design Practices. UI Patterns",
