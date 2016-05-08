@@ -13,6 +13,13 @@
       "description": "Рассмотрим, как оптимизировать SPA, написанный с использованием React.js",
       "time": "30m"
     },{
+        "title": "Blend4Web: нативные врата в мир WebGL",
+        "speakerIDs": [
+          18
+        ],
+        "description": "Краткий обзор возможностей фреймворка blend4web по мотивам первой конференции blend4web в Москве. Стек WebGL сейчас, конкуренты и что дает нам opensource. А также другие модные слова: WebVR, Gamepad API, WebGL 2.0.",
+        "time": "30m"
+      },{
       "title": "Постигаем CSS Grid Layout",
       "speakerIDs": [
         65
