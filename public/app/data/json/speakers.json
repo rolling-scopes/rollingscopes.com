@@ -327,6 +327,14 @@
     "id": 66,
     "name": "Анна Ширяева",
     "photo": "anna_shiryaeva.jpg"
+    },{
+      "id": 67,
+      "name": "Петар Додев",
+      "photo": "peter_dodev.jpg"
+      },{
+      "id": 68,
+      "name": "Всеволод Шмыров",
+      "photo": "vsevolod.jpg"
     }
 ]
 
