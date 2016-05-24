@@ -6,6 +6,8 @@
 /*------------------------------------*\
     VARIABLES
 \*------------------------------------*/
+$accent-color: #f0bf19;
+$link-color: #e5194c;
 
 /*------------------------------------*\
     MIXINS
@@ -53,7 +55,8 @@
 \*------------------------------------*/
 body {
   background: #fff;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cuprum', sans-serif;
   color: #333;
 }
 
@@ -71,6 +74,10 @@ section {
   padding: 30px 20px;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 h2 {
   text-transform: uppercase;
 }
@@ -80,12 +87,16 @@ p {
 }
 
 a {
-  color: #e5194c;
+  color: $link-color;
   text-decoration: none
 }
 
 a:hover {
   text-decoration: underline
+}
+
+.text-center {
+  text-align: center;
 }
 
 /*------------------------------------*\
@@ -126,13 +137,12 @@ header {
   padding: 0;
   margin: 0 auto;
   li {
+    float: left;
     display: inline-block;
     position: relative;
-    width: 33%;
+    width: 33.3%;
     overflow: hidden;
-
-    padding-bottom: 33%;
-    position: relative;
+    padding-bottom: 33.3%;
 
     a {
       display: block;
@@ -217,14 +227,14 @@ header {
   }
   h1 {
     font-weight: normal;
-    color: #f0bf19;
+    color: $accent-color;
   }
   h2 {
     font-weight: normal;
     text-transform: inherit;
   }
   .register-button {
-    border: 1px solid #f0bf19;
+    border: 1px solid $accent-color;
     color: #fff;
     display: inline-block;
     padding: 10px;
@@ -232,7 +242,7 @@ header {
     background: transparent;
     transition: background-color .5s;
     &:hover {
-      background: #f0bf19;
+      background: $accent-color;
     }
   }
 }
@@ -240,11 +250,10 @@ header {
 .banner + .banner {
   padding-top: 0;
 }
+
 .schedule + .banner {
   padding-bottom: 30px;
 }
-
-
 
 .schedule-wrapper {
   background: #404040;
@@ -270,7 +279,7 @@ header {
     .time {
       margin: 0;
       font-size: 30px;
-      color: #f0bf19;
+      color: $accent-color;
     }
     .speaker-name {
       color: #999;
@@ -346,6 +355,199 @@ footer {
 }
 
 /*------------------------------------*\
+    TEAM-LIST
+\*------------------------------------*/
+.team-list {
+  li {
+    background: #e3e3e3;
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    margin: 5px auto;
+    img {
+      width: 100%;
+    }
+    h3 {
+      margin: 0;
+      padding: 0;
+      font-weight: normal;
+    }
+  }
+}
+
+/*------------------------------------*\
+    SCHEDULE
+\*------------------------------------*/
+
+.event-title {
+  border-bottom: 4px double #333;
+  text-align: right;
+  margin-bottom: 6px;
+  line-height: 1.3;
+  clear: both;
+}
+
+.event-info {
+  display: table;
+  width: 100%;
+  font-size: 20px;
+  margin: 10px 0 0;
+}
+
+.event-date, .event-location {
+  display: table-cell;
+  width: 50%;
+}
+
+.event-location {
+  text-align: right;
+}
+
+.button-wrapper {
+  text-align: center;
+  padding: 20px 0 30px;
+}
+
+.event-schedule + .button-wrapper {
+  padding: 0 0 20px;
+}
+
+.register-button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $link-color;
+  border-radius: 2px;
+  box-shadow: 0 0 2px $link-color;
+  transition: background .3s, color .1s;
+  background: #fff;
+  i {
+    margin-right: 10px;
+  }
+  &:hover {
+    text-decoration: none;
+    background: $link-color;
+    color: #fff;
+  }
+}
+
+h2.day-number {
+  padding: 5px 0;
+  margin: 0;
+  font-weight: normal;
+  background: #bbb;
+  color: #fff;
+  text-align: center;
+}
+
+.event-schedule {
+  padding: 0;
+  margin: 0;
+}
+
+.event-schedule-item {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 50px 0 50px 88px;
+  border-top: 1px solid #ccc;
+  .first-stream, .second-stream {
+    display: table-cell;
+    padding: 0 30px 0 0;
+    width: 40%;
+    > * {
+      margin: 0 0 0 130px;
+    }
+  }
+  .second-stream {
+    padding: 0 0 0 30px;
+  }
+
+  > * {
+    margin: 0 0 0 130px;
+    line-height: 1.4em;
+    padding: 0;
+    list-style-position: inside;
+  }
+
+  h3 {
+    color: #000;
+    position: relative;
+  }
+  .speaker-photo {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin: 6px 30px 0 0;
+  }
+  .speaker-name {
+    color: #bbb;
+  }
+}
+
+.speech-time {
+  position: absolute;
+  left: 0;
+  width: 58px;
+  font-size: 30px;
+  line-height: 1em;
+  color: #ccc;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  top: 5px;
+}
+
+.first-stream-mark h3:before, .second-stream-mark h3:before {
+  content: "2 этаж";
+  position: absolute;
+  top: -22px;
+  left: 0;
+  box-sizing: border-box;
+  padding: 3px 5px;
+  text-align: center;
+  line-height: .8em;
+  background: #194ce5;
+  color: #fff;
+  font-size: 12px;
+}
+
+.second-stream-mark h3:before {
+  content: "1 этаж";
+}
+
+
+/*------------------------------------*\
+    PARTNER-LIST
+\*------------------------------------*/
+.partner-list {
+  padding: 0;
+  -webkit-flex-flow: wrap row;
+  flex-flow: row wrap;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  li {
+    max-width: 220px;
+    margin: auto;
+    padding: 1em .5em;
+    box-sizing: border-box;
+    text-align: center;
+    img {
+      width: 200px;
+      max-height: 200px;
+    }
+  }
+}
+
+
+/*------------------------------------*\
     BREAKPOINT - 1024
 \*------------------------------------*/
 
@@ -355,17 +557,42 @@ footer {
   }
 
   .main-nav li
-    a {
-      top: 10px;
-      right: 10px;
-      bottom: 10px;
-      left: 10px;
-    }
+  a {
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
 
-    .title {
-      font-size: 40px;
-      line-height: 40px;
+  .title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .event-schedule-item {
+    padding: 50px 0;
+
+    .first-stream, .second-stream {
+      display: block;
+      margin: 0;
+      width: 100%;
     }
+    .second-stream {
+      padding: 50px 0 0 0;
+    }
+  }
+
+  .speech-time {
+    font-size: 20px;
+  }
+
+  .first-stream-mark h3:before, .second-stream-mark h3:before {
+    top: -18px;
+  }
 }
 
 /*------------------------------------*\
@@ -398,8 +625,8 @@ footer {
   }
 
   .main-nav li {
-    width: 48%;
-    padding-bottom: 48%;
+    width: 50%;
+    padding-bottom: 50%;
 
     .title {
       font-size: 40px;
@@ -417,6 +644,32 @@ footer {
   section {
     max-width: 480px;
   }
+
+  .event-schedule-item > *,
+  .event-schedule-item .first-stream > *, .event-schedule-item .second-stream > * {
+    margin: 0;
+  }
+
+  .event-schedule-item .speaker-photo {
+    border-radius: 0;
+    margin: 6px 0 10px 10px;
+    float: right;
+  }
+
+  .event-title {
+    text-align: center;
+  }
+
+  .first-stream-mark h3:before, .second-stream-mark h3:before {
+    left: auto;
+    right: 0;
+    top: -12px;
+  }
+
+  .partner-list li img {
+    width: 140px;
+  }
+
 }
 
 /*------------------------------------*\
@@ -488,6 +741,33 @@ footer {
     width: auto;
     background-position: center;
   }
+
+  .button-wrapper {
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+  .register-button {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 240px;
+    text-align: right;
+    i {
+      float: left;
+      margin: 0;
+      font-size: 30px;
+    }
+  }
+
+  .register-button {
+    color: #fff;
+    background: $link-color;
+    &:hover {
+      background: #fff;
+      color: $link-color;
+    }
+  }
+
 }
 
 /*------------------------------------*\
@@ -507,6 +787,10 @@ footer {
   }
   .nav li a {
     font-size: 12px;
+  }
+
+  .button-wrapper {
+    text-align: center;
   }
 }
 
