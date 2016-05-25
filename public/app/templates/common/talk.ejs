@@ -1,23 +1,23 @@
-<li>
-  <img class="speaker-photo" src="<%= talk.imagePath %>"/>
-  <p class="time"><%= talk.time %></p>
+<li class="event-schedule-item">
+  <h2 class="speech-time"><%= talk.time %></h2>
+  <img class="speaker-photo" src="<%= talk.imagePath %>">
+
   <h3><%= talk.title %></h3>
+
   <p class="speaker-name"><%= talk.speakers.map(speaker => speaker.name).join(', ') %></p>
-  <p><%- talk.description %>
-  </p>
+  <p><%- talk.description %></p>
 </li>
 <% if (talk.break) { %>
-  <li class="break">
-    <p class="time"><%= talk.break.time %></p>
-    <h3><span class="icon-coffee">&nbsp;</span> Coffee break</h3>
+  <li class="event-schedule-item">
+    <h2 class="speech-time"><%= talk.break.time %></h2>
+    <h3><i class="fa fa-coffee" aria-hidden="true"></i> Coffee break</h3>
   </li>
 <% } %>
 <% if (talk.party) { %>
-<li>
-  <img class="speaker-photo" src="images/bottles.jpg"/>
-  <p class="time"><%= talk.party.time %></p>
+<li class="event-schedule-item">
+  <h2 class="speech-time"><%= talk.party.time %></h2>
+  <img class="speaker-photo" src="images/bottles.jpg">
   <h3><%= talk.party.title %></h3>
-  <p><%- talk.party.description %>
-  </p>
+  <p><%- talk.party.description %></p>
 </li>
 <% } %>
