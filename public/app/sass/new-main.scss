@@ -357,23 +357,23 @@ footer {
 /*------------------------------------*\
     TEAM-LIST
 \*------------------------------------*/
-.team-list {
-  li {
-    background: #e3e3e3;
-    display: inline-block;
-    width: 23%;
-    text-align: center;
-    margin: 5px auto;
-    img {
-      width: 100%;
-    }
-    h3 {
-      margin: 0;
-      padding: 0;
-      font-weight: normal;
-    }
-  }
-}
+//.team-list {
+//  li {
+//    background: #e3e3e3;
+//    display: inline-block;
+//    width: 23%;
+//    text-align: center;
+//    margin: 5px auto;
+//    img {
+//      width: 100%;
+//    }
+//    h3 {
+//      margin: 0;
+//      padding: 0;
+//      font-weight: normal;
+//    }
+//  }
+//}
 
 /*------------------------------------*\
     SCHEDULE
@@ -518,11 +518,10 @@ h2.day-number {
   content: "1 этаж";
 }
 
-
 /*------------------------------------*\
     PARTNER-LIST
 \*------------------------------------*/
-.partner-list {
+.partner-list, .team-list {
   padding: 0;
   -webkit-flex-flow: wrap row;
   flex-flow: row wrap;
@@ -546,6 +545,35 @@ h2.day-number {
   }
 }
 
+.team-list li img {
+  width: 180px;
+  height: 180px;
+}
+
+.team-list.hall-of-fame li {
+  max-width: 180px;
+  margin: 0 auto;
+  padding: 0 0 20px;
+
+  img {
+    width: 180px;
+    height: 180px;
+  }
+
+  h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #888;
+    font-weight: normal;
+  }
+
+  p {
+    line-height: 1.1;
+    margin: 0 0 6px;
+    text-align: left;
+    font-size: 13px;
+  }
+}
 
 /*------------------------------------*\
     BREAKPOINT - 1024
