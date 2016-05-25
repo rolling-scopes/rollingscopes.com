@@ -185,6 +185,11 @@ header {
       line-height: 62px;
       font-size: 62px;
     }
+
+    &:nth-child(-n+4) {
+      width: 25%;
+    }
+
   }
 }
 
@@ -208,95 +213,95 @@ header {
   }
 }
 
-/*------------------------------------*\
-    SCHEDULE
-\*------------------------------------*/
-
-.banner {
-  padding: 30px 20px 0;
-  text-align: right;
-  .fa-map-marker {
-    margin: 0 5px 0 40px;
-  }
-  .location {
-    color: #fff;
-    text-decoration: underline;
-    &:hover {
-      text-decoration: none;
-    }
-  }
-  h1 {
-    font-weight: normal;
-    color: $accent-color;
-  }
-  h2 {
-    font-weight: normal;
-    text-transform: inherit;
-  }
-  .register-button {
-    border: 1px solid $accent-color;
-    color: #fff;
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    background: transparent;
-    transition: background-color .5s;
-    &:hover {
-      background: $accent-color;
-    }
-  }
-}
-
-.banner + .banner {
-  padding-top: 0;
-}
-
-.schedule + .banner {
-  padding-bottom: 30px;
-}
-
-.schedule-wrapper {
-  background: #404040;
-  color: #fff;
-  //padding: 40px 0;
-  //margin: 30px 0 0;
-}
-
-.schedule-full {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  > li {
-    min-height: 120px;
-    position: relative;
-    padding: 10px 0 10px 140px;
-    clear: both;
-    font-size: 16px;
-    h3 {
-      margin-top: 5px;
-      font-weight: normal;
-    }
-    .time {
-      margin: 0;
-      font-size: 30px;
-      color: $accent-color;
-    }
-    .speaker-name {
-      color: #999;
-      margin: 0;
-      line-height: 0.8;
-      padding: 0;
-    }
-  }
-  .speaker-photo {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-  }
-}
+///*------------------------------------*\
+//    SCHEDULE
+//\*------------------------------------*/
+//
+//.banner {
+//  padding: 30px 20px 0;
+//  text-align: right;
+//  .fa-map-marker {
+//    margin: 0 5px 0 40px;
+//  }
+//  .location {
+//    color: #fff;
+//    text-decoration: underline;
+//    &:hover {
+//      text-decoration: none;
+//    }
+//  }
+//  h1 {
+//    font-weight: normal;
+//    color: $accent-color;
+//  }
+//  h2 {
+//    font-weight: normal;
+//    text-transform: inherit;
+//  }
+//  .register-button {
+//    border: 1px solid $accent-color;
+//    color: #fff;
+//    display: inline-block;
+//    padding: 10px;
+//    text-decoration: none;
+//    background: transparent;
+//    transition: background-color .5s;
+//    &:hover {
+//      background: $accent-color;
+//    }
+//  }
+//}
+//
+//.banner + .banner {
+//  padding-top: 0;
+//}
+//
+//.schedule + .banner {
+//  padding-bottom: 30px;
+//}
+//
+//.schedule-wrapper {
+//  background: #404040;
+//  color: #fff;
+//  //padding: 40px 0;
+//  //margin: 30px 0 0;
+//}
+//
+//.schedule-full {
+//  list-style: none;
+//  padding: 0;
+//  margin: 0;
+//  > li {
+//    min-height: 120px;
+//    position: relative;
+//    padding: 10px 0 10px 140px;
+//    clear: both;
+//    font-size: 16px;
+//    h3 {
+//      margin-top: 5px;
+//      font-weight: normal;
+//    }
+//    .time {
+//      margin: 0;
+//      font-size: 30px;
+//      color: $accent-color;
+//    }
+//    .speaker-name {
+//      color: #999;
+//      margin: 0;
+//      line-height: 0.8;
+//      padding: 0;
+//    }
+//  }
+//  .speaker-photo {
+//    position: absolute;
+//    top: 20px;
+//    left: 0;
+//    border-radius: 50%;
+//    width: 120px;
+//    height: 120px;
+//  }
+//}
 
 .speaker-wanted {
   background: #ebebeb;

@@ -8,30 +8,25 @@
 </head>
 <body>
 <% include common/browsehappy %>
-<div class="page-wrap">
-    <% include common/header %>
+
+<% include common/header %>
+
+<section>
     <% include index/meetup-banner %>
     <% include common/materials %>
-    <section class="banner"><p><a class="register-button"
-                                  href="https://docs.google.com/forms/d/1RIksRMvs8buDxRKu_Mc_lFGOtIB0DDGChgKdMoA9uKM/viewform"><i
-                        class="fa fa-sign-in"></i> Зарегистрироваться!</a></p></section>
-    <section>
-        <h2>Афиша</h2>
-        <% include common/scedule %>
-        <a target="_blank" href="https://goo.gl/maps/kPAbYEvR1yA2"><img style="width: 100%;"
-                                                                        src="images/rs-on-tour/rsgomelmap.jpg" alt=""/></a>
-    </section>
+    <% include common/register-button %>
+    <h2>Афиша</h2>
+    <% include common/scedule %>
+    <a target="_blank" href="https://goo.gl/maps/kPAbYEvR1yA2"><img style="width: 100%;"
+                                                                    src="images/rs-on-tour/rsgomelmap.jpg" alt=""/></a>
+    <% include common/register-button %>
+</section>
 
-    <section class="banner"><p><a class="register-button"
-                                  href="https://docs.google.com/forms/d/1RIksRMvs8buDxRKu_Mc_lFGOtIB0DDGChgKdMoA9uKM/viewform"><i
-                        class="fa fa-sign-in"></i> Зарегистрироваться!</a></p></section>
+<% include custom-events/rs23-gomel/travel %>
 
+<% include index/venue %>
+<% include common/call-for-speakers %>
 
-    <% include custom-events/rs23-gomel/travel %>
-
-    <% include index/venue %>
-    <% include common/call-for-speakers %>
-</div>
 <% include common/main-nav %>
 <% include common/footer %>
 <% include common/scripts %>

@@ -1,15 +1,17 @@
-<section class="banner">
-    <h1><%= event.name %></h1>
-    <h2>
-      <%= event.date %>
-        <i class="fa fa-map-marker"></i><a class="location" target="_blank" href="<%= event.locationLink %>"><%= event.location %></a>
-    </h2>
-    <% if (event.registrationAvailable) { %>
-      <p>
-        <a class="register-button" href="/register.html">
-          <i class="fa fa-sign-in"></i>
-          Я буду, ждите!
-        </a>
-      </p>
-    <% } %>
-</section>
+<h1 class="event-title"><%= event.name %></h1>
+
+<div class="event-info">
+    <div class="event-date"> <%= event.date %></div>
+    <div class="event-location"><i class="fa fa-map-marker"></i> <a target="_blank"
+                                                                    href="<%= event.locationLink %>"><%= event.location %></a>
+    </div>
+</div>
+<% if (event.registrationAvailable) { %>
+<p>
+    <a class="register-button" href="/register.html">
+        <i class="fa fa-sign-in"></i>
+        Я буду, ждите!
+    </a>
+</p>
+<% } %>
+
