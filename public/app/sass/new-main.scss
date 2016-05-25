@@ -186,10 +186,10 @@ header {
       font-size: 62px;
     }
 
-    &:nth-child(-n+4) {
-      width: 25%;
-    }
+  }
 
+  li:nth-child(-n+4) {
+    width: 25%;
   }
 }
 
