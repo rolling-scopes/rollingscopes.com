@@ -488,6 +488,12 @@ h2.day-number {
     float: left;
     margin: 6px 30px 0 0;
   }
+
+  .speaker-photo + .speaker-photo {
+    position: relative;
+    left: -100px;
+  }
+
   .speaker-name {
     color: #bbb;
   }
@@ -507,7 +513,7 @@ h2.day-number {
 }
 
 .first-stream-mark h3:before, .second-stream-mark h3:before {
-  content: "2 этаж";
+  content: "1 этаж";
   position: absolute;
   top: -22px;
   left: 0;
@@ -521,7 +527,7 @@ h2.day-number {
 }
 
 .second-stream-mark h3:before {
-  content: "1 этаж";
+  content: "2 этаж";
 }
 
 /*------------------------------------*\
