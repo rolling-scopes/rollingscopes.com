@@ -560,9 +560,16 @@ h2.day-number {
   }
 }
 
-.team-list li img {
-  width: 180px;
-  height: 180px;
+.team-list li {
+  padding: 1em .5em .5em;
+  img {
+    width: 180px;
+    height: 180px;
+  }
+  h3 {
+    font-size: 14px;
+    margin: 0;
+  }
 }
 
 .team-list.hall-of-fame li {
