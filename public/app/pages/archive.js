@@ -7,7 +7,7 @@ var events = loadEvents().filter(function (event) {
 
 module.exports = {
   page: {
-    title: 'RS | Архив'
+    title: 'RS | Archive'
   },
   events: events.slice(1, events.length)
 }

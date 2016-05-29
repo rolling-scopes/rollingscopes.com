@@ -35,7 +35,7 @@ processedSpeakers.sort(function (a, b) {
 
 module.exports = {
   page: {
-    title: 'RS | Зал Славы'
+    title: 'RS | Hall of fame'
   },
   speakers: processedSpeakers
 }

@@ -12,7 +12,7 @@ var currentEvent = events[0];
 
 module.exports = {
   page: {
-    title: 'RS | Главная'
+    title: 'RS | Main'
   },
   event: currentEvent
 }

@@ -10,7 +10,7 @@ var currentEvent = events[0];
 
 module.exports = {
   page: {
-    title: 'RS | Гомель'
+    title: 'RS | Gomel'
   },
   event: currentEvent
 }

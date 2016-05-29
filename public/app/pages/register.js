@@ -1,5 +1,5 @@
 module.exports = {
   page: {
-    title: 'RS | Регистрация'
+    title: 'RS | Registration'
   }
 }

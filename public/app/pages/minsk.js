@@ -11,7 +11,7 @@ var currentEvent = events[0];
 
 module.exports = {
   page: {
-    title: 'RS | Минск'
+    title: 'RS | Minsk'
   },
   event: currentEvent
 }
