@@ -594,6 +594,54 @@ h2.day-number {
 }
 
 /*------------------------------------*\
+    EVENT-LIST
+\*------------------------------------*/
+.event-list {
+  margin: 0;
+  padding: 0;
+}
+.event-list-item {
+  position: relative;
+  display: block;
+  margin: 0 0 0 100px;
+  padding: 30px 0;
+  border-top: 1px solid #ccc; 
+  .date, .mounth {
+    width: 100px;
+    position: absolute;
+    left: -80px;
+    top: 30px;
+    color: #888;
+    margin: 0;
+    font-weight: normal;
+  }
+  .mounth {
+    top: 55px;
+    font-size: 14px;
+  }
+  h2 {
+    text-transform: none;
+    margin: 0;
+
+    a {
+      margin-left: 10px;
+      text-decoration: underline;
+      font-weight: normal;
+    }
+  }
+  p {
+    color: #bbb;
+    margin: 5px 0;
+    a {
+      color: #bbb;
+    }
+  }
+  &:first-child {
+    border-top: 0;
+  }
+}
+
+/*------------------------------------*\
     BREAKPOINT - 1024
 \*------------------------------------*/
 
