@@ -784,6 +784,22 @@ h2.day-number {
     max-width: 50%;
   }
 
+  .event-list-item {
+    margin: 0 0 0 60px;
+    padding: 10px 0;
+    .date, .mounth {
+      width: 60px;
+      left: -60px;
+      top: 10px;
+    }
+    .mounth {
+      top: 25px;
+    }
+    h2 {
+      font-size: 1em;
+    }
+  }
+
 }
 
 /*------------------------------------*\
