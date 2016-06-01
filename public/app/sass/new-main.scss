@@ -126,13 +126,16 @@ header {
 }
 
 .header-wrapper + section {
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 /*------------------------------------*\
     NAVIGATION
 \*------------------------------------*/
 
+.main-nav-wrapper {
+  padding: 0;
+}
 .main-nav {
   padding: 0;
   margin: 0 auto;
@@ -226,7 +229,7 @@ header {
 
 
 .slack-info {
-  background: #ebebeb;
+  border: 4px double #ccc;
   text-align: center;
   padding: 10px;
   h2 {
