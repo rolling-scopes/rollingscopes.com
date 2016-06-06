@@ -1,244 +1,279 @@
-[{
-  "id": "rs#25",
-  "name": "The Rolling Scopes Summer Summit",
-  "date": "3-4го июня, 2016",
-  "location": "imaguru.co",
-  "locationLink": "http://imaguru.co/ru",
-  "schedule": [
-    {
-      "title": "Кто-то читает тексты в мобильной игре? Опыт World of Tanks Blitz и при чём здесь UX.",
-      "speakerIDs": [
-        66
-      ],
-      "description": "<ul><li>Текст в мобильной игре/приложении: какой и зачем?</li><li>Работа с текстом в WoT Blitz: как мы придумали процесс и принципы - и почему они нам нравятся;</li><li>Принципы работы с текстом в WoT Blitz: унификация,рефакторинг, локализации;</li><li>Ну и при чём здесь UX?</li><li>Полезные советы.</li></ul>",
-      "time": "19:00 (3го июня)"
-    },
-    {
-      "title": "Best UI Design Practices. UI Patterns",
-      "speakerIDs": [
-        63
-      ],
-      "description": "Как создать продукт, понятный пользователю? Как создать интерфейс, соответствующий ожиданиям пользователя? Не всегда есть возможность исследовать целевую аудиторию, поэтому мы поговорим о том, что мы можем сделать без UX-исследований, а точнее — о том, почему стоит придерживаться UI-паттернов и как правильно их выбирать.",
-      "time": "19:25"
-    },
-    {
-      "title": "Контекст! Контекст! Контекст!",
-      "speakerIDs": [
-        56
-      ],
-      "description": "Эта тема про все более и более актуальную часть дизайна, но, к сожалению, часто оставленную без должного внимания, про пользовательский контекст. Во времена, когда мы научились (почти) справляться с адаптивным дизайном, наша следующая задача как отрасли создание интеллектуальных продуктов, которые адаптируются под контекст использования. ",
-      "time": "19:45",
-      "break": {
-        "time": "20:05"
-      }
-    },
-    {
-      "title": "\"Не иди за мной, я сам потерялся\" или что такое UX исследования, и зачем они нужны",
-      "speakerIDs": [
-        64
-      ],
-      "description": "Как человек научился измерять сам себя: социальные исследования. Основные методы UX-исследований. Почему мы заблуждаемся, когда думаем, что можем предугадать желания пользователей. И просто немного интересного о нас, о людях.",
-      "time": "20:30"
-    },
-    {
-      "title": "Постигаем CSS Grid Layout",
-      "speakerIDs": [
-        65
-      ],
-      "description": "Современный дизайн заставляет нас ломать голову над основной разметкой страницы. Благодаря спецификации CSS Grid Layout, скоро всё изменится!",
-      "time": "20:50",
-      "party": {
-        "time": "21:30",
-        "title": "Beer.css party",
-        "description": "Place: TBD"
-      }
-    },
-    {
-      "title": "Выжимаем максимум из React.js",
-      "speakerIDs": [
-        52
-      ],
-      "description": "Рассмотрим, как оптимизировать SPA, написанный с использованием React.js",
-      "time": "14:00 (4го июня)"
-    },{
-      "title": "How to FAIL Web Accessibility",
-      "speakerIDs": [
-        43
-      ],
-      "description": "Ошибки, заблуждения, мелочи, и просто глупые аспекты современной веб-доступности",
-      "time": "Второй поток"
-    }, {
+[
+  {
+    "id": "rs#28",
+    "name": "The Rolling Scopes #28. Brest",
+    "date": "16 июля, 2016",
+    "location": "г. Брест, ул.Гоголя,13",
+    "locationLink": "https://www.google.by/maps/place/Gogolia+St+13,+Brest/@52.090187,23.6789445,16.06z/data=!4m2!3m1!1s0x47210bec15bc9109:0x5e28b6234bb723b0?hl=en",
+    "registerLink":"https://goo.gl/y6AvBb",
+    "schedule": [
+    ]
+  },
+  {
+    "id": "rs#29",
+    "name": "The Rolling Scopes #29. Gomel",
+    "date": "23 июля, 2016",
+    "location": "г. Гомель, ул.Ланге, д.17",
+    "locationLink": "https://goo.gl/maps/S3w8FZD4kJE2",
+    "registerLink":"https://goo.gl/ts45t6",
+    "schedule": [
+
+    ]
+  },
+  {
+    "id": "rs#25",
+    "name": "The Rolling Scopes Summer Summit",
+    "date": "3-4го июня, 2016",
+    "location": "imaguru.co",
+    "locationLink": "http://imaguru.co/ru",
+    "schedule": [
+      {
+        "title": "Кто-то читает тексты в мобильной игре? Опыт World of Tanks Blitz и при чём здесь UX.",
+        "speakerIDs": [
+          66
+        ],
+        "description": "<ul><li>Текст в мобильной игре/приложении: какой и зачем?</li><li>Работа с текстом в WoT Blitz: как мы придумали процесс и принципы - и почему они нам нравятся;</li><li>Принципы работы с текстом в WoT Blitz: унификация,рефакторинг, локализации;</li><li>Ну и при чём здесь UX?</li><li>Полезные советы.</li></ul>",
+        "time": "19:00 (3го июня)"
+      },
+      {
+        "title": "Best UI Design Practices. UI Patterns",
+        "speakerIDs": [
+          63
+        ],
+        "description": "Как создать продукт, понятный пользователю? Как создать интерфейс, соответствующий ожиданиям пользователя? Не всегда есть возможность исследовать целевую аудиторию, поэтому мы поговорим о том, что мы можем сделать без UX-исследований, а точнее — о том, почему стоит придерживаться UI-паттернов и как правильно их выбирать.",
+        "time": "19:25"
+      },
+      {
+        "title": "Контекст! Контекст! Контекст!",
+        "speakerIDs": [
+          56
+        ],
+        "description": "Эта тема про все более и более актуальную часть дизайна, но, к сожалению, часто оставленную без должного внимания, про пользовательский контекст. Во времена, когда мы научились (почти) справляться с адаптивным дизайном, наша следующая задача как отрасли создание интеллектуальных продуктов, которые адаптируются под контекст использования. ",
+        "time": "19:45",
+        "break": {
+          "time": "20:05"
+        }
+      },
+      {
+        "title": "\"Не иди за мной, я сам потерялся\" или что такое UX исследования, и зачем они нужны",
+        "speakerIDs": [
+          64
+        ],
+        "description": "Как человек научился измерять сам себя: социальные исследования. Основные методы UX-исследований. Почему мы заблуждаемся, когда думаем, что можем предугадать желания пользователей. И просто немного интересного о нас, о людях.",
+        "time": "20:30"
+      },
+      {
+        "title": "Постигаем CSS Grid Layout",
+        "speakerIDs": [
+          65
+        ],
+        "description": "Современный дизайн заставляет нас ломать голову над основной разметкой страницы. Благодаря спецификации CSS Grid Layout, скоро всё изменится!",
+        "time": "20:50",
+        "party": {
+          "time": "21:30",
+          "title": "Beer.css party",
+          "description": "Place: TBD"
+        }
+      },
+      {
+        "title": "Выжимаем максимум из React.js",
+        "speakerIDs": [
+          52
+        ],
+        "description": "Рассмотрим, как оптимизировать SPA, написанный с использованием React.js",
+        "time": "14:00 (4го июня)"
+      },
+      {
+        "title": "How to FAIL Web Accessibility",
+        "speakerIDs": [
+          43
+        ],
+        "description": "Ошибки, заблуждения, мелочи, и просто глупые аспекты современной веб-доступности",
+        "time": "Второй поток"
+      },
+      {
         "title": "Living the GNU/Linux Dream",
         "speakerIDs": [
           67
         ],
         "description": "Уже много лет я увлекаюсь Линуксом и FOSS. Сейчас в составе команды Яндекс.Карт я разрабатываю приложения, которыми пользуются миллионы пользователей ежедневно. В докладе я расскажу о том, как разработчики Яндекс.Карт используют Node.js в сочетании с утилитами GNU/Linux для разработки, деплоя, поддержки и мониторинга серверных приложений, работающих под большой нагрузкой.",
         "time": "14:35"
-      },{
-      "title": "Безусловное программирование",
-      "speakerIDs": [
-        49
-      ],
-      "description": "Можно ли писать программу без ветвлений? Так ли обязательны условия для алгоритмов fizz-buzz и крестики-нолики? Попробуем научиться мыслить \"прямолинейно\".",
-      "time": "Второй поток"
-    }, {
-      "title": "Гонки дронов: спорт для гиков.",
-      "speakerIDs": [
-        4
-      ],
-      "description": "Очень кратко о гонках дронов - свежем виде спорта и хобби. Живой гоночный дрон и другое оборудование (демо без полетов). Завлекательные видео, ответы на вопросы - в избытке.",
-      "time": "15:10",
-      "break": {
-        "time": "15:30"
+      },
+      {
+        "title": "Безусловное программирование",
+        "speakerIDs": [
+          49
+        ],
+        "description": "Можно ли писать программу без ветвлений? Так ли обязательны условия для алгоритмов fizz-buzz и крестики-нолики? Попробуем научиться мыслить \"прямолинейно\".",
+        "time": "Второй поток"
+      },
+      {
+        "title": "Гонки дронов: спорт для гиков.",
+        "speakerIDs": [
+          4
+        ],
+        "description": "Очень кратко о гонках дронов - свежем виде спорта и хобби. Живой гоночный дрон и другое оборудование (демо без полетов). Завлекательные видео, ответы на вопросы - в избытке.",
+        "time": "15:10",
+        "break": {
+          "time": "15:30"
+        }
+      },
+      {
+        "title": "TV in browsers: live cases",
+        "speakerIDs": [
+          1
+        ],
+        "description": "До сих пор многие медиа-компании используют для стриминга видео контента Flash или Silverlight. Посмотрим, как начать жить проще и по HTML5-стандартам.",
+        "time": "16:00"
+      },
+      {
+        "title": "API Панорам",
+        "speakerIDs": [
+          68
+        ],
+        "description": "В докладе пойдет речь про недавнее большое обновление API Яндекс.Карт. А именно об API Панорам. При помощи этого API теперь есть возможность встроить себе на сайт Панорамы улиц Яндекса. Аналогично при помощи API Панорам можно отображать собственные панорамы.",
+        "time": "Второй поток"
+      },
+      {
+        "title": "Welcome to V/A/M R.",
+        "speakerIDs": [
+          57
+        ],
+        "description": "Что же кроется за этими тремя буквами VAM? Как мы к такому пришли? Что на самом деле сейчас происходит в мире VR? Зачем вообще идти в VR, если здесь тепло и есть печеньки?",
+        "time": "16:40"
+      },
+      {
+        "title": "Code review",
+        "time": "Второй поток",
+        "speakerIDs": [
+          13
+        ],
+        "description": "Часто встречающиеся ошибки на основе анализа реального production-кода.",
+        "break": {
+          "time": "17:20"
+        }
+      },
+      {
+        "title": "Blend4Web: нативные врата в мир WebGL",
+        "speakerIDs": [
+          18
+        ],
+        "description": "Краткий обзор возможностей фреймворка blend4web по мотивам первой конференции blend4web в Москве. Стек WebGL сейчас, конкуренты и что дает нам opensource. А также другие модные слова: WebVR, Gamepad API, WebGL 2.0.",
+        "time": "17:50"
+      },
+      {
+        "title": "CSS Quickdraw 2.0",
+        "description": "Кто был на #RSConf уже успел познакомиться c CSS Quickdraw. Но далеко не все взяли ноутбуки и были лишь в качестве зрителей. Исправляемся, берем на митап и играем!. Вас ждут: - новые задания; - пофиксанный бекенд; - лицензии от JetBrains в качестве приза первой тройке; - почетное звание фронтендщик \"руки-ножницы\" победителю. Let's Roll!",
+        "time": "18:20",
+        "imagePath": "images/cssqd.png",
+        "speakerIDs": [
+          46
+        ],
+        "party": {
+          "time": "19:00",
+          "title": "Beer.js party",
+          "description": "Place: TBD"
+        }
       }
-    },{
-      "title": "TV in browsers: live cases",
-      "speakerIDs": [
-        1
-      ],
-      "description": "До сих пор многие медиа-компании используют для стриминга видео контента Flash или Silverlight. Посмотрим, как начать жить проще и по HTML5-стандартам.",
-      "time": "16:00"
-    },{
-      "title": "API Панорам",
-      "speakerIDs": [
-        68
-      ],
-      "description": "В докладе пойдет речь про недавнее большое обновление API Яндекс.Карт. А именно об API Панорам. При помощи этого API теперь есть возможность встроить себе на сайт Панорамы улиц Яндекса. Аналогично при помощи API Панорам можно отображать собственные панорамы.",
-      "time": "Второй поток"
-    },{
-      "title": "Welcome to V/A/M R.",
-      "speakerIDs": [
-        57
-      ],
-      "description": "Что же кроется за этими тремя буквами VAM? Как мы к такому пришли? Что на самом деле сейчас происходит в мире VR? Зачем вообще идти в VR, если здесь тепло и есть печеньки?",
-      "time": "16:40"
-    },
-    {
-      "title": "Code review",
-      "time": "Второй поток",
-      "speakerIDs": [
-        13
-      ],
-      "description": "Часто встречающиеся ошибки на основе анализа реального production-кода.",
-      "break": {
-        "time": "17:20"
+    ]
+  },
+  {
+    "id": "rs#26",
+    "name": "The Rolling Scopes #26. Krakow",
+    "date": "June 16, 2016",
+    "location": "Quattro Business Park, Krakow",
+    "locationLink": "https://www.facebook.com/pages/Quattro-Business-Park-Krakow/221809917831667",
+    "schedule": [
+      {
+        "title": "Introduction of The Rolling Scopes",
+        "time": "18:00",
+        "imagePath": "images/logo_rs2.svg",
+        "speakerIDs": [
+          0,
+          19
+        ],
+        "description": ""
+      },
+      {
+        "title": "TypeScript and what's the hack Javascript",
+        "time": "18:10",
+        "speakerIDs": [
+          61
+        ],
+        "description": "TypeScript is amazing/awful! What about ES6? How to use and when, what to choose? Introduction to the future of Javascript, how it fits with NodeJS. Compilation processes, must know things.",
+        "break": {
+          "time": "18:45"
+        }
+      },
+      {
+        "title": "Virtual Augmented Mixed Reality: Day 0",
+        "speakerIDs": [
+          57
+        ],
+        "description": "Everybody knows that VAMR is amazing, but what does it actually stand for?<br />So we are going to take a look back into VAMR history and compare it with the current events, thus we might try to predict what is going to happen tomorrow.<br />Hold on! Why on Earth should I dive into this Wonderland in the first place? Let’s find the answer together.<br />",
+        "time": "18:50",
+        "break": {
+          "time": "19:20"
+        }
+      },
+      {
+        "title": "3D visualization of datasets in browsers",
+        "speakerIDs": [
+          62
+        ],
+        "description": "The common case in every financial project (and not only) is \"how to present a big set of grid data in best way?\". Every developer already know about standard of 2D visualization in Highcharts, d3.js, etc. But what about 3D? WebGL brings new level of high-end quality of data presenting and managing.",
+        "time": "19:40"
+      },
+      {
+        "title": "CSS QuickDraw",
+        "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit! <br />(Please bring your laptop!)",
+        "time": "20:15",
+        "speakerIDs": [
+          0
+        ]
       }
-    },{
-      "title": "Blend4Web: нативные врата в мир WebGL",
-      "speakerIDs": [
-        18
-      ],
-      "description": "Краткий обзор возможностей фреймворка blend4web по мотивам первой конференции blend4web в Москве. Стек WebGL сейчас, конкуренты и что дает нам opensource. А также другие модные слова: WebVR, Gamepad API, WebGL 2.0.",
-      "time": "17:50"
-    }, {
-      "title": "CSS Quickdraw 2.0",
-      "description": "Кто был на #RSConf уже успел познакомиться c CSS Quickdraw. Но далеко не все взяли ноутбуки и были лишь в качестве зрителей. Исправляемся, берем на митап и играем!. Вас ждут: - новые задания; - пофиксанный бекенд; - лицензии от JetBrains в качестве приза первой тройке; - почетное звание фронтендщик \"руки-ножницы\" победителю. Let's Roll!",
-      "time": "18:20",
-      "imagePath": "images/cssqd.png",
-      "speakerIDs": [
-        29,46
-      ],
-      "party": {
+    ]
+  },
+  {
+    "id": "rs#24",
+    "name": "The Rolling Scopes #24",
+    "date": "21 апреля, 2016",
+    "location": "imaguru.co",
+    "locationLink": "http://imaguru.co/ru",
+    "schedule": [
+      {
+        "title": "Ленивая история про ленивый JavaScript",
+        "imagePath": "images/speakers/denis_vlassenko.jpg",
         "time": "19:00",
-        "title": "Beer.js party",
-        "description": "Place: TBD"
+        "speakerIDs": [
+          54
+        ],
+        "description": "Бытует мнение, что программисты очень ленивы. Не каждый ли из них всю жизнь ищет свой философский камень – супер-платформу для супербыстрой разработки супер-приложений, имея которую стало бы возможно писать меньше, но создавать больше? И не найдя, разрабатывает свою. Потом наступает особый день, и великая мудрость озаряет их разум, и ленивые программисты начинают создавать ленивые алгоритмы; они потребляют меньше ресурсов и реже нуждаются в оптимизации. И прогресс продолжается. Хотя стандартная модель вычислений в JavaScript отнюдь не ленива, незначительная трансформация мышления, парочка правильных библиотек и крупица хитрости достаточны для того, чтобы  несколько разгрузить центральный процессор."
+      },
+      {
+        "title": "Как мы разрабатываем Orange Buildboard 2.0",
+        "imagePath": "images/speakers/konstantin_krivlenia.jpg",
+        "speakerIDs": [
+          31
+        ],
+        "description": "Атоматизация процесса разработки задач. С  микросервисами на Meteor и Koa.",
+        "time": "20:00",
+        "break": {
+          "time": "20:45"
+        }
+      },
+      {
+        "title": "Redux в реальной жизни",
+        "imagePath": "images/speakers/ivan_akulov.jpg",
+        "speakerIDs": [
+          60
+        ],
+        "description": "Ваня расскажет про самые популярные подходы и инструменты, применяемые в Redux-проектах. Доклад будет наиболее полезен тем, кто знаком с Redux-ом, но ещё не сталкивался с ним вплотную.",
+        "time": "21:05"
       }
-    }
-  ]
-},{
-  "id": "rs#26",
-  "name": "The Rolling Scopes #26. Krakow",
-  "date": "June 16, 2016",
-  "location": "Quattro Business Park, Krakow",
-  "locationLink": "https://www.facebook.com/pages/Quattro-Business-Park-Krakow/221809917831667",
-  "schedule": [
-    {
-      "title": "Introduction of The Rolling Scopes",
-      "time": "18:00",
-      "imagePath": "images/logo_rs2.svg",
-      "speakerIDs": [
-        0, 19
-      ],
-      "description": ""
-    },
-    {
-      "title": "TypeScript and what's the hack Javascript",
-      "time": "18:10",
-      "speakerIDs": [
-        61
-      ],
-      "description": "TypeScript is amazing/awful! What about ES6? How to use and when, what to choose? Introduction to the future of Javascript, how it fits with NodeJS. Compilation processes, must know things.",
-      "break": {
-        "time": "18:45"
-      }
-    },
-    {
-      "title": "Virtual Augmented Mixed Reality: Day 0",
-      "speakerIDs": [
-        57
-      ],
-      "description": "Everybody knows that VAMR is amazing, but what does it actually stand for?<br />So we are going to take a look back into VAMR history and compare it with the current events, thus we might try to predict what is going to happen tomorrow.<br />Hold on! Why on Earth should I dive into this Wonderland in the first place? Let’s find the answer together.<br />",
-      "time": "18:50",
-      "break": {
-        "time": "19:20"
-      }
-    },
-    {
-      "title": "3D visualization of datasets in browsers",
-      "speakerIDs": [
-        62
-      ],
-      "description": "The common case in every financial project (and not only) is \"how to present a big set of grid data in best way?\". Every developer already know about standard of 2D visualization in Highcharts, d3.js, etc. But what about 3D? WebGL brings new level of high-end quality of data presenting and managing.",
-      "time": "19:40"
-    },
-    {
-      "title": "CSS QuickDraw",
-      "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit! <br />(Please bring your laptop!)",
-      "time": "20:15",
-      "speakerIDs": [
-        0
-      ]
-    }
-  ]
-},{
-  "id": "rs#24",
-  "name": "The Rolling Scopes #24",
-  "date": "21 апреля, 2016",
-  "location": "imaguru.co",
-  "locationLink": "http://imaguru.co/ru",
-  "schedule": [
-    {
-      "title": "Ленивая история про ленивый JavaScript",
-      "imagePath": "images/speakers/denis_vlassenko.jpg",
-      "time": "19:00",
-      "speakerIDs": [
-        54
-      ],
-      "description": "Бытует мнение, что программисты очень ленивы. Не каждый ли из них всю жизнь ищет свой философский камень – супер-платформу для супербыстрой разработки супер-приложений, имея которую стало бы возможно писать меньше, но создавать больше? И не найдя, разрабатывает свою. Потом наступает особый день, и великая мудрость озаряет их разум, и ленивые программисты начинают создавать ленивые алгоритмы; они потребляют меньше ресурсов и реже нуждаются в оптимизации. И прогресс продолжается. Хотя стандартная модель вычислений в JavaScript отнюдь не ленива, незначительная трансформация мышления, парочка правильных библиотек и крупица хитрости достаточны для того, чтобы  несколько разгрузить центральный процессор."
-    },
-    {
-      "title": "Как мы разрабатываем Orange Buildboard 2.0",
-      "imagePath": "images/speakers/konstantin_krivlenia.jpg",
-      "speakerIDs": [
-        31
-      ],
-      "description": "Атоматизация процесса разработки задач. С  микросервисами на Meteor и Koa.",
-      "time": "20:00",
-      "break": {
-        "time": "20:45"
-      }
-    },
-    {
-      "title": "Redux в реальной жизни",
-      "imagePath": "images/speakers/ivan_akulov.jpg",
-      "speakerIDs": [
-        60
-      ],
-      "description": "Ваня расскажет про самые популярные подходы и инструменты, применяемые в Redux-проектах. Доклад будет наиболее полезен тем, кто знаком с Redux-ом, но ещё не сталкивался с ним вплотную.",
-      "time": "21:05"
-    }
-  ]
-},{
+    ]
+  },
+  {
     "id": "rs#23",
     "name": "RS on Tour. Gomel",
     "date": "9 апреля, 2016",
@@ -309,89 +344,90 @@
         }
       }
     ]
-  }, {
-  "id": "rs#22",
-  "name": "The Rolling Scopes #22. Brest",
-  "date": "12 марта, 2016",
-  "location": "г. Брест, ул.Гоголя,13",
-  "locationLink": "https://www.google.by/maps/place/Gogolia+St+13,+Brest/@52.090187,23.6789445,16.06z/data=!4m2!3m1!1s0x47210bec15bc9109:0x5e28b6234bb723b0?hl=en",
-  "schedule": [
-    {
-      "title": "Под капотом у Reactjs",
-      "imagePath": "images/speakers/vitali_fokin.jpg",
-      "speakerIDs": [
-        52
-      ],
-      "description": "В современном мире Frontend разработки Reactjs набирает все большую популярность и оказывает огромное влияние на развитие индустрии в целом. Предлагаю разобраться откуда растут ноги у этого явления и почему все говорят, что React очень быстрый. В процессе мы познакомимся с принципами работы Reactjs и узнаем как все работает внутри.",
-      "time": "14:00"
-    },
-    {
-      "title": "Synthetic events в Reactjs",
-      "imagePath": "images/speakers/vladimir_demin.jpg",
-      "speakerIDs": [
-        55
-      ],
-      "description": "Reactjs интригует своей скоростью и простотой. Как все простые на первый взгляд вещи, внутри они скрывают важные мелочи, в данном случае касаемые производительности. В небольшом блиц-докладе предлагаю разобраться с тем, как работают Syntethic events в Reactjs и как устроить их симбиоз с DOM Events.",
-      "time": "14:45",
-      "break": {
-        "time": "15:05"
+  },
+  {
+    "id": "rs#22",
+    "name": "The Rolling Scopes #22. Brest",
+    "date": "12 марта, 2016",
+    "location": "г. Брест, ул.Гоголя,13",
+    "locationLink": "https://www.google.by/maps/place/Gogolia+St+13,+Brest/@52.090187,23.6789445,16.06z/data=!4m2!3m1!1s0x47210bec15bc9109:0x5e28b6234bb723b0?hl=en",
+    "schedule": [
+      {
+        "title": "Под капотом у Reactjs",
+        "imagePath": "images/speakers/vitali_fokin.jpg",
+        "speakerIDs": [
+          52
+        ],
+        "description": "В современном мире Frontend разработки Reactjs набирает все большую популярность и оказывает огромное влияние на развитие индустрии в целом. Предлагаю разобраться откуда растут ноги у этого явления и почему все говорят, что React очень быстрый. В процессе мы познакомимся с принципами работы Reactjs и узнаем как все работает внутри.",
+        "time": "14:00"
+      },
+      {
+        "title": "Synthetic events в Reactjs",
+        "imagePath": "images/speakers/vladimir_demin.jpg",
+        "speakerIDs": [
+          55
+        ],
+        "description": "Reactjs интригует своей скоростью и простотой. Как все простые на первый взгляд вещи, внутри они скрывают важные мелочи, в данном случае касаемые производительности. В небольшом блиц-докладе предлагаю разобраться с тем, как работают Syntethic events в Reactjs и как устроить их симбиоз с DOM Events.",
+        "time": "14:45",
+        "break": {
+          "time": "15:05"
+        }
+      },
+      {
+        "title": "Социальный проект Brest Fortress Hidden History",
+        "imagePath": "images/speakers/dmitriy_rybalko.jpg",
+        "speakerIDs": [
+          53
+        ],
+        "description": "Что может получиться, когда интересный проект разрабатывает команда с не менее \"интересными\" навыками. Приходи и узнай всю скрытую историю о том как мобильное приложение на cordova\\ionic\\crosswalk разрабатывалось в студенческой лаборатории.",
+        "time": "15:25"
+      },
+      {
+        "title": "Progressive Web Apps",
+        "imagePath": "images/speakers/alexander_orgish.jpg",
+        "speakerIDs": [
+          49
+        ],
+        "description": "Что стоит за новым баззвордом Prоgressive Web App? Действительно ли это новый шаг в эволюции веб и мобильных приложений? Как сейчас создают прогрессивные, привлекательные и высоко-производительные онлайн\\оффлайн веб-приложения. ",
+        "time": "16:10",
+        "break": {
+          "time": "16:55"
+        }
+      },
+      {
+        "title": "Asyncable ES для тех, кто еще не в теме",
+        "imagePath": "images/speakers/denis_vlassenko.jpg",
+        "speakerIDs": [
+          54
+        ],
+        "description": "Говорят, shift happens. Иногда внезапно. Но сейчас не тот случай. Будучи уверенным, что все мы уже активно транспилим наши гиперсовременные скрипты с babeljs, создаем бесконечные последовательности функциями-генераторами, эффектно проксируем объекты и наслаждаемся 92х процентной поддержкой ES2015 в Chrome Canary... Да, будучи уверенным во все этом, предлагаю обсудить асинхронное будущее ECMAScript: приторно сладкие async/await.",
+        "time": "17:15"
+      },
+      {
+        "title": "TV in browsers: live cases",
+        "imagePath": "images/speakers/alex_karlovich.jpg",
+        "speakerIDs": [
+          1
+        ],
+        "description": "До сих пор многие медиа-компании используют для стриминга видео контента Flash или Silverlight. Посмотрим, как начать жить проще и по HTML5-стандартам.",
+        "time": "18:00"
+      },
+      {
+        "title": "Intro to usability heuristics",
+        "imagePath": "images/speakers/kseniya_koltun.jpg",
+        "speakerIDs": [
+          56
+        ],
+        "description": "Дизайн тренды меняются из года в год, мы стараемся следить и применять новомодные новшества в своих проектах. За всем этим мы забываем, что поведение человека не меняется веками: ни как он принимает решения, ни как действует. <s>Это эволюция, детка!</s> Я хочу рассказать об этих поведенческих столпах, которые включены в usability гайдланы, и лучше бы нам их придерживаться.",
+        "time": "18:30",
+        "party": {
+          "time": "20:00",
+          "title": "Beer.js party",
+          "description": "<a target='_blank' href='https://www.facebook.com/lakavekave/'>Кафе La Kave</a>, ул. Советская, 50"
+        }
       }
-    },
-    {
-      "title": "Социальный проект Brest Fortress Hidden History",
-      "imagePath": "images/speakers/dmitriy_rybalko.jpg",
-      "speakerIDs": [
-        53
-      ],
-      "description": "Что может получиться, когда интересный проект разрабатывает команда с не менее \"интересными\" навыками. Приходи и узнай всю скрытую историю о том как мобильное приложение на cordova\\ionic\\crosswalk разрабатывалось в студенческой лаборатории.",
-      "time": "15:25"
-    },
-    {
-      "title": "Progressive Web Apps",
-      "imagePath": "images/speakers/alexander_orgish.jpg",
-      "speakerIDs": [
-        49
-      ],
-      "description": "Что стоит за новым баззвордом Prоgressive Web App? Действительно ли это новый шаг в эволюции веб и мобильных приложений? Как сейчас создают прогрессивные, привлекательные и высоко-производительные онлайн\\оффлайн веб-приложения. ",
-      "time": "16:10",
-      "break": {
-        "time": "16:55"
-      }
-    },
-    {
-      "title": "Asyncable ES для тех, кто еще не в теме",
-      "imagePath": "images/speakers/denis_vlassenko.jpg",
-      "speakerIDs": [
-        54
-      ],
-      "description": "Говорят, shift happens. Иногда внезапно. Но сейчас не тот случай. Будучи уверенным, что все мы уже активно транспилим наши гиперсовременные скрипты с babeljs, создаем бесконечные последовательности функциями-генераторами, эффектно проксируем объекты и наслаждаемся 92х процентной поддержкой ES2015 в Chrome Canary... Да, будучи уверенным во все этом, предлагаю обсудить асинхронное будущее ECMAScript: приторно сладкие async/await.",
-      "time": "17:15"
-    },
-    {
-      "title": "TV in browsers: live cases",
-      "imagePath": "images/speakers/alex_karlovich.jpg",
-      "speakerIDs": [
-        1
-      ],
-      "description": "До сих пор многие медиа-компании используют для стриминга видео контента Flash или Silverlight. Посмотрим, как начать жить проще и по HTML5-стандартам.",
-      "time": "18:00"
-    },
-    {
-      "title": "Intro to usability heuristics",
-      "imagePath": "images/speakers/kseniya_koltun.jpg",
-      "speakerIDs": [
-        56
-      ],
-      "description": "Дизайн тренды меняются из года в год, мы стараемся следить и применять новомодные новшества в своих проектах. За всем этим мы забываем, что поведение человека не меняется веками: ни как он принимает решения, ни как действует. <s>Это эволюция, детка!</s> Я хочу рассказать об этих поведенческих столпах, которые включены в usability гайдланы, и лучше бы нам их придерживаться.",
-      "time": "18:30",
-      "party": {
-        "time": "20:00",
-        "title": "Beer.js party",
-        "description": "<a target='_blank' href='https://www.facebook.com/lakavekave/'>Кафе La Kave</a>, ул. Советская, 50"
-      }
-    }
-  ]
-},
+    ]
+  },
   {
     "id": "rs#21",
     "name": "The Rolling Scopes #21",
@@ -1398,7 +1434,8 @@
             "title": "Testing JavaScript Applications",
             "slidesLink": "http://rolling-scopes.github.io/slides/rs4/jstesting-talk",
             "speakerIDs": [
-              20, 0
+              20,
+              0
             ]
           }
         ]
