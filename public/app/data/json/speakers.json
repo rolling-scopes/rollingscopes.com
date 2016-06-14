@@ -335,6 +335,34 @@
       "id": 68,
       "name": "Всеволод Шмыров",
       "photo": "vsevolod.jpg"
-    }
+    },{
+    "id": 69,
+    "name": "Ales Tsvil",
+    "photo": "Ales_Tsvil.jpg"
+    },{
+    "id": 70,
+    "name": "Aliaksei Kharchykau",
+    "photo": "Aliaksei_Kharchykau.jpg"
+  },{
+    "id": 71,
+    "name": "Aliaksei Rabchanka",
+    "photo": "Aliaksei_Rabchanka.jpg"
+  },{
+    "id": 72,
+    "name": "Vadim Kulaga",
+    "photo": "Vadim_Kulaga.jpg"
+  },{
+    "id": 73,
+    "name": "Ruslan Panasiuk",
+    "photo": "Ruslan_Panasiuk.jpg"
+  },{
+    "id": 74,
+    "name": "Uladzislau Harbachou",
+    "photo": "Uladzislau_Harbachou.jpg"
+  },{
+    "id": 75,
+    "name": "Zhanna Lud",
+    "photo": "Zhanna_Lud.jpg"
+  }
 ]
 
