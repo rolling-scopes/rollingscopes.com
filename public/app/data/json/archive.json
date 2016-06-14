@@ -71,7 +71,12 @@
       "time": "30 min",
       "speakerIDs": [
         75
-        ]
+        ],
+        "party": {
+        "time": "20:00",
+        "title": "Beer.js party",
+        "description": "Place: TBD"
+      }
       }
     ]
   },
