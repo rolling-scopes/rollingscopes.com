@@ -13,8 +13,8 @@
     "id": "rs#29",
     "name": "The Rolling Scopes #29. Gomel",
     "date": "23 июля, 2016",
-    "location": "г. Гомель, ул.Ланге, д.17",
-    "locationLink": "https://goo.gl/maps/S3w8FZD4kJE2",
+    "location": "CINEMA CLUB HOLLYWOOD, г. Гомель, ул. Коммунаров, 4",
+    "locationLink": "http://www.gomelparty.com/places/162/3320",
     "registerLink":"https://goo.gl/ts45t6",
     "schedule": [{
       "title": "Angular-Material in Practice",
@@ -89,7 +89,7 @@
         "party": {
         "time": "20:00",
         "title": "Beer.js party",
-        "description": "Place: TBD"
+        "description": "CINEMA CLUB HOLLYWOOD (г. Гомель, ул. Коммунаров, 4)"
       }
       }
     ]
