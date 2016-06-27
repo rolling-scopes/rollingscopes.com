@@ -2,6 +2,8 @@ var path     = require('path');
 var nconf    = require('nconf');
 var mongoose = require('mongoose');
 
+console.log('service is starting');
+
 nconf
   .env('__')
   .file(path.join(__dirname, 'backend', 'config', 'nconf.json'));
