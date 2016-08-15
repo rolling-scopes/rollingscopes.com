@@ -2,7 +2,6 @@ var fs          = require('fs');
 var path        = require('path');
 var gulp        = require('gulp');
 var del         = require('del');
-var minimist    = require('minimist');
 var runSequence = require('run-sequence');
 var $           = require('gulp-load-plugins')();
 var tasks       = require('./gulp-tasks');
@@ -13,11 +12,11 @@ var options = {
   dest: 'public/appBin'
 };
 
-gulp.task('clean', function (cb) {
-  del([
+gulp.task('clean', function () {
+  return del([
     options.dest,
     options.staging
-  ], cb);
+  ]);
 });
 
 gulp.task('copy', function () {
@@ -72,19 +71,13 @@ gulp.task('views', function () {
 });
 
 gulp.task('useref', ['css'], function () {
-  var assets = $.useref.assets({
-    searchPath: [options.staging, options.src]
-  });
-
   return gulp.src([
     options.staging + '/*.html',
     options.src + '/*.html'
   ])
-  .pipe(assets)
+  .pipe($.useref({ searchPath: [options.staging, options.src] }))
   .pipe($.if('*.js', $.uglify()))
   .pipe($.if('*.css', $.csso()))
-  .pipe(assets.restore())
-  .pipe($.useref())
   .pipe($.htmlmin({collapseWhitespace: true}))
   .pipe(gulp.dest(options.dest));
 });

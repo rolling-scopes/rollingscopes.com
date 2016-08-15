@@ -24,7 +24,7 @@ _.each(talks, function (talk) {
 });
 
 var processedSpeakers = _.map(speakerToTalksMap, function (talk, speakerId) {
-  var speaker = _.findWhere(speakers, { id: +speakerId });
+  var speaker = _.find(speakers, { id: +speakerId });
   speaker.talks = speakerToTalksMap[speaker.id];
   return speaker;
 });

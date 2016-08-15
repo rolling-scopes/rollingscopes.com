@@ -15,33 +15,32 @@
     "start": "node ./service"
   },
   "devDependencies": {
-    "del": "^1.1.1",
-    "ejs": "^2.3.4",
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^2.1.0",
-    "gulp-csso": "^1.0.0",
-    "gulp-htmlmin": "^1.1.1",
-    "gulp-if": "^1.2.5",
-    "gulp-load-plugins": "^0.9.0",
-    "gulp-sass": "^2.2.0",
-    "gulp-uglify": "^1.1.0",
-    "gulp-useref": "^1.1.1",
-    "lodash": "^3.10.1",
-    "minimist": "^1.1.1",
+    "del": "^2.2.2",
+    "ejs": "^2.5.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.0",
+    "lodash": "^4.15.0",
     "normalize.scss": "^0.1.0",
-    "run-sequence": "^1.0.2",
-    "through2": "^2.0.0"
+    "run-sequence": "^1.2.2",
+    "through2": "^2.0.1"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.2.0"
   },
   "dependencies": {
-    "body-parser": "^1.9.0",
-    "express": "^4.9.5",
-    "md5": "^2.0.0",
-    "mongoose": "^4.0.3",
-    "nconf": "^0.7.1",
-    "request": "^2.59.0"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "md5": "^2.1.0",
+    "mongoose": "^4.5.9",
+    "nconf": "^0.7.2",
+    "request": "^2.74.0"
   },
   "version": "0.2.0"
 }

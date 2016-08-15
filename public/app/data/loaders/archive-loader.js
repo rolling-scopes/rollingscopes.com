@@ -3,7 +3,7 @@ var speakers = require('../json/speakers.json');
 
 function getSpeakersByID(ids) {
   return _.map(ids, function (id) {
-    return _.findWhere(speakers, { id: id });
+    return _.find(speakers, { id: id });
   });
 }
 
@@ -21,7 +21,7 @@ module.exports = function () {
         // TODO: find better word than 'consequence' :D
         // TODO: move 'images/speakers' to const IMAGES_BASE_PATH
 
-        speaker = _.findWhere(speakers, { id: talk.speakerIDs[0] });
+        speaker = _.find(speakers, { id: talk.speakerIDs[0] });
         talk.imagePath = 'images/speakers/' + speaker.photo;
       }
 
@@ -32,7 +32,7 @@ module.exports = function () {
           material.speakerIDs = talk.speakerIDs;
         }
 
-        material.speakers = _.pluck(
+        material.speakers = _.map(
           getSpeakersByID(material.speakerIDs),
           'name'
         );
