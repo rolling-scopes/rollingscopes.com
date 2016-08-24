@@ -1,4 +1,52 @@
-[
+[  {
+  "id": "rs#30",
+  "name": "The Rolling Scopes #30. Krakow",
+  "date": "September 29, 2016",
+  "location": "BARKA, Podgórska 16, Krakow",
+  "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
+  "schedule": [
+    {
+      "title": "Advanced SASS",
+      "time": "17:00",
+      "speakerIDs": [
+        61
+      ],
+      "description": "Did you know SASS is the best? Shall we call it a programming language? Dear haters, please wait, there're facts. You'd know how to use SASS proper in your projects, heavyweight features, unit testing (what?) and many more to mention."
+    },
+    {
+      "title": "Modular JavaScript: put things on the right place",
+      "speakerIDs": [
+        6
+      ],
+      "description": "JS Module Formats, Module Loaders: RequireJS, Browserify, System.js, WebPack. How to find the way through all of those and don't get lost.",
+      "time": "17:35",
+      "break": {
+        "time": "18:10"
+      }
+    },
+    {
+      "title": "Ethereum virtual machines in JS: cryptocurrency revolution",
+      "speakerIDs": [
+        62
+      ],
+      "description": "Ethereum is the open source, decentralized network. Well known Bitcoin is quite close to. But Ethereum is a different blockchain from Bitcoin and was created with the intention to allow self-executing smart contracts. Know why is it so important and how to rule the world with JS.",
+      "time": "18:30"
+    },
+    {
+      "title": "Designers at the lab",
+      "speakerIDs": [
+        81
+      ],
+      "description": "TBD",
+      "time": "19:05",
+      "party": {
+        "time": "19:40",
+        "title": "Beer.js",
+        "description": "Place: BARKA, Podgórska 16"
+      }
+    }
+  ]
+},
   {
     "id": "rs#28",
     "name": "The Rolling Scopes #28. Brest",
