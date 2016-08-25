@@ -7,5 +7,6 @@ module.exports = {
   'brest'       : require('./brest'),
   'gomel'       : require('./gomel'),
   'minsk'       : require('./minsk'),
-  'krakow'      : require('./krakow')
+  'krakow'      : require('./krakow'),
+  'school'      : require('./school')
 };
