@@ -78,15 +78,17 @@ h1 {
   font-size: 3em;
 }
 
-h2 {
+h2, h3 {
   text-transform: uppercase;
+  margin: .5em 0;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.4;
+  margin: .5em 0;
 }
 
-a {
+a, .footnote {
   color: $link-color;
   text-decoration: none
 }
@@ -97,6 +99,10 @@ a:hover {
 
 .text-center {
   text-align: center;
+}
+
+.accent-section {
+  background: #ebebeb;
 }
 
 /*------------------------------------*\
@@ -136,6 +142,7 @@ header {
 .main-nav-wrapper {
   padding: 0;
 }
+
 .main-nav {
   padding: 0;
   margin: 0 auto;
@@ -226,7 +233,6 @@ header {
     text-align: center;
   }
 }
-
 
 .slack-info {
   border: 4px double #ccc;
@@ -510,12 +516,13 @@ h2.day-number {
   margin: 0;
   padding: 0;
 }
+
 .event-list-item {
   position: relative;
   display: block;
   margin: 0 0 0 100px;
   padding: 30px 0;
-  border-top: 1px solid #ccc; 
+  border-top: 1px solid #ccc;
   .date, .mounth {
     width: 80px;
     position: absolute;
@@ -549,6 +556,56 @@ h2.day-number {
   &:first-child {
     border-top: 0;
   }
+}
+
+/*------------------------------------*\
+    TILE MENU
+\*------------------------------------*/
+
+.tile-menu {
+  margin: 0 -5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.tile-menu-item {
+  position: relative;
+  flex-basis: 140px;
+  flex-grow: 1;
+  margin: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #999;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 2px 0 #e2e2e2;
+  border-radius: 5px;
+  border: 1px solid transparent;
+
+  i {
+    color: #333;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    background: #f7f7f7;
+    text-decoration: none;
+  }
+}
+
+.tile-menu-title {
+  display: block;
+  font-size: 24px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 /*------------------------------------*\
