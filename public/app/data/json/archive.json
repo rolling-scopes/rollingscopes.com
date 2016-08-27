@@ -48,6 +48,37 @@
   ]
 },
   {
+    "id": "rs#29",
+    "name": "The Rolling Scopes #29. Minsk",
+    "date": "20 сентября, 2016",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSc9DFvBZ1He4ocjNtWsWUkaag81SVc_P601Zvf4xJCFh57lxg/viewform",
+    "schedule": [
+      {
+        "title": "New Opportunities for Augmented Reality",
+        "imagePath": "images/speakers/unknown_speaker.jpg",
+        "time": "19:00",
+        "speakerIDs": [
+          82,83
+        ],
+        "description": "Покажем и расскажем, как мы делали проект в Дополненной Реальности (AR). Рассмотрим, какие были подводные камни и как мы их обходили. Будет возможность посмотреть вживую на наш результат, которому customer сказал «Yes! Well done guys!»"
+      },
+      {
+        "title": "Serverless Architecture",
+        "imagePath": "images/speakers/siarhei_melnik.jpg",
+        "speakerIDs": [
+          41
+        ],
+        "description": "TBD",
+        "time": "19:30",
+        "break": {
+          "time": "20:00"
+        }
+      }
+    ]
+},
+  {
     "id": "rs#28",
     "name": "The Rolling Scopes #28. Brest",
     "date": "6 августа, 2016",
@@ -106,7 +137,6 @@
           "description": "Place: TBD"
         }
       }
-
     ]
   },
   {
