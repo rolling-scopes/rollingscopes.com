@@ -617,22 +617,20 @@ h2.day-number {
     max-width: 768px;
   }
 
-  .main-nav li
-  a {
-    top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-  }
+  .main-nav li {
+    width: 25% !important;
+    padding-bottom: 25% !important;
+    a {
+      top: 10px;
+      right: 10px;
+      bottom: 10px;
+      left: 10px;
+    }
 
-  .main-nav li:nth-child(-n+5) {
-    width: 50%;
-    padding-bottom: 50%;
-  }
-
-  .title {
-    font-size: 40px;
-    line-height: 40px;
+    .title {
+      font-size: 44px;
+      line-height: 44px;
+    }
   }
 
   h1 {
@@ -714,8 +712,8 @@ h2.day-number {
 
 @media only screen and (max-width: 600px) {
   .main-nav li {
-    width: 50%;
-    padding-bottom: 50%;
+    width: 50% !important;
+    padding-bottom: 50% !important;
   }
 
   section {
