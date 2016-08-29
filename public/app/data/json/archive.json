@@ -1,6 +1,6 @@
-[  {
-  "id": "rs#30",
-  "name": "The Rolling Scopes #30. Krakow",
+[ {
+  "id": "rs#31",
+  "name": "The Rolling Scopes #31. Krakow",
   "date": "September 29, 2016",
   "location": "BARKA, Podgórska 16, Krakow",
   "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
@@ -47,6 +47,41 @@
     }
   ]
 },
+  {
+    "id": "rs#30",
+    "name": "The Rolling Scopes #30. Gdansk",
+    "date": "September 28, 2016",
+    "location": "Gdansk",
+    "locationLink": "https://goo.gl/maps/svYsv3K3juM2",
+    "registerLink": " ",
+    "schedule": [
+      {
+        "title": "TypeScript and what's the hack Javascript",
+        "time": "18:30",
+        "speakerIDs": [
+          61
+        ],
+        "description": "TypeScript is amazing/awful! What about ES6? How to use and when, what to choose? Introduction to the future of Javascript, how it fits with NodeJS. Compilation processes, must know things.",
+        "break": {
+          "time": "19:10"
+        }
+      },
+      {
+        "title": "CSS QuickDraw",
+        "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit! <br />(Please bring your laptop!)",
+        "time": "19:30",
+        "speakerIDs": [
+          0
+        ],
+        "party": {
+          "time": "21:00",
+          "title": "Beer.js",
+          "description": "TBD"
+        }
+      }
+
+    ]
+  },
   {
     "id": "rs#29",
     "name": "The Rolling Scopes #29. Minsk",

@@ -8,5 +8,6 @@ module.exports = {
   'gomel'       : require('./gomel'),
   'minsk'       : require('./minsk'),
   'krakow'      : require('./krakow'),
+  'gdansk'      : require('./gdansk'),
   'school'      : require('./school')
 };

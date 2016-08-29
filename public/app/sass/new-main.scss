@@ -162,10 +162,10 @@ header {
       font-size: 34px;
       line-height: 0;
 
-      top: 20px;
-      left: 20px;
-      bottom: 20px;
-      right: 20px;
+      top: 10px;
+      left: 10px;
+      bottom: 10px;
+      right: 10px;
 
       &:before {
         content: " ";
@@ -192,15 +192,15 @@ header {
       width: 100%;
       text-align: center;
       z-index: 10;
-      line-height: 62px;
-      font-size: 62px;
+      line-height: 50px;
+      font-size: 50px;
     }
 
   }
 
-  li:nth-child(-n+4) {
-    width: 25%;
-    padding-bottom: 25%;
+  li:nth-child(-n+5) {
+    width: 20%;
+    padding-bottom: 20%;
   }
 }
 

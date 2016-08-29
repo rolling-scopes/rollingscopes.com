@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title><%= page.title %></title>
+    <meta name="viewport" content="width=device-width">
+    <% include common/styles %>
+</head>
+<body>
+<% include common/browsehappy %>
+<div class="page-wrap">
+    <% include common/header %>
+
+    <section>
+        <% include index/meetup-banner %>
+        <% include common/materials %>
+
+        <p><br/><a href="https://rollingscopes.com/">The Rolling Scopes</a> - Front-end/JavaScript developers community.
+            <br/>
+            Want to give a talk or conduct a workshop?<br/>
+            Eager to give a shout-out for your open source project or share your success story?<br/>
+            Ready to preach the must-know fundamentals of Web, JavaScript, CSS, etc.?<br/>
+            We welcome all kinds of talk proposals, so do not hesitate to drop a short synopsis to
+            <a href="mailto:rolling.scopes@gmail.com">rolling.scopes@gmail.com</a>
+            <br/>
+            <br/>
+            This meetup is organized by developers and for developers. We do not generate any profit, just fun and
+            awesomeness!
+            Let’s Roll!
+        </p>
+
+        <h1>Agenda</h1>
+        <% include common/scedule %>
+
+
+    </section>
+    <section>
+        <h2 class="text-center">Partners</h2>
+        <ul class="partner-list">
+            <li><a href="http://www.epam.com/"><img src="images/partners/epam-systems.jpg" alt="epam logo"/></a></li>
+            <li><a href="https://www.jetbrains.com/"><img src="images/partners/jetbrains.png" alt="jetbrains logo"/></a>
+            </li>
+        </ul>
+    </section>
+
+    <% include index/venue %>
+    <% include common/call-for-speakers %>
+    <% include common/main-nav %>
+</div>
+<% include common/footer %>
+<% include common/scripts %>
+</body>
+</html>
