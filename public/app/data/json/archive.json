@@ -6,25 +6,6 @@
   "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
   "schedule": [
     {
-      "title": "Advanced SASS",
-      "time": "17:00",
-      "speakerIDs": [
-        61
-      ],
-      "description": "Did you know SASS is the best? Shall we call it a programming language? Dear haters, please wait, there're facts. You'd know how to use SASS proper in your projects, heavyweight features, unit testing (what?) and many more to mention."
-    },
-    {
-      "title": "Modular JavaScript: put things on the right place",
-      "speakerIDs": [
-        6
-      ],
-      "description": "JS Module Formats, Module Loaders: RequireJS, Browserify, System.js, WebPack. How to find the way through all of those and don't get lost.",
-      "time": "17:35",
-      "break": {
-        "time": "18:10"
-      }
-    },
-    {
       "title": "Ethereum virtual machines in JS: cryptocurrency revolution",
       "speakerIDs": [
         62
@@ -33,14 +14,33 @@
       "time": "18:30"
     },
     {
+      "title": "Advanced SASS",
+      "time": "19:05",
+      "speakerIDs": [
+        61
+      ],
+      "description": "Did you know SASS is the best? Shall we call it a programming language? Dear haters, please wait, there're facts. You'd know how to use SASS proper in your projects, heavyweight features, unit testing (what?) and many more to mention.",
+      "break": {
+      "time": "19:40"
+    }
+    },
+    {
+      "title": "Modular JavaScript: put things on the right place",
+      "speakerIDs": [
+        6
+      ],
+      "description": "JS Module Formats, Module Loaders: RequireJS, Browserify, System.js, WebPack. How to find the way through all of those and don't get lost.",
+      "time": "20:00"
+    },
+    {
       "title": "Designers at the lab",
       "speakerIDs": [
         81
       ],
-      "description": "TBD",
-      "time": "19:05",
+      "description": "Designers in the Lab is the story of a team of designers from the Wix Studio, who embark on an adventure in the unknown territory of trend prediction. <br/> In this talk I’ll explain how designers view the world; why is it they get so emotional about pixels; what does it have to do with research methods and trend prediction; and how adapting work methods from different industries can help you inspire the future of our own.",
+      "time": "20:35",
       "party": {
-        "time": "19:40",
+        "time": "21:10",
         "title": "Beer.js",
         "description": "Place: BARKA, Podgórska 16"
       }

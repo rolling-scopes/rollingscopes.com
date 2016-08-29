@@ -572,11 +572,10 @@ h2.day-number {
 
 .tile-menu-item {
   position: relative;
-  flex-basis: 140px;
+  flex-basis: 120px;
   flex-grow: 1;
   margin: 5px;
   font-size: 14px;
-  box-sizing: border-box;
   padding: 20px;
   color: #999;
   background: #fff;
@@ -584,6 +583,7 @@ h2.day-number {
   box-shadow: 0 2px 0 #e2e2e2;
   border-radius: 5px;
   border: 1px solid transparent;
+  overflow: hidden;
 
   i {
     color: #333;
