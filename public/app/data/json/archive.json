@@ -102,6 +102,15 @@
         "break": {
           "time": "20:00"
         }
+      },
+      {
+        "title": "QCon New York technology trends highlights",
+        "imagePath": "images/speakers/vitali_shcharbin.jpg",
+        "time": "20:20",
+        "speakerIDs": [
+          84
+        ],
+        "description": "TBD"
       }
     ]
 },
