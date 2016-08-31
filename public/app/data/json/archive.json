@@ -48,20 +48,60 @@
     "registerLink": " ",
     "schedule": [
       {
+        "title": "Introduction of The Rolling Scopes",
+        "time": "18:00",
+        "imagePath": "images/logo_rs2.svg",
+        "speakerIDs": [
+          0,
+          19
+        ],
+        "description": ""
+      },
+      {
         "title": "TypeScript and what's the hack Javascript",
-        "time": "18:30",
+        "time": "18:10",
         "speakerIDs": [
           61
         ],
         "description": "TypeScript is amazing/awful! What about ES6? How to use and when, what to choose? Introduction to the future of Javascript, how it fits with NodeJS. Compilation processes, must know things.",
         "break": {
-          "time": "19:10"
+          "time": "18:45"
         }
+      },
+      {
+        "title": "Yes, you can use Web components in production",
+        "time": "18:50",
+        "speakerIDs": [
+          85
+        ],
+        "description": "How to keep the application well structured and organized to start developing Web Components? How to implement quickly the 4 web components specifications: Custom elements, HTML Imports, Templates, Shadow DOM.<br/> Finally David will share how to use it in Production.",
+        "break": {
+          "time": "19:20"
+        }
+      },
+      {
+        "title": "Serverless architecture using AWS and Node.js",
+        "time": "19:25",
+        "speakerIDs": [
+          19
+        ],
+        "description": "TBD",
+        "break": {
+          "time": "19:55"
+        }
+      },
+      {
+        "title": "Designers at the lab",
+        "speakerIDs": [
+          81
+        ],
+        "description": "Designers in the Lab is the story of a team of designers from the Wix Studio, who embark on an adventure in the unknown territory of trend prediction. <br/> In this talk I’ll explain how designers view the world; why is it they get so emotional about pixels; what does it have to do with research methods and trend prediction; and how adapting work methods from different industries can help you inspire the future of our own.",
+        "time": "20:00"
       },
       {
         "title": "CSS QuickDraw",
         "description": "Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit! <br />(Please bring your laptop!)",
-        "time": "19:30",
+        "time": "20:35",
         "speakerIDs": [
           0
         ],
@@ -71,7 +111,6 @@
           "description": "TBD"
         }
       }
-
     ]
   },
   {
