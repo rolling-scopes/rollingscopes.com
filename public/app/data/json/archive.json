@@ -45,7 +45,7 @@
     "date": "September 28, 2016",
     "location": "Gdansk",
     "locationLink": "https://goo.gl/maps/svYsv3K3juM2",
-    "registerLink": " ",
+    "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSe15Cp-qkA0RrQuc52PGOntbz4DPs0fYofdxh616XOR0P1lyw/viewform",
     "schedule": [
       {
         "title": "Introduction of The Rolling Scopes",
@@ -53,7 +53,8 @@
         "imagePath": "images/logo_rs2.svg",
         "speakerIDs": [
           0,
-          19
+          19,
+          61
         ],
         "description": ""
       },
@@ -80,12 +81,12 @@
         }
       },
       {
-        "title": "Serverless architecture using AWS and Node.js",
+        "title": "Serverless architecture: Functions as a Service",
         "time": "19:25",
         "speakerIDs": [
           19
         ],
-        "description": "TBD",
+        "description": "What is Serverless and why is it worth considering? How this paradigm for developing and deploying is connected to JavaScript and Node.js? The benefits and drawbacks. Implementation Using Amazon Web Services.",
         "break": {
           "time": "19:55"
         }
