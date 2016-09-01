@@ -25,12 +25,20 @@
     }
     },
     {
+      "title": "Serverless architecture: Functions as a Service",
+      "time": "20:00",
+      "speakerIDs": [
+        19
+      ],
+      "description": "What is Serverless and why is it worth considering? How this paradigm for developing and deploying is connected to JavaScript and Node.js? The benefits and drawbacks. Implementation Using Amazon Web Services."
+    },
+    {
       "title": "Designers at the lab",
       "speakerIDs": [
         81
       ],
       "description": "Designers in the Lab is the story of a team of designers from the Wix Studio, who embark on an adventure in the unknown territory of trend prediction. <br/> In this talk I’ll explain how designers view the world; why is it they get so emotional about pixels; what does it have to do with research methods and trend prediction; and how adapting work methods from different industries can help you inspire the future of our own.",
-      "time": "20:00",
+      "time": "20:30",
       "party": {
         "time": "21:00",
         "title": "Beer.js",
