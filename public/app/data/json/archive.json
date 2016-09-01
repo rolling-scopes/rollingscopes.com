@@ -131,25 +131,25 @@
         "description": "Покажем и расскажем, как мы делали проект в Дополненной Реальности (AR). Рассмотрим, какие были подводные камни и как мы их обходили. Будет возможность посмотреть вживую на наш результат, которому customer сказал «Yes! Well done guys!»"
       },
       {
-        "title": "Serverless Architecture",
-        "imagePath": "images/speakers/siarhei_melnik.jpg",
+        "title": "Serverless architecture: Functions as a Service",
+        "imagePath": "images/speakers/aws_lambda.jpg",
         "speakerIDs": [
-          41
+          41, 19
         ],
-        "description": "TBD",
-        "time": "19:30",
+        "description": "Рассмотрим новомодную парадигму, её особенности/недостатки и связь с JavaScript/NodeJS. Обсудим реализацию на базе Amazon Web Services.",
+        "time": "19:40",
         "break": {
-          "time": "20:00"
+          "time": "20:20"
         }
       },
       {
         "title": "QCon New York technology trends highlights",
         "imagePath": "images/speakers/vitali_shcharbin.jpg",
-        "time": "20:20",
+        "time": "20:30",
         "speakerIDs": [
           84
         ],
-        "description": "TBD"
+        "description": "Виталик посетил QCON в Нью-Йорке и готов сделать обзор самых интересных и полезных докладов конференции."
       }
     ]
 },
