@@ -27,8 +27,9 @@
     {
       "title": "Serverless architecture: Functions as a Service",
       "time": "20:00",
+      "imagePath": "images/speakers/aws_lambda.png",
       "speakerIDs": [
-        19
+        19, 41
       ],
       "description": "What is Serverless and why is it worth considering? How this paradigm for developing and deploying is connected to JavaScript and Node.js? The benefits and drawbacks. Implementation Using Amazon Web Services."
     },
@@ -91,8 +92,9 @@
       {
         "title": "Serverless architecture: Functions as a Service",
         "time": "19:25",
+        "imagePath": "images/speakers/aws_lambda.png",
         "speakerIDs": [
-          19
+          19, 41
         ],
         "description": "What is Serverless and why is it worth considering? How this paradigm for developing and deploying is connected to JavaScript and Node.js? The benefits and drawbacks. Implementation Using Amazon Web Services.",
         "break": {
