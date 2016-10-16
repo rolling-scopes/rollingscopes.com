@@ -139,6 +139,10 @@ header {
   padding-top: 80px;
 }
 
+.header-wrapper + .accent-section {
+  padding-top: 60px;
+}
+
 /*------------------------------------*\
     NAVIGATION
 \*------------------------------------*/
@@ -799,6 +803,11 @@ h2.day-number {
   .header-wrapper + section {
     padding-top: 65px;
   }
+
+  .header-wrapper + .accent-section {
+    padding-top: 45px;
+  }
+
   .main-nav li .title {
     font-size: 30px;
     line-height: 30px;
