@@ -1,6 +1,6 @@
 <li class="event-schedule-item">
   <h2 class="speech-time"><%= talk.time %></h2>
-  <img class="speaker-photo" src="<%= talk.imagePath %>">
+  <img class="speaker-photo" src="<%= talk.imagePath %>" alt="<%= talk.speakers.map(speaker => speaker.name).join(', ') %> photo" >
 
   <h3><%= talk.title %></h3>
 

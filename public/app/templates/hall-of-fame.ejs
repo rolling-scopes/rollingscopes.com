@@ -16,7 +16,7 @@
       <% speakers.forEach(function (speaker) { %>
         <li>
             <div class="speaker-photo-wrapper">
-              <img class="speaker-photo" src="images/speakers/<%= speaker.photo %>"/>
+              <img class="speaker-photo" src="images/speakers/<%= speaker.photo %>" alt="<%= speaker.name %> photo">
             </div>
             <h3><%= speaker.name %></h3>
             <% speaker.talks.forEach(function (talk) { %>
