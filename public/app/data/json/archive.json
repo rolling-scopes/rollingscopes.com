@@ -1,4 +1,23 @@
-[ {
+[   {
+  "id": "rs#32",
+  "name": "The Rolling Scopes #32. Minsk",
+  "date": "23 декабря, 2016",
+  "location": "imaguru.co",
+  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+  "registerLink": "",
+  "schedule": [
+    {
+      "title": "TBD",
+      "imagePath": "images/speakers/Panel_Discussion.jpg ",
+      "time": "19:00",
+      "speakerIDs": [
+
+      ],
+      "description": ""
+    }
+  ]
+},
+  {
   "id": "rs#31",
   "name": "The Rolling Scopes #31. Krakow",
   "date": "September 29, 2016",
