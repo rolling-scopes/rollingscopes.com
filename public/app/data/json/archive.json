@@ -1,72 +1,82 @@
-[   {
-  "id": "rs#32",
-  "name": "The Rolling Scopes #32. Minsk",
-  "date": "23 декабря, 2016",
-  "location": "imaguru.co",
-  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "",
-  "schedule": [
-    {
-      "title": "TBD",
-      "imagePath": "images/speakers/Panel_Discussion.jpg ",
-      "time": "19:00",
-      "speakerIDs": [
-
-      ],
-      "description": ""
-    }
-  ]
-},
+[
   {
-  "id": "rs#31",
-  "name": "The Rolling Scopes #31. Krakow",
-  "date": "September 29, 2016",
-  "location": "BARKA, Podgórska 16, Krakow",
-  "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
-  "schedule": [
-    {
-      "title": "Ethereum virtual machines in JS: cryptocurrency revolution",
-      "speakerIDs": [
-        62
-      ],
-      "description": "Ethereum is the open source, decentralized network. Well known Bitcoin is quite close to. But Ethereum is a different blockchain from Bitcoin and was created with the intention to allow self-executing smart contracts. Know why is it so important and how to rule the world with JS.",
-      "time": "18:30"
-    },
-    {
-      "title": "Modular JavaScript: put things on the right place",
-      "speakerIDs": [
-        6
-      ],
-      "description": "JS Module Formats, Module Loaders: RequireJS, Browserify, System.js, WebPack. How to find the way through all of those and don't get lost.",
-      "time": "19:05",
-      "break": {
-      "time": "19:40"
-    }
-    },
-    {
-      "title": "Serverless architecture: Functions as a Service",
-      "time": "20:00",
-      "imagePath": "images/speakers/aws_lambda.png",
-      "speakerIDs": [
-        19, 41
-      ],
-      "description": "What is Serverless and why is it worth considering? How this paradigm for developing and deploying is connected to JavaScript and Node.js? The benefits and drawbacks. Implementation Using Amazon Web Services."
-    },
-    {
-      "title": "Designers at the lab",
-      "speakerIDs": [
-        81
-      ],
-      "description": "Designers in the Lab is the story of a team of designers from the Wix Studio, who embark on an adventure in the unknown territory of trend prediction. <br/> In this talk I’ll explain how designers view the world; why is it they get so emotional about pixels; what does it have to do with research methods and trend prediction; and how adapting work methods from different industries can help you inspire the future of our own.",
-      "time": "20:30",
-      "party": {
-        "time": "21:00",
-        "title": "Beer.js",
-        "description": "Place: BARKA, Podgórska 16"
+    "id": "rs#32",
+    "name": "The Rolling Scopes #32. Minsk",
+    "date": "23 декабря, 2016",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/rs-32-panel-discussion-tickets-30293117530?aff=es2",
+    "schedule": [
+      {
+        "title": "панельная дискуссия",
+        "imagePath": "images/speakers/Panel_Discussion.jpg ",
+        "time": "19:00",
+        "speakerIDs": [
+          7,
+          31,
+          27,
+          18,
+          57,
+          22,
+          19,
+          30,
+          6
+        ],
+        "description": "Обсудим технологии и техники, которыми Вы уже пользуетесь или планируете пользоваться в следующем году. Учитывая огромный список тем, вполне вероятно, что Вы найдете много новых идей для своих проектов. <p>Вот список тем, которые мы планируем обсудить в рамках дискуссии:</p><ul><li>Build process</li><li>CI & CD</li><li>Angular 1 и 2, React, Ember и тд.</li><li>TypeScript, Flow</li><li>ES 2016,2017+features, Babel</li><li>Redux</li><li>RxJS</li><li>Functional programming, purescript, elm</li><li>Offline & Client side DB - firebase, pouchDB, datascript</li><li>3D, WebGL, graphics, Unity, VR, Web VR, React VR & so on</li><li>Most usefull tools</li><li>Browsers & platforms evolution</li></ul>"
       }
-    }
-  ]
-},
+    ]
+  },
+  {
+    "id": "rs#31",
+    "name": "The Rolling Scopes #31. Krakow",
+    "date": "September 29, 2016",
+    "location": "BARKA, Podgórska 16, Krakow",
+    "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
+    "schedule": [
+      {
+        "title": "Ethereum virtual machines in JS: cryptocurrency revolution",
+        "speakerIDs": [
+          62
+        ],
+        "description": "Ethereum is the open source, decentralized network. Well known Bitcoin is quite close to. But Ethereum is a different blockchain from Bitcoin and was created with the intention to allow self-executing smart contracts. Know why is it so important and how to rule the world with JS.",
+        "time": "18:30"
+      },
+      {
+        "title": "Modular JavaScript: put things on the right place",
+        "speakerIDs": [
+          6
+        ],
+        "description": "JS Module Formats, Module Loaders: RequireJS, Browserify, System.js, WebPack. How to find the way through all of those and don't get lost.",
+        "time": "19:05",
+        "break": {
+          "time": "19:40"
+        }
+      },
+      {
+        "title": "Serverless architecture: Functions as a Service",
+        "time": "20:00",
+        "imagePath": "images/speakers/aws_lambda.png",
+        "speakerIDs": [
+          19,
+          41
+        ],
+        "description": "What is Serverless and why is it worth considering? How this paradigm for developing and deploying is connected to JavaScript and Node.js? The benefits and drawbacks. Implementation Using Amazon Web Services."
+      },
+      {
+        "title": "Designers at the lab",
+        "speakerIDs": [
+          81
+        ],
+        "description": "Designers in the Lab is the story of a team of designers from the Wix Studio, who embark on an adventure in the unknown territory of trend prediction. <br/> In this talk I’ll explain how designers view the world; why is it they get so emotional about pixels; what does it have to do with research methods and trend prediction; and how adapting work methods from different industries can help you inspire the future of our own.",
+        "time": "20:30",
+        "party": {
+          "time": "21:00",
+          "title": "Beer.js",
+          "description": "Place: BARKA, Podgórska 16"
+        }
+      }
+    ]
+  },
   {
     "id": "rs#30",
     "name": "The Rolling Scopes #30. Gdansk",
@@ -113,7 +123,8 @@
         "time": "19:25",
         "imagePath": "images/speakers/aws_lambda.png",
         "speakerIDs": [
-          19, 41
+          19,
+          41
         ],
         "description": "What is Serverless and why is it worth considering? How this paradigm for developing and deploying is connected to JavaScript and Node.js? The benefits and drawbacks. Implementation Using Amazon Web Services.",
         "break": {
@@ -156,7 +167,8 @@
         "imagePath": "images/speakers/unknown_speaker.jpg",
         "time": "19:00",
         "speakerIDs": [
-          82,83
+          82,
+          83
         ],
         "description": "Покажем и расскажем, как мы делали проект в Дополненной Реальности (AR). Рассмотрим, какие были подводные камни и как мы их обходили. Будет возможность посмотреть вживую на наш результат, которому customer сказал «Yes! Well done guys!»"
       },
@@ -164,7 +176,8 @@
         "title": "Serverless architecture: Functions as a Service",
         "imagePath": "images/speakers/aws_lambda.png",
         "speakerIDs": [
-          41, 19
+          41,
+          19
         ],
         "description": "Рассмотрим новомодную парадигму для разработки и развертывания вашего кода, её особенности/недостатки и связь с JavaScript/NodeJS. Обсудим реализацию на базе Amazon Web Services.",
         "time": "19:40",
@@ -182,14 +195,14 @@
         "description": "Виталик посетил QCON в Нью-Йорке и готов сделать обзор самых интересных и полезных докладов конференции."
       }
     ]
-},
+  },
   {
     "id": "rs#28",
     "name": "The Rolling Scopes #28. Brest",
     "date": "6 августа, 2016",
     "location": "г. Брест, ул.Гоголя,13",
     "locationLink": "https://www.google.by/maps/place/Gogolia+St+13,+Brest/@52.090187,23.6789445,16.06z/data=!4m2!3m1!1s0x47210bec15bc9109:0x5e28b6234bb723b0?hl=en",
-    "registerLink":"https://goo.gl/y6AvBb",
+    "registerLink": "https://goo.gl/y6AvBb",
     "schedule": [
       {
         "title": "Immutable.js",
@@ -250,89 +263,102 @@
     "date": "23 июля, 2016",
     "location": "CINEMA CLUB HOLLYWOOD, г. Гомель, ул. Коммунаров, 4",
     "locationLink": "https://goo.gl/maps/9KWpmSqSKww",
-    "registerLink":"https://goo.gl/ts45t6",
-    "schedule": [{
-      "title": "Angular-Material in Practice",
-      "description": "В докладе речь пойдет об опыте использования Angular-Material. Рассмотрим основные компоненты, директивы и сервисы. А также некоторые рецепты интеграции Angular-Material с готовым AngularJS приложением. Затронем также некоторые известные проблемы.",
-      "time": "30 min",
-      "speakerIDs": [
-        69
-      ]
-    },{
-      "title": "TypeScript: application-scale JavaScript.",
-      "description": "С каждым годом JavaScript растет, но масштабируемость до сих пор остается одним из его слабых мест. Рассмотрим один из вариантов решения этой проблемы.",
-      "time": "30 min",
-      "speakerIDs": [
-        70
-      ]
-    },{
-      "title": "Как подружить JAVA сервер-сайд разработчика с JASMINE",
-      "description": "В докладе пойдет речь о довольно интересном опыте применения BDD фреймворка Jasmine в команде JAVA сервер-сайд разработчиков. Рассмотрим, чем фронт-енд разработчик может быть полезен такой команде.",
-      "time": "30 min",
-      "speakerIDs": [
-        71
-      ]
-    },{
+    "registerLink": "https://goo.gl/ts45t6",
+    "schedule": [
+      {
+        "title": "Angular-Material in Practice",
+        "description": "В докладе речь пойдет об опыте использования Angular-Material. Рассмотрим основные компоненты, директивы и сервисы. А также некоторые рецепты интеграции Angular-Material с готовым AngularJS приложением. Затронем также некоторые известные проблемы.",
+        "time": "30 min",
+        "speakerIDs": [
+          69
+        ]
+      },
+      {
+        "title": "TypeScript: application-scale JavaScript.",
+        "description": "С каждым годом JavaScript растет, но масштабируемость до сих пор остается одним из его слабых мест. Рассмотрим один из вариантов решения этой проблемы.",
+        "time": "30 min",
+        "speakerIDs": [
+          70
+        ]
+      },
+      {
+        "title": "Как подружить JAVA сервер-сайд разработчика с JASMINE",
+        "description": "В докладе пойдет речь о довольно интересном опыте применения BDD фреймворка Jasmine в команде JAVA сервер-сайд разработчиков. Рассмотрим, чем фронт-енд разработчик может быть полезен такой команде.",
+        "time": "30 min",
+        "speakerIDs": [
+          71
+        ]
+      },
+      {
         "title": "Как стать фронт-енд разработчиком с нуля",
         "description": "В этом докладе я собираюсь рассказать про особенности становления фронт-енд разработчика. Про ожидания работодателя и программиста. А также про любовь к профессии.",
         "time": "30 min",
         "speakerIDs": [
           72
         ]
-      },{
-      "title": "Некоторые алгоритмы и структуры для обработки строковых данных",
-      "description": "Вероятно, от темы этого доклада так и веет университетским академизмом, но у нее, на самом деле, множество вариантов прикладного использования, которые находят применение в самых разнообразных областях, начиная от поиска и сравнения слов и заканчивая обработкой запросов на естественных языках и Data Mining'ом. В своем докладе я расскажу и покажу некоторые алгоритмы и структуры с примерами их использования, а так же рассмотрю библиотеку для работы с естественным языками -  natural.js.",
-      "time": "30 min",
-      "speakerIDs": [
-        73
-      ]
-    },{
-      "title": "Electron и JavaScript приложения для desktop.",
-      "description": "В докладе пойдет речь об особенностях написания desktop приложений на JavaScript с использованием Electron: возможностях, недостатках и решении наиболее часто встречающихся задач.",
-      "time": "30 min",
-      "speakerIDs": [
-        59
-      ]
-    },{
-      "title": "Статическая типизация с Flow and Typescript",
-      "description": "Как получить преимущество от статической типизации в React с помощью Flow и Typescript. Flow предназначен для статической проверки типов и предназначен для работы с React. Интеграция TypeScript более сложная и мы разберем проблемы такие как система интеграции классов(Class System Integration) и JSX.",
-      "time": "30 min",
-      "speakerIDs": [
-        74
+      },
+      {
+        "title": "Некоторые алгоритмы и структуры для обработки строковых данных",
+        "description": "Вероятно, от темы этого доклада так и веет университетским академизмом, но у нее, на самом деле, множество вариантов прикладного использования, которые находят применение в самых разнообразных областях, начиная от поиска и сравнения слов и заканчивая обработкой запросов на естественных языках и Data Mining'ом. В своем докладе я расскажу и покажу некоторые алгоритмы и структуры с примерами их использования, а так же рассмотрю библиотеку для работы с естественным языками -  natural.js.",
+        "time": "30 min",
+        "speakerIDs": [
+          73
         ]
-      },{
-      "title": "Creating VR web",
-      "speakerIDs": [
-        57
-      ],
-      "description": "Взглянем на Virtual Reality с другой стороны - оценим перспективы развития, возможные сложности и, куда уж без них, подводные камни виртуальной реальности. Ну а затем шаг за шагом разберем процесс создания VR Web.",
-      "time": "30m"
-    },{
-      "title": "Азбука HTML и CSS, или как научить толпу людей верстать",
-      "speakerIDs": [
-        76
-      ],
-      "description": "Хотелось бы рассказать, как мы делали для Rolling Scopes School курс верстки и что из этого вышло. Поговорим о программе, планировании, тасках, о том, чему  и как надо научить и при этом  не сойти с ума, проверяя по 50 одинаковых домашних работ. Поделюсь набитыми шишками и интересными идеями.",
-      "time": "30m"
-    },{
-      "title": "CSS QuickDraw Gomel",
-      "description": "Для тех, кто был участником RSConf, все знакомо: нужно с помощью CSS селекторов находить заданные элементы в тексте. При этом важны будут не только правильность, оптимальность, но и время выполнения запросов. Так что не забудьте взять свои ноутбуки. И пусть победит быстрейший ;)",
-      "time": "30m",
-      "imagePath": "images/speakers/cowboy.jpg",
-      "speakerIDs": [
-        71,77
-      ]}, {
-      "title": "Самые распространеные лайфхаки фронтенд разработчика или как делать свою работу быстрее и проще",
-      "description": "Рассмотрим самые известные и проверенные практики фронт-енд разработчиков, способные существенно облегчить и структурировать работу, известнейшие лайфхаки и трики, а также некоторые выводы, сделанные на  основании собственного опыта.",
-      "time": "30 min",
-      "speakerIDs": [
-        75
+      },
+      {
+        "title": "Electron и JavaScript приложения для desktop.",
+        "description": "В докладе пойдет речь об особенностях написания desktop приложений на JavaScript с использованием Electron: возможностях, недостатках и решении наиболее часто встречающихся задач.",
+        "time": "30 min",
+        "speakerIDs": [
+          59
+        ]
+      },
+      {
+        "title": "Статическая типизация с Flow and Typescript",
+        "description": "Как получить преимущество от статической типизации в React с помощью Flow и Typescript. Flow предназначен для статической проверки типов и предназначен для работы с React. Интеграция TypeScript более сложная и мы разберем проблемы такие как система интеграции классов(Class System Integration) и JSX.",
+        "time": "30 min",
+        "speakerIDs": [
+          74
+        ]
+      },
+      {
+        "title": "Creating VR web",
+        "speakerIDs": [
+          57
+        ],
+        "description": "Взглянем на Virtual Reality с другой стороны - оценим перспективы развития, возможные сложности и, куда уж без них, подводные камни виртуальной реальности. Ну а затем шаг за шагом разберем процесс создания VR Web.",
+        "time": "30m"
+      },
+      {
+        "title": "Азбука HTML и CSS, или как научить толпу людей верстать",
+        "speakerIDs": [
+          76
+        ],
+        "description": "Хотелось бы рассказать, как мы делали для Rolling Scopes School курс верстки и что из этого вышло. Поговорим о программе, планировании, тасках, о том, чему  и как надо научить и при этом  не сойти с ума, проверяя по 50 одинаковых домашних работ. Поделюсь набитыми шишками и интересными идеями.",
+        "time": "30m"
+      },
+      {
+        "title": "CSS QuickDraw Gomel",
+        "description": "Для тех, кто был участником RSConf, все знакомо: нужно с помощью CSS селекторов находить заданные элементы в тексте. При этом важны будут не только правильность, оптимальность, но и время выполнения запросов. Так что не забудьте взять свои ноутбуки. И пусть победит быстрейший ;)",
+        "time": "30m",
+        "imagePath": "images/speakers/cowboy.jpg",
+        "speakerIDs": [
+          71,
+          77
+        ]
+      },
+      {
+        "title": "Самые распространеные лайфхаки фронтенд разработчика или как делать свою работу быстрее и проще",
+        "description": "Рассмотрим самые известные и проверенные практики фронт-енд разработчиков, способные существенно облегчить и структурировать работу, известнейшие лайфхаки и трики, а также некоторые выводы, сделанные на  основании собственного опыта.",
+        "time": "30 min",
+        "speakerIDs": [
+          75
         ],
         "party": {
-        "time": "20:00",
-        "title": "Beer.js party",
-        "description": "CINEMA CLUB HOLLYWOOD (г. Гомель, ул. Коммунаров, 4)"
-      }
+          "time": "20:00",
+          "title": "Beer.js party",
+          "description": "CINEMA CLUB HOLLYWOOD (г. Гомель, ул. Коммунаров, 4)"
+        }
       }
     ]
   },
