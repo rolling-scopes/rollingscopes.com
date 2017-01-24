@@ -479,9 +479,9 @@ section:after {
 }
 
 .partner-list li {
-    width: 220px;
+    width: 240px;
     margin: auto;
-    padding: 1em .5em;
+    padding: 0 .5em;
     box-sizing: border-box;
     text-align: center;
 }
