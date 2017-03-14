@@ -1,5 +1,105 @@
 [
   {
+    "id": "rs#34",
+    "name": "The Rolling Scopes #34. Krakow",
+    "date": "April 27, 2017",
+    "location": "BARKA, Podgórska 16, Krakow",
+    "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
+    "registerLink": "",
+    "schedule": [
+      {
+        "title": "Accessibility Driven Development: why would you even care?",
+        "time": "18:30",
+        "speakerIDs": [
+          61
+        ],
+        "description": "TBD"
+      },
+      {
+        "title": "Start Using Custom Elements",
+        "time": "19:00",
+        "speakerIDs": [
+          86
+        ],
+        "description": "TBD",
+        "break": {
+          "time": "19:30"
+        }
+      },
+      {
+        "title": "Lodash QuickDraw!",
+        "time": "19:50",
+        "speakerIDs": [
+          0
+        ],
+        "description": "Dashing lodash shoot-out"
+      },
+      {
+        "title": "Light Dive Into VR Frameworks",
+        "speakerIDs": [
+          57
+        ],
+        "description": "TBD",
+        "time": "20:35",
+        "party": {
+          "time": "21:10",
+          "title": "Beer.js",
+          "description": "TBD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "rs#33",
+    "name": "The Rolling Scopes #33. Gdansk",
+    "date": "April 26, 2017",
+    "location": "Sztuka Wyboru, Słowackiego 19, Gdansk",
+    "locationLink": "https://goo.gl/maps/nHZVYjcVum72",
+    "registerLink": "",
+    "schedule": [
+      {
+        "title": "Accessibility Driven Development: why would you even care?",
+        "time": "18:30",
+        "speakerIDs": [
+          61
+        ],
+        "description": "TBD"
+      },
+      {
+        "title": "Start Using Custom Elements",
+        "time": "19:00",
+        "speakerIDs": [
+          86
+        ],
+        "description": "TBD",
+        "break": {
+          "time": "19:30"
+        }
+      },
+      {
+        "title": "Lodash QuickDraw!",
+        "time": "19:50",
+        "speakerIDs": [
+          0
+        ],
+        "description": "Dashing lodash shoot-out"
+      },
+      {
+        "title": "Light Dive Into VR Frameworks",
+        "speakerIDs": [
+          57
+        ],
+        "description": "TBD",
+        "time": "20:35",
+        "party": {
+          "time": "21:10",
+          "title": "Beer.js",
+          "description": "TBD"
+        }
+      }
+    ]
+  },
+  {
     "id": "rs#32",
     "name": "The Rolling Scopes #32. Minsk",
     "date": "23 декабря, 2016",
