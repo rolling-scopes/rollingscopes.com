@@ -323,93 +323,121 @@
     "id": 65,
     "name": "Наталия Короткова",
     "photo": "nataliya_karatkova.jpg"
-  },{
+  },
+  {
     "id": 66,
     "name": "Анна Ширяева",
     "photo": "anna_shiryaeva.jpg"
-    },{
-      "id": 67,
-      "name": "Петар Додев",
-      "photo": "peter_dodev.jpg"
-      },{
-      "id": 68,
-      "name": "Всеволод Шмыров",
-      "photo": "vsevolod.jpg"
-    },{
+  },
+  {
+    "id": 67,
+    "name": "Петар Додев",
+    "photo": "peter_dodev.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Всеволод Шмыров",
+    "photo": "vsevolod.jpg"
+  },
+  {
     "id": 69,
     "name": "Ales Tsvil",
     "photo": "Ales_Tsvil.jpg"
-    },{
+  },
+  {
     "id": 70,
     "name": "Aliaksei Kharchykau",
     "photo": "Aliaksei_Kharchykau.jpg"
-  },{
+  },
+  {
     "id": 71,
     "name": "Aliaksei Rabchanka",
     "photo": "Aliaksei_Rabchanka.jpg"
-  },{
+  },
+  {
     "id": 72,
     "name": "Vadim Kulaga",
     "photo": "Vadim_Kulaga.jpg"
-  },{
+  },
+  {
     "id": 73,
     "name": "Ruslan Panasiuk",
     "photo": "Ruslan_Panasiuk.jpg"
-  },{
+  },
+  {
     "id": 74,
     "name": "Uladzislau Harbachou",
     "photo": "Uladzislau_Harbachou.jpg"
-  },{
+  },
+  {
     "id": 75,
     "name": "Zhanna Lud",
     "photo": "Zhanna_Lud.jpg"
-  },{
-  "id": 76,
-  "name": "Maria Putyrskaya",
-  "photo": "maria_putyrskaya.jpg"
-},{
-  "id": 77,
-  "name": "Mikhail Hatsilau",
-  "photo": "Aliaksei_Rabchanka.jpg"
-},{
-  "id": 78,
-  "name": "Александр Рулев",
-  "photo": "alexander_rulev.jpg"
-},{
-  "id": 79,
-  "name": "Андрей Кучук",
-  "photo": "Andrey_Kuchuk.jpg"
-},{
-  "id": 80,
-  "name": "Александр Коваленко",
-  "photo": "alexander_kovalenko.jpg"
-},{
-  "id": 81,
-  "name": "Dafna Sharabi",
-  "photo": "dafna_sharabi.jpg"
-},{
-  "id": 82,
-  "name": "Iryna Dastanka",
-  "photo": "iryna_dastanka.jpg"
-},{
-  "id": 83,
-  "name": "Dzmitry Basenka",
-  "photo": "dzmitry_basenka.jpg"
-}
-,{
-  "id": 84,
-  "name": "Vitali Shcharbin",
-  "photo": "vitali_shcharbin.jpg"
-}
-,{
-  "id": 85,
-  "name": "David Ferreira",
-  "photo": "david_ferreira.jpg"
-}
-,{
-  "id": 86,
-  "name": "Ricardo Casares",
-  "photo": "ricardo_casares.jpg"
-}
+  },
+  {
+    "id": 76,
+    "name": "Maria Putyrskaya",
+    "photo": "maria_putyrskaya.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Mikhail Hatsilau",
+    "photo": "Aliaksei_Rabchanka.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Александр Рулев",
+    "photo": "alexander_rulev.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Андрей Кучук",
+    "photo": "Andrey_Kuchuk.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Александр Коваленко",
+    "photo": "alexander_kovalenko.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Dafna Sharabi",
+    "photo": "dafna_sharabi.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Iryna Dastanka",
+    "photo": "iryna_dastanka.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Dzmitry Basenka",
+    "photo": "dzmitry_basenka.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Vitali Shcharbin",
+    "photo": "vitali_shcharbin.jpg"
+  },
+  {
+    "id": 85,
+    "name": "David Ferreira",
+    "photo": "david_ferreira.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Ricardo Casares",
+    "photo": "ricardo_casares.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Дмитрий Самосонов",
+    "photo": "dzmitry_samsonau.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Виталий Козлов",
+    "photo": "vitali_kozlov.jpg"
+  }
 ]
 
