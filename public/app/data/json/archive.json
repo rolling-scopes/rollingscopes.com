@@ -13,7 +13,7 @@
         "speakerIDs": [
           61
         ],
-        "description": "TBD"
+        "description": "When it comes to human rights, non-discrimination and anti-racism have you ever thought we're pretty much discriminating people in our day to day job? Path the way to accessible web."
       },
       {
         "title": "Start Using Custom Elements",
@@ -21,7 +21,7 @@
         "speakerIDs": [
           86
         ],
-        "description": "TBD",
+        "description": "Quick introduction to start using Custom Elements now. The what, why and how.",
         "break": {
           "time": "19:30"
         }
@@ -35,16 +35,16 @@
         "description": "Dashing lodash shoot-out"
       },
       {
-        "title": "Light Dive Into VR Frameworks",
+        "title": "Easy Mobile Apps with Ionic 2 Framework",
         "speakerIDs": [
-          57
+          89
         ],
-        "description": "TBD",
+        "description": "Angular2-based apps with Native API for Android, iOS, Windows 10 using Cordova",
         "time": "20:35",
         "party": {
           "time": "21:10",
           "title": "Beer.js",
-          "description": "TBD"
+          "description": ""
         }
       }
     ]
@@ -63,7 +63,7 @@
         "speakerIDs": [
           61
         ],
-        "description": "TBD"
+        "description": "When it comes to human rights, non-discrimination and anti-racism have you ever thought we're pretty much discriminating people in our day to day job? Path the way to accessible web."
       },
       {
         "title": "Start Using Custom Elements",
@@ -71,7 +71,7 @@
         "speakerIDs": [
           86
         ],
-        "description": "TBD",
+        "description": "Quick introduction to start using Custom Elements now. The what, why and how.",
         "break": {
           "time": "19:30"
         }
@@ -85,16 +85,16 @@
         "description": "Dashing lodash shoot-out"
       },
       {
-        "title": "Light Dive Into VR Frameworks",
+        "title": "Easy Mobile Apps with Ionic 2 Framework",
         "speakerIDs": [
-          57
+          89
         ],
-        "description": "TBD",
+        "description": "Angular2-based apps with Native API for Android, iOS, Windows 10 using Cordova",
         "time": "20:35",
         "party": {
           "time": "21:10",
           "title": "Beer.js",
-          "description": "TBD"
+          "description": ""
         }
       }
     ]
