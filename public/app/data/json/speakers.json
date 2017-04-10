@@ -443,5 +443,15 @@
     "id": 89,
     "name": "Vladimir Serykh",
     "photo": "vladimir_serykh.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Кирилл Шутемов",
+    "photo": "kirill_shutemov.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Игорь Колупаев",
+    "photo": "igor_kolupaev.jpg"
   }
 ]

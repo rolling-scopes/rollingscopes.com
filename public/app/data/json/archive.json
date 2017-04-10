@@ -100,6 +100,46 @@
     ]
   },
   {
+    "id": "rs#36",
+    "name": "The Rolling Scopes #34. Minsk",
+    "date": "18 апреля, 2017",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-36-minsk-tickets-33577500207",
+    "schedule": [
+      {
+        "title": "Как сделать чат бота за выходные",
+        "imagePath": "images/speakers/igor_kolupaev.jpg",
+        "time": "19:00",
+        "speakerIDs": [
+          91
+        ],
+        "description": "Как я прикрутил чат-бота к speedcamz.com за <s>40 минут</s> выходные на <s>js</s> <s>dotnet</s> golang. #AzureCognitiveServices #chatbot #telegram"
+      },
+      {
+        "title": "OpenGL rendering with Node and Rust",
+        "imagePath": "images/speakers/andrei_vouchanka.jpg",
+        "speakerIDs": [
+          46
+        ],
+        "description": "Небольшой рассказ о том, как мы применили server side rendering не только для React части приложения, но и WebGL, как подружили серверную часть рендеринга с клиентской, с какими трудностями столкнулись.",
+        "time": "19:50",
+        "break": {
+          "time": "20:30"
+        }
+      },
+      {
+        "title": "Модель разработки ядра Linux",
+        "imagePath": "images/speakers/kirill_shutemov.jpg",
+        "time": "20:50",
+        "speakerIDs": [
+          90
+        ],
+        "description": "В рубрике &laquo;А как у них&raquo; отвлечемся от front-end и послушаем/обсудим процесс разработки ядра Linux. <br/> Кирилл контрибьютит в Linux Kernel c 2005 года, а последние 6 лет занимает должность Senior Linux Kernel Developer в Intel Corporation."
+      }
+    ]
+  },
+  {
     "id": "rs#33",
     "name": "The Rolling Scopes #33. Brest",
     "date": "March 18, 2017",
