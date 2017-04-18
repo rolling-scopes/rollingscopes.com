@@ -1,5 +1,93 @@
 [
   {
+    "id": "rs#37",
+    "name": "The Rolling Scopes #37. Gomel",
+    "date": "17 июня, 2017",
+    "location": "г. Гомель, ул. Ланге, д.17",
+    "locationLink": "https://goo.gl/MC5Bjh",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-37-gomel-tickets-33808126015",
+    "schedule": [
+      {
+        "title": "Registration",
+        "time": "14:45",
+        "speakerIDs": [
+          95
+        ]
+      },
+      {
+        "title": "Introduction to Elm (EN)",
+        "time": "15:00",
+        "speakerIDs": [
+          93
+        ],
+        "description": "Elm is a functional language that compiles to JavaScript and ensures no runtime errors. It is a very promising language. It has a very strong emphasis on simplicity, ease-of-use, and quality tooling."
+      },
+      {
+        "title": "Why client-side web technologies are wrong and what technologies are right (RU)",
+        "time": "15:40",
+        "speakerIDs": [
+          92
+        ],
+        "description": "For historical reasons we use hypertext markup language for application creating - it looks like digging with a spoon instead of spade. My speech is about history and future of solving this problem."
+      },
+      {
+        "title": "Application state management: flux, redux, mobx (RU)",
+        "time": "16:20",
+        "speakerIDs": [
+          77
+        ],
+        "description": "A few words about state management in your application. When it becomes bigger you will probably want to control  the state more efficiently. Lets take a look at the state management tools for React applications and built-in capabilities in Angular2.",
+        "break": {
+          "time": "16:55"
+        }
+      },
+      {
+        "title": "Augmented Reality (AR) in Enterprise Applications (RU)",
+        "time": "17:10",
+        "speakerIDs": [
+          94
+        ],
+        "description": "AR is a relatively new technology, and now managed to gain a foothold at the moment only in the entertainment sphere (MSQRD, Pokemon GO). I am going to talk about how we use it in the applications of the corporate segment, as we tried to turn it into a serious tool."
+      },
+      {
+        "title": "Reliable web apps with Elixir and Phoenix (RU)",
+        "time": "17:50",
+        "speakerIDs": [
+          69
+        ],
+        "description": "I want to introduce brand new functional common purpose language called Elixir and his most interesting web framework - Phoenix. Elixir built on top of aged and well known platform created by Ericsson company - Erlang, but has more flexible and easy to read syntax inherited from such language as ruby. Pure functional language fit best for backend!"
+      },
+      {
+        "title": "How to get into IT / Как войти в АйТи (RU)",
+        "time": "18:35",
+        "speakerIDs": [
+          71
+        ],
+        "description": "Now almost everyone dreams of working in the IT and would like to be a software engineers. In the speech we will talk about the nearest events, which is conducted by Rolling Scopes community which can help to do first step for entering into IT."
+      },
+      {
+        "title": "JS Marathon (RU)",
+        "time": "18:45",
+        "description": "Bring your laptops!",
+        "speakerIDs": [
+          95
+        ]
+      },
+      {
+        "title": "Awards ceremony (RU)",
+        "time": "19:20",
+        "speakerIDs": [
+          95
+        ],
+        "party": {
+          "time": "20:00",
+          "title": "After Party",
+          "description": "TBD"
+        }
+      }
+    ]
+  },
+  {
     "id": "rs#35",
     "name": "The Rolling Scopes #35. Krakow",
     "date": "April 27, 2017",

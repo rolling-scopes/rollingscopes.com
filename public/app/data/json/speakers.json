@@ -382,7 +382,7 @@
   {
     "id": 77,
     "name": "Mikhail Hatsilau",
-    "photo": "Aliaksei_Rabchanka.jpg"
+    "photo": "Mikhail_Hatsilau.jpg"
   },
   {
     "id": 78,
@@ -453,5 +453,25 @@
     "id": 91,
     "name": "Игорь Колупаев",
     "photo": "igor_kolupaev.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Alexey Shrub",
+    "photo": "Alexey_Shrub.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Gabriel Leske",
+    "photo": "Gabriel_Leske.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Sergey Ezhov",
+    "photo": "sergey_ezhov.jpg"
+  },
+  {
+    "id": 95,
+    "name": "RS Crew",
+    "photo": "rolling_scopes.jpg"
   }
 ]
