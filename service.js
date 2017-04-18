@@ -19,3 +19,4 @@ apps.forEach(function (app) {
   app.listen(app.locals.port);
   console.log('Server of ' + app.locals.name + ' is listening on port %s', app.locals.port);
 });
+
