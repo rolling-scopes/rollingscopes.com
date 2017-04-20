@@ -1,4 +1,24 @@
-[
+[  {
+  "id": "rs#38",
+  "name": "The Rolling Scopes #38. Minsk",
+  "date": "16 мая, 2017",
+  "location": "imaguru.co",
+  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-38-minsk-tickets-33906560435",
+  "schedule": [
+    {
+      "title": "Панельная дискуссия (Список участников будет дополнен)",
+      "imagePath": "images/speakers/Panel_Discussion.jpg ",
+      "time": "19:00",
+      "speakerIDs": [
+        18,
+        19,
+        100
+      ],
+      "description": "Обсудим образование в ИТ: <ul><li>курсы для новичков</li><li>онлайн и оффлайн курсы</li><li>самообразование</li><li>менторинг</li><li>процесс интервью</li></ul>"
+    }
+  ]
+},
   {
     "id": "rs#37",
     "name": "The Rolling Scopes #37. Gomel",
