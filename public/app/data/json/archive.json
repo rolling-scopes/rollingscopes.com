@@ -1,4 +1,55 @@
 [  {
+  "id": "rs#39",
+  "name": "The Rolling Scopes #35. Grodno",
+  "date": "June 10, 2017",
+  "location": "ПВТ, ул. М. Горького, д.1, г. Гродно",
+  "locationLink": "https://goo.gl/maps/27Zyis8WHNC2",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-39-grodno-tickets-34271770789",
+  "schedule": [
+    {
+      "title": "OpenGL rendering with Node and Rust",
+      "imagePath": "images/speakers/andrei_vouchanka.jpg",
+      "speakerIDs": [
+        46
+      ],
+      "description": "Небольшой рассказ о том, как мы применили server side rendering не только для React части приложения, но и WebGL, как подружили серверную часть рендеринга с клиентской, с какими трудностями столкнулись.",
+      "time": "15:00",
+      "break": {
+        "time": "15:40"
+      }
+    },
+    {
+      "title": "Serverless architecture: Functions as a Service",
+      "speakerIDs": [
+        19
+      ],
+      "description": "Рассмотрим новомодную парадигму для разработки и развертывания вашего кода, её особенности/недостатки и связь с JavaScript/NodeJS. Обсудим реализацию на базе Amazon Web Services.",
+      "time": "15:50",
+      "break": {
+        "time": "16:50"
+      }
+    },
+    {
+      "title": "React Native & ClosureScript",
+      "time": "17:00",
+      "speakerIDs": [
+        41
+      ],
+      "description": "TBD",
+      "break": {
+        "time": "17:30"
+      }
+    },{
+      "title": "TBD",
+      "time": "17:40",
+      "speakerIDs": [
+        95
+      ],
+      "description": "TBD"
+    }
+  ]
+},
+  {
   "id": "rs#38",
   "name": "The Rolling Scopes #38. Minsk",
   "date": "16 мая, 2017",
