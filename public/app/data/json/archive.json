@@ -30,12 +30,12 @@
       }
     },
     {
-      "title": "FP, Ramda, Fantasy Land",
+      "title": "Accelerated Mobile Pages: Делаем WEB сверхбыстрым",
       "time": "17:00",
       "speakerIDs": [
         54
       ],
-      "description": "TBD",
+      "description": "Высокоуровневый обзор проекта AMP, open-source архитектуры от Google для мгновенной доставки контента",
       "break": {
         "time": "17:50"
       }
