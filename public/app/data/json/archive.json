@@ -59,13 +59,21 @@
   "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-38-minsk-tickets-33906560435",
   "schedule": [
     {
-      "title": "Панельная дискуссия (Список участников будет дополнен)",
+      "title": "Панельная дискуссия: Образование в ИТ",
       "imagePath": "images/speakers/Panel_Discussion.jpg ",
       "time": "19:00",
       "speakerIDs": [
         18,
         19,
-        100
+        32,
+        43,
+        46,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
       ],
       "description": "Обсудим образование в ИТ: <ul><li>курсы для новичков</li><li>онлайн и оффлайн курсы</li><li>самообразование</li><li>менторинг</li><li>процесс интервью</li></ul>"
     }

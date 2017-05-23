@@ -447,7 +447,7 @@
   {
     "id": 90,
     "name": "Кирилл Шутемов",
-    "photo": "kirill_shutemov.jpg"
+    "photo": "kirill_shutemov1.jpg"
   },
   {
     "id": 91,
@@ -475,7 +475,34 @@
     "photo": "rolling_scopes.jpg"
   },
   {
+    "id": 96,
+    "name": "Елена Круковская",
+    "photo": "elena_krukovskaja.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Андрей Силков",
+    "photo": "andrey_silkov.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Алексей Потемкин",
+    "photo": "Alexey_Potyomkin.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Павел Бакунович",
+    "photo": "pavel_bakunovich.jpg"
+  },
+  {
     "id": 100,
-    "name": "TBD"
+    "name": "Вадим Зеленков",
+    "photo": "vadim_zelenkov.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Владимир Галушко",
+    "photo": "vladimir_galushko.jpg"
   }
 ]
+
