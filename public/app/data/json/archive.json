@@ -122,12 +122,12 @@
         }
       },
       {
-        "title": "Augmented Reality (AR) in Enterprise Applications (RU)",
+        "title": "Introduction to WebGL (RU)",
         "time": "17:10",
         "speakerIDs": [
           94
         ],
-        "description": "AR is a relatively new technology, and now managed to gain a foothold at the moment only in the entertainment sphere (MSQRD, Pokemon GO). I am going to talk about how we use it in the applications of the corporate segment, as we tried to turn it into a serious tool."
+        "description": "The talk describes the basic concepts and algorithms for working with 3d graphics. Of course, you are more likely to use three.js than wasting time on low-level programming in WebGL, but understanding how it all works will help you get more from third-party libraries than you need and avoid time-consuming surprises."
       },
       {
         "title": "Reliable web apps with Elixir and Phoenix (RU)",
