@@ -348,7 +348,7 @@ footer {
   i {
     margin-right: 10px;
   }
-  &:hover, {
+  &:hover {
     text-decoration: none;
     background: $link-color;
     color: #fff;
@@ -369,6 +369,14 @@ h2.day-number {
   background: #bbb;
   color: #fff;
   text-align: center;
+}
+
+h1 a[name] {
+  color: #333;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .event-schedule {
