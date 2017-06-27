@@ -1,94 +1,180 @@
-[ {
-  "id": "rs#40",
-  "name": "RS Summer Summit 2017. Minsk",
-  "date": "20-23 июня, 2017",
-  "location": "imaguru.co",
-  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "https://www.eventbrite.com/e/rs-summer-summit-2017-minsk-tickets-35400926123",
-  "schedule": [
-  ]
-},
+[
   {
-  "id": "rs#39",
-  "name": "The Rolling Scopes #39. Grodno",
-  "date": "June 10, 2017",
-  "location": "ПВТ, ул. М. Горького, д.1, г. Гродно",
-  "locationLink": "https://goo.gl/maps/27Zyis8WHNC2",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-39-grodno-tickets-34271770789",
-  "schedule": [
-    {
-      "title": "OpenGL rendering with Node and Rust",
-      "imagePath": "images/speakers/andrei_vouchanka.jpg",
-      "speakerIDs": [
-        46
-      ],
-      "description": "Небольшой рассказ о том, как мы применили server side rendering не только для React части приложения, но и WebGL, как подружили серверную часть рендеринга с клиентской, с какими трудностями столкнулись.",
-      "time": "15:00",
-      "break": {
-        "time": "15:40"
-      }
-    },
-    {
-      "title": "Serverless architecture: Functions as a Service",
-      "speakerIDs": [
-        19
-      ],
-      "description": "Рассмотрим новомодную парадигму для разработки и развертывания вашего кода, её особенности/недостатки и связь с JavaScript/NodeJS. Обсудим реализацию на базе Amazon Web Services.",
-      "time": "15:50",
-      "break": {
-        "time": "16:50"
-      }
-    },
-    {
-      "title": "Accelerated Mobile Pages: Делаем WEB сверхбыстрым",
-      "time": "17:00",
-      "speakerIDs": [
-        54
-      ],
-      "description": "Высокоуровневый обзор проекта AMP, open-source архитектуры от Google для мгновенной доставки контента",
-      "break": {
-        "time": "17:50"
-      }
-    },
-    {
-      "title": "React Native & ClosureScript",
-      "time": "18:00",
-      "speakerIDs": [
-        41
-      ],
-      "description": "После анонса Сreate React Native App можно сказать, что входной барьер написания нативных приложений стал достаточно низок. Так давайте добавим выразительность, прагматизм и эффективность СlojureScript..."
-    }
-  ]
-},
+    "id": "rs#41",
+    "name": "The Rolling Scopes #41",
+    "date": "2017",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "",
+    "schedule": [
+    ]
+  },
   {
-  "id": "rs#38",
-  "name": "The Rolling Scopes #38. Minsk",
-  "date": "16 мая, 2017",
-  "location": "imaguru.co",
-  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-38-minsk-tickets-33906560435",
-  "schedule": [
-    {
-      "title": "Панельная дискуссия: Образование в ИТ",
-      "imagePath": "images/speakers/Panel_Discussion.jpg ",
-      "time": "19:00",
-      "speakerIDs": [
-        18,
-        19,
-        32,
-        43,
-        46,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101
-      ],
-      "description": "Обсудим образование в ИТ: <ul><li>курсы для новичков</li><li>онлайн и оффлайн курсы</li><li>самообразование</li><li>менторинг</li><li>процесс интервью</li></ul>"
-    }
-  ]
-},
+    "id": "rs#40",
+    "name": "RS Summer Summit 2017. Minsk",
+    "date": "20-23 июня, 2017",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/rs-summer-summit-2017-minsk-tickets-35400926123",
+    "schedule": [
+      {
+        "title": "Про TDD, BDD и зачем все это",
+        "speakerIDs": [
+          102
+        ],
+        "description": "Кратко о том, что такое тест и чем он отличается от спеки; зачем писать тесты и зачем писать тесты до кода; какие у всего этого плюсы и когда это все не нужно; как исторически процесс-разработки стал включать циклы тестирования."
+      },
+      {
+        "title": "React Native shared components. Write once, use everywhere (well, almost everywhere)",
+        "speakerIDs": [
+          46
+        ],
+        "description": "Поговорим об экспансии react.js во все сферы разработки, server-side rendering-е, next.js, как вклинить webgl компонент в реактовский жизненный цикл, слепить из всего этого «реюзабельную» библиотеку, написать вокруг нее UI на react native + react native web."
+      },
+      {
+        "title": "React Native & ClosureScript",
+        "speakerIDs": [
+          41
+        ],
+        "description": "После анонса Сreate React Native App можно сказать, что входной барьер написания нативных приложений стал достаточно низок. Так давайте добавим выразительность, прагматизм и эффективность СlojureScript..."
+      },
+      {
+        "title": "Service design for «Krumkachy» football team",
+        "speakerIDs": [
+          103
+        ]
+      },
+      {
+        "title": "Оценка интерфейсов",
+        "speakerIDs": [
+          56
+        ],
+        "description": "Типичные проблемы найденные на проектах в разных доменных областях: массовые продукты, финансовые инструменты, специализированные продукты (навигатор для кораблей) и тд. Советы, на что обращать внимание, если вы увлеклись «фичиризмом» и команда программистов реализует новые опции, «потому что может»."
+      },
+      {
+        "title": "Education in Design или Как выучить дизайнеров?",
+        "speakerIDs": [
+          104
+        ],
+        "description": "Доклад предназначен для Design Team Leads, которые заинтересованы в развитии своих дизайнеров, настройке процесса обучения; и дизайнеров, которые хотят развиваться и расти в профессиональном плане. Наш департамент вырос с 20 до 55 дизайнеров в короткие сроки. Стала актуальной задача по определению уровня конкретного дизайнера: чем отличается Middle от Senior, как выровнять эти уровни между СНГ, Британией и США. Как обучить такое количество дизайнеров, выстроить Personal Development Plan. В докладе я расскажу, какие инструменты и методы мы разработали для этого, какие результаты это принесло."
+      },
+      {
+        "title": "Accelerated Mobile Pages: Делаем WEB сверхбыстрым",
+        "speakerIDs": [
+          54
+        ],
+        "description": "Высокоуровневый обзор проекта AMP, open-source архитектуры от Google для мгновенной доставки контента"
+      },
+      {
+        "title": "Product design audit & research",
+        "speakerIDs": [
+          105
+        ]
+      },
+      {
+        "title": "Никто ничего не читает (на самом деле это не так)",
+        "speakerIDs": [
+          66
+        ],
+        "description": "Анна расскажет о том, что пользователи читают тексты, так что история о «всё равно кто и что там напишет - уже не прокатывает»; о том, что в команде нужен человек, который умеет писать (как бы вы его не называли); в чём польза от такого человека команде и продукту"
+      },
+      {
+        "title": "101 EPAM projects in one ecosystem",
+        "speakerIDs": [
+          106,107
+        ],
+        "description": "Наша история о том, как мы перешли от ограниченного проектами мышления к цельной экосистеме. Мы поделимся нашим опытом, подводными камнями, с которыми столкнулись на нашем пути и прогнозом на будущее."
+      },
+      {
+        "title": "101 EPAM projects in one ecosystem",
+        "speakerIDs": [
+          107
+        ],
+        "description": "Наша история о том, как мы перешли от ограниченного проектами мышления к цельной экосистеме. Мы поделимся нашим опытом, подводными камнями, с которыми столкнулись на нашем пути и прогнозом на будущее."
+      }
+    ]
+  },
+  {
+    "id": "rs#39",
+    "name": "The Rolling Scopes #39. Grodno",
+    "date": "June 10, 2017",
+    "location": "ПВТ, ул. М. Горького, д.1, г. Гродно",
+    "locationLink": "https://goo.gl/maps/27Zyis8WHNC2",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-39-grodno-tickets-34271770789",
+    "schedule": [
+      {
+        "title": "OpenGL rendering with Node and Rust",
+        "imagePath": "images/speakers/andrei_vouchanka.jpg",
+        "speakerIDs": [
+          46
+        ],
+        "description": "Небольшой рассказ о том, как мы применили server side rendering не только для React части приложения, но и WebGL, как подружили серверную часть рендеринга с клиентской, с какими трудностями столкнулись.",
+        "time": "15:00",
+        "break": {
+          "time": "15:40"
+        }
+      },
+      {
+        "title": "Serverless architecture: Functions as a Service",
+        "speakerIDs": [
+          19
+        ],
+        "description": "Рассмотрим новомодную парадигму для разработки и развертывания вашего кода, её особенности/недостатки и связь с JavaScript/NodeJS. Обсудим реализацию на базе Amazon Web Services.",
+        "time": "15:50",
+        "break": {
+          "time": "16:50"
+        }
+      },
+      {
+        "title": "Accelerated Mobile Pages: Делаем WEB сверхбыстрым",
+        "time": "17:00",
+        "speakerIDs": [
+          54
+        ],
+        "description": "Высокоуровневый обзор проекта AMP, open-source архитектуры от Google для мгновенной доставки контента",
+        "break": {
+          "time": "17:50"
+        }
+      },
+      {
+        "title": "React Native & ClosureScript",
+        "time": "18:00",
+        "speakerIDs": [
+          41
+        ],
+        "description": "После анонса Сreate React Native App можно сказать, что входной барьер написания нативных приложений стал достаточно низок. Так давайте добавим выразительность, прагматизм и эффективность СlojureScript..."
+      }
+    ]
+  },
+  {
+    "id": "rs#38",
+    "name": "The Rolling Scopes #38. Minsk",
+    "date": "16 мая, 2017",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-38-minsk-tickets-33906560435",
+    "schedule": [
+      {
+        "title": "Панельная дискуссия: Образование в ИТ",
+        "imagePath": "images/speakers/Panel_Discussion.jpg ",
+        "time": "19:00",
+        "speakerIDs": [
+          18,
+          19,
+          32,
+          43,
+          46,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ],
+        "description": "Обсудим образование в ИТ: <ul><li>курсы для новичков</li><li>онлайн и оффлайн курсы</li><li>самообразование</li><li>менторинг</li><li>процесс интервью</li></ul>"
+      }
+    ]
+  },
   {
     "id": "rs#37",
     "name": "The Rolling Scopes #37. Gomel",

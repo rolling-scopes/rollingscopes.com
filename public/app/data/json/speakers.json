@@ -503,6 +503,37 @@
     "id": 101,
     "name": "Владимир Галушко",
     "photo": "vladimir_galushko.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Aleh Kashnikau",
+    "photo": "aleh_kashnikau.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Maksim Barysau",
+    "photo": "Maksim_Barysau.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Станислав Борисевич",
+    "photo": "stanislav_borisevich.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Виталий Воронович",
+    "photo": "vital_varanovich.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Vitali Novikau",
+    "photo": "vitali_novikau.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Dzmitry Vanitski",
+    "photo": "dzmitry_vanitski.jpg"
   }
+
 ]
 
