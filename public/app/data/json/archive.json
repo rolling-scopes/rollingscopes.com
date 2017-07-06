@@ -2,11 +2,42 @@
   {
     "id": "rs#41",
     "name": "The Rolling Scopes #41",
-    "date": "2017",
+    "date": "15 августа 2017",
     "location": "imaguru.co",
     "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
     "registerLink": "",
     "schedule": [
+      {
+      "title": "Декорируем JavaScript",
+      "speakerIDs": [
+        54
+      ],
+      "description": "Черновики новой версии ECMAScript содержат новые интересные возможности - декораторы для классов, методов, свойств и аргументов. Рассмотрим, зачем они нужны и что интересного можно сделать с помощью декораторов.",
+      "time": "19:00",
+      "break": {
+        "time": "19:45"
+      }
+    },
+      {
+        "title": "История одного проекта Wargaming",
+        "imagePath": "images/unknown_speaker.jpg",
+        "speakerIDs": [
+          108
+        ],
+        "description": "<ul><li>Эволюция приложения - как команда питонситов превратилась в fullstask разработчиков, разбиение монолита на отдельные пакеты</li><li>Как мы выбирали технологии - React vs Backbone vs VueJS</li><li>Как закончили воевать в code review - автоматизация, linter, temcity</li><li>Как сэкономили на обучении React</li><li>Как нашли время для стабильного добавления технических ипрувментов</li><li>Процесс внедрения тестов -  backend, frontend, unit, integration, auto tests</li><li>Формирование собственной библиотеки компонентов, резкое увелечение скорости разработки.</li></ul>",
+        "time": "19:50",
+        "break": {
+          "time": "20:35"
+        }
+      },
+      {
+        "title": "Persistent Memory and Linux",
+        "time": "20:40",
+        "speakerIDs": [
+          90
+        ],
+        "description": "Рассказ Кирилла о процессе разработки ядра Linux на позапрошлом митапе слушатели оценили как «Жутко интересный» и потребовали больше хардкора. В новом докладе мы послушаем и обсудим Persistent Memory and Linux.Кирилл контрибьютит в Linux Kernel c 2005 года, а последние 6 лет занимает должность Senior Linux Kernel Developer в Intel Corporation."
+      }
     ]
   },
   {
