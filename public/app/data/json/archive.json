@@ -8,11 +8,11 @@
     "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-41-minsk-tickets-35994973936",
     "schedule": [
       {
-      "title": "Декорируем JavaScript",
+      "title": "Hack the Dom         or Modern Chrome Extension in the Wild",
       "speakerIDs": [
-        54
+        18
       ],
-      "description": "Черновики новой версии ECMAScript содержат новые интересные возможности - декораторы для классов, методов, свойств и аргументов. Рассмотрим, зачем они нужны и что интересного можно сделать с помощью декораторов.",
+      "description": "The talk will consist from short overview of Web Extensions capabilities, the ways of hacking into the dom and applications of that methods in gmail extensions.",
       "time": "19:00",
       "break": {
         "time": "19:45"
