@@ -1,4 +1,21 @@
-[
+[{
+  "id": "rs#42",
+  "name": "The Rolling Scopes #42",
+  "date": "6 октября 2017",
+  "location": "imaguru.co",
+  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-42-minsk-tickets-38431804562",
+  "schedule": [
+    {
+      "title": "Митап о #microsoft #react #redux #berlin",
+      "speakerIDs": [
+        109
+      ],
+      "description": "Алексей работает старшим инженером в Microsoft Berlin и трудится над веб-версией Microsoft To-Do. В свободное время тренирует программистов, оттачивает мастерство и троллит в твиттере. Ведёт бложик <a href='http://mtdv.io'>http://mtdv.io</a>. Made in Belarus. Живёт в Берлине. Был замечен в организации OdessaJS. На митапе затронем три основные темы: <ul><li>Как Microsoft использует React в Microsoft To-Do</li><li>Про Microsoft и Redux</li><li>Q&amp;A по работе в Microsoft и жизни в Берлине</li></ul>",
+      "time": "19:00"
+    }
+  ]
+},
   {
     "id": "rs#41",
     "name": "The Rolling Scopes #41",
