@@ -65,7 +65,7 @@ gulp.task('css', function () {
 gulp.task('views', function () {
   var pages = require('./' + options.src + '/pages');
 
-  return gulp.src(options.src + '/templates/*.ejs')
+  return gulp.src(Object.keys(pages).map(page => options.src + `/templates/${page}.ejs`))
     .pipe(tasks.ejs(pages))
     .pipe(gulp.dest(options.staging));
 });
