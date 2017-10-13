@@ -877,3 +877,17 @@ footer {
         padding: .3em 0 .3em 120px
     }
 }
+
+.tweets-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.tweets-carousel > .tweet {
+  margin: 10px;
+  flex: 1;
+  box-sizing: border-box;
+  width: 33%;
+  min-width: 200px;
+}
