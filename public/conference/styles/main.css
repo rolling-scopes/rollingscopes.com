@@ -891,3 +891,24 @@ footer {
   width: 33%;
   min-width: 200px;
 }
+
+section.conf-title {
+  padding-bottom: 0;
+}
+
+#mc_embed_signup {
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+  font: 14px Helvetica, Arial, sans-serif;
+  width:100%;
+  padding: 20px;
+}
+
+#mc_embed_signup .button {
+  background-color: rgba(230, 25, 75, 0.8);
+}
+
+#mc_embed_signup .button:hover {
+  background-color: rgba(230, 25, 75, 1);
+  cursor: pointer;
+}
