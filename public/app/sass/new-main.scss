@@ -626,6 +626,40 @@ h1 a[name] {
 }
 
 /*------------------------------------*\
+    Enrollment Banner
+\*------------------------------------*/
+
+.enrollment-banner {
+  background: url(../images/enrollment.jpg) no-repeat 0 50%;
+  background-size: cover;
+  display: block;
+  min-height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+
+.enrollment-text {
+  color: #fff;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.enrollment-btn {
+  @extend .register-button;
+  background: $link-color;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  width: auto;
+  text-align: center;
+  opacity: 0.85;
+  &:hover {
+    opacity: 1;
+    transition: all 0.23s ease-in-out 0s;
+  }
+}
+
+/*------------------------------------*\
     BREAKPOINT - 1024
 \*------------------------------------*/
 
@@ -891,6 +925,13 @@ h1 a[name] {
     width: 100%;
   }
 
+  .enrollment-text {
+    font-size: 44px;
+  }
+
+  .enrollment-btn {
+    text-align: center;
+  }
 }
 
 /*------------------------------------*\
