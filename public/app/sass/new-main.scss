@@ -645,9 +645,10 @@ h1 a[name] {
   background: url(../images/enrollment.jpg) no-repeat 0 50%;
   background-size: cover;
   display: block;
-  min-height: 320px;
+  min-height: 260px;
+  box-sizing: border-box;
   text-align: center;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .enrollment-text {
