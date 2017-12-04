@@ -474,7 +474,7 @@ section:after {
 }
 
 .partner-list li img {
-    width: 140px
+    max-width: 140px
 }
 
 .become-partner {
