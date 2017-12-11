@@ -104,6 +104,14 @@ a:hover {
   text-align: right;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .accent-section {
   background: #ebebeb;
 }
@@ -426,10 +434,12 @@ h1 a[name] {
     padding: 0;
     list-style-position: inside;
   }
-
   h3 {
     color: #000;
     position: relative;
+  }
+  p {
+    padding: .3em;
   }
   .speaker-photo {
     width: 100px;
