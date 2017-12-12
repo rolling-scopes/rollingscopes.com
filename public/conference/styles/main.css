@@ -135,6 +135,17 @@ h6 {
     margin: 1em 0
 }
 
+blockquote {
+  text-align: right;
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+blockquote p {
+  font-size: .8em;
+  color: #bbb;
+}
+
 section h1 {
     color: #3b71b9;
     font-size: 300%;
