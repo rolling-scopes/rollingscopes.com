@@ -21,3 +21,10 @@
   <p><%- talk.party.description %></p>
 </li>
 <% } %>
+<% if (talk.pizza) { %>
+<li class="event-schedule-item">
+  <h2 class="speech-time"><%= talk.pizza.time %></h2>
+  <img class="speaker-photo" src="images/icon-pizza.jpg" alt="pizza icon">
+  <h3><i class="fa fa-coffee" aria-hidden="true"></i> Pizza & Coffee</h3>
+</li>
+<% } %>

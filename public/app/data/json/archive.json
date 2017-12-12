@@ -12,7 +12,10 @@
         0
       ],
       "description": "<p class='bold'>Berlin, Germany</p><p class='italic'>Alex is employed as a front-end engineer at Wix.com, earning just enough to sustain his functional programming addiction.In his spare time he teaches programming and creates educational games with his hacker friends.</p>",
-      "time": "18:00"
+      "time": "18:00",
+      "pizza": {
+        "time": "18:40"
+      }
     },
     {
       "title": "(R)Evolution of set-top boxes",
@@ -20,7 +23,10 @@
         29
       ],
       "description": "<p class='bold'>Amsterdam, The Netherlands</p><p>JavaScript is no longer about animating DIVs and sending forms. On the example of UI development for set-top boxes, I’ll tell a story about our evolution of JS usage on devices not suitable at all for it (or?).</p> <p class='italic'>Kirill Knysh, Engineer at EPAM Systems, 4+ years of experience of STB UI development, passionate to coding.</p> ",
-      "time": "19:00"
+      "time": "19:00",
+      "pizza": {
+        "time": "19:40"
+      }
     },
     {
       "title": "Tricky JS and WebGL practices to achieve the best performance on mobile",
