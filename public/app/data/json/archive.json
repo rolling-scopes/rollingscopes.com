@@ -8,10 +8,11 @@
   "schedule": [
     {
       "title": "Mogensen-Scott encoding",
+      "speakerCity": "Berlin, Germany",
       "speakerIDs": [
         0
       ],
-      "description": "<p class='bold'>Berlin, Germany</p><p class='italic'>Alex is employed as a front-end engineer at Wix.com, earning just enough to sustain his functional programming addiction.In his spare time he teaches programming and creates educational games with his hacker friends.</p>",
+      "description": "<p class='italic'>Alex is employed as a front-end engineer at Wix.com, earning just enough to sustain his functional programming addiction. In his spare time he teaches programming and creates educational games with his hacker friends.</p>",
       "time": "18:00",
       "pizza": {
         "time": "18:40"
@@ -19,10 +20,11 @@
     },
     {
       "title": "(R)Evolution of set-top boxes",
+      "speakerCity": "Amsterdam, The Netherlands",
       "speakerIDs": [
         29
       ],
-      "description": "<p class='bold'>Amsterdam, The Netherlands</p><p>JavaScript is no longer about animating DIVs and sending forms. On the example of UI development for set-top boxes, I’ll tell a story about our evolution of JS usage on devices not suitable at all for it (or?).</p> <p class='italic'>Kirill Knysh, Engineer at EPAM Systems, 4+ years of experience of STB UI development, passionate to coding.</p> ",
+      "description": "<p>JavaScript is no longer about animating DIVs and sending forms. On the example of UI development for set-top boxes, I’ll tell a story about our evolution of JS usage on devices not suitable at all for it (or?).</p> <p class='italic'>Kirill Knysh, Engineer at EPAM Systems, 4+ years of experience of STB UI development, passionate to coding.</p> ",
       "time": "19:00",
       "pizza": {
         "time": "19:40"
@@ -30,10 +32,11 @@
     },
     {
       "title": "Tricky JS and WebGL practices to achieve the best performance on mobile",
+      "speakerCity": "Minsk, Belarus",
       "speakerIDs": [
         46
       ],
-      "description": "<p class='bold'>Minsk, Belarus</p><p>Tricky JS and WebGL practices to achieve the best performance on mobile. We'll speak about set of interesting practices our team applied on our project to achieve lower network payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of using Pixi.js</p> <p class='italic'>Andrei Vouchanka, the Software developer at EPAM Systems. Passioned about front-end development, bleeding edge web-technologies, js performance, public speaking and knowledge sharing. Constantly experimenting with new stuff, messing around with pet projects for fun</p>",
+      "description": "<p>Tricky JS and WebGL practices to achieve the best performance on mobile. We'll speak about set of interesting practices our team applied on our project to achieve lower network payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of using Pixi.js</p> <p class='italic'>Andrei Vouchanka, the Software developer at EPAM Systems. Passioned about front-end development, bleeding edge web-technologies, js performance, public speaking and knowledge sharing. Constantly experimenting with new stuff, messing around with pet projects for fun</p>",
       "time": "20:00"
     }
   ]

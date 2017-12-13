@@ -4,7 +4,11 @@
 
   <h3><%= talk.title %></h3>
 
-  <p class="speaker-name"><%= talk.speakers.map(speaker => speaker.name).join(', ') %></p>
+  <p class="speaker-name"><%= talk.speakers.map(speaker => speaker.name).join(', ') %>
+    <% if (talk.speakerCity) { %>
+    | <%= talk.speakerCity %>
+    <% } %>
+  </p>
   <p><%- talk.description %></p>
 </li>
 <% if (talk.break) { %>
