@@ -25,9 +25,9 @@
         29
       ],
       "description": "<p>JavaScript is no longer about animating DIVs and sending forms. On the example of UI development for set-top boxes, I’ll tell a story about our evolution of JS usage on devices not suitable at all for it (or?).</p> <p class='italic'>Kirill Knysh, Engineer at EPAM Systems, 4+ years of experience of STB UI development, passionate to coding.</p> ",
-      "time": "19:00",
-      "pizza": {
-        "time": "19:40"
+      "time": "18:55",
+      "break": {
+        "time": "19:35"
       }
     },
     {
@@ -37,7 +37,19 @@
         46
       ],
       "description": "<p>Tricky JS and WebGL practices to achieve the best performance on mobile. We'll speak about set of interesting practices our team applied on our project to achieve lower network payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of using Pixi.js</p> <p class='italic'>Andrei Vouchanka, the Software developer at EPAM Systems. Passioned about front-end development, bleeding edge web-technologies, js performance, public speaking and knowledge sharing. Constantly experimenting with new stuff, messing around with pet projects for fun</p>",
-      "time": "20:00"
+      "time": "19:40",
+      "pizza": {
+        "time": "20:20"
+      }
+    },
+    {
+      "title": "CSS QuickDraw",
+      "speakerIDs": [
+        0
+      ],
+      "imagePath": "images/speakers/cowboy.jpg",
+      "description": "<p>Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit!</p><p><i>Please bring your laptop!</i></p>",
+      "time": "20:30"
     }
   ]
 },

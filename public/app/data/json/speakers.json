@@ -548,7 +548,11 @@
     "id": 110,
     "name": "Roman Savarin",
     "photo": "roman_savarin.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Marcelo Gomes",
+    "photo": "marcelo_gomes.jpg"
   }
-
 ]
 
