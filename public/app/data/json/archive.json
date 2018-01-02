@@ -33,7 +33,7 @@
       "speakerIDs": [
         111
       ],
-      "description": " <p>It will be about how the browser´s Render Engine works and how this knowledge can improve the performance on front-end.</p><p>Some points to be discuss:</p><ul><li>Is the DOM really slow?</li><li>The Virtual DOM and is it the solution for performance on DOM updates?</li><li>The new Performance tab of chrome and how we can use it to measure front-end performance.</li></ul><p class='italic'>Marcelo Gomes works with front-end development since 2009. He likes playing chess, playing drums and making questions. He is from Brazil but currently lives in Gdansk.</p>",
+      "description": " <p>It will be about how the browser´s Render Engine works and how this knowledge can improve the performance on front-end.</p><p>Some points to be discussed:</p><ul><li>Is the DOM really slow?</li><li>The Virtual DOM and is it the solution for performance on DOM updates?</li><li>The new Performance tab of chrome and how we can use it to measure front-end performance.</li></ul><p class='italic'>Marcelo Gomes works with front-end development since 2009. He likes playing chess, playing drums and making questions. He is from Brazil but currently lives in Gdansk.</p>",
       "time": "19:40"
     },
     {
@@ -42,7 +42,7 @@
       "speakerIDs": [
         0
       ],
-      "description": "<p class='italic'>Alex is employed as a front-end engineer at Wix.com, earning just enough to sustain his functional programming addiction. In his spare time he teaches programming and creates educational games with his hacker friends.</p>",
+      "description": "<p class='italic'>Alex is employed as a front-end engineer at Wix.com, earning just enough to sustain his functional programming addiction. In his spare time, he teaches programming and creates educational games with his hacker friends.</p>",
       "time": "20:00"
     },
     {
