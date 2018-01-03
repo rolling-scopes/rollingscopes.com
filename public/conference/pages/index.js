@@ -14,9 +14,9 @@ module.exports = {
       title: 'RS Conf 2018 | Venue'
     }
   },
-  // schedule: {
-  //   page: {
-  //     title: 'RS Conf 2018 | Schedule'
-  //   }
-  // }
+  schedule: {
+    page: {
+      title: 'RS Conf 2018 | Schedule'
+    }
+  }
 }
