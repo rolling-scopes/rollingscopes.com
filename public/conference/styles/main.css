@@ -488,7 +488,7 @@ section:after {
     max-width: 140px
 }
 
-.become-partner {
+.become-partner, .accent-btn {
     display: inline-block;
     background: #e5194c;
     color: #fff;
@@ -496,11 +496,11 @@ section:after {
     border-radius: 3px
 }
 
-.become-partner i {
+.become-partner i, .accent-btn i {
     margin-right: .3em
 }
 
-.become-partner:hover {
+.become-partner:hover, .accent-btn:hover {
     text-decoration: none
 }
 
