@@ -479,7 +479,7 @@ section:after {
 .partner-list li {
     max-width: 240px;
     margin: auto;
-    padding: 0 .5em;
+    padding: 1em 2em;
     box-sizing: border-box;
     text-align: center
 }
