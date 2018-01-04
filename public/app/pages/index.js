@@ -6,6 +6,7 @@ module.exports = {
   'hall-of-fame': require('./hall-of-fame'),
   'brest'       : require('./brest'),
   'gomel'       : require('./gomel'),
+  'mogilev'     : require('./mogilev'),
   'minsk'       : require('./minsk'),
   'krakow'      : require('./krakow'),
   'gdansk'      : require('./gdansk'),
