@@ -1,710 +1,366 @@
 <!doctype html>
-<html class="no-js">
+<html lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <title>RS Conf 2018</title>
-  <meta name="viewport" content="width=device-width">
   <% include common/styles %>
+  <title>RS Conf 2018  | Venue</title>
 </head>
 <body>
-<% include common/browsehappy %>
-<div class="page-wrap">
-  <% include common/header %>
-  <!--<section>-->
-  <!--<h2>Registration</h2>-->
-  <!--<ul>-->
-  <!--<li>"New Adventures in Responsive Web Design" Workshop [22$]: <a href="https://docs.google.com/forms/d/1q2QZ2a5QMAKfaYwVzQQJ0Yw41anqLnGyJvmZdz00ZdA/viewform">https://goo.gl/1MS0TJ</a></li>-->
-  <!--<li>All other workshops: <a href="https://docs.google.com/forms/d/1LKrbqsqoWw-vvrdSXh18ztHO1QvXQZiuxM4FwRwp8K8/viewform">https://goo.gl/V4C7ex</a></li>-->
-  <!--<li>Conference Day: <a href="https://docs.google.com/forms/d/1dgVHOe6XLQ_3vLlyz4ZD-msqD0W3k_v5_hlzujkG_qU/viewform">https://goo.gl/4zNePo</a> (<b>Your registration will be confirmed only when you receive Eventbrite ticket from us</b>)</li>-->
-  <!--</ul>-->
-  <!--</section>-->
+<div class="page-wrap page-schedule">
+  <% include common/browsehappy %>
+  <% include common/menu %>
 
   <section>
-    <h2>Saturday, 10th February</h2>
-    <h3>Venue: <a target="_blank" href="https://goo.gl/maps/GbECQ5BqUUs">Palac kuĺtury
-        prafsajuzaŭ</a>
-    </h3>
-    <h4>Address: praspiekt Niezaliežnasci 25, Minsk</h4>
+    <div class="content-md">
+      <h2 class="text-lg">Schedule</h2>
 
-    <ul class="two-streams-schedule">
+      <p><a href="javascript:void(0);" class="btn first-day-btn rounded active"><span class="full-view">Saturday</span>
+          <span class="abbr-view">SAT</span></a> <a href="javascript:void(0);"
+                                                    class="btn second-day-btn rounded"><span
+            class="full-view">Sunday</span> <span class="abbr-view">SUN</span></a></p>
 
-      <li class="two-streams-schedule-time"><h2>9:00</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <h3>Registration, morning coffee</h3>
-      </li>
-      <li class="two-streams-schedule-time"><h2>10:00</h2></li>
-      <li class="two-streams-schedule-item">
-        <img class="speaker-photo" src="images/speakers/rolling_scopes.jpg"
-             alt="photo Rolling Scopes"/>
-
-        <p class="speaker-name">RS Crew</p>
-
-        <p><span class="schedule-lang">RU</span></p>
-
-        <h3>Opening. Welcome speech from conference organizers</h3>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>10:20</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/andrei_vouchanka.jpg"
-               alt="photo Andrei Vouchanka"/>
-          <p class="speaker-name">Andrei Vouchanka <a class="speaker-twitter" target="_blank"
-                                                      href="https://twitter.com/r1zzu">@r1zzu</a></p>
-
-          <p><span class="schedule-lang">en</span></p>
-
-          <h3>Tricky JS and WebGL practices to achieve the best performance on mobile</h3>
-
-          <p>We'll speak about set of interesting practices our team applied on our project to achieve lower network
-            payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using
-            lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of
-            using Pixi.js</p>
-        </div>
-        <div class="second-stream">
-          <img class="speaker-photo" src="images/speakers/kristi_progi.jpg" alt="photo Kristi Progi "/>
-          <p class="speaker-name">Kristi Progi </p>
-          <p><span class="schedule-lang">en</span></p>
-          <h3>TBD</h3>
-          <p>We will share the story of how a small group of people, jumpstarted the community in a small
-            city like Tirana and what other small cities should avoid during their first steps in developing
-            a Mozilla community. We will share tips on how to keep the Mozilla spirit alive after the
-            enthusiastic start and also how to maintain coding communities.</p>
-        </div>
-      </li>
-      <li class="two-streams-schedule-time"><h2>11:00</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Coffee break</h3></div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>11:20</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/konstantin_krivlenia.jpg" alt="photo Konstantin Krivlenia"/>
-          <p class="speaker-name">Konstantin Krivlenia </p>
-
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>Сказ о microservices</h3>
-
-          <p>Начиная новый или разрабатывая текущий проект, нередко задумываешься, а не стоит ли поменять технологии или
-            подходы к разработке. Последние несколько лет мы слышим, что многие компании двигаются в сторону
-            микросервисной архитектуры. Во многих крупных компаниях, таких как Google, Facebook, Netflix, этот подход
-            зарекомендовал себя с хорошей стороны, но стоит ли применять его в небольших командах или компаниях. Какие
-            преимущества и недостатки могут принести микросервисы командам до 10 человек? Стоит ли овчинка выделки?</p>
-          <p>В докладе разберем реальный опыт построения микросервисной архитектуры в команде из 5 человек, рассмотрим,
-            с
-            какими трудностями можно столкнуться, начиная от разбиения на микросервисы и заканчивая его выкладкой на
-            продакшен сервера. Только реальные факты, никакой воды.</p>
-        </div>
-
-        <div class="second-stream">
-          <div class="stream-title">Stream B</div>
-
-          <img class="speaker-photo" src="images/speakers/trishul_goel.jpg" alt="photo Trishul Goel"/>
-          <p class="speaker-name">Trishul Goel <a class="speaker-twitter" target="_blank"
-                                                  href="https://twitter.com/trishulgoel">@trishulgoel</a></p>
-
-          <p><span class="schedule-lang">en</span></p>
-          <h3>Cross browser extensions - lets make one</h3>
-          <p>In this session, we will be learning how to develop portable cross browser extensions
-            using Javascript. One can learn how to use features of browser such as Notifications, Tab
-            capture, HTTP request handling, Toolbar buttons in an addon. Also I will be giving a handson
-            demo of creating a browser extension right in the session and deploying it in the
-            browser.</p></div>
-
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>12:00</h2></li>
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Short break (10min)</h3></div>
-      </li>
-
-
-      <li class="two-streams-schedule-time"><h2>12:10</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <div class="stream-title">Stream A</div>
-          <img class="speaker-photo" src="images/speakers/asim_hussain.jpg" alt="photo Asim Hussain"/>
-
-          <p class="speaker-name">Asim Hussain<a class="speaker-twitter" target="_blank"
-                                                 href="https://twitter.com/jawache">@jawache</a></p>
-          <p><span class="schedule-lang">en</span></p>
-
-          <h3>How to hack a node app?</h3>
-
-          <p>This isn't a dry security talk where I explain how an XSS attack works with a "fake" intentionally
-            vulnerable app. This is about REAL hacks from REAL life. This is the Japanese horror movie of security
-            talks, my aim is to wake you up with hacking horror stories and inspire you to go away and learn more. Even
-            though I have given versions of this talk before it continually evolves based on recent/popular hacks so
-            it's always fresh, e.g. now this talk contains information about the large Equifax hack from a few months
-            ago. By the time Rolling Scopes comes along it will contain information about public hacks in the new year
-            (as long as those hacks would be interesting to the audience). The talk will contain sections specific to
-            Node but will touch other languages/frameworks as well. A Node app sits at the top of a large stack of
-            software written in many languages.</p>
-        </div>
-
-
-        <div class="second-stream">
-          <div class="stream-title">Stream B</div>
-          <img class="speaker-photo" src="images/speakers/egor_malkevich.png" alt="photo Egor Malkevich"/>
-          <p class="speaker-name">Egor Malkevich
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/wegorelax">@wegorelax</a>
+      <ul class="schedule first-day active">
+        <li>
+          <h3><span class="schedule-time">9:00</span> Coffee & Registration</h3>
+        </li>
+        <li>
+          <h3><span class="schedule-time">10:00</span> Opening. Welcome speech from conference
+            organizers
+          </h3>
+          <p class="text-sm">RS Crew</p>
+          <p class="text-sm">30min | RU
+            <span class="talk-place">Pink Room</span>
           </p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>И снова телевизоры!</h3>
-          <p>Поговорим о том, как разрабатывать в 2018 году приложения под телевизоры, обсудим этот своеобразный и
-            непокорный web девелоперу рынок.
-            Егор поделится опытом разработки под телевизоры LG и Samsung. С чего начать, как не допускать ошибок и как
-            вывести приложение в релиз. </p></div>
-      </li>
-      <li class="two-streams-schedule-time"><h2>13:00</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Lunch break (60 min)</h3>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>14:00</h2></li>
-
-      <li class="two-streams-schedule-item">
-
-        <div class="first-stream">
-          <div class="stream-title">Stream A</div>
-          <img class="speaker-photo" src="images/speakers/tomasz_lakomy.jpg" alt="photo Tomasz Łakomy"/>
-          <p class="speaker-name">Tomasz Łakomy
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/tlakomy">@tlakomy</a>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">10:20</span><a href="speaker/andrei-vouchanka.html"> Tricky JS and WebGL
+              practices to achieve the best
+              performance on mobile</a></h3>
+          <p class="text-sm">Andrei Vouchanka</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Pink Room</span>
           </p>
-          <p><span class="schedule-lang">en</span></p>
-          <h3>Journey through VR and AR with React</h3>
-          <p>It's time to leave the 2D world of a browser window and venture into the world of enhanced reality
-            JavaScript applications. During the talk we'll see how to make great VR and AR experiences using just your
-            browser and a bit of React, with live demos included, so we'll get to see them in action!</p>
-        </div>
-
-        <div class="second-stream">
-          <div class="stream-title">Stream B</div>
-          <img class="speaker-photo" src="images/speakers/timofey_lavrenyuk.jpg" alt="photo Timofey Lavrenyuk"/>
-          <p class="speaker-name">Timofey Lavrenyuk
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/geek_timofey">@geek_timofey</a>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">10:20</span><a href="speaker/kristi-progi.html"> TBD</a></h3>
+          <p class="text-sm">Kristi Progi</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Blue Room</span>
           </p>
-          <p><span class="schedule-lang">RU</span></p>
-
-          <h3>Making mobile web app better with WEB APIs</h3>
-          <p>I would talk about Web APIs and how they make my app better. It is my own project in production and it is
-            PWA.
-            I will talk about this APIs:</p>
-          <ul>
-            <li>Credential API</li>
-            <li>Notifications API</li>
-            <li>Storage API</li>
-            <li>Network API</li>
-            <li>Web Share API</li>
-            <li>IndexedDB</li>
-          </ul>
-
-        </div>
-
-      </li>
-      <li class="two-streams-schedule-time"><h2>14:40</h2></li>
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Short break (10min)</h3></div>
-      </li>
-      <li class="two-streams-schedule-time"><h2>14:50</h2></li>
-
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <div class="stream-title">Stream A</div>
-          <img class="speaker-photo" src="images/speakers/ivan_jovanovic.jpg" alt="photo Ivan Jovanovic"/>
-          <p class="speaker-name">Ivan Jovanovic <a class="speaker-twitter" target="_blank"
-                                                    href="https://twitter.com/ivanjov96">@ivanjov96</a></p>
-
-          <p><span class="schedule-lang">en</span></p>
-
-          <h3>Introduction to Micro Frontends</h3>
-
-          <p> Ever wanted to use microservices architecture on the frontend? Want to build an app using React, Angular,
-            and Vue together? This talk is about a thing that’s in our minds for a long time, but now’s the perfect time
-            for it. It is called Micro Frontends, a microservice architecture on the frontend. I will show you how to
-            write apps piece by piece and how to connect those pieces to work together. It’s so easy to split work
-            across teams and developers and maintain those apps.</p>
-
-          <p>The talk will cover:</p>
-          <ul>
-            <li>What are a Micro Frontends and what problem are they solving?</li>
-            <li>What are our choices now?</li>
-            <li>Examples of the implementations</li>
-            <li>Sync and async services</li>
-            <li>How can we use iframes for splitting frontend apps?</li>
-          </ul>
-
-          <p>This talk will try to change the way developers look at frontend applications. They’re becoming so big,
-            nowadays we have 90% of the client code and 10% of the backend code and that’s becoming so hard to maintain.
-            I’ve been using this pattern for a year and so far it helped me a lot. This architecture helped my company
-            to split the work across teams and remove the code conflicts.</p></div>
-
-        <div class="second-stream">
-          <div class="stream-title">Stream B</div>
-          <img class="speaker-photo" src="images/speakers/alexander_shushunov.jpg" alt="photo Alexander Shushunov"/>
-          <p class="speaker-name">Alexander Shushunov</p>
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>Пробуем Flow в бою</h3>
-
-          <p>В своем докладе Александр поделится опытом использования Flow на большом проекте, затронет инструменты,
-            различные проблемы и тестирование.</p>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>15:30</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Coffee break</h3></div>
-      </li>
-
-
-      <li class="two-streams-schedule-time"><h2>15:50</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <div class="stream-title">Stream A</div>
-          <img class="speaker-photo" src="images/speakers/anna_selezniova.jpg" alt="photo Anna Selezniova"/>
-          <p class="speaker-name">Anna Selezniova
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/asktwi">@asktwi</a>
+        </li>
+        <li>
+          <h3><span class="schedule-time">11:00</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">11:20</span><a href="speaker/konstantin-krivlenia.html"> Сказ о
+              microservices</a></h3>
+          <p class="text-sm">Konstantin Krivlenia</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Pink Room</span>
           </p>
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>Rock’n’scroll</h3>
-
-          <p>Посещая сайты, мы используем скролл, часто даже не задумываясь об этом. Это привычный элемент интерфейса,
-            который должен быть простым и удобным в использовании.</p>
-          <p>Разрабатывая сайты, нам приходится учитывать свойства скролла, особенно если мы пытаемся изменять его
-            поведение. Иногда требования дизайнера к интерфейсу могут превратиться в настоящее наказание.</p>
-          <p>Доклад посвящён известным и не очень особенностям скролла и способам его применения. Смотри, слушай и let’s
-            scroll!</p></div>
-
-        <div class="second-stream">
-          <div class="stream-title">Stream B</div>
-          <img class="speaker-photo" src="images/speakers/alexander_gerasimov.png" alt="photo Alexander Gerasimov"/>
-          <p class="speaker-name">Alexander Gerasimov
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/da_quirm">@da_quirm</a>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">11:20</span><a href="speaker/trishul-goel.html"> Cross browser extensions -
+              lets make one</a></h3>
+          <p class="text-sm">Trishul Goel </p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Blue Room</span>
           </p>
-
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3> Mogensen–Scott encoding</h3>
-
-          <p>Mogensen–Scott encoding allows representation of algebraic data types in untyped lambda calculus. Similar
-            to
-            Church encoding, it can be used to regard lambda functions as data and therefore defines an embedded
-            metaprogramming “language”.</p>
-          <p>This talk explores encoding of several familiar data types and demonstrates the flow control — type duality
-            seen in the consumer functions defined for these types. This formalises the theoretical basis for such
-            functional programming language features as pattern matching, generalised folding and automatic derivation
-            of
-            typeclass instances.</p>
-
-        </div>
-
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>16:30</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Coffee break</h3></div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>16:50</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <div class="stream-title">Stream A</div>
-          <img class="speaker-photo" src="images/speakers/ilya_pukhalski.jpg" alt="photo Ilya Pukhalski"/>
-          <p class="speaker-name">Ilya Pukhalski
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/pukhalski">@pukhalski</a>
+        </li>
+        <li>
+          <h3><span class="schedule-time">12:00</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">12:10</span><a href="speaker/asim-hussain.html">How to hack a node app?</a>
+          </h3>
+          <p class="text-sm">Asim Hussain</p>
+          <p class="text-sm">50min | EN
+            <span class="talk-place">Pink Room</span>
           </p>
-
-          <p><span class="schedule-lang">en</span></p>
-
-          <h3>On JAM Stack Architectures</h3>
-
-          <p>Ever been scared of complex CMS solutions? Still cannot forget your wonderfully enjoyable development
-            experience using WordPress? Then you are hitting the right number!</p>
-
-          <p>Ilya is going to explore all the cornerstones of JAM approach to websites: git-centric workflow, markdown
-            as
-            a database, componentized JS-architecture, security, deployment, tooling.</p>
-        </div>
-
-        <div class="second-stream">
-          <div class="stream-title">Stream B</div>
-          <img class="speaker-photo" src="images/speakers/marek_piasecki.jpg" alt="photo Marek Piasecki"/>
-          <p class="speaker-name">Marek Piasecki
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/mad_maniak">@mad_maniak</a>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">12:10</span><a href="speaker/egor-malkevich.html"> И снова телевизоры!</a>
+          </h3>
+          <p class="text-sm">Egor Malkevich </p>
+          <p class="text-sm">50min | RU
+            <span class="talk-place">Blue Room</span>
           </p>
-
-          <p><span class="schedule-lang">en</span></p>
-
-          <h3>Beyond React</h3>
-
-          <p>I'd like to show tools for building such applications:
-          <ul>
-            <li><a target="_blank" href="https://vimeo.com/91956695">https://vimeo.com/91956695</a></li>
-            <li><a target="_blank" href="https://vimeo.com/121721311">https://vimeo.com/121721311</a></li>
-          </ul>
-
-
-          and explain why it's impossible with React.</p>
-
-          <p>So talk would contain of mistakes in React architecture
-            and second part would be about more efficient but not well advertised yet technology.</p>
-
-          <p>I'm React early adopter. I've built with big success first React single page app 3 years ago,
-            also recently participated in React Native project for bank.</p></div>
-
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>17:30</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div>
-          <div class="stream-title">Stream A</div>
-          <img class="speaker-photo" src="images/speakers/alexey_migutsky.jpg" alt="photo Alexey Migutsky"/>
-          <p class="speaker-name">Alexey Migutsky
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/mr_mig_by">@mr_mig_by</a>
+        </li>
+        <li>
+          <h3><span class="schedule-time">13:00</span> Lunch break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">14:00</span><a href="speaker/tomasz-lakomy.html">Journey through VR and AR
+              with React</a></h3>
+          <p class="text-sm">Tomasz Łakomy</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Pink Room</span>
           </p>
-
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>Как заработать больше в фронтенде?</h3>
-
-          <p>Алексей расскажет, почему вам мало платят, кому и за что платят больше, что нужно уметь, чтобы зарабатывать
-            в топ 5% рынка и почему погоня за новым фреймворком стоит вам прибавки к зарплате.
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">14:00</span><a href="speaker/timofey-lavrenyuk.html"> Making mobile web app
+              better with WEB APIs</a></h3>
+          <p class="text-sm">Timofey Lavrenyuk</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Blue Room</span>
           </p>
-        </div>
-      </li>
-      <!--<li class="two-streams-schedule-time"><h2>19:00</h2></li>-->
+        </li>
+        <li>
+          <h3><span class="schedule-time">14:40</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">14:50</span><a href="speaker/ivan-jovanovic.html">Introduction to Micro
+              Frontends</a></h3>
+          <p class="text-sm">Ivan Jovanovic</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">14:50</span><a href="speaker/alexander-shushunov.html"> Пробуем Flow в бою</a>
+          </h3>
+          <p class="text-sm">Alexander Shushunov</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">15:30</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">15:50</span><a href="speaker/anna-selezniova.html">Rock’n’scroll</a></h3>
+          <p class="text-sm">Anna Selezniova </p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">15:50</span><a href="speaker/alexander-gerasimov.html"> Mogensen–Scott
+              encoding</a></h3>
+          <p class="text-sm">Alexander Gerasimov</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">16:30</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">16:50</span><a href="speaker/ilya-pukhalski.html">On JAM Stack
+              Architectures</a></h3>
+          <p class="text-sm">Ilya Pukhalski</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">16:50</span><a href="speaker/marek-piasecki.html"> Beyond React</a></h3>
+          <p class="text-sm">Marek Piasecki</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">17:30</span><a href="speaker/alexey-migutsky.html">Как заработать больше в
+              фронтенде?</a></h3>
+          <p class="text-sm">Alexey Migutsky</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+      </ul>
 
-      <!--<li class="two-streams-schedule-item">-->
-      <!--<div class="first-stream">-->
-      <!--<h3>Afterparty at <a target="_blank" href="https://goo.gl/maps/FYTNfgdA5Yp">CRAFTMAN</a> beer bar</h3>-->
-      <!--<p>Address: Vulitsa Gikala 5, Minsk</p>-->
-      <!--</div>-->
 
-      <!--</li>-->
+      <ul class="schedule second-day">
+        <li>
+          <h3><span class="schedule-time">9:00</span> Coffee & Registration</h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">10:00</span> <a href="speaker/martin-splitt.html">TBD</a>
+          </h3>
+          <p class="text-sm">Martin Splitt</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">10:00</span> <a href="speaker/martin-splitt.html">Что не так с мобильным
+              вебом?</a>
+          </h3>
+          <p class="text-sm">Denis Ilin</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">10:40</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">10:50</span><a href="speaker/vsevolod-shmyrov.html"> Защита сервиса при помощи
+              CSP</a></h3>
+          <p class="text-sm">Vsevolod Shmyrov</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">10:50</span><a href="speaker/tomasz-jonasz-kujawski.html"> How developers can
+              upgrade their visual design skills
+              for better front end development</a></h3>
+          <p class="text-sm">Tomasz Jonasz Kujawski</p>
+          <p class="text-sm">40min | EN
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">11:30</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">11:40</span><a href="speaker/vitali-novikau.html">Когда продуктов много, а
+              дизайнеров чуть-чуть</a></h3>
+          <p class="text-sm">Vitali Novikau</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">11:40</span><a href="speaker/james-akwuh.html">DI: DIY</a></h3>
+          <p class="text-sm">James Akwuh</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">12:20</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">12:30</span><a href="speaker/ilja-satchok.html">The elegance of decorated
+              Redux</a></h3>
+          <p class="text-sm">Ilja Satchok</p>
+          <p class="text-sm">30min | EN
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">11:40</span><a href="speaker/dzmitry-vanitski.html">Ресерчили-ресерчили, да не
+              выресерчавали</a></h3>
+          <p class="text-sm">Dzmitry Vanitski</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">13:00</span> Lunch break </h3>
+        </li>
 
-    </ul>
+        <li class="first-stream">
+          <h3><span class="schedule-time">14:00</span><a href="speaker/mikhail-hatsilau.html">Codemods и трансформация
+              JavaScript кода</a></h3>
+          <p class="text-sm">Mikhail Hatsilau </p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">14:00</span><a href="speaker/fedor-shepelenko.html">Lego для дизайнера</a>
+          </h3>
+          <p class="text-sm">Fedor Shepelenko</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">14:40</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">15:00</span><a href="speaker/vasiliy-vanchuk.html">Ускорение UI тестов</a>
+          </h3>
+          <p class="text-sm">Vasiliy Vanchuk</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">15:00</span><a href="speaker/yauheniya-zhur.html">Дизайнерская
+              неожиданность</a></h3>
+          <p class="text-sm">Yauheniya Zhur</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">15:40</span> Coffee break </h3>
+        </li>
+        <li class="first-stream">
+          <h3><span class="schedule-time">15:50</span><a href="speaker/dmitry-volokh.html">Разработка редактора
+              документов</a></h3>
+          <p class="text-sm">Dmitry Volokh </p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li class="second-stream">
+          <h3><span class="schedule-time">15:50</span> <a href="speaker/martin-splitt.html">Stream API, through
+              Redux-Observable in Electron-based app</a>
+          </h3>
+          <p class="text-sm">Ales Tsvil</p>
+          <p class="text-sm">40min | RU
+            <span class="talk-place">Blue Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">16:30</span><a href="speaker/aliaksandr-pasynkau.html">How to improve test
+              coverage up to 80% with generated unit testing approach and be calm.</a></h3>
+          <p class="text-sm">Aliaksandr Pasynkau</p>
+          <p class="text-sm">15min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+        <li>
+          <h3><span class="schedule-time">17:00</span> Closing Ceremony</h3>
+          <p class="text-sm">RS Crew</p>
+          <p class="text-sm">15min | RU
+            <span class="talk-place">Pink Room</span>
+          </p>
+        </li>
+      </ul>
+
+    </div>
   </section>
-  <section></section>
-  <section>
-    <h2>Sunday, 11th February</h2>
-    <h3>Venue: <a target="_blank" href="https://goo.gl/maps/GbECQ5BqUUs">Palac kuĺtury
-        prafsajuzaŭ</a>
-    </h3>
-    <h4>Address: praspiekt Niezaliežnasci 25, Minsk</h4>
 
-    <ul class="two-streams-schedule">
+  <section class="section-follow-us">
+    <div class="content-md">
+      <h2>Follow us</h2>
+      <p class="text-lg">Follow us on <a target="_blank"
+                                         href="https://www.facebook.com/groups/TheRollingScopes/">Facebook</a> and <a
+          target="_blank" href="https://twitter.com/rollingscopes">Twitter</a>
+        to be the first to learn the news</p>
 
-      <li class="two-streams-schedule-time"><h2>9:00</h2></li>
+      <p class="content-sm">Our hashtag on social media is <a
+          href="https://twitter.com/hashtag/rollingscopes?vertical=default&src=hash">#rollingscopes</a>.
+        Or contact us directly on our email <a href="mailto:rolling.scopes@gmail.com">rolling.scopes@gmail.com</a></p>
 
-      <li class="two-streams-schedule-item">
-        <h3>Registration, morning coffee</h3>
-      </li>
-      <li class="two-streams-schedule-time"><h2>10:00</h2></li>
+      <p class="text-lg padding-top-lg">Join our Slack channel <a target="_blank"
+                                                                  href="https://frontendbelarus.slack.com/?redir=%2Fmessages%2FC0KGWSMGE">#rsconf</a>.
+      </p>
+      <p class="content-sm">If you don't have access to frontendbelarus.slack.com, please, register <a target="_blank"
+                                                                                                       href="http://frontendbelarus.herokuapp.com/">here</a>.
+      </p>
 
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/martin_splitt.jpg"
-               alt="photo Martin Splitt"/>
-          <p class="speaker-name">Martin Splitt <a class="speaker-twitter" target="_blank"
-                                                   href="https://twitter.com/g33konaut">@g33konaut</a></p>
-
-          <p><span class="schedule-lang">en</span></p>
-
-          <h3>TBD</h3>
-
-          <p> TBD </p>
-        </div>
-
-        <div class="second-stream">
-          <img class="speaker-photo" src="images/speakers/denis_ilin.jpg" alt="photo Denis Ilin"/>
-          <p class="speaker-name">Denis Ilin<a class="speaker-twitter" target="_blank"
-                                               href="https://twitter.com/followdarko">@followdarko</a></p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>Что не так с мобильным вебом?</h3>
-          <p>Проблемы о которых никто не рассказывает. Особенности браузеров, UX, баги, хаки, всё что можно и нельзя
-            пофиксить. Кейсы на которые не рассчитывал мобильный веб в момент создания. Опыт использования мобильных веб
-            приложений вместо нативных.</p>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>10:40</h2></li>
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Short break</h3></div>
-      </li>
-      <li class="two-streams-schedule-time"><h2>10:50</h2></li>
-
-      <li class="two-streams-schedule-item">
-
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/vsevolod_shmyrov.jpg" alt="photo Vsevolod Shmyrov"/>
-          <p class="speaker-name">Vsevolod Shmyrov
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/v_shmyrov">@v_shmyrov</a>
-          </p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>Защита сервиса при помощи CSP</h3>
-          <p>В прошлом году мы в нескольких сервисах внедряли технологию защиты CSP. Я расскажу в докладе зачем мы это
-            делали. От каких видов атак теперь защищены наши сервисы. И с какими сложностями столкнулись.</p>
-        </div>
-        <div class="second-stream">
-          <img class="speaker-photo" src="images/speakers/tomasz_jonasz_kujawski.jpg"
-               alt="photo Tomasz Jonasz Kujawski"/>
-          <p class="speaker-name">Tomasz Jonasz Kujawski <a class="speaker-twitter" target="_blank"
-                                                            href="https://twitter.com/zachwytupiewca">@zachwytupiewca</a>
-          </p>
-          <p><span class="schedule-lang">en</span></p>
-          <h3>How developers can upgrade their visual design skills for better front end development</h3>
-          <p>Main points in the presentation:</p>
-          <ul>
-            <li> How could devs improve design feeling? Many clients complain that devs don't feel visual aspects -
-              typography, symmetry, and so on. I want to talk about fundamental rules and golden ways to upgrade UX
-              skills for devs.
-            </li>
-            <li> Good practices in team communication - Devs vs Designers</li>
-            <li> Talk about how to use Zeplin and Sympli Tools correctly</li>
-            <li> Using frameworks like Semantic UI & Grommet</li>
-            <li> Showing examples of good planning for RWD context</li>
-          </ul>
-        </div>
-      </li>
-      <li class="two-streams-schedule-time"><h2>11:30</h2></li>
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Coffee break</h3></div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>11:40</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/vitali_novikau.jpeg" alt="photo Vitali Novikau"/>
-          <p class="speaker-name">Vitali Novikau </p>
-
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>Когда продуктов много, а дизайнеров чуть-чуть</h3>
-
-          <p> Меня зовут Виталий, я работаю как UI/UX Team Lead в EPAM System.
-            Думаю каждый из вас, мечтал погрузиться во что-то большое и попробовать поработать над большими задачами и
-            разносторонними проектами. Для меня это не мечты, а реальность. Я расскажу о том, как я лидаю дизайн на
-            более 120 проектах в различных доменных областях при наличии 8-ми дизайнеров.</p>
-          <p>Вы узнаете, как правильно работать с командой, как выстроить дизайн процессы и сделать правильный
-            фреймворк,
-            продать все это заказчику и не наступить на грабли.</p>
-          <p> Также вы услышите о наших нововведениях, которые мы планируем внедрить.</p>
-        </div>
-
-        <div class="second-stream">
-          <img class="speaker-photo" src="images/speakers/james_akwuh.jpeg" alt="photo James Akwuh"/>
-          <p class="speaker-name">James Akwuh <a class="speaker-twitter" target="_blank"
-                                                 href="https://twitter.com/jamesakwuh">@jamesakwuh</a>
-          </p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>DI: DIY</h3>
-          <p> В сообществе JS редко обсуждают паттерн Dependency Injection, хотя он является одним из самых важных
-            блоков в построении архитектуры большого приложения. Я всегда восхищался реализацией DI в Java-фреймворке
-            Spring, и последние два года неоднократно пытался реализовать аналогичный подход. Наконец, получилось.</p>
-          <p> В докладе мы рассмотрим следующие вещи:</p>
-          <ul>
-            <li>Что такое DI и какое место он занимает в архитектуре приложения?</li>
-            <li>Как правильно использовать DI?</li>
-            <li>Насколько простым может быть DI в JS?</li>
-            <li>Чего можно добиться с помощью Decorators Metadata в TS?</li>
-            <li>Примеры</li>
-          </ul>
-          </p>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>12:20</h2></li>
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Short break</h3></div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>12:30</h2></li>
-
-      <li class="two-streams-schedule-item">
-
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/ilja_satchok.jpeg" alt="photo Ilja Satchok"/>
-          <p class="speaker-name">Ilja Satchok
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/_ifours_">@_ifours_</a>
-          </p>
-
-          <p><span class="schedule-lang">en</span></p>
-
-          <h3>The elegance of decorated Redux</h3>
-
-          <p>One simple pattern that I have discovered for myself dramatically improve my work with redux. By reusing
-            redux connects we can clean up our code, making the container component easier to read and to maintain.</p>
-        </div>
-        <div class="second-stream">
-          <img class="speaker-photo" src="images/speakers/dzmitry_vanitski.jpeg" alt="photo Dzmitry Vanitski"/>
-          <p class="speaker-name">Dzmitry Vanitski </p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>Ресерчили-ресерчили, да не выресерчавали</h3>
-
-          <p>Этот доклад о том, как не попасть в ловушку и не похоронить результаты, потом и кровью полученные во время
-            исследования. Я поделюсь своим опытом перекидывания мостика от исследования к прототипированию и готовому
-            дизайну на реальных примерах и дам много полезных советов, как правильно настроить дизайн-процесс. </p>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>13:00</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Lunch break (60 min)</h3>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>14:00</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/mikhail_hatsilau.jpg" alt="photo Mikhail Hatsilau"/>
-          <p class="speaker-name">Mikhail Hatsilau
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/gatik9306">@gatik9306</a>
-          </p>
-
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>Codemods и трансформация JavaScript кода</h3>
-          <p>Михаил расскажет о принципах работы и анализа AST. Какие инструменты есть для этого, примеры использования
-            AST для статического анализа кода и для трансформации. Также затронет codemods, которые часто используют
-            как для перехода на новые версии либ, так и для обновления синтаксических конструкций.
-          </p>
-        </div>
-        <div class="second-stream"><img class="speaker-photo"
-                                        src="images/speakers/fedor_shepelenko.jpeg"
-                                        alt="photo Fedor Shepelenko">
-          <p class="speaker-name">Fedor Shepelenko</p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>Lego для дизайнера</h3>
-          <p>Как создать единую дизайн систему для огромного колличества продуктов и не дать дизайнерам заскучать</p>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>14:40</h2></li>
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Coffee break</h3></div>
-      </li>
-
-
-      <li class="two-streams-schedule-time"><h2>15:00</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/vasiliy_vanchuk.jpg" alt="photo Vasiliy Vanchuk"/>
-          <p class="speaker-name">Vasiliy Vanchuk
-            <a class="speaker-twitter" target="_blank" href="https://twitter.com/vvscode">@vvscode</a>
-          </p>
-
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>Ускорение UI тестов</h3>
-
-          <p>Как устранение привязки интеграционных тестов к бэкенду позволило ускорить UI тесты в несколько раз, а
-            заодно упростило жизнь разработчикам и тестировщикам.</p>
-        </div>
-
-        <div class="second-stream"><img class="speaker-photo"
-                                        src="images/speakers/yauheniya_zhur.jpeg"
-                                        alt="photo Yauheniya Zhur">
-          <p class="speaker-name">Yauheniya Zhur</p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>Дизайнерская неожиданность</h3>
-          <p>Наверняка каждый из нас хоть раз сталкивался с избыточными, захламленными, слишком яркими интерфейсами,
-            которые с первого взгляда кажутся абсолютно нежизнеспособными. И чаще всего это действительно так, но в этом
-            докладе я расскажу о тех случаях, в которых такие решения становятся наилучшими для конкретной задачи.</p>
-        </div>
-
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>15:40</h2></li>
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Short break</h3></div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>15:50</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/dmitry_volokh.jpg" alt="photo Dmitry Volokh"/>
-          <p class="speaker-name">Dmitry Volokh <a class="speaker-twitter" target="_blank"
-                                                   href="https://twitter.com/davolokh">@davolokh</a></p>
-
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>Разработка редактора документов</h3>
-          <p>Как мы в PandaDoc с нуля писали браузерный редактор документов на React'е. </p>
-          <p>Архитектурные решения, которые упростили разработку. Подводные камни и проблемы, с которыми столкнулись в
-            процессе. Генерация PDF на NodeJS с использованием Puppeteer и немного про Collaborative editing.</p>
-        </div>
-        <div class="second-stream"><img class="speaker-photo" src="images/speakers/ales_tsvil.jpg"
-                                        alt="photo Ales Tsvil"/>
-          <p class="speaker-name">Ales Tsvil</p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>Stream API, through Redux-Observable in Electron-based app</h3>
-          <p>You might already know how to develop a desktop app, but don't try yet!
-            I will show you how to do that, and even better - how to develop with using of modern and popular approach -
-            Reactive Functional Programming. On example of
-            Electron-based application where NodeJS streams meet RxJs inside of Redux-Observable.</p>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>16:30</h2></li>
-
-      <li class="two-streams-schedule-item">
-        <div class="first-stream">
-          <img class="speaker-photo" src="images/speakers/aliaksandr_pasynkau.jpg" alt="photo Aliaksandr Pasynkau"/>
-          <p class="speaker-name">Aliaksandr Pasynkau</p>
-
-          <p><span class="schedule-lang">ru</span></p>
-
-          <h3>How to improve test coverage up to 80% with generated unit testing approach and be calm.</h3>
-
-          <p>For many projects testing is really huge pain. And I know the cure for pain. ...Okey Okey... for 80% of
-            this pain.</p>
-          <p>Shortly: Linting, RegExp checkers, prettier, unit testing, test coverage, property testing, schema mocking,
-            sandbox, DI, code generators.</p>
-        </div>
-        <div class="second-stream">
-          <p class="speaker-name">TBD</p>
-          <p><span class="schedule-lang">ru</span></p>
-          <h3>TBD</h3>
-          <p>TBD</p>
-        </div>
-      </li>
-
-      <li class="two-streams-schedule-time"><h2>17:00</h2></li>
-      <li class="two-streams-schedule-item">
-        <div><h3><span class="icon-coffee">&nbsp;</span>Closing Ceremony</h3></div>
-      </li>
-
-    </ul>
-
+      <ul class="social-links">
+        <li><a target="_blank" href="http://frontendbelarus.herokuapp.com/"><i class="fa fa-slack"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/groups/TheRollingScopes/"><i
+              class="fa fa-facebook"></i></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/user/therollingscopes"><i class="fa fa-youtube-play"
+                                                                                       aria-hidden="true"></i></a>
+        </li>
+        <li><a target="_blank" href="https://vk.com/therollingscopes"><i class="fa fa-vk"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/rollingscopes"><i class="fa fa-twitter"></i></a></li>
+        <li><a target="_blank" href="https://www.instagram.com/explore/tags/rollingscopes/"><i
+              class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
   </section>
-  <section>
-    <h2>Do you have any questions?</h2>
-    <p>Join our Slack channel: <a href="https://frontendbelarus.slack.com/messages/rsconf/">#rsconf</a></p>
-    <p>If you don't have access to frontendbelarus.slack.com, please, register here: <a
-        href="http://frontendbelarus.herokuapp.com/">http://frontendbelarus.herokuapp.com/</a></p>
-  </section>
+
 </div>
 <% include common/footer %>
 <% include common/scripts %>

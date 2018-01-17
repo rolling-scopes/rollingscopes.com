@@ -8,7 +8,7 @@ module.exports = function (datasets) {
       .replace(file.base, '')
       .replace('.ejs', '');
 
-    data = datasets[pageName];
+    data = datasets[pageName] || {};
     data.filename = file.path;
     data.pageName = pageName;
 
