@@ -932,14 +932,14 @@ nav {
     margin: 0;
   }
 
-  .talk-date {
-    border-bottom: 1px solid $color-black;
-  }
+  //.talk-date {
+  //  border-bottom: 1px solid $color-black;
+  //}
 
   .talk-time,
   .talk-place,
   .talk-lang {
-    padding: 0 8px;
+    padding: 0 5px;
   }
 
   .first-stream {
@@ -1023,6 +1023,7 @@ nav {
     .talk-place {
       padding: 0 7px;
       margin: 0 5px;
+      background: $color-pink;
     }
 
     &.first-stream {
