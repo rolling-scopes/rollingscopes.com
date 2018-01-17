@@ -47,7 +47,7 @@ gulp.task('copy:school', ['copy'], function () {
 gulp.task('compile-sass', function () {
   return gulp.src(options.src + '/sass/*.scss')
     .pipe($.sass().on('error', $.sass.logError))
-    .pipe($.autoprefixer({browsers: ['last 2 versions']}))
+    .pipe($.autoprefixer({grid:false, browsers: ['last 2 versions']}))
     .pipe(gulp.dest(options.dest + "/styles"));
 });
 
@@ -57,6 +57,7 @@ gulp.task('css', function () {
   )
   .pipe($.autoprefixer({
     browsers: ['last 2 versions'],
+    grid:false,
     cascade: false
   }))
   .pipe(gulp.dest(options.staging));
@@ -66,6 +67,14 @@ gulp.task('views', function () {
   var pages = require('./' + options.src + '/pages');
 
   return gulp.src(Object.keys(pages).map(page => options.src + `/templates/${page}.ejs`))
+    .pipe(tasks.ejs(pages))
+    .pipe(gulp.dest(options.staging));
+});
+
+gulp.task('conf-views', function () {
+  var pages = require('./' + options.src + '/pages');
+
+  return gulp.src( 'public/conference/templates/*.ejs')
     .pipe(tasks.ejs(pages))
     .pipe(gulp.dest(options.staging));
 });
@@ -97,8 +106,9 @@ gulp.task('build:conf', function (cb) {
 
   runSequence(
     'clean',
-    'views',
-    ['copy', 'useref'],
+    'conf-views',
+    'build:conf-speakers',
+    ['copy', 'useref', 'compile-sass'],
     cb
   );
 });
@@ -106,6 +116,11 @@ gulp.task('build:conf', function (cb) {
 gulp.task('build:conf-archive', function (cb) {
   return gulp.src('public/conference/archive/**/*')
     .pipe(gulp.dest('public/conferenceBin/archive/'));
+});
+
+gulp.task('build:conf-speakers', function (cb) {
+  return gulp.src('public/conference/speaker/**/*')
+    .pipe(gulp.dest('public/conferenceBin/speaker/'));
 });
 
 gulp.task('build:school', function (cb) {
