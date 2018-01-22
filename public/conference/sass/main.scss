@@ -345,6 +345,13 @@ iframe {
   }
 }
 
+.margin-bottom-lg, h2.margin-bottom-lg {
+  margin-bottom: 100px;
+  @media (max-width: $screen-tablet) {
+    margin-bottom: 30px;
+  }
+}
+
 section {
   padding: 80px 20px;
   text-align: center;
@@ -1187,26 +1194,51 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: stretch;
   align-content: flex-start;
   li {
     display: list-item;
     width: 20%;
-    margin-bottom: 60px;
+    margin: 0 20px 60px;
 
     @media (max-width: $screen-desktop) {
       width: 30%;
     }
     @media (max-width: $screen-tablet) {
       width: 50%;
+      margin: 0 0 40px;
     }
   }
   a {
     border-bottom: 0;
+    display: inline-block;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      width: 48px;
+      height: 48px;
+      top: -25px;
+      right: -50px;
+    }
+
+    &.partner-diamond:before {
+      content: url("../images/partners/diamond.svg");
+    }
+    &.partner-gold:before {
+      content: url("../images/partners/gold.svg");
+    }
+    &.partner-silver:before {
+      content: url("../images/partners/silver.svg");
+    }
   }
   img {
     max-width: 140px;
+    width: 100%;
+    @media (max-width: $screen-tablet) {
+      max-width: 100px;
+    }
   }
 }
 
@@ -1219,6 +1251,12 @@ nav {
     &:first-child {
       padding-top: 0;
     }
+  }
+}
+
+.partner-list.starred-list li {
+  @media (max-width: $screen-tablet) {
+    width: 100%;
   }
 }
 
