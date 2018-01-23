@@ -423,6 +423,7 @@ nav + section.shorted {
   }
 }
 
+
 .social-links {
   text-align: center;
   padding: 80px 0 40px;
@@ -724,7 +725,7 @@ nav {
 .menu-item-tickets {
   grid-area: tickets;
 
-  .btn {
+  .btn, .placeholder-btn {
     width: 100%;
     margin: 20px 0;
     padding: 13px 0;
@@ -739,6 +740,14 @@ nav {
     &:hover {
       background: $color-white;
       color: $color-black !important;
+    }
+  }
+
+  .placeholder-btn {
+    cursor: default;
+    &:hover {
+      background: transparent;
+      color: $color-white !important;
     }
   }
 }
