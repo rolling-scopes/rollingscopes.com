@@ -1241,6 +1241,9 @@ nav {
     &.partner-silver:before {
       content: url("../images/partners/silver.svg");
     }
+    &.partner-silver.shift-left:before {
+      right: -20px;
+    }
   }
   img {
     max-width: 140px;
