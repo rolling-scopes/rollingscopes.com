@@ -17,6 +17,14 @@
   "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-44-gdansk-tickets-41204963154",
   "schedule": [
     {
+      "title": "Registration",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p>Pizza & Beverages & Networking</p> ",
+      "time": "17:40"
+    },
+    {
       "title": "(R)Evolution of set-top boxes",
       "speakerCity": "Amsterdam, The Netherlands",
       "speakerIDs": [
@@ -33,7 +41,7 @@
       ],
       "description": "<p>Tricky JS and WebGL practices to achieve the best performance on mobile. We'll speak about set of interesting practices our team applied on our project to achieve lower network payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of using Pixi.js</p> <p class='italic'>Andrei Vouchanka, the Software developer at EPAM Systems. Passioned about front-end development, bleeding edge web-technologies, js performance, public speaking and knowledge sharing. Constantly experimenting with new stuff, messing around with pet projects for fun</p>",
       "time": "18:45",
-      "break": {
+      "shortbreak": {
         "time": "19:30"
       }
     },
@@ -62,10 +70,7 @@
       ],
       "imagePath": "images/speakers/cowboy.jpg",
       "description": "<p>Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit!</p><p><i>Please bring your laptop!</i></p>",
-      "time": "20:40",
-      "pizza": {
-        "time": "21:00"
-      }
+      "time": "20:40"
     }
   ]
 },

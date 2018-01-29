@@ -17,6 +17,12 @@
     <h3><i class="fa fa-coffee" aria-hidden="true"></i> Coffee break</h3>
   </li>
 <% } %>
+<% if (talk.shortbreak) { %>
+<li class="event-schedule-item">
+  <h2 class="speech-time"><%= talk.shortbreak.time %></h2>
+  <h3><i class="fa fa-coffee" aria-hidden="true"></i> Short break</h3>
+</li>
+<% } %>
 <% if (talk.party) { %>
 <li class="event-schedule-item">
   <h2 class="speech-time"><%= talk.party.time %></h2>
