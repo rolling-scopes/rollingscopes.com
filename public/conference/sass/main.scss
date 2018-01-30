@@ -1204,7 +1204,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   align-content: flex-start;
   li {
     display: list-item;
@@ -1241,7 +1241,11 @@ nav {
     &.partner-silver:before {
       content: url("../images/partners/silver.svg");
     }
-    &.partner-silver.shift-left:before {
+    &.partner-bronze:before {
+      //content: url("../images/partners/bronze.svg");
+    }
+    &.partner-silver.shift-left:before,
+    &.partner-bronze.shift-left:before {
       right: -20px;
     }
   }
@@ -1263,12 +1267,6 @@ nav {
     &:first-child {
       padding-top: 0;
     }
-  }
-}
-
-.partner-list.starred-list li {
-  @media (max-width: $screen-tablet) {
-    width: 100%;
   }
 }
 
