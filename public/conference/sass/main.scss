@@ -1256,7 +1256,14 @@ nav {
       max-width: 100px;
     }
   }
+
+  &.starred-list li {
+    width: 25%;
+    padding-right: 50px;
+  }
 }
+
+
 
 .previous-conf-list {
   list-style-type: none;
