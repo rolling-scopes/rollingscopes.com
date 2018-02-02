@@ -1,11 +1,28 @@
 [  {
-  "id": "rs#39",
-  "name": "The Rolling Scopes #45. Mogilev",
+  "id": "rs#46",
+  "name": "The Rolling Scopes #46. Mogilev",
   "date": "April 21, 2018",
   "location": "г. Могилев",
   "locationLink": " ",
   "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-mogilev-tickets-41817579506",
   "schedule": [
+  ]
+},{
+  "id": "rs#45",
+  "name": "The Rolling Scopes #45",
+  "date": "March 14, 2018",
+  "location": "Olivia Business Centre - Olivia Four, Gdansk",
+  "locationLink": "https://gdansk.rollingscopes.com#venue",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-gdansk-tickets-42709114110",
+  "schedule": [
+    {
+      "title": "Registration",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p>Pizza & Beverages & Networking</p> ",
+      "time": "17:40"
+    }
   ]
 },
   {
