@@ -444,6 +444,10 @@ blockquote {
   }
 }
 
+.for-print {
+  display: none;
+}
+
 /*------------------------------------*\
     ANIMATED NAVIGATION
 \*------------------------------------*/
@@ -1260,14 +1264,13 @@ nav {
   &.starred-list li {
     width: 25%;
     padding-right: 50px;
-    
+
     @media (max-width: $screen-tablet) {
       width: 50%;
       margin: 0 0 40px;
     }
   }
 }
-
 
 
 .previous-conf-list {
@@ -1292,7 +1295,7 @@ nav {
 }
 
 .page-wrap:after {
-  content: ".";
+  content: " ";
   display: block;
   height: $height-footer;
 }
@@ -1313,5 +1316,90 @@ footer {
 
 
 
+/*------------------------------------*\
+    MEDIA PRINT
+\*------------------------------------*/
+
+@media print {
+
+  .for-print {
+    display: block;
+  }
+  span.for-print  {
+    display: inline;
+  }
+
+  nav,
+  footer,
+  .section-follow-us {
+    display: none;
+  }
+
+  body, .page-wrap {
+    padding: 0;
+    background: #fff;
+    font-size: 12pt;
+    color: #000;
+  }
+
+  section {
+    padding: 5px 0;
+  }
+
+  a:link,
+  a:visited {
+    color: #000;
+    border: none;
+  }
+
+  .schedule {
+    display: flex;
+    padding-top: 0;
+  }
+
+  .schedule > li {
+    display: block;
+    width: 100%;
+    padding: 5px 0 5px 50px;
+
+
+    &.first-stream,
+    &.second-stream {
+        width: 50%;
+        padding-right: 5px;
+    }
+
+    &.second-stream {
+        padding-right: 0;
+        padding-left: 5px;
+        .schedule-time {
+          display: none;
+        }
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 8pt;
+      line-height: 10pt;
+    }
+    p {
+      font-size: 8pt;
+      line-height: 10pt;
+      margin: .2rem 0;
+    }
+  }
+
+  h2.text-lg {
+    page-break-before: always;
+    font-size: 14pt;
+    line-height: 14pt;
+    margin: 0 0 5px;
+
+    & + p {
+      display: none;
+    }
+  }
+
+}
 
 
