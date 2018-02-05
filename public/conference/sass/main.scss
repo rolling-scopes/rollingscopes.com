@@ -1260,6 +1260,11 @@ nav {
   &.starred-list li {
     width: 25%;
     padding-right: 50px;
+    
+    @media (max-width: $screen-tablet) {
+      width: 50%;
+      margin: 0 0 40px;
+    }
   }
 }
 
