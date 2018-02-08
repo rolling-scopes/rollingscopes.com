@@ -1317,7 +1317,7 @@ footer {
 
 
 /*------------------------------------*\
-    MEDIA PRINT
+    MEDIA PRINT a4
 \*------------------------------------*/
 
 @media print {
@@ -1403,3 +1403,106 @@ footer {
 }
 
 
+
+/*------------------------------------*\
+    MEDIA PRINT a2
+\*------------------------------------*/
+
+//@media print {
+//
+//  .for-print {
+//    display: block;
+//  }
+//  span.for-print  {
+//    display: inline;
+//  }
+//
+//  nav,
+//  footer,
+//  .section-follow-us {
+//    display: none;
+//  }
+//
+//  html {
+//    background: #CDE525 !important;
+//
+//  }
+//
+//  section .content-md {
+//    max-width: 100%;
+//  }
+//
+//  body, .page-wrap {
+//    padding: 0;
+//    background: #CDE525 !important;
+//    //font-size: 24pt;
+//    color: #000;
+//    width: 100%;
+//  }
+//
+//  .page-wrap {
+//    padding: 100px 100px;
+//    margin: 0 auto;
+//  }
+//
+//  section {
+//    padding: 5px 0;
+//  }
+//
+//  a:link,
+//  a:visited {
+//    color: #000;
+//    border: none;
+//  }
+//
+//  .schedule {
+//    width: 100%;
+//    display: flex;
+//    padding-top: 0;
+//  }
+//
+//  .schedule > li {
+//    display: block;
+//    width: 100%;
+//    padding: 11px 0 11px 150px;
+//
+//
+//    &.first-stream,
+//    &.second-stream {
+//      width: 55%;
+//      padding-right: 20px;
+//    }
+//
+//    &.second-stream {
+//      width: 45%;
+//      padding-right: 0;
+//      padding-left: 20px;
+//      .schedule-time {
+//        display: none;
+//      }
+//    }
+//
+//    h3 {
+//      margin: 0;
+//      font-size: 17pt;
+//      line-height: 21pt;
+//    }
+//    p {
+//      font-size: 17pt;
+//      line-height: 21pt;
+//      margin: .5rem 0;
+//    }
+//  }
+//
+//  h2.text-lg {
+//    page-break-before: always;
+//    font-size: 28pt;
+//    line-height: 48pt;
+//    margin: 120px 0 30px;
+//
+//    & + p {
+//      display: none;
+//    }
+//  }
+//
+//}
