@@ -218,9 +218,9 @@ body {
     }
   }
 
-  &.page-about, .page-code-of-conduct {
+  &.page-about, &.page-code-of-conduct {
     background: $color-blue;
-    & + footer {
+    & + footer, footer {
       color: $color-blue;
     }
     .btn {

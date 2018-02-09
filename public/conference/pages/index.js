@@ -18,5 +18,10 @@ module.exports = {
     page: {
       title: 'RS Conf 2018 | Schedule'
     }
+  },
+  guide: {
+    page: {
+      title: 'RS Conf 2018 | Conference Guide'
+    }
   }
 }
