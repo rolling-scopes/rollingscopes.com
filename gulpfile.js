@@ -130,7 +130,7 @@ gulp.task('build:school', function (cb) {
   runSequence(
     'clean',
     'views',
-    ['copy:school', 'useref'],
+    ['copy:school', 'useref', 'compile-sass'],
     cb
   );
 });

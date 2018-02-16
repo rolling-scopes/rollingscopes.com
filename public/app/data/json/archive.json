@@ -2,10 +2,58 @@
   "id": "rs#46",
   "name": "The Rolling Scopes #46. Mogilev",
   "date": "April 21, 2018",
-  "location": "г. Могилев",
-  "locationLink": " ",
+  "location": "Тайм-кафе НЕБО, г. Могилев",
+  "locationLink": "https://goo.gl/maps/6DQME4Xrbjp",
   "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-mogilev-tickets-41817579506",
   "schedule": [
+    {
+      "title": "Monads - coding functionally",
+      "time": "15:00",
+      "speakerIDs": [
+        114
+      ],
+      "description": "TBD"
+    },
+    {
+      "title": "Node.JS World",
+      "time": "15:40",
+      "speakerIDs": [
+        115
+      ],
+      "description": "TBD"
+    },
+    {
+      "title": "Growing as a developer",
+      "time": "16:20",
+      "speakerIDs": [
+        57
+      ],
+      "description": "Каждый разработчик всегда думает на два шага вперед, поэтому рассмотрим основные методы развития специалиста",
+      "break": {
+        "time": "16:55"
+      }
+    },
+    {
+      "title": "Handling GraphQL with React and Apollo",
+      "time": "17:10",
+      "speakerIDs": [
+        116
+      ],
+      "description": "Tech talk covers the following points: what is GraphQL, why are people so excited about GraphQl and how to use GraphQL with React"
+    },
+    {
+      "title": "CSS Grid layout - practice tricks",
+      "time": "17:50",
+      "speakerIDs": [
+        117
+      ],
+      "description": "Все еще не работал с сеткой CSS? Думаете, что это сложно? Я покажу вам, почему сетка CSS является лучшим инструментом создания макета и построения сложных систем сеток. Мы сравним её с другими методами построения лэйаута, такими как float, inline-block и flexbox",
+      "party": {
+        "time": "19:00",
+        "title": "After Party",
+        "description": "TBD"
+      }
+    }
   ]
 },{
   "id": "rs#45",
