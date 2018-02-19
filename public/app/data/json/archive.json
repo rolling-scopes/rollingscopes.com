@@ -12,7 +12,7 @@
       "speakerIDs": [
         114
       ],
-      "description": "TBD"
+      "description": "Beyond the general approaches to coding as well as OOP designs, there is a pretty new functional wave to have your programs written in a neat and elegant way, especially when it comes to JavaScript. An extremely flexible architecture of the language allows us to take the full advantage of the functional programming and opens the gates to the constructions that this approach brings with it. We will consider some implementations of functional constructions, monads, functors, etc. and how they can be utilized in todays applications."
     },
     {
       "title": "Node.JS World",
@@ -20,7 +20,7 @@
       "speakerIDs": [
         115
       ],
-      "description": "TBD"
+      "description": "NodeJs - это целая вселенная со своими пакетными менеджерами и редакторами кода, написанными на ней же. Я хочу погрузить вас в этот мир и показать, как этим можно пользоваться."
     },
     {
       "title": "Growing as a developer",
