@@ -93,12 +93,12 @@
       }
     },
     {
-      "title": "TBD",
+      "title": "Our way to 12-factor apps",
       "speakerCity": "Gdansk, Poland",
       "speakerIDs": [
-        95
+        89
       ],
-      "description": "<p></p>",
+      "description": "<p>The twelve-factor app is a methodology for building software-as-a-service apps that:</p><ul><li>Use declarative formats for setup automation, to minimize time and cost for new developers joining the project</li><li>Have a clean contract with the underlying operating system, offering maximum portability between execution environments</li><li>Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration</li><li>Minimize divergence between development and production, enabling continuous deployment for maximum agility</li><li>And can scale up without significant changes to tooling, architecture, or development practices</li></ul><p>The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc) <a target='_blank' href='https://12factor.net/'>https://12factor.net/</a></p>",
       "time": "19:40"
     }
   ]
