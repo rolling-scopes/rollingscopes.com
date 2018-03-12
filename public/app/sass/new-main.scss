@@ -520,12 +520,12 @@ h1 a[name] {
   li {
     max-width: 220px;
     margin: auto;
-    padding: 1em .5em;
+    padding: .5em;
     box-sizing: border-box;
     text-align: center;
     img {
-      width: 200px;
-      max-height: 200px;
+      width: 140px;
+      max-height: 150px;
     }
   }
 }
@@ -850,7 +850,7 @@ h1 a[name] {
   }
 
   .partner-list li img {
-    width: 140px;
+    width: 100px;
   }
 
   .team-list li {
