@@ -172,6 +172,11 @@ header {
 }
 
 .main-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
   padding: 0;
   margin: 0 auto;
   li {
@@ -184,6 +189,7 @@ header {
 
     a {
       display: block;
+      overflow: hidden;
       position: absolute;
       color: #fff;
       text-transform: uppercase;
@@ -226,11 +232,19 @@ header {
 
   }
 
+
+  &.nav-locations {
+    li:nth-child(5) {
+      flex-grow: 1;
+    }
+  }
+
   //li:nth-child(-n+10) {
   //  width: 20%;
   //  padding-bottom: 20%;
   //}
 }
+
 
 .nav {
   margin: 8px 0 0 0;
@@ -697,22 +711,6 @@ h1 a[name] {
     max-width: 768px;
   }
 
-  .main-nav li {
-    width: 33% !important;
-    padding-bottom: 33% !important;
-    a {
-      top: 10px;
-      right: 10px;
-      bottom: 10px;
-      left: 10px;
-    }
-
-    .title {
-      font-size: 44px;
-      line-height: 44px;
-    }
-  }
-
   h1 {
     font-size: 2em;
   }
@@ -772,11 +770,36 @@ h1 a[name] {
     clear: both;
   }
 
+
+  //
+  //.main-nav li {
+  //  width: 33% !important;
+  //  padding-bottom: 33% !important;
+  //  a {
+  //    top: 10px;
+  //    right: 10px;
+  //    bottom: 10px;
+  //    left: 10px;
+  //  }
+  //
+  //  .title {
+  //    font-size: 44px;
+  //    line-height: 44px;
+  //  }
+  //}
+
   .main-nav li {
 
+    a {
+      top: 5px;
+      left: 5px;
+      bottom: 5px;
+      right: 5px;
+    }
+
     .title {
-      font-size: 40px;
-      line-height: 40px;
+      font-size: 32px;
+      line-height: 36px;
     }
   }
 
@@ -791,9 +814,14 @@ h1 a[name] {
 \*------------------------------------*/
 
 @media only screen and (max-width: 600px) {
+
   .main-nav li {
     width: 50% !important;
-    padding-bottom: 50% !important;
+    padding-bottom: 30% !important;
+
+    &:last-child {
+      flex-grow: 2;
+    }
   }
 
   section {
@@ -955,7 +983,7 @@ h1 a[name] {
   }
 
   .enrollment-text {
-    font-size: 44px;
+    font-size: 36px;
   }
 
   .enrollment-btn {
