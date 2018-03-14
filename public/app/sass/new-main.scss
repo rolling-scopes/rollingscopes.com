@@ -415,7 +415,6 @@ h1 a[name] {
 }
 
 
-
 .event-schedule {
   padding: 0;
   margin: 0;
@@ -700,6 +699,12 @@ h1 a[name] {
     opacity: 1;
     transition: all 0.23s ease-in-out 0s;
   }
+}
+
+
+.map-img {
+  width: 100%;
+  max-width: 600px;
 }
 
 /*------------------------------------*\
@@ -1023,4 +1028,54 @@ h1 a[name] {
   section {
     max-width: 300px;
   }
+}
+
+/*------------------------------------*\
+   MEDIA PRINT
+\*------------------------------------*/
+@media print {
+
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+
+  .header-wrapper,
+  .info-accented,
+  .button-wrapper,
+  .speaker-wanted,
+  .footer-wrapper {
+    display: none;
+  }
+
+  .header-wrapper + section,
+  .header-wrapper + header,
+  .header-wrapper + footer {
+    padding-top: 0;
+  }
+
+  .event-schedule-item {
+    padding: 10px 0 10px 60px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .event-schedule-item .speaker-photo {
+    width: 70px;
+    border-radius: 0;
+    margin-left: 10px;
+  }
+
+  .event-schedule-item > * {
+    margin: 0 0 0 100px;
+  }
+
+  .event-schedule-item > .speech-time {
+    margin: 10px 0;
+  }
+
+
+
 }
