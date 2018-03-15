@@ -1,4 +1,22 @@
-[  {
+[    {
+  "id": "rs#47",
+  "name": "The Rolling Scopes #47",
+  "date": "May 8, 2018",
+  "location": "Olivia Business Centre - Olivia Four, Gdansk",
+  "locationLink": "https://gdansk.rollingscopes.com#venue",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-47-gdansk-tickets-44094249086",
+  "schedule": [
+    {
+      "title": "Registration",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p>Pizza & Beverages & Networking</p> ",
+      "time": "17:40"
+    }
+  ]
+},
+  {
   "id": "rs#46",
   "name": "The Rolling Scopes #46. Mogilev",
   "date": "April 21, 2018",
@@ -55,7 +73,8 @@
       }
     }
   ]
-},{
+},
+  {
   "id": "rs#45",
   "name": "The Rolling Scopes #45",
   "date": "March 14, 2018",
