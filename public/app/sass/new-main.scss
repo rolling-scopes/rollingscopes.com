@@ -594,7 +594,6 @@ h1 a[name] {
     margin: 0;
 
     a {
-      text-decoration: underline;
       font-weight: normal;
     }
   }
@@ -1065,17 +1064,10 @@ h1 a[name] {
   .event-schedule-item .speaker-photo {
     width: 70px;
     border-radius: 0;
-    margin-left: 10px;
   }
 
   .event-schedule-item > * {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 90px;
   }
-
-  .event-schedule-item > .speech-time {
-    margin: 10px 0;
-  }
-
-
 
 }
