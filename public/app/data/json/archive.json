@@ -13,6 +13,15 @@
       ],
       "description": "<p>Pizza & Beverages & Networking</p> ",
       "time": "17:40"
+    },
+    {
+      "title": "“Backend For Frontend“ with NestJS: usage patterns",
+      "time": "18:00",
+      "speakerCity": "Gdańsk, Poland",
+      "speakerIDs": [
+        118
+      ],
+      "description": "<p>In recent years, thanks to Node.js, JavaScript has become the “lingua franca“ of the web for both front and backend applications, giving rise to awesome projects like Angular, React and Vue which improve developer productivity and enable the construction of fast, testable, extensible frontend applications. However, on the server-side, while there are a lot of superb libraries, helpers and tools for Node, none of them effectively solve the main problem - the architecture.</p><p>Nest aims to provide an application architecture out of the box which allows for effortless creation of highly testable, scalable, loosely coupled and easily maintainable applications.</p> <p>About speaker: <span class='italic'>“Hi my name is Slava, I'm a software architect and developer from Belarus living in Poland. I started working with EPAM back in 2000. My professional focus is Java/JavaScript technologies. I love coding and setting up new projects. In spare time I enjoy reading, travelling and spending time with my family.” </span></p>"
     }
   ]
 },
