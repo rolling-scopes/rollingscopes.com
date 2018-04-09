@@ -39,7 +39,7 @@
           122
         ],
         "description": "This talks will introduce you to the purpose of GraphQL and ecosystem around it, the basics of its syntax (requests and responses shapes, fragments, attributes and variables) and main open source tools you can use to create your first GraphQL server and to send requests from a client. Get ready for the journey! :)",
-        "time": "19:00"
+        "time": "19:30"
       }
     ]
   },
