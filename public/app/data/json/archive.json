@@ -1,10 +1,10 @@
 [    {
-  "id": "rs#47",
-  "name": "The Rolling Scopes #47",
+  "id": "rs#48",
+  "name": "The Rolling Scopes #48",
   "date": "May 8, 2018",
   "location": "Olivia Business Centre - Olivia Four, Gdansk",
   "locationLink": "https://gdansk.rollingscopes.com#venue",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-47-gdansk-tickets-44094249086",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-48-gdansk-tickets-44094249086",
   "schedule": [
     {
       "title": "Registration",
@@ -25,6 +25,24 @@
     }
   ]
 },
+  {
+    "id": "rs#47",
+    "name": "The Rolling Scopes #47",
+    "date": "24 апреля 2018",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-47-minsk-tickets-44975657402",
+    "schedule": [
+      {
+        "title": "GraphQL essentials: what you should know",
+        "speakerIDs": [
+          122
+        ],
+        "description": "This talks will introduce you to the purpose of GraphQL and ecosystem around it, the basics of its syntax (requests and responses shapes, fragments, attributes and variables) and main open source tools you can use to create your first GraphQL server and to send requests from a client. Get ready for the journey! :)",
+        "time": "19:00"
+      }
+    ]
+  },
   {
   "id": "rs#46",
   "name": "The Rolling Scopes #46. Mogilev",
