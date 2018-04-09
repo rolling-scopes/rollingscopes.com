@@ -34,8 +34,17 @@
   "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-mogilev-tickets-41817579506",
   "schedule": [
     {
-      "title": "Monads - coding functionally",
+      "title": "Introduction of The Rolling Scopes",
       "time": "15:00",
+      "imagePath": "images/logo_rs2.svg",
+      "speakerIDs": [
+        120, 57
+      ],
+      "description": ""
+    },
+    {
+      "title": "Monads - coding functionally",
+      "time": "15:15",
       "speakerIDs": [
         114
       ],
@@ -43,7 +52,7 @@
     },
     {
       "title": "Нормально делай — нормально будет",
-      "time": "15:40",
+      "time": "15:55",
       "speakerIDs": [
         119
       ],
@@ -51,26 +60,18 @@
     },
     {
       "title": "Growing as a developer",
-      "time": "16:20",
+      "time": "16:40",
       "speakerIDs": [
         57
       ],
       "description": "Каждый разработчик всегда думает на два шага вперед, поэтому рассмотрим основные методы развития специалиста",
       "break": {
-        "time": "16:55"
+        "time": "17:20"
       }
     },
     {
-      "title": "Handling GraphQL with React and Apollo",
-      "time": "17:10",
-      "speakerIDs": [
-        116
-      ],
-      "description": "Tech talk covers the following points: what is GraphQL, why are people so excited about GraphQl and how to use GraphQL with React"
-    },
-    {
       "title": "Node.JS World",
-      "time": "17:50",
+      "time": "17:40",
       "speakerIDs": [
         115
       ],
@@ -78,16 +79,20 @@
     },
     {
       "title": "CSS Grid layout - practice tricks",
-      "time": "18:30",
+      "time": "18:20",
       "speakerIDs": [
         117
       ],
-      "description": "Все еще не работал с сеткой CSS? Думаете, что это сложно? Я покажу вам, почему сетка CSS является лучшим инструментом создания макета и построения сложных систем сеток. Мы сравним её с другими методами построения лэйаута, такими как float, inline-block и flexbox",
-      "party": {
-        "time": "19:00",
-        "title": "After Party",
-        "description": "TBD"
-      }
+      "description": "Все еще не работал с сеткой CSS? Думаете, что это сложно? Я покажу вам, почему сетка CSS является лучшим инструментом создания макета и построения сложных систем сеток. Мы сравним её с другими методами построения лэйаута, такими как float, inline-block и flexbox."
+    },
+    {
+      "title": "JS Marathon",
+      "time": "19:00",
+      "imagePath": "images/logo_rs2.svg",
+      "speakerIDs": [
+        121, 120
+      ],
+      "description": "Докажите, что вы лучше всех знаете Javascript в развлекательном приложении JS Marathon. За 7 минут вам надо решить как можно больше задач или как можно сложнее задачи, чтобы набрать наибольшее количество баллов и обогнать конкурентов. Будьте лучшим из лучшим! За первые 3 места на марафоне будут призы. <p><b>ВНИМАНИЕ:</b> Для участия необходим ноутбук.</p>"
     }
   ]
 },

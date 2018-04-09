@@ -592,7 +592,17 @@
   {
     "id": 119,
     "name": "Pavel Birukou",
-    "photo": "unknown_speaker.jpg"
+    "photo": "pavel_birukou.jpg"
+  },
+  {
+    "id": 120,
+    "name": "Dzianis Pasiukou",
+    "photo": "dzianis_pasiukou.jpg"
+  },
+  {
+    "id": 121,
+    "name": "Aleh Katsiuba",
+    "photo": "aleh_katsiuba.jpg"
   }
 ]
 
