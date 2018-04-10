@@ -52,6 +52,15 @@
   "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-mogilev-tickets-41817579506",
   "schedule": [
     {
+      "title": "Registration",
+      "time": "14:45",
+      "imagePath": "images/logo_rs2.svg",
+      "speakerIDs": [
+        95
+      ],
+      "description": "Coffee & Networking"
+    },
+    {
       "title": "Introduction of The Rolling Scopes",
       "time": "15:00",
       "imagePath": "images/logo_rs2.svg",
