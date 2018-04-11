@@ -40,6 +40,25 @@
         ],
         "description": "This talks will introduce you to the purpose of GraphQL and ecosystem around it, the basics of its syntax (requests and responses shapes, fragments, attributes and variables) and main open source tools you can use to create your first GraphQL server and to send requests from a client. Get ready for the journey! :)",
         "time": "19:30"
+      },
+      {
+        "title": "oAuth2 под микроскопом",
+        "speakerIDs": [
+          123
+        ],
+        "description": "Я расскажу о системах авторизации и как они выглядят с серверной и клиентской стороны, подробно остановлюсь на спецификациях oAuth. Вместе мы попробуем развенчать миф о том, что протокол сложный для освоения.",
+        "time": "20:10",
+        "break": {
+          "time": "20:50"
+        }
+      },
+      {
+        "title": "TBD",
+        "speakerIDs": [
+          18
+        ],
+        "description": "TBD",
+        "time": "21:00"
       }
     ]
   },
