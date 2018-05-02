@@ -613,6 +613,11 @@
     "id": 123,
     "name": "Sergey Korotkin",
     "photo": "sergey_korotkin.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Denis Reshetniak",
+    "photo": "denis_reshetniak.jpg"
   }
 ]
 

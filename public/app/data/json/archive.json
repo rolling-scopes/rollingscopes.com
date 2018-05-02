@@ -1,10 +1,10 @@
-[    {
-  "id": "rs#48",
-  "name": "The Rolling Scopes #48",
-  "date": "May 8, 2018",
+[   {
+  "id": "rs#49",
+  "name": "The Rolling Scopes #49",
+  "date": "May 25, 2018",
   "location": "Olivia Business Centre - Olivia Four, Gdansk",
   "locationLink": "https://gdansk.rollingscopes.com#venue",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-48-gdansk-tickets-44094249086",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-49-gdansk-tickets-44094249086",
   "schedule": [
     {
       "title": "Registration",
@@ -22,6 +22,40 @@
         118
       ],
       "description": "<p>In recent years, thanks to Node.js, JavaScript has become the “lingua franca“ of the web for both front and backend applications, giving rise to awesome projects like Angular, React and Vue which improve developer productivity and enable the construction of fast, testable, extensible frontend applications. However, on the server-side, while there are a lot of superb libraries, helpers and tools for Node, none of them effectively solve the main problem - the architecture.</p><p>Nest aims to provide an application architecture out of the box which allows for effortless creation of highly testable, scalable, loosely coupled and easily maintainable applications.</p> <p>About speaker: <span class='italic'>“Hi my name is Slava, I'm a software architect and developer from Belarus living in Poland. I started working with EPAM back in 2000. My professional focus is Java/JavaScript technologies. I love coding and setting up new projects. In spare time I enjoy reading, travelling and spending time with my family.” </span></p>"
+    }
+  ]
+},
+  {
+  "id": "rs#48",
+  "name": "The Rolling Scopes #48. Krakow",
+  "date": "May 17, 2018",
+  "location": "BARKA, Podgórska 16, Krakow",
+  "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-48-krakow-tickets-45723140143",
+  "schedule": [
+    {
+      "title": "VUI with Alexa & Node.js",
+      "time": "19:00",
+      "speakerIDs": [
+        86
+      ],
+      "description": "Explore the world of Voice User Interfaces using Javascript and learn how to create your own.",
+      "break": {
+        "time": "19:40"
+      }
+    },
+    {
+      "title": "Generics and Mapped Types in TypeScript",
+      "speakerIDs": [
+        124
+      ],
+      "description": "Learn cases for generics and mapped types, understand better how to read those and TypeScript keywords in general.",
+      "time": "20:00",
+      "party": {
+        "time": "20:40",
+        "title": "Beer.js",
+        "description": ""
+      }
     }
   ]
 },

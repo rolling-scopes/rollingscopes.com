@@ -1,75 +1,74 @@
 <!doctype html>
 <html class="no-js">
 <head>
-    <meta charset="utf-8">
-    <title><%= page.title %></title>
-    <meta name="viewport" content="width=device-width">
-    <% include common/styles %>
+  <meta charset="utf-8">
+  <title><%= page.title %></title>
+  <meta name="viewport" content="width=device-width">
+  <% include common/styles %>
 </head>
 <body>
 <% include common/browsehappy %>
 <div class="page-wrap">
-    <% include common/header %>
+  <% include common/header %>
 
-    <section>
-        <% include index/meetup-banner %>
-        <% include common/materials %>
+  <section>
+    <% include index/meetup-banner %>
+    <% include common/materials %>
 
-      <p><br/>Hoorah! The Rolling Scopes are coming to Kraków, Poland once again! The participation is free of charge. The Event is sponsored by <a href="https://www.epam.com/careers/poland" target="_blank">EPAM Poland</a>.</p>
+    <p><br/>Hoorah! The Rolling Scopes are coming to Kraków, Poland once again! The participation is free of charge. The
+      Event is sponsored by <a href="https://www.epam.com/careers/poland" target="_blank">EPAM Poland</a>.</p>
 
-        <p><a href="https://rollingscopes.com/">The Rolling Scopes</a> - Front-end/JavaScript developer community.
-            <br/>
-            Want to give a talk or conduct a workshop?<br/>
-            Eager to give a shout-out for your open source project or share your success story?<br/>
-            Ready to preach the must-know fundamentals of Web, JavaScript, CSS, etc.?<br/>
-            We welcome all kinds of talk proposals, so do not hesitate to drop a short synopsis to
-            <a href="mailto:rolling.scopes@gmail.com">rolling.scopes@gmail.com</a>
-            <br/>
-            <br/>
-            This meetup is organized by developers and for developers. We do not generate any profit, just fun and
-            awesomeness!
-            Let’s Roll!
-        </p>
+    <p><a href="https://rollingscopes.com/">The Rolling Scopes</a> - Front-end/JavaScript developer community.
+      <br/>
+      Want to give a talk or conduct a workshop?<br/>
+      Eager to give a shout-out for your open source project or share your success story?<br/>
+      Ready to preach the must-know fundamentals of Web, JavaScript, CSS, etc.?<br/>
+      We welcome all kinds of talk proposals, so do not hesitate to drop a short synopsis to
+      <a href="mailto:rolling.scopes@gmail.com">rolling.scopes@gmail.com</a>
+      <br/>
+      <br/>
+      This meetup is organized by developers and for developers. We do not generate any profit, just fun and
+      awesomeness!
+      Let’s Roll!
+    </p>
 
+    <% include common/register-button %>
 
-        <div class="button-wrapper">
-          <a class="register-button" href="https://www.eventbrite.com/e/the-rolling-scopes-35-krakow-tickets-33122987748">
-            <i class="fa fa-sign-in"></i> Register Now - It's Free!
-          </a>
-        </div>
-        <h1>Agenda</h1>
-        <% include common/scedule %>
+    <h1>Agenda</h1>
+    <% include common/scedule %>
+    <% include common/register-button %>
 
-        <h1>Venue</h1>
-        <h3>
-            <a target="_blank" href="https://goo.gl/maps/z4kXc5tHnZu">BARKA</a>, Podgórska 16, Krakow
-        </h3>
-        <a target="_blank" href="https://goo.gl/maps/z4kXc5tHnZu"><img style="width: 100%;"
-                                                                        src="images/rs-on-tour/krakow-map-barka.jpg" alt=""/></a>
-        <div class="button-wrapper">
-          <a class="register-button" href="https://www.eventbrite.com/e/the-rolling-scopes-35-krakow-tickets-33122987748">
-            <i class="fa fa-sign-in"></i> Register Now - It's Free!
-          </a>
-        </div>
-    </section>
-    <section>
-        <h2 class="text-center">Partners</h2>
-        <ul class="partner-list">
-            <li><a href="https://www.epam.com/careers/poland"><img src="images/partners/epam-systems.jpg" alt="epam logo"/></a></li>
-            <li><a href="https://www.jetbrains.com/"><img src="images/partners/jetbrains.png" alt="jetbrains logo"/></a>
-            </li>
-        </ul>
-    </section>
+    <h1>Venue</h1>
+    <h3>
+      <a target="_blank" href="https://goo.gl/maps/z4kXc5tHnZu">BARKA</a>, Podgórska 16, Krakow
+    </h3>
+    <a target="_blank" href="https://goo.gl/maps/z4kXc5tHnZu"><img style="width: 100%;"
+                                                                   src="images/rs-on-tour/krakow-map-barka.jpg" alt=""/></a>
+    <div class="button-wrapper">
+      <a class="register-button" href="https://www.eventbrite.com/e/the-rolling-scopes-35-krakow-tickets-33122987748">
+        <i class="fa fa-sign-in"></i> Register Now - It's Free!
+      </a>
+    </div>
+  </section>
+  <section>
+    <h2 class="text-center">Partners</h2>
+    <ul class="partner-list">
+      <li><a href="https://www.epam.com/careers/poland"><img src="images/partners/epam-systems.jpg"
+                                                             alt="epam logo"/></a></li>
+      <li><a href="https://www.jetbrains.com/"><img src="images/partners/jetbrains.png" alt="jetbrains logo"/></a>
+      </li>
+    </ul>
+  </section>
   <!--<section>-->
-    <!--<div class="info-accented">-->
+  <!--<div class="info-accented">-->
 
-      <!--<h2>Join Frontend Poland Community on Slack <i class="fa fa-slack"></i></h2>-->
+  <!--<h2>Join Frontend Poland Community on Slack <i class="fa fa-slack"></i></h2>-->
 
-      <!--<p><a href="https://frontend-pl.herokuapp.com/">https://frontend-pl.herokuapp.com/</a></p></div>-->
+  <!--<p><a href="https://frontend-pl.herokuapp.com/">https://frontend-pl.herokuapp.com/</a></p></div>-->
   <!--</section>-->
-    <% include index/venue %>
-    <% include common/call-for-speakers %>
-    <% include common/main-nav %>
+  <% include index/venue %>
+  <% include common/call-for-speakers %>
+  <% include common/main-nav %>
 </div>
 <% include common/footer %>
 <% include common/scripts %>
