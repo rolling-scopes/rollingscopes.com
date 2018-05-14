@@ -1,10 +1,44 @@
 [   {
   "id": "rs#49",
-  "name": "The Rolling Scopes #49. Gdansk",
+  "name": "The Rolling Scopes #49. Krakow",
+  "date": "June 7, 2018",
+  "location": "BARKA, Podgórska 16, Krakow",
+  "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
+  "registerLink": "https://www.eventbrite.com/e/rescheduled-the-rolling-scopes-49-krakow-tickets-45723140143",
+  "schedule": [
+    {
+      "title": "VUI with Alexa & Node.js",
+      "time": "19:00",
+      "speakerIDs": [
+        86
+      ],
+      "description": "Explore the world of Voice User Interfaces using Javascript and learn how to create your own.",
+      "break": {
+        "time": "19:40"
+      }
+    },
+    {
+      "title": "Generics and Mapped Types in TypeScript",
+      "speakerIDs": [
+        124
+      ],
+      "description": "Learn cases for generics and mapped types, understand better how to read those and TypeScript keywords in general.",
+      "time": "20:00",
+      "party": {
+        "time": "20:40",
+        "title": "Beer.js",
+        "description": ""
+      }
+    }
+  ]
+},
+  {
+  "id": "rs#48",
+  "name": "The Rolling Scopes #48. Gdansk",
   "date": "May 25, 2018",
   "location": "Gdansk, Olivia Six, EPAM Systems, 7th floor",
   "locationLink": "https://goo.gl/maps/WhKyQZMSFTy",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-49-gdansk-tickets-44094249086",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-48-gdansk-tickets-44094249086",
   "schedule": [
     {
       "title": "Registration",
@@ -33,40 +67,6 @@
         125
       ],
       "description": "<p>We joyfully invite you to share a celebration of <a target='_blank' href='https://github.com/js-day/js-day'>JavaScript Developer Day</a> in Gdansk.</p><p>Unfortunately, we will not have time to organize a carnival :) So we invite you to take part in our JS Quiz like additional fun besides yellow/orange dressing, drinking mocha and eating bananas.</p><p>The quiz will comprise of six/seven rounds on general knowledge of programming, javascript and front-end topics. You will be able to team up with another meetup participants before quiz beginning.</p>"
-    }
-  ]
-},
-  {
-  "id": "rs#48",
-  "name": "The Rolling Scopes #48. Krakow",
-  "date": "May 17, 2018",
-  "location": "BARKA, Podgórska 16, Krakow",
-  "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-48-krakow-tickets-45723140143",
-  "schedule": [
-    {
-      "title": "VUI with Alexa & Node.js",
-      "time": "19:00",
-      "speakerIDs": [
-        86
-      ],
-      "description": "Explore the world of Voice User Interfaces using Javascript and learn how to create your own.",
-      "break": {
-        "time": "19:40"
-      }
-    },
-    {
-      "title": "Generics and Mapped Types in TypeScript",
-      "speakerIDs": [
-        124
-      ],
-      "description": "Learn cases for generics and mapped types, understand better how to read those and TypeScript keywords in general.",
-      "time": "20:00",
-      "party": {
-        "time": "20:40",
-        "title": "Beer.js",
-        "description": ""
-      }
     }
   ]
 },
