@@ -376,8 +376,9 @@ footer {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: $link-color;
-  border-radius: 2px;
-  box-shadow: 0 0 2px $link-color;
+  border: 1px solid $link-color;
+  //border-radius: 2px;
+  //box-shadow: 0 0 2px $link-color;
   transition: background .3s, color .1s;
   background: #fff;
   i {
@@ -414,6 +415,43 @@ h1 a[name] {
   }
 }
 
+.anchor {
+  position: relative;
+
+  a {
+    position: absolute;
+    left: 0;
+    top: -70px;
+  }
+}
+
+.day-title {
+  text-align: center;
+  margin-top: 100px;
+
+  .date {
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 0 10px 0 0;
+    background: #000;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 36px;
+    font-weight: normal;
+  }
+
+}
+
+a.register-button.shorted {
+  text-transform: capitalize;
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
 
 .event-schedule {
   padding: 0;
@@ -426,6 +464,10 @@ h1 a[name] {
   overflow: hidden;
   padding: 50px 0 50px 88px;
   border-top: 1px solid #ccc;
+
+  &:first-child {
+    border: 0;
+  }
   .first-stream, .second-stream {
     display: table-cell;
     padding: 0 30px 0 0;
