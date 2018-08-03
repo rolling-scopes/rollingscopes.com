@@ -1,4 +1,47 @@
 [   {
+  "id": "rs#50",
+  "name": "The Rolling Scopes #50. Mogilev",
+  "date": "September 29, 2018",
+  "location": "Тайм-кафе НЕБО, г. Могилев",
+  "locationLink": "https://goo.gl/maps/6DQME4Xrbjp",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-50-mogilev-tickets-48731369839",
+  "schedule": [
+    {
+      "title": "Registration",
+      "time": "14:45",
+      "imagePath": "images/logo_rs2.svg",
+      "speakerIDs": [
+        95
+      ],
+      "description": "Coffee & Networking"
+    },
+    {
+      "title": "The cost of javascript",
+      "time": "15:00",
+      "speakerIDs": [
+        127
+      ],
+      "description": "Наверняка каждому из нас доводилось оптимизировать сайты под различные браузеры, но мало кто следит за скоростью исполнения JS и пользовательским интерфейсом, поэтому разберемся, почему это так важно и какие последствия это несет."
+    },
+    {
+      "title": "Conf Guide, или \"- Ну я пришел и чё?!\"",
+      "time": "15:25",
+      "speakerIDs": [
+        57
+      ],
+      "description": "Наглядный гайд для людей, которые посещают конференции и делают это неправильно (правильно по их мнению)."
+    },
+    {
+      "title": " Electron - desktop development",
+      "time": "15:40",
+      "speakerIDs": [
+        114
+      ],
+      "description": "Pros and Cons of desktop apps development with Electron. Is it worth diving deep with this technology or let's put it aside for some later time."
+    }
+  ]
+},
+  {
   "id": "rssummersummit2018",
   "name": "The Rolling Scopes Summer Summit",
   "date": "August 16-18",
