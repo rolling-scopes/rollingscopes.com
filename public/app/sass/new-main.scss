@@ -540,21 +540,23 @@ a.register-button.shorted {
 }
 
 .first-stream-mark h3:before, .second-stream-mark h3:before {
-  content: "1 поток";
+  content: "2 этаж";
   position: absolute;
-  top: -22px;
+  top: -32px;
   left: 0;
   box-sizing: border-box;
-  padding: 3px 5px;
+  padding: 2px 3px;
   text-align: center;
-  line-height: .8em;
-  background: #194ce5;
-  color: #fff;
-  font-size: 12px;
+  line-height: 1em;
+  background: #FDF151;
+  color: #000;
+  font-size: 14px;
+  display: block;
+  font-weight: normal;
 }
 
 .second-stream-mark h3:before {
-  content: "2 поток";
+  content: "1 этаж";
 }
 
 /*------------------------------------*\
@@ -792,7 +794,7 @@ a.register-button.shorted {
   }
 
   .first-stream-mark h3:before, .second-stream-mark h3:before {
-    top: -18px;
+    top: -30px;
   }
 
   .team-list li {
@@ -905,7 +907,7 @@ a.register-button.shorted {
   .first-stream-mark h3:before, .second-stream-mark h3:before {
     left: auto;
     right: 0;
-    top: -12px;
+    top: -18px;
   }
 
   .partner-list li img {
