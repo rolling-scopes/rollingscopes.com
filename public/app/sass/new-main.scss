@@ -96,6 +96,19 @@ a:hover {
   text-decoration: underline
 }
 
+.btn {
+  display: inline-block;
+  background: $link-color;
+  color: #fff;
+  padding: 2px 3px 1px 3px;
+  font-weight: normal;
+  font-size: .9rem;
+  line-height: 1;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .text-center {
   text-align: center;
 }
