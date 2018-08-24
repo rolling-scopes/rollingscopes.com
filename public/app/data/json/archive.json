@@ -48,7 +48,18 @@
         "speakerIDs": [
           114
         ],
+        "break": {
+          "time": "16:10"
+        },
         "description": "Pros and Cons of desktop apps development with Electron. Is it worth diving deep with this technology or let's put it aside for some later time."
+      },
+      {
+        "title": "kostil.js",
+        "time": "16:30",
+        "speakerIDs": [
+          128
+        ],
+        "description": "Каждый на проекте встречался с \"изящными решениями\", которые вызывают улыбку или недоумение. Мы решили собрать самые интересные решения с наших проектов в одной библиотеке, чтобы каждый мог поставить себе и наслаждаться."
       }
     ]
   },
