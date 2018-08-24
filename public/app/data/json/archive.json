@@ -12,9 +12,9 @@
   {
     "id": "rs#50",
     "name": "The Rolling Scopes #50. Mogilev",
-    "date": "September 29, 2018",
-    "location": "Тайм-кафе НЕБО, г. Могилев",
-    "locationLink": "https://goo.gl/maps/6DQME4Xrbjp",
+    "date": "September 30, 2018",
+    "location": "Ресторан Габрово, г. Могилев",
+    "locationLink": "https://goo.gl/maps/A8HmypGH8rM2",
     "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-50-mogilev-tickets-48731369839",
     "schedule": [
       {
@@ -27,12 +27,12 @@
         "description": "Coffee & Networking"
       },
       {
-        "title": "The cost of javascript",
+        "title": "Reflect and decorators in action",
         "time": "15:00",
         "speakerIDs": [
           127
         ],
-        "description": "Наверняка каждому из нас доводилось оптимизировать сайты под различные браузеры, но мало кто следит за скоростью исполнения JS и пользовательским интерфейсом, поэтому разберемся, почему это так важно и какие последствия это несет."
+        "description": "Наглядный гайд для тех, кто хочет разобраться, что такое рефлексия и как декораторы могут помочь любому JS разработчику на будущем/существующем проекте."
       },
       {
         "title": "Conf Guide, или \"- Ну я пришел и чё?!\"",
