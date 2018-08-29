@@ -29,6 +29,9 @@
       {
         "title": "Reflect and decorators in action",
         "time": "15:00",
+        "break": {
+          "time": "15:40"
+        },
         "speakerIDs": [
           127
         ],
@@ -36,7 +39,7 @@
       },
       {
         "title": "Conf Guide, или \"- Ну я пришел и чё?!\"",
-        "time": "15:25",
+        "time": "15:50",
         "speakerIDs": [
           57
         ],
@@ -44,18 +47,31 @@
       },
       {
         "title": " Electron - desktop development",
-        "time": "15:40",
+        "time": "16:10",
         "speakerIDs": [
           114
         ],
-        "break": {
-          "time": "16:10"
-        },
         "description": "Pros and Cons of desktop apps development with Electron. Is it worth diving deep with this technology or let's put it aside for some later time."
       },
       {
+        "title": "JS Machine Introduction",
+        "time": "16:50",
+        "speakerIDs": [
+          120
+        ],
+        "description": "TBD"
+      },
+      {
+        "title": "Community app",
+        "time": "17:00",
+        "speakerIDs": [
+          120
+        ],
+        "description": "TBD"
+      },
+      {
         "title": "kostil.js",
-        "time": "16:30",
+        "time": "17:20",
         "speakerIDs": [
           128
         ],
