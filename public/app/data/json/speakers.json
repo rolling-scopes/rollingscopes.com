@@ -643,6 +643,31 @@
     "id": 129,
     "name": "Denis Kuzin",
     "photo": "denis_kuzin.jpg"
+  },
+  {
+    "id": 130,
+    "name": "Светлана Желток",
+    "photo": "svetlana_jeltok.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Никита Зенченко",
+    "photo": "mikita_zenchanka.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Fernando Martinho",
+    "photo": "fernando_martinho.jpeg"
+  },
+  {
+    "id": 133,
+    "name": "Anton Hlynovskiy",
+    "photo": "anton_hlynovskiy.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Pavel Liber",
+    "photo": "pavel_liber.jpg"
   }
 ]
 

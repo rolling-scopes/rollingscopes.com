@@ -1,14 +1,4 @@
-[{
-  "id": "rssummersummit2018",
-  "name": "The Rolling Scopes Summer Summit",
-  "date": "August 16-18, 2018",
-  "location": "imaguru.co",
-  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "",
-  "schedule": [
-
-  ]
-},
+[
   {
     "id": "rs#51",
     "name": "The Rolling Scopes #51. Krakow",
@@ -107,6 +97,138 @@
           128
         ],
         "description": "Каждый на проекте встречался с \"изящными решениями\", которые вызывают улыбку или недоумение. Мы решили собрать самые интересные решения с наших проектов в одной библиотеке, чтобы каждый мог поставить себе и наслаждаться."
+      }
+    ]
+  },
+  {
+    "id": "summer-summit-2018",
+    "name": "The Rolling Scopes Summer Summit",
+    "date": "August 16-18, 2018",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "",
+    "schedule": [
+      {
+        "title": "WebGL Воркшоп",
+        "time": "16 AUG - 19:00",
+        "speakerIDs": [
+          46
+        ],
+        "description": "<p>Осваиваем \"страшный\" low-level GPU мир на практических примерах. Никаких Three.js, Pixi.js, whatever.js, только native API, только хардкор. Полученные больше чем за год плотной работы с WebGL знания сложились в более подробный и детальный доклад, чем любой другой туториал \"make a window =&gt; make a triangle =&gt; make a textured box =&gt; make the rest of f#¢king engine\" (<a target=\"_blank\" href=\"https://twitter.com/Tojiro/status/973314543215521792\">ссылка на оригинальный источник</a>).</p><p>Воркшоп рассчитан на аудиторию, не имеющую никакого опыта в WebGL/OpenGL, и будет состоять из двух частей:</p><ul><li>Intro to WebGL from zero to somewhat above zero</li><li>Livecoding популярной в App Store и Play Market игры <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=com.h8games.helixjump\">Helix Jump</a></li></ul>"
+      },
+      {
+        "title": "Настало время офигительных историй",
+        "time": "17 AUG - 19:00",
+        "speakerIDs": [
+          107
+        ],
+        "description": "Я расскажу о том, какое место в работе дизайнера занимает сторителлинг. В частности остановимся на том, как истории помогают работать с заказчиками и проектировать лучшие интерфейсы."
+      },
+      {
+        "title": "Истории из жизни дизайнера",
+        "time": "17 AUG - 19:30",
+        "speakerIDs": [
+          130
+        ],
+        "description": "Несколько кейс-стади, которые будут полезны дизайнерам."
+      },
+      {
+        "title": "По следам волшебного Друзя",
+        "time": "17 AUG - 20:20",
+        "imagePath": "images/speakers/round_table.jpg",
+        "speakerIDs": [
+          107, 130, 131
+        ],
+        "description": "<p>Круглый стол с экспертами в игровой форме. Во время всего ивента мы будем собирать вопросы из зала касательно дизайн-процесса да и вообще нелёгкой дизайнерской доли, а после докладов в непринуждённой атмосфере будем задавать их экспертам и раздавать очки за ответы.</p><p>Так что, если у вас есть вопрос, который вы давно хотели задать, но стеснялись — это ваш шанс!</p>"
+      },
+      {
+        "title": "Real-world applications for Blockchain technology (EN)",
+        "time": "18 AUG - 13:00",
+        "speakerIDs": [
+          132
+        ],
+        "description": "In this talk we will cover the state of Blockchain at this point in time, it's all about the real use cases and what can we do to change culture and mindset for rapid adoption.. We will talk about how a combination of Blockchain and AI is being used to tackle one of the major Cybersecurity problems."
+      },
+      {
+        "title": "UI optimizations borrowed from 3d graphics engines",
+        "time": "18 AUG - 14:00",
+        "speakerIDs": [
+          18
+        ],
+        "description": "It is a talk about the inspiration of 3d engines architecture which can be useful for everyday Front-End engineer work."
+      },
+      {
+        "title": "WebGL + WebAssembly: только лоу-левел, только хардкор!",
+        "time": "18 AUG - 14:30",
+        "speakerIDs": [
+          133
+        ],
+        "description": "<p>WebGL и WebAssembly сложны и непонятны, поэтому для работы с ними нужны абстракции и утилиты... Или нет?</p><p>Мы заглянем «под капот» этих технологий и напишем несложную графическую демку, используя только низкоуровневое API. И убедимся, что не так страшен чёрт, как его малюют!</p>"
+      },
+      {
+        "title": "Что если разработчик решил (заставили) сделать дизайн",
+        "time": "18 AUG - 15:40",
+        "speakerIDs": [
+          106
+        ],
+        "description": "Наверняка, многим из вас, доводилось на прямую сталкиваться с дизайном. Если вы пытались рисовать макет самостоятельно, дизайнер отсутствовал на проекте, приходилось доделывать проект по шаблону и т.д. Я расскажу о том, как правильно сделать дизайн, который будет по настоящему рабочим! Никаких платных тулов, никаких замудренных дизайнерских штучек. Все максимально просто и главное - эффективно. Приходите, будет интересно!"
+      },
+      {
+        "title": "CLI для кодогенерации своими руками",
+        "time": "18 AUG - 15:40",
+        "speakerIDs": [
+          48
+        ],
+        "description": "Паттерны написания cli приложений на примере реализации cli для нужд проекта."
+      },
+      {
+        "title": "Как правильно расти разработчику",
+        "time": "18 AUG - 16:10",
+        "speakerIDs": [
+          57
+        ],
+        "description": "Набор проверенных шагов для уверенного роста разработчика."
+      },
+      {
+        "title": "Be GODLIKE. Reflection and Metadata",
+        "time": "18 AUG - 16:10",
+        "speakerIDs": [
+          127
+        ],
+        "description": "Рефлеския и метадата в JS. Какое место они занимают в жизни frontend/fullstack разработчика. Познакомимся с техниками их написания, best practicies и опыт их использования на реальных проектах."
+      },
+      {
+        "title": "Истории неуспеха",
+        "time": "18 AUG - 17:00",
+        "speakerIDs": [
+          134
+        ],
+        "description": "Павел Либер, глава Front-end/Mobile/Design подразделений EPAM в СНГ, расскажет, какие необычные задачи приходилось решать в последнее время... и не всегда успешно."
+      },
+      {
+        "title": "Developer or Rolling Roll",
+        "time": "18 AUG - 17:00",
+        "speakerIDs": [
+          126
+        ],
+        "description": "Секретный коктейль для повышения заработной платы ;)"
+      },
+      {
+        "title": "kostil.js",
+        "time": "18 AUG - 17:30",
+        "imagePath": "images/speakers/rolling_scopes.jpg",
+        "speakerIDs": [
+          101, 128
+        ],
+        "description": "Каждый на проекте встречался с \"изящными решениями\", которые вызывают улыбку или недоумение. Мы решили собрать самые интересные решения с наших проектов в одной библиотеке, чтобы каждый мог поставить себе и наслаждаться."
+      },
+      {
+        "title": "Исследование в реальном времени “Взгляд на будущее в IT образовании” ",
+        "time": "18 AUG - 17:30",
+        "speakerIDs": [
+          131
+        ],
+        "description": "<p>Если вы слышали про сервис-дизайн, то знаете, что исследование продукта или сервиса может занимать два или три месяца. Мы решили сделать эксперимент и провести такое исследование всего за ОДИН ДЕНЬ!</p><p>В течение дня мы вместе с вами будем исследовать проблемы и придумывать их решения, а в вечернем докладе расскажем о результатах и представим наш взгляд на IT образование в будущем.</p>"
       }
     ]
   },
