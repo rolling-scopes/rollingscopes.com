@@ -31,76 +31,6 @@
     ]
   },
   {
-    "id": "rs#50",
-    "name": "The Rolling Scopes #50. Mogilev",
-    "date": "September 30, 2018",
-    "location": "Ресторан Габрово, г. Могилев",
-    "locationLink": "https://goo.gl/maps/A8HmypGH8rM2",
-    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-50-mogilev-tickets-48731369839",
-    "schedule": [
-      {
-        "title": "Registration",
-        "time": "14:45",
-        "imagePath": "images/logo_rs2.svg",
-        "speakerIDs": [
-          95
-        ],
-        "description": "Coffee & Networking"
-      },
-      {
-        "title": "Reflect and decorators in action",
-        "time": "15:00",
-        "break": {
-          "time": "15:40"
-        },
-        "speakerIDs": [
-          127
-        ],
-        "description": "Наглядный гайд для тех, кто хочет разобраться, что такое рефлексия и как декораторы могут помочь любому JS разработчику на будущем/существующем проекте."
-      },
-      {
-        "title": "Conf Guide, или \"- Ну я пришел и чё?!\"",
-        "time": "15:50",
-        "speakerIDs": [
-          57
-        ],
-        "description": "Наглядный гайд для людей, которые посещают конференции и делают это неправильно (правильно по их мнению)."
-      },
-      {
-        "title": " Electron - desktop development",
-        "time": "16:10",
-        "speakerIDs": [
-          114
-        ],
-        "description": "Pros and Cons of desktop apps development with Electron. Is it worth diving deep with this technology or let's put it aside for some later time."
-      },
-      {
-        "title": "JS Machine Introduction",
-        "time": "16:50",
-        "speakerIDs": [
-          120
-        ],
-        "description": "TBD"
-      },
-      {
-        "title": "Community app",
-        "time": "17:00",
-        "speakerIDs": [
-          120
-        ],
-        "description": "TBD"
-      },
-      {
-        "title": "kostil.js",
-        "time": "17:20",
-        "speakerIDs": [
-          128
-        ],
-        "description": "Каждый на проекте встречался с \"изящными решениями\", которые вызывают улыбку или недоумение. Мы решили собрать самые интересные решения с наших проектов в одной библиотеке, чтобы каждый мог поставить себе и наслаждаться."
-      }
-    ]
-  },
-  {
     "id": "summer-summit-2018",
     "name": "The Rolling Scopes Summer Summit",
     "date": "August 16-18, 2018",
@@ -229,6 +159,76 @@
           131
         ],
         "description": "<p>Если вы слышали про сервис-дизайн, то знаете, что исследование продукта или сервиса может занимать два или три месяца. Мы решили сделать эксперимент и провести такое исследование всего за ОДИН ДЕНЬ!</p><p>В течение дня мы вместе с вами будем исследовать проблемы и придумывать их решения, а в вечернем докладе расскажем о результатах и представим наш взгляд на IT образование в будущем.</p>"
+      }
+    ]
+  },
+  {
+    "id": "rs#50",
+    "name": "The Rolling Scopes #50. Mogilev",
+    "date": "September 30, 2018",
+    "location": "Ресторан Габрово, г. Могилев",
+    "locationLink": "https://goo.gl/maps/A8HmypGH8rM2",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-50-mogilev-tickets-48731369839",
+    "schedule": [
+      {
+        "title": "Registration",
+        "time": "14:45",
+        "imagePath": "images/logo_rs2.svg",
+        "speakerIDs": [
+          95
+        ],
+        "description": "Coffee & Networking"
+      },
+      {
+        "title": "Reflect and decorators in action",
+        "time": "15:00",
+        "break": {
+          "time": "15:40"
+        },
+        "speakerIDs": [
+          127
+        ],
+        "description": "Наглядный гайд для тех, кто хочет разобраться, что такое рефлексия и как декораторы могут помочь любому JS разработчику на будущем/существующем проекте."
+      },
+      {
+        "title": "Conf Guide, или \"- Ну я пришел и чё?!\"",
+        "time": "15:50",
+        "speakerIDs": [
+          57
+        ],
+        "description": "Наглядный гайд для людей, которые посещают конференции и делают это неправильно (правильно по их мнению)."
+      },
+      {
+        "title": " Electron - desktop development",
+        "time": "16:10",
+        "speakerIDs": [
+          114
+        ],
+        "description": "Pros and Cons of desktop apps development with Electron. Is it worth diving deep with this technology or let's put it aside for some later time."
+      },
+      {
+        "title": "JS Machine Introduction",
+        "time": "16:50",
+        "speakerIDs": [
+          120
+        ],
+        "description": "TBD"
+      },
+      {
+        "title": "Community app",
+        "time": "17:00",
+        "speakerIDs": [
+          120
+        ],
+        "description": "TBD"
+      },
+      {
+        "title": "kostil.js",
+        "time": "17:20",
+        "speakerIDs": [
+          128
+        ],
+        "description": "Каждый на проекте встречался с \"изящными решениями\", которые вызывают улыбку или недоумение. Мы решили собрать самые интересные решения с наших проектов в одной библиотеке, чтобы каждый мог поставить себе и наслаждаться."
       }
     ]
   },
