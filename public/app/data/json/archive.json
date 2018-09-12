@@ -182,49 +182,45 @@
       {
         "title": "Reflect and decorators in action",
         "time": "15:00",
-        "break": {
-          "time": "15:40"
-        },
         "speakerIDs": [
           127
         ],
         "description": "Наглядный гайд для тех, кто хочет разобраться, что такое рефлексия и как декораторы могут помочь любому JS разработчику на будущем/существующем проекте."
       },
       {
+        "title": "JS Machine and Community app",
+        "time": "15:40",
+        "imagePath": "images/logo_rs2.svg",
+        "speakerIDs": [
+          120, 115
+        ],
+        "break": {
+          "time": "15:55"
+        },
+        "description": "Многим интересно, что происходит в городе Могилеве, какие активности существуют. Мы хотим рассказать о том, какое Могилевское комьюнити не так давно увидело свет, и чем оно занимается."
+      },
+      {
         "title": "Conf Guide, или \"- Ну я пришел и чё?!\"",
-        "time": "15:50",
+        "time": "16:10",
         "speakerIDs": [
           57
         ],
         "description": "Наглядный гайд для людей, которые посещают конференции и делают это неправильно (правильно по их мнению)."
       },
       {
-        "title": " Electron - desktop development",
-        "time": "16:10",
+        "title": "Electron - desktop development",
+        "time": "16:30",
         "speakerIDs": [
           114
         ],
+        "break": {
+          "time": "17:05"
+        },
         "description": "Pros and Cons of desktop apps development with Electron. Is it worth diving deep with this technology or let's put it aside for some later time."
       },
       {
-        "title": "JS Machine Introduction",
-        "time": "16:50",
-        "speakerIDs": [
-          120
-        ],
-        "description": "TBD"
-      },
-      {
-        "title": "Community app",
-        "time": "17:00",
-        "speakerIDs": [
-          120
-        ],
-        "description": "TBD"
-      },
-      {
         "title": "kostil.js",
-        "time": "17:20",
+        "time": "17:15",
         "speakerIDs": [
           128
         ],

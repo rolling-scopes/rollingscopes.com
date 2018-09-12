@@ -519,11 +519,13 @@ a.register-button.shorted {
     border-radius: 50%;
     float: left;
     margin: 6px 30px 0 0;
+    z-index: 10;
   }
 
   .speaker-photo + .speaker-photo {
-    position: relative;
-    left: -100px;
+    position: absolute;
+    left: 88px;
+    z-index: 9;
   }
 
   .speaker-name {

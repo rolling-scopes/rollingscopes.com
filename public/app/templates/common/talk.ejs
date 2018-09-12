@@ -1,6 +1,13 @@
 <li class="event-schedule-item">
   <h2 class="speech-time"><%= talk.time %></h2>
-  <img class="speaker-photo" src="<%= talk.imagePath %>" alt="<%= talk.speakers.map(speaker => speaker.name).join(', ') %> photo" >
+
+  <% if (talk.imagePath) { %>
+  <img class="speaker-photo" src="<%= talk.imagePath %>" alt="<%= talk.speakers[0].name %> photo" >
+  <% } else { %>
+    <% talk.speakers.forEach(function (speaker) { %>
+      <img class="speaker-photo" src="images/speakers/<%= speaker.photo %>" alt="<%= speaker.name %> photo" >
+    <% }); %>
+  <% } %>
 
   <h3><%= talk.title %></h3>
 
