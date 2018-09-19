@@ -485,7 +485,7 @@
       "speakerIDs": [
         46
       ],
-      "description": "<p>Tricky JS and WebGL practices to achieve the best performance on mobile. We'll speak about set of interesting practices our team applied on our project to achieve lower network payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of using Pixi.js</p> <p class='italic'>Andrei Vouchanka, the Software developer at EPAM Systems. Passioned about front-end development, bleeding edge web-technologies, js performance, public speaking and knowledge sharing. Constantly experimenting with new stuff, messing around with pet projects for fun</p>",
+      "description": "<p>Tricky JS and WebGL practices to achieve the best performance on mobile. We'll speak about set of interesting practices our team applied on our project to achieve lower network payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of using Pixi.js</p> <p class='italic'>Andrei Lesnitsky, the Software developer at EPAM Systems. Passioned about front-end development, bleeding edge web-technologies, js performance, public speaking and knowledge sharing. Constantly experimenting with new stuff, messing around with pet projects for fun</p>",
       "time": "18:45",
       "shortbreak": {
         "time": "19:30"
@@ -710,7 +710,7 @@
     "schedule": [
       {
         "title": "OpenGL rendering with Node and Rust",
-        "imagePath": "images/speakers/andrei_vouchanka.jpg",
+        "imagePath": "images/speakers/andrei_lesnitsky.jpg",
         "speakerIDs": [
           46
         ],
@@ -988,7 +988,7 @@
       },
       {
         "title": "OpenGL rendering with Node and Rust",
-        "imagePath": "images/speakers/andrei_vouchanka.jpg",
+        "imagePath": "images/speakers/andrei_lesnitsky.jpg",
         "speakerIDs": [
           46
         ],
