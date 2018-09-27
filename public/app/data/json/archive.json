@@ -16,14 +16,22 @@
         "description": "<p>A story of rockets and poops. How to build your own database and never ever repeat this mistake. </p><p class='italic'>Kirill Knysh, Engineer at EPAM Systems Amsterdam, 4+ years of experience of STB UI development, passionate to coding.</p>"
       },
       {
+        "title": "Migrating AngularJS to Angular. Pitfalls you didn't expect!",
+        "speakerIDs": [
+          135
+        ],
+        "description": "TBD",
+        "time": "19:40"
+      },
+      {
         "title": "Snapshot testing. Just do it",
         "speakerIDs": [
           129
         ],
         "description": "Snapshot testing - future of best practice",
-        "time": "19:40",
+        "time": "20:10",
         "party": {
-          "time": "20:10",
+          "time": "20:40",
           "title": "Beer.js",
           "description": ""
         }
