@@ -124,12 +124,11 @@ gulp.task('build:conf-speakers', function (cb) {
 });
 
 gulp.task('build:school', function (cb) {
-  options.src = 'public/school';
+  options.src = 'public/rsschool-landing';
   options.dest = 'public/schoolBin';
 
   runSequence(
     'clean',
-    'views',
     ['copy:school', 'useref', 'compile-sass'],
     cb
   );
