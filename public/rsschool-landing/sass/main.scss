@@ -5,8 +5,6 @@
 // enbower
 
 
-
-
 // Media queries breakpoints
 $screen-desktop: 1024px;
 $screen-tablet: 767px;
@@ -31,7 +29,9 @@ body {
 }
 
 b,
-strong {
+strong,
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 500;
 }
 
@@ -124,14 +124,14 @@ h4.badge-info {
   section {
     padding: 5rem 0;
 
-    .h1 {
+    &.section-promo .h1 {
       text-align: right;
       @media (max-width: $screen-tablet) {
         text-align: center;
       }
     }
 
-    h3 {
+    h2, h3 {
       margin: 0 0 4rem ;
     }
   }
@@ -170,6 +170,24 @@ h4.badge-info {
 }
 
 
+.landing-page  .section-medium {
+  border: 1px solid #ddd;
+  padding: 4rem 2rem;
+
+  .medium-article {
+    position: relative;
+    padding: 0 15px 10px 60px;
+
+    .h1 {
+      position: absolute;
+      left: 15px;
+      top: 0;
+    }
+    p.text-muted {
+      margin-top: 5px;
+    }
+  }
+}
 /*------------------------------------*\
    PARTNERS List
 \*------------------------------------*/
@@ -523,10 +541,12 @@ h4.badge-info {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 50%;
 
   img {
-    max-width: 500px;
+    max-width: 350px;
   }
+
 }
 
 
