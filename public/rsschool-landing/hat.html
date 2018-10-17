@@ -102,15 +102,16 @@
   }
 
   function renderMyMentor(snap) {
-    var data = snap.val();
-    var mentor = data.interviewer;
-    var contacts = data["mentor contacts"];
+    let data = snap.val();
+    data = data[Object.keys(data)[0]];
 
-    var html = `<p><strong>Твой ментор:</strong> ${mentor}</p>
+    let mentor = data.interviewer;
+    let contacts = data["mentor contacts"];
+
+    let html = `<p><strong>Твой ментор:</strong> ${mentor}</p>
     <p><strong>Контакты:</strong> ${contacts}</p>`
 
     document.getElementById("contact").innerHTML = html;
-
   }
 
 
