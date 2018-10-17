@@ -115,6 +115,15 @@ h4.badge-info {
   padding: 1rem;
 }
 
+
+.contact-box {
+  //display: none;
+  max-width: 500px;
+  margin:50px auto 0;
+}
+
+
+
 /*------------------------------------*\
    LANDING PAGE
 \*------------------------------------*/
@@ -186,6 +195,14 @@ h4.badge-info {
     p.text-muted {
       margin-top: 5px;
     }
+  }
+}
+
+
+.sorting-hat {
+  img {
+    width: auto;
+    max-width: 100%;
   }
 }
 /*------------------------------------*\
