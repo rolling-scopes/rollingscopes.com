@@ -85,7 +85,7 @@
     document.getElementById("findMentor").parentNode.style.display = 'none';
     firebase.auth().signInWithPopup(new firebase.auth.GithubAuthProvider())
       .then(function (result) {
-        let githubUsername = result.additionalUserInfo.username;
+        let githubUsername = result.additionalUserInfo.username.toLowerCase();
         firebase.database().ref('/result/').orderByChild('student github').equalTo(githubUsername).limitToFirst(1).once("value")
           .then(function(snapshot) {
             if (!snapshot.exists()) {
