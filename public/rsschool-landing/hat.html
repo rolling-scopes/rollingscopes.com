@@ -48,6 +48,7 @@
         <button id="findMentor" class="btn btn-primary btn-sm">Кто мой ментор?</button>
       </p>
       <div id="contact" class="contact-box">
+
       </div>
   </div>
 
@@ -80,12 +81,19 @@
   document.getElementById("findMentor").addEventListener("click", loginAndGetMyMentor);
 
   function loginAndGetMyMentor() {
-    document.getElementById("findMentor").parentNode.style.display = 'none';
 
     firebase.auth().signInWithPopup(new firebase.auth.GithubAuthProvider())
       .then(function (result) {
         let githubUsername = result.additionalUserInfo.username;
-        firebase.database().ref('/result/').orderByChild('student github').equalTo(githubUsername).on('child_added', renderMyMentor);
+        firebase.database().ref('/result/').orderByChild('student github').equalTo(githubUsername).limitToFirst(1).once("value")
+          .then(function(snapshot) {
+            if (!snapshot.exists()) {
+              document.getElementById("contact").innerHTML = '<p> Ваш ментор не найден :( </p>'
+            }
+            else {
+              renderMyMentor(snapshot);
+            }
+          })
       })
       .catch(function (error) {
         alert(JSON.stringify(error));
@@ -102,7 +110,6 @@
     <p><strong>Контакты:</strong> ${contacts}</p>`
 
     document.getElementById("contact").innerHTML = html;
-
 
   }
 
