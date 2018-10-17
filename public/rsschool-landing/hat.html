@@ -80,6 +80,7 @@
   document.getElementById("findMentor").addEventListener("click", loginAndGetMyMentor);
 
   function loginAndGetMyMentor() {
+    document.getElementById("findMentor").parentNode.style.display = 'none';
 
     firebase.auth().signInWithPopup(new firebase.auth.GithubAuthProvider())
       .then(function (result) {
@@ -100,7 +101,6 @@
     var html = `<p><strong>Твой ментор:</strong> ${mentor}</p>
     <p><strong>Контакты:</strong> ${contacts}</p>`
 
-    document.getElementById("findMentor").parentNode.style.display = 'none';
     document.getElementById("contact").innerHTML = html;
 
 
