@@ -1,5 +1,34 @@
 [
   {
+  "id": "rs#52",
+  "name": "The Rolling Scopes #52",
+  "date": "12 декабря 2018",
+  "location": "imaguru.co",
+  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-52-minsk-tickets-53182813226",
+  "schedule": [
+    {
+      "title": "Flutter vs React Native",
+      "speakerIDs": [
+        46
+      ],
+      "description": "Весной Google анонсировал, что их framework для cross-платформенной мобильной разработки уже production ready. Но зачем? Есть же react-native. В докладе будет сравнение react-native и flutter, вместе разберемся, действительно ли Flutter готов к продакшену, и каково это - писать на Dart после JS?",
+      "time": "19:00",
+      "break": {
+        "time": "20:00"
+      }
+    },
+    {
+      "title": "TBD",
+      "speakerIDs": [
+        95
+      ],
+      "description": "TBD",
+      "time": "20:20"
+    }
+  ]
+},
+  {
     "id": "rs#51",
     "name": "The Rolling Scopes #51. Krakow",
     "date": "October 17, 2018",
