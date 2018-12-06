@@ -19,11 +19,11 @@
       }
     },
     {
-      "title": "TBD",
+      "title": "Modern prototyping workflow with GraphQL and React",
       "speakerIDs": [
-        95
+        122
       ],
-      "description": "TBD",
+      "description": "We will look into my ideal approach for prototyping new ideas but I am sure it can fit real-life cases as well (especially for startups). I will explain how to easily create a GraphQL API for your database, add an additional layer for security and generate typings for your resolvers according to the used schema. We will also take a look at how to connect that to a simple React app (with Hooks? :)) and manage the deployment using Zeit now/ncc in a very easy and convenient way.",
       "time": "20:20"
     }
   ]
