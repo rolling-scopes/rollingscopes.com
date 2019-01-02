@@ -1,5 +1,34 @@
 [
   {
+  "id": "rs#53",
+  "name": "The Rolling Scopes & {Minsk} JSON",
+  "date": "5 FEB 2019",
+  "location": "imaguru.co",
+  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-minsk-json-tickets-54279023019",
+  "schedule": [
+    {
+      "title": "Системное мышление и как его можно применять для software engineering",
+      "speakerIDs": [
+        18
+      ],
+      "description": "Системный подход для разработки сложных систем был рожден в недрах аэрокосмической и атомной индустрии. Во время доклада рассмотрим основные компоненты системного мышления на примере школы Роллинг скоупс и как системный метод может помочь при создании программных продуктов и проектов.",
+      "time": "19:00",
+      "break": {
+        "time": "19:45"
+      }
+    },
+    {
+      "title": "Share content from mobile phone to TV (ru)",
+      "speakerIDs": [
+        51
+      ],
+      "description": "Have talk about protocols now days widly used cross over TVs. Discuss some limitations, and features. And spend time on extracting content (video, mp3, ...) from web resources for our protocol agnostic app.",
+      "time": "20:00"
+    }
+  ]
+},
+  {
   "id": "rs#52",
   "name": "The Rolling Scopes #52",
   "date": "21 декабря 2018",
