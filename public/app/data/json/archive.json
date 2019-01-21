@@ -19,11 +19,11 @@
       }
     },
     {
-      "title": "Share content from mobile phone to TV (ru)",
+      "title": "Не HTTP едины, или Как передавать данные в быту",
       "speakerIDs": [
         51
       ],
-      "description": "Have talk about protocols now days widly used cross over TVs. Discuss some limitations, and features. And spend time on extracting content (video, mp3, ...) from web resources for our protocol agnostic app.",
+      "description": "Как передавать и синхронизировать данные между устройствами по Wi-Fi.",
       "time": "20:00"
     }
   ]
