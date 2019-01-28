@@ -12,7 +12,7 @@
       "speakerIDs": [
         136
       ],
-      "description": "<ul><li>Short introduction at what we do at EIS Group</li><li>React as a base layer for the framework</li><li>Modular design</li><li>Maximizing components reusability and customisation</li><li>Using TypeScript to sleep tight at night</li><li>Other good practices</li></ul>",
+      "description": "<ul><li>Short introduction at what we do at EIS Group</li><li>React as a base layer for the framework</li><li>Modular design</li><li>Maximizing components reusability and customization</li><li>Using TypeScript to sleep tight at night</li><li>Other good practices</li></ul>",
       "time": "19:00",
       "break": {
         "time": "19:40"
