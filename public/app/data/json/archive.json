@@ -8,15 +8,23 @@
   "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-minsk-json-tickets-54279023019",
   "schedule": [
     {
+      "title": "Building large-scale React frontend (EN)",
+      "speakerIDs": [
+        136
+      ],
+      "description": "<ul><li>Short introduction at what we do at EIS Group</li><li>React as a base layer for the framework</li><li>Modular design</li><li>Maximizing components reusability and customisation</li><li>Using TypeScript to sleep tight at night</li><li>Other good practices</li></ul>",
+      "time": "19:00",
+      "break": {
+        "time": "19:40"
+      }
+    },
+    {
       "title": "Системное мышление и как его можно применять для software engineering",
       "speakerIDs": [
         18
       ],
       "description": "Системный подход для разработки сложных систем был рожден в недрах аэрокосмической и атомной индустрии. Во время доклада рассмотрим основные компоненты системного мышления на примере школы Роллинг скоупс и как системный метод может помочь при создании программных продуктов и проектов.",
-      "time": "19:00",
-      "break": {
-        "time": "19:45"
-      }
+      "time": "20:00"
     },
     {
       "title": "Не HTTP едины, или Как передавать данные в быту",
@@ -24,7 +32,7 @@
         51
       ],
       "description": "Как передавать и синхронизировать данные между устройствами по Wi-Fi.",
-      "time": "20:00"
+      "time": "20:40"
     }
   ]
 },
