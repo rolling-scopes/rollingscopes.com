@@ -3,7 +3,7 @@ var loadEvents   = require('../data/loaders/archive-loader');
 
 var events = loadEvents()
   .filter((event) => {
-    return event.location.indexOf('г. Могилев') || event.location.indexOf('Mogilev') !== -1;
+    return (event.location.indexOf('г. Могилев') !== -1 || event.location.indexOf('Mogilev') !== -1);
   });
 
 var currentEvent = events[0];
