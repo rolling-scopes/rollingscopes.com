@@ -1,44 +1,44 @@
 [
   {
-  "id": "rs#53",
-  "name": "The Rolling Scopes & {Minsk} JSON",
-  "date": "5 FEB 2019",
-  "location": "imaguru.co",
-  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-minsk-json-tickets-54279023019",
-  "schedule": [
-    {
-      "title": "Building large-scale React frontend (EN)",
-      "speakerIDs": [
-        136
-      ],
-      "description": "<ul><li>Short introduction at what we do at EIS Group</li><li>React as a base layer for the framework</li><li>Modular design</li><li>Maximizing components reusability and customization</li><li>Using TypeScript to sleep tight at night</li><li>Other good practices</li></ul>",
-      "time": "19:00",
-      "break": {
-        "time": "19:40"
-      }
-    },
-    {
-      "title": "Системное мышление и как его можно применять для software engineering",
-      "speakerIDs": [
-        18
-      ],
-      "description": "Системный подход для разработки сложных систем был рожден в недрах аэрокосмической и атомной индустрии. Во время доклада рассмотрим основные компоненты системного мышления на примере школы Роллинг скоупс и как системный метод может помочь при создании программных продуктов и проектов.",
-      "time": "20:00"
-    },
-    {
-      "title": "Не HTTP едины, или Как передавать данные в быту",
-      "speakerIDs": [
-        51
-      ],
-      "description": "Как передавать и синхронизировать данные между устройствами по Wi-Fi.",
-      "time": "20:40"
-    }
-  ]
-},
-  {
     "id": "rs#54",
-    "name": "The Rolling Scopes #54. Mogilev",
+    "name": "The Rolling Scopes & MobilePeople",
+    "date": "19 FEB 2019",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/ios-course-introduction-the-rolling-scopes-school-2019q1-tickets-53342652309",
+    "schedule": [
+      {
+        "title": "Sunrise of iOS",
+        "speakerIDs": [
+          138
+        ],
+        "description": "В своём докладе я бы хотел окунуться в историю возникновения и развития операционной системы iOS и устройств, на которых она работает. Обозначить основные вехи развития и понять как разработчику адаптироваться под все эти изменения.",
+        "time": "19:00"
+      },
+      {
+        "title": "Lottie. Animate 'em all.",
+        "speakerIDs": [
+          139
+        ],
+        "description": "OS как платформа славится своей интерактивностью и анимациями, которые не могут оставить пользователей равнодушными. Мой доклад будет об альтернативном методе создания анимаций с использованием Lottie и Adobe After Effects.",
+        "time": "19:40",
+        "break": {
+          "time": "20:20"
+        }
+      },
+      {
+        "title": "iOS курс. Введение",
+        "speakerIDs": [
+          137
+        ],
+        "description": "Евгений Зинченко, координатор iOS направления в RS School, расскажет про RS школу, а также про этапы и процесс обучения.",
+        "time": "20:40"
+      }
+    ]
+  },
+  {
+    "id": "rs#55",
+    "name": "The Rolling Scopes & JS Machine. Mogilev",
     "date": "March 23, 2019",
     "location": "Mogilev",
     "locationLink": "https://goo.gl/maps/hV22QRp9x3D2",
@@ -56,34 +56,71 @@
     ]
   },
   {
-  "id": "rs#52",
-  "name": "The Rolling Scopes #52",
-  "date": "21 декабря 2018",
-  "location": "imaguru.co",
-  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-52-minsk-tickets-53182813226",
-  "schedule": [
-    {
-      "title": "Flutter vs React Native",
-      "speakerIDs": [
-        46
-      ],
-      "description": "Весной Google анонсировал, что их framework для cross-платформенной мобильной разработки уже production ready. Но зачем? Есть же react-native. В докладе будет сравнение react-native и flutter, вместе разберемся, действительно ли Flutter готов к продакшену, и каково это - писать на Dart после JS?",
-      "time": "19:00",
-      "break": {
+    "id": "rs#53",
+    "name": "The Rolling Scopes & {Minsk} JSON",
+    "date": "5 FEB 2019",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-minsk-json-tickets-54279023019",
+    "schedule": [
+      {
+        "title": "Building large-scale React frontend (EN)",
+        "speakerIDs": [
+          136
+        ],
+        "description": "<ul><li>Short introduction at what we do at EIS Group</li><li>React as a base layer for the framework</li><li>Modular design</li><li>Maximizing components reusability and customization</li><li>Using TypeScript to sleep tight at night</li><li>Other good practices</li></ul>",
+        "time": "19:00",
+        "break": {
+          "time": "19:40"
+        }
+      },
+      {
+        "title": "Системное мышление и как его можно применять для software engineering",
+        "speakerIDs": [
+          18
+        ],
+        "description": "Системный подход для разработки сложных систем был рожден в недрах аэрокосмической и атомной индустрии. Во время доклада рассмотрим основные компоненты системного мышления на примере школы Роллинг скоупс и как системный метод может помочь при создании программных продуктов и проектов.",
         "time": "20:00"
+      },
+      {
+        "title": "Не HTTP едины, или Как передавать данные в быту",
+        "speakerIDs": [
+          51
+        ],
+        "description": "Как передавать и синхронизировать данные между устройствами по Wi-Fi.",
+        "time": "20:40"
       }
-    },
-    {
-      "title": "Modern prototyping workflow with GraphQL and React",
-      "speakerIDs": [
-        122
-      ],
-      "description": "I will show you my ideal approach for prototyping new ideas but I am sure it can fit a lot of real-life cases as well (especially for startups). I will explain how to easily create a GraphQL API for your database, add an additional layer for security and generate typings for your resolvers according to the used schema. We will also take a look at how to connect this backend to a simple React app (with Hooks? :)) and manage the deployment using Zeit now/ncc in a very easy and convenient way.",
-      "time": "20:20"
-    }
-  ]
-},
+    ]
+  },
+  {
+    "id": "rs#52",
+    "name": "The Rolling Scopes #52",
+    "date": "21 декабря 2018",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-52-minsk-tickets-53182813226",
+    "schedule": [
+      {
+        "title": "Flutter vs React Native",
+        "speakerIDs": [
+          46
+        ],
+        "description": "Весной Google анонсировал, что их framework для cross-платформенной мобильной разработки уже production ready. Но зачем? Есть же react-native. В докладе будет сравнение react-native и flutter, вместе разберемся, действительно ли Flutter готов к продакшену, и каково это - писать на Dart после JS?",
+        "time": "19:00",
+        "break": {
+          "time": "20:00"
+        }
+      },
+      {
+        "title": "Modern prototyping workflow with GraphQL and React",
+        "speakerIDs": [
+          122
+        ],
+        "description": "I will show you my ideal approach for prototyping new ideas but I am sure it can fit a lot of real-life cases as well (especially for startups). I will explain how to easily create a GraphQL API for your database, add an additional layer for security and generate typings for your resolvers according to the used schema. We will also take a look at how to connect this backend to a simple React app (with Hooks? :)) and manage the deployment using Zeit now/ncc in a very easy and convenient way.",
+        "time": "20:20"
+      }
+    ]
+  },
   {
     "id": "rs#51",
     "name": "The Rolling Scopes #51. Krakow",
@@ -160,7 +197,9 @@
         "time": "17 AUG - 20:20",
         "imagePath": "images/speakers/round_table.jpg",
         "speakerIDs": [
-          107, 130, 131
+          107,
+          130,
+          131
         ],
         "description": "<p>Круглый стол с экспертами в игровой форме. Во время всего ивента мы будем собирать вопросы из зала касательно дизайн-процесса да и вообще нелёгкой дизайнерской доли, а после докладов в непринуждённой атмосфере будем задавать их экспертам и раздавать очки за ответы.</p><p>Так что, если у вас есть вопрос, который вы давно хотели задать, но стеснялись — это ваш шанс!</p>"
       },
@@ -241,7 +280,8 @@
         "time": "18 AUG - 17:30",
         "imagePath": "images/speakers/rolling_scopes.jpg",
         "speakerIDs": [
-          101, 128
+          101,
+          128
         ],
         "description": "Каждый на проекте встречался с \"изящными решениями\", которые вызывают улыбку или недоумение. Мы решили собрать самые интересные решения с наших проектов в одной библиотеке, чтобы каждый мог поставить себе и наслаждаться."
       },
@@ -285,7 +325,8 @@
         "time": "15:40",
         "imagePath": "images/speakers/jsmachine-logo.jpg",
         "speakerIDs": [
-          120, 115
+          120,
+          115
         ],
         "break": {
           "time": "15:55"
@@ -314,77 +355,77 @@
     ]
   },
   {
-  "id": "rs#49",
-  "name": "The Rolling Scopes #49. Krakow",
-  "date": "June 6, 2018",
-  "location": "BARKA, Podgórska 16, Krakow",
-  "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
-  "registerLink": "https://www.eventbrite.com/e/rescheduled-the-rolling-scopes-49-krakow-tickets-45723140143",
-  "schedule": [
-    {
-      "title": "VUI with Alexa & Node.js",
-      "time": "19:00",
-      "speakerIDs": [
-        86
-      ],
-      "description": "Explore the world of Voice User Interfaces using Javascript and learn how to create your own.",
-      "break": {
-        "time": "19:40"
-      }
-    },
-    {
-      "title": "Generics and Mapped Types in TypeScript",
-      "speakerIDs": [
-        124
-      ],
-      "description": "Learn cases for generics and mapped types, understand better how to read those and TypeScript keywords in general.",
-      "time": "20:00",
-      "party": {
-        "time": "20:40",
-        "title": "Beer.js",
-        "description": ""
-      }
-    }
-  ]
-},
-  {
-  "id": "rs#48",
-  "name": "The Rolling Scopes #48. Gdansk",
-  "date": "May 25, 2018",
-  "location": "Gdansk, Olivia Six, EPAM Systems, 7th floor",
-  "locationLink": "https://goo.gl/maps/WhKyQZMSFTy",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-48-gdansk-tickets-44094249086",
-  "schedule": [
-    {
-      "title": "Registration",
-      "speakerIDs": [
-        95
-      ],
-      "description": "<p>Pizza & Beverages & Networking</p> ",
-      "time": "17:00"
-    },
-    {
-      "title": "“Backend For Frontend“ with NestJS: usage patterns",
-      "time": "17:10",
-      "break": {
-        "time": "17:50"
+    "id": "rs#49",
+    "name": "The Rolling Scopes #49. Krakow",
+    "date": "June 6, 2018",
+    "location": "BARKA, Podgórska 16, Krakow",
+    "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
+    "registerLink": "https://www.eventbrite.com/e/rescheduled-the-rolling-scopes-49-krakow-tickets-45723140143",
+    "schedule": [
+      {
+        "title": "VUI with Alexa & Node.js",
+        "time": "19:00",
+        "speakerIDs": [
+          86
+        ],
+        "description": "Explore the world of Voice User Interfaces using Javascript and learn how to create your own.",
+        "break": {
+          "time": "19:40"
+        }
       },
-      "speakerCity": "Gdańsk, Poland",
-      "speakerIDs": [
-        118
-      ],
-      "description": "<p>In recent years, thanks to Node.js, JavaScript has become the “lingua franca“ of the web for both front and backend applications, giving rise to awesome projects like Angular, React and Vue which improve developer productivity and enable the construction of fast, testable, extensible frontend applications. However, on the server-side, while there are a lot of superb libraries, helpers and tools for Node, none of them effectively solve the main problem - the architecture.</p><p>Nest aims to provide an application architecture out of the box which allows for effortless creation of highly testable, scalable, loosely coupled and easily maintainable applications.</p> <p>About speaker: <span class='italic'>“Hi my name is Slava, I'm a software architect and developer from Belarus living in Poland. I started working with EPAM back in 2000. My professional focus is Java/JavaScript technologies. I love coding and setting up new projects. In spare time I enjoy reading, travelling and spending time with my family.” </span></p>"
-    },
-    {
-      "title": "JS Jungle Quiz",
-      "time": "18:00",
-      "speakerIDs": [
-        125
-      ],
-      "description": "<p>We joyfully invite you to share a celebration of <a target='_blank' href='https://github.com/js-day/js-day'>JavaScript Developer Day</a> in Gdansk.</p><p>Unfortunately, we will not have time to organize a carnival :) So we invite you to take part in our JS Quiz like additional fun besides yellow/orange dressing, drinking mocha and eating bananas.</p><p>The quiz will comprise of six/seven rounds on general knowledge of programming, javascript and front-end topics. You will be able to team up with another meetup participants before quiz beginning.</p> <p>Also, we are looking for your tricky JS/web-related questions so this quiz will be really hot. If you have one, please use the following form to upload: <a href='https://docs.google.com/forms/d/e/1FAIpQLScrKoh78aOHUnrPoMgTYeSXWxchezLTVVpMxiTytB18ocIQBw/viewform'>Form link</a></p>"
-    }
-  ]
-},
+      {
+        "title": "Generics and Mapped Types in TypeScript",
+        "speakerIDs": [
+          124
+        ],
+        "description": "Learn cases for generics and mapped types, understand better how to read those and TypeScript keywords in general.",
+        "time": "20:00",
+        "party": {
+          "time": "20:40",
+          "title": "Beer.js",
+          "description": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "rs#48",
+    "name": "The Rolling Scopes #48. Gdansk",
+    "date": "May 25, 2018",
+    "location": "Gdansk, Olivia Six, EPAM Systems, 7th floor",
+    "locationLink": "https://goo.gl/maps/WhKyQZMSFTy",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-48-gdansk-tickets-44094249086",
+    "schedule": [
+      {
+        "title": "Registration",
+        "speakerIDs": [
+          95
+        ],
+        "description": "<p>Pizza & Beverages & Networking</p> ",
+        "time": "17:00"
+      },
+      {
+        "title": "“Backend For Frontend“ with NestJS: usage patterns",
+        "time": "17:10",
+        "break": {
+          "time": "17:50"
+        },
+        "speakerCity": "Gdańsk, Poland",
+        "speakerIDs": [
+          118
+        ],
+        "description": "<p>In recent years, thanks to Node.js, JavaScript has become the “lingua franca“ of the web for both front and backend applications, giving rise to awesome projects like Angular, React and Vue which improve developer productivity and enable the construction of fast, testable, extensible frontend applications. However, on the server-side, while there are a lot of superb libraries, helpers and tools for Node, none of them effectively solve the main problem - the architecture.</p><p>Nest aims to provide an application architecture out of the box which allows for effortless creation of highly testable, scalable, loosely coupled and easily maintainable applications.</p> <p>About speaker: <span class='italic'>“Hi my name is Slava, I'm a software architect and developer from Belarus living in Poland. I started working with EPAM back in 2000. My professional focus is Java/JavaScript technologies. I love coding and setting up new projects. In spare time I enjoy reading, travelling and spending time with my family.” </span></p>"
+      },
+      {
+        "title": "JS Jungle Quiz",
+        "time": "18:00",
+        "speakerIDs": [
+          125
+        ],
+        "description": "<p>We joyfully invite you to share a celebration of <a target='_blank' href='https://github.com/js-day/js-day'>JavaScript Developer Day</a> in Gdansk.</p><p>Unfortunately, we will not have time to organize a carnival :) So we invite you to take part in our JS Quiz like additional fun besides yellow/orange dressing, drinking mocha and eating bananas.</p><p>The quiz will comprise of six/seven rounds on general knowledge of programming, javascript and front-end topics. You will be able to team up with another meetup participants before quiz beginning.</p> <p>Also, we are looking for your tricky JS/web-related questions so this quiz will be really hot. If you have one, please use the following form to upload: <a href='https://docs.google.com/forms/d/e/1FAIpQLScrKoh78aOHUnrPoMgTYeSXWxchezLTVVpMxiTytB18ocIQBw/viewform'>Form link</a></p>"
+      }
+    ]
+  },
   {
     "id": "rs#47",
     "name": "The Rolling Scopes #47",
@@ -401,8 +442,8 @@
         "description": "This talks will introduce you to the purpose of GraphQL and ecosystem around it, the basics of its syntax (requests and responses shapes, fragments, attributes and variables) and main open source tools you can use to create your first GraphQL server and to send requests from a client. Get ready for the journey! :)",
         "time": "19:30",
         "break": {
-        "time": "20:10"
-      }
+          "time": "20:10"
+        }
       },
       {
         "title": "oAuth2 под микроскопом",
@@ -415,196 +456,198 @@
     ]
   },
   {
-  "id": "rs#46",
-  "name": "The Rolling Scopes #46. Mogilev",
-  "date": "April 21, 2018",
-  "location": "Тайм-кафе НЕБО, г. Могилев",
-  "locationLink": "https://goo.gl/maps/6DQME4Xrbjp",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-mogilev-tickets-41817579506",
-  "schedule": [
-    {
-      "title": "Registration",
-      "time": "14:45",
-      "imagePath": "images/logo_rs2.svg",
-      "speakerIDs": [
-        95
-      ],
-      "description": "Coffee & Networking"
-    },
-    {
-      "title": "Introduction of The Rolling Scopes",
-      "time": "15:00",
-      "imagePath": "images/logo_rs2.svg",
-      "speakerIDs": [
-        120, 57
-      ],
-      "description": ""
-    },
-    {
-      "title": "Monads - coding functionally",
-      "time": "15:15",
-      "speakerIDs": [
-        114
-      ],
-      "description": "Beyond the general approaches to coding as well as OOP designs, there is a pretty new functional wave to have your programs written in a neat and elegant way, especially when it comes to JavaScript. An extremely flexible architecture of the language allows us to take the full advantage of the functional programming and opens the gates to the constructions that this approach brings with it. We will consider some implementations of functional constructions, monads, functors, etc. and how they can be utilized in todays applications."
-    },
-    {
-      "title": "Нормально делай — нормально будет",
-      "time": "15:55",
-      "speakerIDs": [
-        119
-      ],
-      "description": "Про Тайпскрипт, тулинг, код ревью, стандарты форматирования, рефакторинг, репозитории, память и процессор. И почему «нормально» — уже хорошо."
-    },
-    {
-      "title": "Growing as a developer",
-      "time": "16:40",
-      "speakerIDs": [
-        57
-      ],
-      "description": "Каждый разработчик всегда думает на два шага вперед, поэтому рассмотрим основные методы развития специалиста"
-    },
-    {
-      "title": "Coffee Break & JS Marathon",
-      "time": "17:20",
-      "imagePath": "images/logo_rs2.svg",
-      "speakerIDs": [
-        121, 120
-      ],
-      "description": "Докажите, что вы лучше всех знаете Javascript в развлекательном приложении JS Marathon. За 7 минут вам надо решить как можно больше задач или как можно сложнее задачи, чтобы набрать наибольшее количество баллов и обогнать конкурентов. Будьте лучшим из лучшим! За первые 3 места на марафоне будут призы. <p><b>ВНИМАНИЕ:</b> Для участия необходим ноутбук.</p>"
-    },
-    {
-      "title": "Node.JS World",
-      "time": "17:40",
-      "speakerIDs": [
-        115
-      ],
-      "description": "NodeJs - это целая вселенная со своими пакетными менеджерами и редакторами кода, написанными на ней же. Я хочу погрузить вас в этот мир и показать, как этим можно пользоваться."
-    },
-    {
-      "title": "CSS Grid layout - practice tricks",
-      "time": "18:20",
-      "speakerIDs": [
-        117
-      ],
-      "description": "Все еще не работал с сеткой CSS? Думаете, что это сложно? Я покажу вам, почему сетка CSS является лучшим инструментом создания макета и построения сложных систем сеток. Мы сравним её с другими методами построения лэйаута, такими как float, inline-block и flexbox."
-    }
-  ]
-},
-  {
-  "id": "rs#45",
-  "name": "The Rolling Scopes #45",
-  "date": "March 14, 2018",
-  "location": "Olivia Business Centre - Olivia Four, Gdansk",
-  "locationLink": "https://gdansk.rollingscopes.com#venue",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-gdansk-tickets-42709114110",
-  "schedule": [
-    {
-      "title": "Registration",
-      "speakerIDs": [
-        95
-      ],
-      "description": "<p>Pizza & Beverages & Networking</p> ",
-      "time": "17:40"
-    },
-    {
-      "title": "How to upgrade your visual skills as a Front-End developer",
-      "speakerCity": "Warsaw, Poland",
-      "speakerIDs": [
-        112
-      ],
-      "description": "<p>Many clients complain that devs don't feel visual aspects - typography, alignments and basically visual hierarchy. I want to talk about fundamental rules, good practices, which can be useful for every developer and I want to present good ways to cooperate between designer & devs.</p><p class='italic'>About speaker: \"I’m the member of Toptal community & UX/UI designer @ Risen - Software House from Poland, creating web/mobile solutions for European & American clients. Academically I’m spending time on behavioral economics & psychology @ Warsaw School of Economics. Formerly I liked to run, even marathon.\"</p>",
-      "time": "18:00"
-    },
-    {
-      "title": "One year without REST",
-      "speakerCity": "São Paulo - Brasil",
-      "speakerIDs": [
-        113
-      ],
-      "description": "<p>Since my first days as developer, I was addicted to REST APIs over any other things, but now I’m free of this vicious, my last REST service was written more than one year ago and I’m here to tell you how was my path discovering the bad, the good and the awesome GraphQL in this amazing year.</p> <p class='italic'>About speaker: \"Hi my name is Marcos, I’m a software engineer from Brazil living in Poland. Back in Brazil I was one organizer of NodeBR (node.js user group in Brazil) and the first NodeConf BR(first NodeConf in Latin America lands), beside that I write some articles in my blog about Node.js and in free time I just work for an amazing company. \"</p>",
-      "time": "18:45",
-      "shortbreak": {
-        "time": "19:30"
+    "id": "rs#46",
+    "name": "The Rolling Scopes #46. Mogilev",
+    "date": "April 21, 2018",
+    "location": "Тайм-кафе НЕБО, г. Могилев",
+    "locationLink": "https://goo.gl/maps/6DQME4Xrbjp",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-mogilev-tickets-41817579506",
+    "schedule": [
+      {
+        "title": "Registration",
+        "time": "14:45",
+        "imagePath": "images/logo_rs2.svg",
+        "speakerIDs": [
+          95
+        ],
+        "description": "Coffee & Networking"
+      },
+      {
+        "title": "Introduction of The Rolling Scopes",
+        "time": "15:00",
+        "imagePath": "images/logo_rs2.svg",
+        "speakerIDs": [
+          120,
+          57
+        ],
+        "description": ""
+      },
+      {
+        "title": "Monads - coding functionally",
+        "time": "15:15",
+        "speakerIDs": [
+          114
+        ],
+        "description": "Beyond the general approaches to coding as well as OOP designs, there is a pretty new functional wave to have your programs written in a neat and elegant way, especially when it comes to JavaScript. An extremely flexible architecture of the language allows us to take the full advantage of the functional programming and opens the gates to the constructions that this approach brings with it. We will consider some implementations of functional constructions, monads, functors, etc. and how they can be utilized in todays applications."
+      },
+      {
+        "title": "Нормально делай — нормально будет",
+        "time": "15:55",
+        "speakerIDs": [
+          119
+        ],
+        "description": "Про Тайпскрипт, тулинг, код ревью, стандарты форматирования, рефакторинг, репозитории, память и процессор. И почему «нормально» — уже хорошо."
+      },
+      {
+        "title": "Growing as a developer",
+        "time": "16:40",
+        "speakerIDs": [
+          57
+        ],
+        "description": "Каждый разработчик всегда думает на два шага вперед, поэтому рассмотрим основные методы развития специалиста"
+      },
+      {
+        "title": "Coffee Break & JS Marathon",
+        "time": "17:20",
+        "imagePath": "images/logo_rs2.svg",
+        "speakerIDs": [
+          121,
+          120
+        ],
+        "description": "Докажите, что вы лучше всех знаете Javascript в развлекательном приложении JS Marathon. За 7 минут вам надо решить как можно больше задач или как можно сложнее задачи, чтобы набрать наибольшее количество баллов и обогнать конкурентов. Будьте лучшим из лучшим! За первые 3 места на марафоне будут призы. <p><b>ВНИМАНИЕ:</b> Для участия необходим ноутбук.</p>"
+      },
+      {
+        "title": "Node.JS World",
+        "time": "17:40",
+        "speakerIDs": [
+          115
+        ],
+        "description": "NodeJs - это целая вселенная со своими пакетными менеджерами и редакторами кода, написанными на ней же. Я хочу погрузить вас в этот мир и показать, как этим можно пользоваться."
+      },
+      {
+        "title": "CSS Grid layout - practice tricks",
+        "time": "18:20",
+        "speakerIDs": [
+          117
+        ],
+        "description": "Все еще не работал с сеткой CSS? Думаете, что это сложно? Я покажу вам, почему сетка CSS является лучшим инструментом создания макета и построения сложных систем сеток. Мы сравним её с другими методами построения лэйаута, такими как float, inline-block и flexbox."
       }
-    },
-    {
-      "title": "Our way to 12-factor apps",
-      "speakerCity": "Gdansk, Poland",
-      "speakerIDs": [
-        89
-      ],
-      "description": "<p>The twelve-factor app is a methodology for building software-as-a-service apps that:</p><ul><li>Use declarative formats for setup automation, to minimize time and cost for new developers joining the project</li><li>Have a clean contract with the underlying operating system, offering maximum portability between execution environments</li><li>Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration</li><li>Minimize divergence between development and production, enabling continuous deployment for maximum agility</li><li>And can scale up without significant changes to tooling, architecture, or development practices</li></ul><p>The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc) <a target='_blank' href='https://12factor.net/'>https://12factor.net/</a></p>",
-      "time": "19:40"
-    }
-  ]
-},
+    ]
+  },
   {
-  "id": "rs#44",
-  "name": "The Rolling Scopes #44",
-  "date": "January 31, 2018",
-  "location": "Olivia Business Centre - Olivia Four, Gdansk",
-  "locationLink": "https://gdansk.rollingscopes.com#venue",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-44-gdansk-tickets-41204963154",
-  "schedule": [
-    {
-      "title": "Registration",
-      "speakerIDs": [
-        95
-      ],
-      "description": "<p>Pizza & Beverages & Networking</p> ",
-      "time": "17:40"
-    },
-    {
-      "title": "(R)Evolution of set-top boxes",
-      "speakerCity": "Amsterdam, The Netherlands",
-      "speakerIDs": [
-        29
-      ],
-      "description": "<p>JavaScript is no longer about animating DIVs and sending forms. On the example of UI development for set-top boxes (like UPC Horizon, Orange TV decoder), I’ll tell a story about our evolution of JS usage on devices not suitable at all for it (or?).</p> <p class='italic'>Kirill Knysh, Engineer at EPAM Systems Amsterdam, 4+ years of experience of STB UI development, passionate to coding.</p> ",
-      "time": "18:00"
-    },
-    {
-      "title": "Tricky JS and WebGL practices to achieve the best performance on mobile",
-      "speakerCity": "Minsk, Belarus",
-      "speakerIDs": [
-        46
-      ],
-      "description": "<p>Tricky JS and WebGL practices to achieve the best performance on mobile. We'll speak about set of interesting practices our team applied on our project to achieve lower network payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of using Pixi.js</p> <p class='italic'>Andrei Lesnitsky, the Software developer at EPAM Systems. Passioned about front-end development, bleeding edge web-technologies, js performance, public speaking and knowledge sharing. Constantly experimenting with new stuff, messing around with pet projects for fun</p>",
-      "time": "18:45",
-      "shortbreak": {
-        "time": "19:30"
+    "id": "rs#45",
+    "name": "The Rolling Scopes #45",
+    "date": "March 14, 2018",
+    "location": "Olivia Business Centre - Olivia Four, Gdansk",
+    "locationLink": "https://gdansk.rollingscopes.com#venue",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-45-gdansk-tickets-42709114110",
+    "schedule": [
+      {
+        "title": "Registration",
+        "speakerIDs": [
+          95
+        ],
+        "description": "<p>Pizza & Beverages & Networking</p> ",
+        "time": "17:40"
+      },
+      {
+        "title": "How to upgrade your visual skills as a Front-End developer",
+        "speakerCity": "Warsaw, Poland",
+        "speakerIDs": [
+          112
+        ],
+        "description": "<p>Many clients complain that devs don't feel visual aspects - typography, alignments and basically visual hierarchy. I want to talk about fundamental rules, good practices, which can be useful for every developer and I want to present good ways to cooperate between designer & devs.</p><p class='italic'>About speaker: \"I’m the member of Toptal community & UX/UI designer @ Risen - Software House from Poland, creating web/mobile solutions for European & American clients. Academically I’m spending time on behavioral economics & psychology @ Warsaw School of Economics. Formerly I liked to run, even marathon.\"</p>",
+        "time": "18:00"
+      },
+      {
+        "title": "One year without REST",
+        "speakerCity": "São Paulo - Brasil",
+        "speakerIDs": [
+          113
+        ],
+        "description": "<p>Since my first days as developer, I was addicted to REST APIs over any other things, but now I’m free of this vicious, my last REST service was written more than one year ago and I’m here to tell you how was my path discovering the bad, the good and the awesome GraphQL in this amazing year.</p> <p class='italic'>About speaker: \"Hi my name is Marcos, I’m a software engineer from Brazil living in Poland. Back in Brazil I was one organizer of NodeBR (node.js user group in Brazil) and the first NodeConf BR(first NodeConf in Latin America lands), beside that I write some articles in my blog about Node.js and in free time I just work for an amazing company. \"</p>",
+        "time": "18:45",
+        "shortbreak": {
+          "time": "19:30"
+        }
+      },
+      {
+        "title": "Our way to 12-factor apps",
+        "speakerCity": "Gdansk, Poland",
+        "speakerIDs": [
+          89
+        ],
+        "description": "<p>The twelve-factor app is a methodology for building software-as-a-service apps that:</p><ul><li>Use declarative formats for setup automation, to minimize time and cost for new developers joining the project</li><li>Have a clean contract with the underlying operating system, offering maximum portability between execution environments</li><li>Are suitable for deployment on modern cloud platforms, obviating the need for servers and systems administration</li><li>Minimize divergence between development and production, enabling continuous deployment for maximum agility</li><li>And can scale up without significant changes to tooling, architecture, or development practices</li></ul><p>The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc) <a target='_blank' href='https://12factor.net/'>https://12factor.net/</a></p>",
+        "time": "19:40"
       }
-    },
-    {
-      "title": "Who is the client",
-      "speakerCity": "Gdansk, Poland",
-      "speakerIDs": [
-        111
-      ],
-      "description": " <p>It will be about how the browser´s Render Engine works and how this knowledge can improve the performance on front-end.</p><p>Some points to be discussed:</p><ul><li>Is the DOM really slow?</li><li>The Virtual DOM and is it the solution for performance on DOM updates?</li><li>The new Performance tab of chrome and how we can use it to measure front-end performance.</li></ul><p class='italic'>Marcelo Gomes works with front-end development since 2009. He likes playing chess, playing drums and making questions. He is from Brazil but currently lives in Gdansk.</p>",
-      "time": "19:40"
-    },
-    {
-      "title": "Mogensen-Scott encoding",
-      "speakerCity": "Berlin, Germany",
-      "speakerIDs": [
-        0
-      ],
-      "description": "<p class='italic'>Alex is employed as a front-end engineer at Wix.com, earning just enough to sustain his functional programming addiction. In his spare time, he teaches programming and creates educational games with his hacker friends.</p>",
-      "time": "20:00"
-    },
-    {
-      "title": "CSS QuickDraw",
-      "speakerIDs": [
-        0
-      ],
-      "imagePath": "images/speakers/cowboy.jpg",
-      "description": "<p>Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit!</p><p><i>Please bring your laptop!</i></p>",
-      "time": "20:40"
-    }
-  ]
-},
+    ]
+  },
+  {
+    "id": "rs#44",
+    "name": "The Rolling Scopes #44",
+    "date": "January 31, 2018",
+    "location": "Olivia Business Centre - Olivia Four, Gdansk",
+    "locationLink": "https://gdansk.rollingscopes.com#venue",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-44-gdansk-tickets-41204963154",
+    "schedule": [
+      {
+        "title": "Registration",
+        "speakerIDs": [
+          95
+        ],
+        "description": "<p>Pizza & Beverages & Networking</p> ",
+        "time": "17:40"
+      },
+      {
+        "title": "(R)Evolution of set-top boxes",
+        "speakerCity": "Amsterdam, The Netherlands",
+        "speakerIDs": [
+          29
+        ],
+        "description": "<p>JavaScript is no longer about animating DIVs and sending forms. On the example of UI development for set-top boxes (like UPC Horizon, Orange TV decoder), I’ll tell a story about our evolution of JS usage on devices not suitable at all for it (or?).</p> <p class='italic'>Kirill Knysh, Engineer at EPAM Systems Amsterdam, 4+ years of experience of STB UI development, passionate to coding.</p> ",
+        "time": "18:00"
+      },
+      {
+        "title": "Tricky JS and WebGL practices to achieve the best performance on mobile",
+        "speakerCity": "Minsk, Belarus",
+        "speakerIDs": [
+          46
+        ],
+        "description": "<p>Tricky JS and WebGL practices to achieve the best performance on mobile. We'll speak about set of interesting practices our team applied on our project to achieve lower network payload with help of run-length encoding, reduce time to first paint and memory pressure to minimum using lazy iterators, being 60FPS even on android after implementing own light-weight WebGL library instead of using Pixi.js</p> <p class='italic'>Andrei Lesnitsky, the Software developer at EPAM Systems. Passioned about front-end development, bleeding edge web-technologies, js performance, public speaking and knowledge sharing. Constantly experimenting with new stuff, messing around with pet projects for fun</p>",
+        "time": "18:45",
+        "shortbreak": {
+          "time": "19:30"
+        }
+      },
+      {
+        "title": "Who is the client",
+        "speakerCity": "Gdansk, Poland",
+        "speakerIDs": [
+          111
+        ],
+        "description": " <p>It will be about how the browser´s Render Engine works and how this knowledge can improve the performance on front-end.</p><p>Some points to be discussed:</p><ul><li>Is the DOM really slow?</li><li>The Virtual DOM and is it the solution for performance on DOM updates?</li><li>The new Performance tab of chrome and how we can use it to measure front-end performance.</li></ul><p class='italic'>Marcelo Gomes works with front-end development since 2009. He likes playing chess, playing drums and making questions. He is from Brazil but currently lives in Gdansk.</p>",
+        "time": "19:40"
+      },
+      {
+        "title": "Mogensen-Scott encoding",
+        "speakerCity": "Berlin, Germany",
+        "speakerIDs": [
+          0
+        ],
+        "description": "<p class='italic'>Alex is employed as a front-end engineer at Wix.com, earning just enough to sustain his functional programming addiction. In his spare time, he teaches programming and creates educational games with his hacker friends.</p>",
+        "time": "20:00"
+      },
+      {
+        "title": "CSS QuickDraw",
+        "speakerIDs": [
+          0
+        ],
+        "imagePath": "images/speakers/cowboy.jpg",
+        "description": "<p>Your CSS is fast, but are you? Can you survive in the Wild West of front-end? Test your reflexes and stylesheet skills in a multiplayer game. Compete against your friends and colleagues to prove you have true CSS grit!</p><p><i>Please bring your laptop!</i></p>",
+        "time": "20:40"
+      }
+    ]
+  },
   {
     "id": "rs#43",
     "name": "The Rolling Scopes #43",
@@ -643,23 +686,23 @@
     ]
   },
   {
-  "id": "rs#42",
-  "name": "The Rolling Scopes #42",
-  "date": "6 октября 2017",
-  "location": "imaguru.co",
-  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-42-minsk-tickets-38431804562",
-  "schedule": [
-    {
-      "title": "Митап о #microsoft #react #redux #berlin",
-      "speakerIDs": [
-        109
-      ],
-      "description": "Алексей работает старшим инженером в Microsoft Berlin и трудится над веб-версией Microsoft To-Do. В свободное время тренирует программистов, оттачивает мастерство и троллит в твиттере. Ведёт бложик <a href='http://mtdv.io'>http://mtdv.io</a>. Made in Belarus. Живёт в Берлине. Был замечен в организации OdessaJS. На митапе затронем две основные темы: <br><ul><li>Как Microsoft To-Do команда использует React &amp; Redux <br> Инженер команды Microsoft To-Do поделится опытом команды в использовании реакт и редакс «по-майкрософтовски». Послушаем, какие необычные проблемы возникают в, казалось бы, несложном приложениии и подходы к их решению.</li><li>Q&amp;A по Microsoft/Berlin <br> Алексей ответит на все Ваши вопросы по Microsoft и поделится его опытом релокации/проживания в Берлине.</li></ul>",
-      "time": "19:00"
-    }
-  ]
-},
+    "id": "rs#42",
+    "name": "The Rolling Scopes #42",
+    "date": "6 октября 2017",
+    "location": "imaguru.co",
+    "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+    "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-42-minsk-tickets-38431804562",
+    "schedule": [
+      {
+        "title": "Митап о #microsoft #react #redux #berlin",
+        "speakerIDs": [
+          109
+        ],
+        "description": "Алексей работает старшим инженером в Microsoft Berlin и трудится над веб-версией Microsoft To-Do. В свободное время тренирует программистов, оттачивает мастерство и троллит в твиттере. Ведёт бложик <a href='http://mtdv.io'>http://mtdv.io</a>. Made in Belarus. Живёт в Берлине. Был замечен в организации OdessaJS. На митапе затронем две основные темы: <br><ul><li>Как Microsoft To-Do команда использует React &amp; Redux <br> Инженер команды Microsoft To-Do поделится опытом команды в использовании реакт и редакс «по-майкрософтовски». Послушаем, какие необычные проблемы возникают в, казалось бы, несложном приложениии и подходы к их решению.</li><li>Q&amp;A по Microsoft/Berlin <br> Алексей ответит на все Ваши вопросы по Microsoft и поделится его опытом релокации/проживания в Берлине.</li></ul>",
+        "time": "19:00"
+      }
+    ]
+  },
   {
     "id": "rs#41",
     "name": "The Rolling Scopes #41",
@@ -669,16 +712,16 @@
     "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-41-minsk-tickets-35994973936",
     "schedule": [
       {
-      "title": "Hack the Dom         or Modern Chrome Extension in the Wild",
-      "speakerIDs": [
-        18
-      ],
-      "description": "The talk will consist from short overview of Web Extensions capabilities, the ways of hacking into the dom and applications of that methods in gmail extensions.",
-      "time": "19:00",
-      "break": {
-        "time": "19:45"
-      }
-    },
+        "title": "Hack the Dom         or Modern Chrome Extension in the Wild",
+        "speakerIDs": [
+          18
+        ],
+        "description": "The talk will consist from short overview of Web Extensions capabilities, the ways of hacking into the dom and applications of that methods in gmail extensions.",
+        "time": "19:00",
+        "break": {
+          "time": "19:45"
+        }
+      },
       {
         "title": "Про статические типы в JS",
         "speakerIDs": [

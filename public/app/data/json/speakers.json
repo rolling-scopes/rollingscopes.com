@@ -678,5 +678,22 @@
     "id": 136,
     "name": "Martynas Sipavičius | Vilnius",
     "photo": "martynas_sipavicius.jpg"
+  },
+  {
+    "id": 137,
+    "name": "Yauheni Zinchanka",
+    "photo": "unknown_speaker.jpg"
+  },
+  {
+    "id": 138,
+    "name": "Aliaksei Strokin",
+    "photo": "aliaksei_strokin.jpg"
+  },
+  {
+    "id": 139,
+    "name": "Pavel Serdziukou",
+    "photo": "pavel_serdziukou.jpg"
   }
+
+
 ]
