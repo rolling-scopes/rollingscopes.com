@@ -529,18 +529,19 @@ a.register-button.shorted {
   }
 
   .speaker-name {
-    color: #bbb;
+    color: #aaa;
+    letter-spacing: .8px;
   }
 }
 
 .speech-time {
   position: absolute;
   left: 0;
-  width: 58px;
-  font-size: 30px;
-  line-height: 1em;
-  color: #ccc;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6rem;
+  color: #aaa;
+  letter-spacing: .8px;
+  font-weight: normal;
   padding: 0;
   margin: 0;
   @media only screen and (max-width: 1024px) {
@@ -797,10 +798,6 @@ a.register-button.shorted {
     .second-stream {
       padding: 50px 0 0 0;
     }
-  }
-
-  .speech-time {
-    font-size: 20px;
   }
 
   .first-stream-mark h3:before, .second-stream-mark h3:before {

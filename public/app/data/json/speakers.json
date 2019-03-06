@@ -693,7 +693,23 @@
     "id": 139,
     "name": "Pavel Serdziukou",
     "photo": "pavel_serdziukou.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Mikhail Dziarkach",
+    "photo": "mikhail_dziarkach.jpeg"
+  },
+  {
+    "id": 141,
+    "name": "Yury Tatarynovich"
+  },
+  {
+    "id": 142,
+    "name": "Katsiaryna Sivakova"
+  },
+  {
+    "id": 143,
+    "name": "Viktoryia Verasava",
+    "photo": "viktoryia_verasava.jpg"
   }
-
-
 ]

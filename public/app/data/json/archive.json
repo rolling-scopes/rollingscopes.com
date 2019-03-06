@@ -38,19 +38,50 @@
   {
     "id": "rs#55",
     "name": "The Rolling Scopes & JS Machine. Mogilev",
-    "date": "March 23, 2019",
-    "location": "Mogilev",
-    "locationLink": "https://goo.gl/maps/hV22QRp9x3D2",
+    "date": "March 30, 2019",
+    "location": "Тайм-кафе НЕБО, г. Могилев",
+    "locationLink": "https://goo.gl/maps/6DQME4Xrbjp",
     "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-54-mogilev-tickets-55961472270",
     "schedule": [
       {
-        "title": "Call for Speakers",
-        "time": "15:00",
-        "imagePath": "images/logo_rs2.svg",
+        "title": "PWA using Angular Service Worker",
         "speakerIDs": [
-          95
+          143
         ],
-        "description": "<a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLSdQA_RNCjVljAXGl4CGmSRl2lFbg35pgjIyUqWckBnS8cDhhQ/viewform'>Submit a Talk!</a> <br><small>Submission Deadline: 1 March 2019</small> "
+        "description": "TBD",
+        "time": "16:00"
+      },
+      {
+        "title": "Стейт менеджемент для ленивых",
+        "speakerIDs": [
+          114
+        ],
+        "description": "Выступление с целью ознакомления аудитории с современными принципами стейт менеджмента в front-end приложениях (Redux, Flux, MobX), архитектура, подходы, общие принципы, популярные библиотеки, недостатки.",
+        "time": "16:55",
+        "break": {
+          "time": "17:40"
+        }
+      },
+      {
+        "title": "Оптимизации в web",
+        "speakerIDs": [
+          140
+        ],
+        "description": "Возможные пути решения для ускорения загрузки страницы.",
+        "time": "18:00"
+      },
+      {
+        "title": "JS Machine Talk",
+        "imagePath": "images/speakers/jsmachine-logo.jpg",
+        "speakerIDs": [
+          141, 142
+        ],
+        "description": "Много проблем, много идей, много вопросов. Поговорим, обсудим и решим! <br> И вас ждёт очень много живого общения и интересностей :)",
+        "time": "18:55",
+        "party": {
+          "time": "20:00",
+          "title": "Afterparty"
+        }
       }
     ]
   },
