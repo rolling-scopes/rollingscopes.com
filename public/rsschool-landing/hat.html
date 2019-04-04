@@ -39,22 +39,18 @@
 <div class="container">
 
   <div class="sorting-hat text-center">
-      <p>
-        <img
-             src="https://www.hp-lexicon.org/wp-content/uploads/2016/09/the_sorting_hat_by_sahinduezguen-d47mwt5.png"
-             alt="">
-      </p>
-      <p class="mt-5 pt-5">
-        <button id="findMentor" class="btn btn-primary btn-sm">Кто мой ментор?</button>
-      </p>
-      <div id="contact" class="contact-box">
+    <p>
+      <img
+        src="https://www.hp-lexicon.org/wp-content/uploads/2016/09/the_sorting_hat_by_sahinduezguen-d47mwt5.png"
+        alt="">
+    </p>
+    <p class="mt-5 pt-5">
+      <button id="findMentor" class="btn btn-primary btn-sm">Кто мой ментор?</button>
+    </p>
+    <div id="contact" class="contact-box">
 
-      </div>
+    </div>
   </div>
-
-
-
-
 
 
 </div>
@@ -69,34 +65,33 @@
 
 <script>
   var config = {
-    "apiKey": "AIzaSyCXWnm1WP3e6fEE0dTHqTEi6DokSVFfgG8",
-    "databaseURL": "https://rsschool-sorting-hat.firebaseio.com",
-    "storageBucket": "rsschool-sorting-hat.appspot.com",
-    "authDomain": "rsschool-sorting-hat.firebaseapp.com",
-    "messagingSenderId": "20057464371",
-    "projectId": "rsschool-sorting-hat"
+    'apiKey': 'AIzaSyCXWnm1WP3e6fEE0dTHqTEi6DokSVFfgG8',
+    'databaseURL': 'https://rsschool-sorting-hat.firebaseio.com',
+    'storageBucket': 'rsschool-sorting-hat.appspot.com',
+    'authDomain': 'rsschool-sorting-hat.firebaseapp.com',
+    'messagingSenderId': '20057464371',
+    'projectId': 'rsschool-sorting-hat',
   };
   firebase.initializeApp(config);
 
-  document.getElementById("findMentor").addEventListener("click", loginAndGetMyMentor);
+  document.getElementById('findMentor').addEventListener('click', loginAndGetMyMentor);
 
   function loginAndGetMyMentor() {
 
-    document.getElementById("findMentor").parentNode.style.display = 'none';
+    document.getElementById('findMentor').parentNode.style.display = 'none';
     firebase.auth().signInWithPopup(new firebase.auth.GithubAuthProvider())
-      .then(function (result) {
+      .then(function(result) {
         let githubUsername = result.additionalUserInfo.username.toLowerCase();
-        firebase.database().ref('/result/').orderByChild('student github').equalTo(githubUsername).limitToFirst(1).once("value")
+        firebase.database().ref('/result/').orderByChild('student github').equalTo(githubUsername).limitToFirst(1).once('value')
           .then(function(snapshot) {
             if (!snapshot.exists()) {
-              document.getElementById("contact").innerHTML = '<p> Ваш ментор не найден :( </p>'
-            }
-            else {
+              document.getElementById('contact').innerHTML = '<p> Ваш ментор не найден :( </p>';
+            } else {
               renderMyMentor(snapshot);
             }
-          })
+          });
       })
-      .catch(function (error) {
+      .catch(function(error) {
         alert(JSON.stringify(error));
         // Some error occurred.
       });
@@ -107,12 +102,12 @@
     data = data[Object.keys(data)[0]];
 
     let mentor = data.interviewer;
-    let contacts = data["mentor contacts"];
+    let contacts = data['mentor contacts'];
 
     let html = `<p><strong>Твой ментор:</strong> ${mentor}</p>
-    <p><strong>Контакты:</strong> ${contacts}</p>`
+    <p><strong>Контакты:</strong> ${contacts}</p>`;
 
-    document.getElementById("contact").innerHTML = html;
+    document.getElementById('contact').innerHTML = html;
   }
 
 
