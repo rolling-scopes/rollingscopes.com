@@ -1,45 +1,37 @@
-[  {
-  "id": "rs#56",
-  "name": "The Rolling Scopes School Meetup",
-  "date": "11 MAY 2019",
+[ {
+  "id": "rs#54",
+  "name": "The Rolling Scopes & MobilePeople",
+  "date": "19 FEB 2019",
   "location": "imaguru.co",
   "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "https://communities.by/events/rs-school-2019q1-meetup/guest-registration",
+  "registerLink": "https://www.eventbrite.com/e/ios-course-introduction-the-rolling-scopes-school-2019q1-tickets-53342652309",
   "schedule": [
     {
-      "title": "Обзор работы RS Comm Lab (RU)",
+      "title": "Sunrise of iOS",
       "speakerIDs": [
-        18
+        138
       ],
-      "description": "Денис расскажет, как обстоят дела в RS Comm Lab: что уже успели сделать, с какими проблемами столкнулись и какие планы на будущее.",
-      "time": "15:00"
+      "description": "В своём докладе я бы хотел окунуться в историю возникновения и развития операционной системы iOS и устройств, на которых она работает. Обозначить основные вехи развития и понять как разработчику адаптироваться под все эти изменения.",
+      "time": "19:00"
     },
     {
-      "title": "Gatsby (RU)",
-      "speakerIDs": [
-        18
-      ],
-      "description": "Совместный доклад со студентами общественной веб мастерской про инструмент генерации статических сайтов с реактом. Ну и еще немного про headless cms.",
-      "time": "15:40",
-      "break": {
-        "time": "16:15"
-    }
-    },
-    {
-      "title": "Progressive Web Apps and service workers with Workbox (BY)",
-      "speakerIDs": [
-        144
-      ],
-      "description": "Overview of PWA and Workbox as a way of building service workers for PWA, personal experience.",
-      "time": "16:30"
-    },
-    {
-      "title": "Q&A сессия с Андреем Лесницким",
+      "title": "Обзор фреймворков для кроссплатформенной мобильной разработки",
       "speakerIDs": [
         46
       ],
-      "description": "<p>Андрей увлекся программированием еще в школе, и в 18 лет уже работал на продакшен проекте.</p><p>Также Андрей является выпускником первого набора RS School 2013Q3, а теперь:</p><ul><li>фрилансер</li><li>ментор и тренер многих наборов RS School</li><li>создатель первой версии Padawans</li><li>активный спикер различных митапов и конференций</li><li>контрибьютер “21/23”</li></ul><p>С 2018 года Андрей занимается также mobile разработкой и контрибьютит в RS School iOS. Как быть всегда в тренде и все успевать, вы сможете узнать у Андрея на митапе. Чтобы Q&A сессия прошла более продуктивно, вы можете прислать свой вопрос заранее , заполнив эту <a href='https://docs.google.com/forms/d/e/1FAIpQLSdjF2Y4EJ4vQva5QxG8e8RUYlCHfyVwwhPF344sWvzVr9UwrQ/viewform'>форму</a></p>",
-      "time": "17:10"
+      "description": "Обзорный доклад о преимуществах и недостатках фреймворков для кроссплатформенной мобильной разработки. PWA, Ionic, React Native, Xamarin, Flutter и почему знать native важно даже в среде абстрагирующей детали платформы.",
+      "time": "19:40",
+      "break": {
+        "time": "20:20"
+      }
+    },
+    {
+      "title": "iOS курс. Введение",
+      "speakerIDs": [
+        137
+      ],
+      "description": "Евгений Зинченко, координатор iOS направления в RS School, расскажет про RS школу, а также про этапы и процесс обучения.",
+      "time": "20:40"
     }
   ]
 },
@@ -93,43 +85,6 @@
       }
     ]
   },
-  {
-  "id": "rs#54",
-  "name": "The Rolling Scopes & MobilePeople",
-  "date": "19 FEB 2019",
-  "location": "imaguru.co",
-  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
-  "registerLink": "https://www.eventbrite.com/e/ios-course-introduction-the-rolling-scopes-school-2019q1-tickets-53342652309",
-  "schedule": [
-    {
-      "title": "Sunrise of iOS",
-      "speakerIDs": [
-        138
-      ],
-      "description": "В своём докладе я бы хотел окунуться в историю возникновения и развития операционной системы iOS и устройств, на которых она работает. Обозначить основные вехи развития и понять как разработчику адаптироваться под все эти изменения.",
-      "time": "19:00"
-    },
-    {
-      "title": "Обзор фреймворков для кроссплатформенной мобильной разработки",
-      "speakerIDs": [
-        46
-      ],
-      "description": "Обзорный доклад о преимуществах и недостатках фреймворков для кроссплатформенной мобильной разработки. PWA, Ionic, React Native, Xamarin, Flutter и почему знать native важно даже в среде абстрагирующей детали платформы.",
-      "time": "19:40",
-      "break": {
-        "time": "20:20"
-      }
-    },
-    {
-      "title": "iOS курс. Введение",
-      "speakerIDs": [
-        137
-      ],
-      "description": "Евгений Зинченко, координатор iOS направления в RS School, расскажет про RS школу, а также про этапы и процесс обучения.",
-      "time": "20:40"
-    }
-  ]
-},
   {
   "id": "rs#53",
   "name": "The Rolling Scopes & {Minsk} JSON",
