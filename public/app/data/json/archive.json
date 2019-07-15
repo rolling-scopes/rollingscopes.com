@@ -1,4 +1,43 @@
 [ {
+  "id": "rs#56",
+  "name": "The Rolling Scopes #56",
+  "date": "18 JULY 2019",
+  "location": "imaguru.co",
+  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+  "registerLink": "https://www.eventbrite.com/e/the-rolling-scopes-56-minsk-tickets-65407450445",
+  "schedule": [
+    {
+      "title": "Getting Started on AWS + Serverless Framework",
+      "speakerIDs": [
+        145
+      ],
+      "description": "<p>Так уж вышло что мой первый проект, на который я попал, связан с AWS. На основе своего опыта я расскажу про то, с чего можно начать изучение AWS, а также на что стоит обратить внимание. Покажу как можно создать RESTful API используя AWS + Serverless.</p><p><i>О себе:<br>Семь лет я работал не по специальности, но потом узнал о школе Rolling Scopes и успешно ее закончил. Теперь я - Junior Software Engineer. Мне всегда нравился язык JavaScript за возможность делать крутые интерактивные штуки прямо в браузере, а теперь нравится еще больше.</i></p>",
+      "time": "19:00",
+      "shortbreak": {
+      "time": "19:40"
+    }
+    },
+    {
+      "title": "TBA",
+      "speakerIDs": [
+        146
+      ],
+      "description": "<p>Виктор поделится собственным опытом, как сократить расходы и не потерять команду.</p><p><i>Сo-founder CartaMe, Product Owner, director LTD Bonuscart. Виктор более 10 лет в управлении компаниями и более 4 лет в управлении удаленными командами разработчиков.</i><p>",
+      "time": "19:50",
+      "shortbreak": {
+        "time": "20:30"
+      }
+    },
+    {
+      "title": "TBA",
+      "speakerIDs": [
+        147
+      ],
+      "description": "<p>TBA</p>",
+      "time": "20:40"
+    }
+  ]
+},{
   "id": "rs#54",
   "name": "The Rolling Scopes & MobilePeople",
   "date": "19 FEB 2019",

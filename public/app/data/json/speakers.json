@@ -716,5 +716,20 @@
     "id": 144,
     "name": "Kanstantsin Auseika",
     "photo": "kanstantsin_auseika.jpg"
+  },
+  {
+    "id": 145,
+    "name": "Дмитрий Цебрук",
+    "photo": "dzmitry_tsebruk.jpg"
+  },
+  {
+    "id": 146,
+    "name": "Виктор Шипалов",
+    "photo": "viktor_shipalov.jpg"
+  },
+  {
+    "id": 147,
+    "name": "TBA",
+    "photo": "unknown_speaker.jpg"
   }
 ]
