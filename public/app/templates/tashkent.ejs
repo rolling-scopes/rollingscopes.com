@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title><%= page.title %></title>
+  <meta name="viewport" content="width=device-width">
+  <% include common/styles %>
+</head>
+<body>
+<% include common/browsehappy %>
+<% include common/header %>
+<section>
+  <% include common/materials %>
+  <% include index/meetup-banner %>
+<!--  < % include common/register-button % >-->
+  <h2>Agenda</h2>
+  <% include common/scedule %>
+
+  <hr style="margin-bottom: 50px;">
+<!--  < % include common/register-button % >-->
+
+</section>
+
+<% include index/venue %>
+<section>
+  <iframe
+    src="https://www.google.com/maps/place/Atrium+Business+Center+Tashkent/@41.296349,69.275045,15z/data=!4m5!3m4!1s0x0:0x4ea1d5aa388ecd61!8m2!3d41.296349!4d69.275045"
+    width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+<section>
+  <h2 class="text-center">Our Partners</h2>
+  <ul class="partner-list">
+    <li>
+      <a target="_blank" href="http://www.epam.by/"><img src="images/partners/epam-systems.jpg" alt="epam logo"/></a>
+    </li>
+
+  </ul>
+</section>
+<% include common/call-for-speakers %>
+
+<% include common/main-nav %>
+<% include common/footer %>
+<% include common/scripts %>
+</body>
+</html>

@@ -1,4 +1,30 @@
 [ {
+  "id": "rs#58",
+  "name": "The Rolling Scopes #58. Tashkent",
+  "date": "September 28, 2019",
+  "location": "Atrium Business Center, Tashkent",
+  "locationLink": "https://goo.gl/maps/xeBk1xwtsy7e1sdD6",
+  "registerLink": "",
+  "schedule": [
+    {
+      "title": "TBD",
+      "time": "19:00",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p></p>"
+    },
+    {
+      "title": "TBD",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p></p>",
+      "time": "19:40"
+    }
+  ]
+},
+  {
   "id": "rs#57",
   "name": "The Rolling Scopes #57. Krakow",
   "date": "October 10, 2019",
