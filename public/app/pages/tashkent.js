@@ -3,7 +3,7 @@ var loadEvents   = require('../data/loaders/archive-loader');
 
 var events = loadEvents()
   .filter((event) => {
-    return event.location.indexOf('Tashkent') !== -1;
+    return event.location.indexOf('Ташкент') !== -1;
   });
 
 var currentEvent = events[0];

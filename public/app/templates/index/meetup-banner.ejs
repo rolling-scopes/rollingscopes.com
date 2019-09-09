@@ -3,7 +3,7 @@
 <div class="event-info">
     <div class="event-date"> <%= event.date %></div>
     <div class="event-location"><i class="fas fa-map-marker-alt"></i> <a target="_blank"
-                                                                    href="<%= event.locationLink %>"><%= event.location %></a>
+                                                                    href="<%= event.locationLink %>"><%- event.location %></a>
     </div>
 </div>
 <% if (event.registrationAvailable) { %>

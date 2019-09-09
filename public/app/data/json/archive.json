@@ -2,25 +2,36 @@
   "id": "rs#58",
   "name": "The Rolling Scopes #58. Tashkent",
   "date": "September 28, 2019",
-  "location": "Atrium Business Center, Tashkent",
-  "locationLink": "https://goo.gl/maps/xeBk1xwtsy7e1sdD6",
+  "location": "Ташкент, ул. Зиёлилар, 9 <br> Университет ИНХА, корп. Б, 1 этаж, ауд. Б 101",
+  "locationLink": "https://goo.gl/maps/T12NtrACnPVgnCkw7",
   "registerLink": "",
   "schedule": [
     {
-      "title": "TBD",
-      "time": "19:00",
+      "title": "Официальное закрытие первого набора Rolling Scopes School Uzbekistan",
+      "time": "13:00",
       "speakerIDs": [
         95
       ],
       "description": "<p></p>"
     },
     {
-      "title": "TBD",
+      "title": "Что такое Rolling Scopes School?",
       "speakerIDs": [
         95
       ],
       "description": "<p></p>",
-      "time": "19:40"
+      "time": "13:40",
+      "break": {
+        "time": "14:30"
+      }
+    },
+    {
+      "title": "Создадим комьюнити вместе",
+      "time": "15:00",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p></p>"
     }
   ]
 },
