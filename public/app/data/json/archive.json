@@ -4,7 +4,7 @@
   "date": "September 28, 2019",
   "location": "Ташкент, ул. Зиёлилар, 9 <br> Университет ИНХА, корп. Б, 1 этаж, ауд. Б 101",
   "locationLink": "https://goo.gl/maps/T12NtrACnPVgnCkw7",
-  "registerLink": "",
+  "registerLink": "https://community-z.com/events/rs58-tashkent",
   "schedule": [
     {
       "title": "Официальное закрытие первого набора Rolling Scopes School Uzbekistan",
@@ -12,14 +12,14 @@
       "speakerIDs": [
         95
       ],
-      "description": "<p></p>"
+      "description": "<p>Максим Шастель, Анна Протасевич</p>"
     },
     {
       "title": "Что такое Rolling Scopes School?",
       "speakerIDs": [
         95
       ],
-      "description": "<p></p>",
+      "description": "<p>Максим Шастель, Анна Протасевич</p>",
       "time": "13:40",
       "break": {
         "time": "14:30"
@@ -31,7 +31,7 @@
       "speakerIDs": [
         95
       ],
-      "description": "<p></p>"
+      "description": "<p>Максим Шастель, Анна Протасевич, Денис Шеко</p>"
     }
   ]
 },
