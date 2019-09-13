@@ -45,3 +45,9 @@
   <h3> Pizza & Networking</h3>
 </li>
 <% } %>
+<% if (talk.beerBreak) { %>
+  <li class="event-schedule-item">
+    <h2 class="speech-time"><%= talk.beerBreak.time %></h2>
+    <h3><i class="fas fa-beer"></i> Beer break</h3>
+  </li>
+<% } %>

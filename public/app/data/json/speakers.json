@@ -731,5 +731,15 @@
     "id": 147,
     "name": "Владимир Пантелеев",
     "photo": "vladimir_panteleev.jpg"
+  },
+  {
+    "id": 148,
+    "name": "by Pawel Lesniowski - fearless JavaScript Explorer",
+    "photo": "pawel_lesniowski.jpg"
+  },
+  {
+    "id": 149,
+    "name": "by Ihor Syerkov - a great wizard of front and back end development",
+    "photo": "ihor_syerkov.jpg"
   }
 ]

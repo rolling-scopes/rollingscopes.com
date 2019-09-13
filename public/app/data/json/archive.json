@@ -44,31 +44,34 @@
   "registerLink": "",
   "schedule": [
     {
-      "title": "TBD",
-      "time": "19:00",
+      "title": "Guests Registration & Networking",
+      "time": "18:30",
       "speakerIDs": [
         95
       ],
       "description": "<p></p>"
     },
     {
-      "title": "TBD",
+      "title": "Easy e2e testing for front end developers",
+      "time": "18:45",
+      "beerBreak": {
+        "time": "19:30"
+      },
       "speakerIDs": [
-        95
+        148
       ],
-      "description": "<p></p>",
-      "time": "19:40"
+      "description": "<p></p>"
     },
     {
-      "title": "TBD",
+      "title": "How to Webpack like a pro?",
       "speakerIDs": [
-        95
+        149
       ],
-      "description": "",
-      "time": "20:10",
+      "description": "<p></p>",
+      "time": "19:45",
       "party": {
-        "time": "20:40",
-        "title": "Beer.js",
+        "time": "20:30",
+        "title": "Beer & Networking",
         "description": ""
       }
     }
