@@ -1,4 +1,22 @@
 [ {
+  "id": "rs#59",
+  "name": "The Rolling Scopes #59. Tashkent",
+  "date": "December 5, 2019",
+  "location": "Ташкент, улица Айбека, 18/1, <br> 5 этаж",
+  "locationLink": "https://goo.gl/maps/3AJrysRoubijc6618",
+  "registerLink": "https://community-z.com/events/rs59-tashkent",
+  "schedule": [
+    {
+      "title": "Регистрация",
+      "time": "18:15",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p></p>"
+    }
+  ]
+},
+  {
   "id": "rs#58",
   "name": "The Rolling Scopes #58. Tashkent",
   "date": "September 28, 2019",
