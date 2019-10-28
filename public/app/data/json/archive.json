@@ -48,11 +48,32 @@
   "schedule": [
     {
       "title": "Регистрация",
-      "time": "18:15",
+      "time": "18:30",
       "speakerIDs": [
         95
       ],
       "description": "<p></p>"
+    },
+    {
+      "title": "Agile?! Wat?!",
+      "imagePath": "images/speakers/rs-logo.jpg",
+      "speakerIDs": [
+        150, 151
+      ],
+      "description": "<p></p>",
+      "time": "19:00",
+      "break": {
+        "time": "19:50"
+      }
+    },
+    {
+      "title": "Rx для начинающих",
+      "imagePath": "images/speakers/rs-logo.jpg",
+      "speakerIDs": [
+        152
+      ],
+      "description": "<p></p>",
+      "time": "20:00"
     }
   ]
 },

@@ -741,5 +741,20 @@
     "id": 149,
     "name": "by Ihor Syerkov - a great wizard of front and back end development",
     "photo": "ihor_syerkov.jpg"
+  },
+  {
+    "id": 150,
+    "name": "Renat Akhtyamov",
+    "photo": ""
+  },
+  {
+    "id": 151,
+    "name": "Ekaterina Vashurina",
+    "photo": ""
+  },
+  {
+    "id": 152,
+    "name": "Alex Kulagin",
+    "photo": ""
   }
 ]
