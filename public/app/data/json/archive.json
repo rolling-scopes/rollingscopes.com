@@ -92,6 +92,30 @@
           95
         ],
         "description": "<p></p>"
+      },
+      {
+        "title": "Ivy Renderer: What`s been newly prepared by the Angular Team",
+        "time": "19:00",
+        "speakerIDs": [
+          135
+        ],
+        "description": "<p>The Angular team is preparing a completely new rendering engine. It’s faster, smaller, backward compatible and devoid of flaws of previous.\nIn this talk, we going to shed a light on what could we expect from this update from the developer perspective and what was changed inside.</p>"
+      },
+      {
+        "title": "Your first desktop app with NodeGUI",
+        "time": "19:30",
+        "speakerIDs": [
+          153
+        ],
+        "description": "<p>Some examples and tricks on getting started with NodeGUI and how to write your first desktop app with it.</p>"
+      },
+      {
+        "title": "Networking",
+        "time": "20:00",
+        "speakerIDs": [
+          95
+        ],
+        "description": "<p></p>"
       }
     ]
   },
