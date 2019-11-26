@@ -1,4 +1,41 @@
 [  {
+  "id": "rs#61",
+  "name": "The Rolling Scopes #61",
+  "date": "18 DECEMBER 2019",
+  "location": "imaguru.co",
+  "locationLink": "https://goo.gl/maps/d25d5sAxwBU2",
+  "registerLink": "https://community-z.com/events/rs-61/guest-registration",
+  "schedule": [
+    {
+      "title": "Guests Registration & Networking",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p></p>",
+      "time": "18:45"
+    },
+    {
+      "title": "TBD",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p><p>",
+      "time": "19:00"
+    },
+    {
+      "title": "TBD",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p></p>",
+      "time": "19:40",
+      "shortbreak": {
+        "time": "20:20"
+      }
+    }
+  ]
+},
+  {
   "id": "rs#56",
   "name": "The Rolling Scopes #56",
   "date": "18 JULY 2019",
