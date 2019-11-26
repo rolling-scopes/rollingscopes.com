@@ -12,6 +12,7 @@ module.exports = {
   'gdansk'      : require('./gdansk'),
   'grodno'      : require('./grodno'),
   'tashkent'    : require('./tashkent'),
+  'moscow'      : require('./moscow'),
   'school'      : require('./school'),
   'enrollment'  : require('./enrollment')
 };
