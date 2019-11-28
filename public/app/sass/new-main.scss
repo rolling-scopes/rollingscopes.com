@@ -104,6 +104,7 @@ a:hover {
   font-weight: normal;
   font-size: .9rem;
   line-height: 1;
+
   &:hover {
     text-decoration: none;
   }
@@ -141,6 +142,7 @@ blockquote {
   text-align: right;
   font-size: 1.2em;
   display: inline-block;
+
   p {
     font-size: .8em;
     color: #bbb;
@@ -152,6 +154,7 @@ hr {
   border-bottom: 0;
 
 }
+
 /*------------------------------------*\
     HEADER
 \*------------------------------------*/
@@ -172,6 +175,7 @@ header {
 
 .logo {
   position: absolute;
+
   img {
     height: 80px;
     margin-top: 10px;
@@ -202,13 +206,14 @@ header {
 
   padding: 0;
   margin: 0 auto;
+
   li {
     float: left;
     display: inline-block;
     position: relative;
-    width: 25%;
+    width: 20%;
     overflow: hidden;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
 
     a {
       display: block;
@@ -235,13 +240,16 @@ header {
         opacity: 0.25;
         z-index: 10;
       }
+
       &:hover:before {
         opacity: 0.45;
       }
     }
+
     img {
       width: 100%;
     }
+
     .title {
       position: absolute;
       top: 50%;
@@ -273,8 +281,10 @@ header {
   margin: 8px 0 0 0;
   padding: 0 0 0 20px;
   float: right;
+
   li {
     display: inline;
+
     a {
       text-decoration: none;
       display: inline-block;
@@ -282,6 +292,7 @@ header {
       padding: 7px;
       background: #404040;
       color: #fff;
+
       &:hover {
         background: #141414;
       }
@@ -303,6 +314,7 @@ header {
   border: 4px double #ccc;
   text-align: center;
   padding: 10px;
+
   h2 {
     text-transform: none;
   }
@@ -327,6 +339,7 @@ footer {
     float: none;
     padding: 0;
     margin: 0;
+
     li:first-child a {
       margin: 0;
     }
@@ -400,9 +413,11 @@ footer {
   background: $link-color;
   color: #fff;
   transition: 1s ease;
+
   i {
     margin-right: 10px;
   }
+
   &:hover {
     text-decoration: none;
     background: #b0133a;
@@ -485,17 +500,21 @@ a.register-button.shorted {
   &:first-child {
     border: 0;
   }
+
   .first-stream, .second-stream {
     display: table-cell;
     padding: 0 30px 0 0;
     width: 40%;
+
     > * {
       margin: 0 0 0 130px;
     }
+
     ul {
       padding: 0;
     }
   }
+
   .second-stream {
     padding: 0 0 0 30px;
   }
@@ -506,14 +525,17 @@ a.register-button.shorted {
     padding: 0;
     list-style-position: inside;
   }
+
   h3 {
     color: #000;
     position: relative;
     text-transform: inherit;
   }
+
   p {
     padding: .3em 0;
   }
+
   .speaker-photo {
     width: 100px;
     border-radius: 50%;
@@ -590,6 +612,7 @@ a.register-button.shorted {
     padding: .5em;
     box-sizing: border-box;
     text-align: center;
+
     img {
       width: 140px;
       max-height: 150px;
@@ -606,6 +629,7 @@ a.register-button.shorted {
     width: 100%;
     max-height: 100%;
   }
+
   h3 {
     font-size: 14px;
     margin: 0;
@@ -644,6 +668,7 @@ a.register-button.shorted {
   margin: 0 0 0 100px;
   padding: 30px 0;
   border-top: 1px solid #ccc;
+
   .date, .mounth {
     width: 80px;
     position: absolute;
@@ -653,10 +678,12 @@ a.register-button.shorted {
     margin: 0;
     font-weight: normal;
   }
+
   .mounth {
     top: 55px;
     font-size: 14px;
   }
+
   h2 {
     text-transform: none;
     margin: 0;
@@ -665,13 +692,16 @@ a.register-button.shorted {
       font-weight: normal;
     }
   }
+
   p {
     color: #bbb;
     margin: 5px 0;
+
     a {
       color: #bbb;
     }
   }
+
   &:first-child {
     border-top: 0;
   }
@@ -762,6 +792,7 @@ a.register-button.shorted {
   min-width: 190px;
   text-align: center;
   opacity: 0.85;
+
   &:hover {
     opacity: 1;
     transition: all 0.23s ease-in-out 0s;
@@ -782,6 +813,12 @@ a.register-button.shorted {
   section {
     max-width: 768px;
   }
+  .main-nav li {
+    .title {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  }
 
   h1 {
     font-size: 2em;
@@ -795,6 +832,7 @@ a.register-button.shorted {
       margin: 0;
       width: 100%;
     }
+
     .second-stream {
       padding: 50px 0 0 0;
     }
@@ -838,24 +876,6 @@ a.register-button.shorted {
     clear: both;
   }
 
-
-  //
-  //.main-nav li {
-  //  width: 33% !important;
-  //  padding-bottom: 33% !important;
-  //  a {
-  //    top: 10px;
-  //    right: 10px;
-  //    bottom: 10px;
-  //    left: 10px;
-  //  }
-  //
-  //  .title {
-  //    font-size: 44px;
-  //    line-height: 44px;
-  //  }
-  //}
-
   .main-nav li {
 
     a {
@@ -863,11 +883,6 @@ a.register-button.shorted {
       left: 5px;
       bottom: 5px;
       right: 5px;
-    }
-
-    .title {
-      font-size: 32px;
-      line-height: 36px;
     }
   }
 
@@ -928,14 +943,17 @@ a.register-button.shorted {
   .event-list-item {
     margin: 0 0 0 60px;
     padding: 10px 0;
+
     .date, .mounth {
       width: 60px;
       left: -60px;
       top: 10px;
     }
+
     .mounth {
       top: 25px;
     }
+
     h2 {
       font-size: 1em;
     }
@@ -993,6 +1011,7 @@ a.register-button.shorted {
     li {
       padding: 0;
     }
+
     .speaker-photo {
       position: relative;
       float: right;
@@ -1029,6 +1048,7 @@ a.register-button.shorted {
     width: 240px;
     text-align: right;
     line-height: 30px;
+
     i {
       float: left;
       margin: 0;
@@ -1039,6 +1059,7 @@ a.register-button.shorted {
   .register-button {
     color: #fff;
     background: $link-color;
+
     &:hover {
       background: #fff;
       color: $link-color;
@@ -1098,8 +1119,7 @@ a.register-button.shorted {
 \*------------------------------------*/
 @media print {
 
-  .no-print, .no-print *
-  {
+  .no-print, .no-print * {
     display: none !important;
   }
 
