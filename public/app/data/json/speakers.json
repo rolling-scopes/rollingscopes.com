@@ -766,5 +766,15 @@
     "id": 154,
     "name": "Денис Пучко",
     "photo": "denis-puchko.jpg"
+  },
+  {
+    "id": 155,
+    "name": "Alicja Pazdur",
+    "photo": "alicja_pazdur.jpg"
+  },
+  {
+    "id": 156,
+    "name": "Oleksii Potiekhin",
+    "photo": "oleksii_potiekhin.jpg"
   }
 ]

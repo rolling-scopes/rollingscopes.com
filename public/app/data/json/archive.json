@@ -1,4 +1,41 @@
 [  {
+  "id": "rs#62",
+  "name": "The Rolling Scopes #62. Krakow",
+  "date": "February 27, 2020",
+  "location": "BARKA, Podgórska 16, Krakow",
+  "locationLink": "https://goo.gl/maps/z4kXc5tHnZu",
+  "registerLink": "https://events.epam.com/events/rs61",
+  "schedule": [
+    {
+      "title": "Guests Registration & Networking",
+      "time": "18:00",
+      "speakerIDs": [
+        95
+      ],
+      "description": "<p></p>"
+    },
+    {
+      "title": "Creating Discord bots with Discord.js (EN)",
+      "time": "18:30",
+      "speakerIDs": [
+        155
+      ],
+      "description": "<p></p>",
+      "break": {
+        "time": "19:00"
+      }
+    },
+    {
+      "title": "Authentication on the Web (EN)",
+      "time": "19:15",
+      "speakerIDs": [
+        156
+      ],
+      "description": "<p></p>"
+    }
+  ]
+},
+  {
   "id": "rs#61",
   "name": "The Rolling Scopes #61",
   "date": "18 DECEMBER 2019",
