@@ -20,7 +20,7 @@
       "speakerIDs": [
         155
       ],
-      "description": "<p></p>",
+      "description": "<p>Discord is an application created (in the beginning) for gamers to improve their ways of communication via voice and chat. Over many years it grew from just a text app to the full blown application supporting in-app streaming and connection with other game-oriented apps. Discord.js is a node.js module created for interaction with Discord API. It helps to create our own solutions and make discord more personal with usage of bots. Let’s jump in into short introduction on how to create our first bot and how to work with discord.js!</p>",
       "break": {
         "time": "19:00"
       }
@@ -31,7 +31,7 @@
       "speakerIDs": [
         156
       ],
-      "description": "<p></p>"
+      "description": "<p>Today, we will cover the fundamentals of user authentication in modern web applications and websites. In particular, we will explore stateful and stateless auth, and examine cookies, JWT, and client storage in detail.</p>"
     }
   ]
 },
