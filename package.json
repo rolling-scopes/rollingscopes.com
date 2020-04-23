@@ -12,7 +12,8 @@
     "url": "https://github.com/rolling-scopes/rolling-scopes.github.io.git"
   },
   "scripts": {
-    "start": "node ./service"
+    "start": "node ./service",
+    "build": "gulp"
   },
   "devDependencies": {
     "del": "^2.2.2",
