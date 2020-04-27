@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <title><%= page.title %></title>
   <meta name="viewport" content="width=device-width">
-  <% include common/styles %>
+  <%- include('./common/styles') %>
 </head>
 <body>
-<% include common/browsehappy %>
+<%- include('./common/browsehappy') %>
 <div class="page-wrap">
-  <% include common/header %>
+  <%- include('./common/header') %>
   <section>
       <h1 class="text-left">Приветствуем!</h1>
       <h2>Заполните, пожалуйста, форму</h2>
@@ -23,8 +23,8 @@
       </form>
   </section>
 </div>
-<% include common/main-nav %>
-<% include common/footer %>
-<% include common/scripts %>
+<%- include('./common/main-nav') %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>

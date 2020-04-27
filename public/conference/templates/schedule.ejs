@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-  <% include common/styles %>
+  <%- include('./common/styles') %>
   <title>RS Conf 2018 | Schedule</title>
 </head>
 <body>
 <div class="page-wrap page-schedule">
-  <% include common/browsehappy %>
-  <% include common/menu %>
+  <%- include('./common/browsehappy') %>
+  <%- include('./common/menu') %>
 
   <section>
     <div class="content-md">
@@ -432,7 +432,7 @@
   </section>
 
 </div>
-<% include common/footer %>
-<% include common/scripts %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>

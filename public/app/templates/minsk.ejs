@@ -4,25 +4,25 @@
   <meta charset="utf-8">
   <title><%= page.title %></title>
   <meta name="viewport" content="width=device-width">
-  <% include common/styles %>
+  <%- include('./common/styles') %>
 </head>
 <body>
-<% include common/browsehappy %>
-<% include common/header %>
+<%- include('./common/browsehappy') %>
+<%- include('./common/header') %>
 <section>
-  <% include common/materials %>
-  <% include index/meetup-banner %>
-  <% include common/register-button %>
+  <%- include('./common/materials') %>
+  <%- include('./index/meetup-banner') %>
+  <%- include('./common/register-button') %>
   <h2>Agenda</h2>
-  <% include common/scedule %>
+  <%- include('./common/scedule') %>
 
   <!--< % include custom-events/summer-summit-2018/summer-summit-2018.html % >-->
   <hr style="margin-bottom: 50px;">
-  <% include common/register-button %>
+  <%- include('./common/register-button') %>
 
 </section>
 
-<% include index/venue %>
+<%- include('./index/venue') %>
 <section>
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9405.246664454751!2d27.5373119!3d53.8906642!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf2ce80bc1380c57e!2sImaguru+Startup+Hub!5e0!3m2!1sen!2spl!4v1531899452892"
@@ -46,10 +46,10 @@
 
   </ul>
 </section>
-<% include common/call-for-speakers %>
+<%- include('./common/call-for-speakers') %>
 
-<% include common/main-nav %>
-<% include common/footer %>
-<% include common/scripts %>
+<%- include('./common/main-nav') %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>
