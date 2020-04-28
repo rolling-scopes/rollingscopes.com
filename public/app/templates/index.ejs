@@ -5,11 +5,11 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <title><%= page.title %></title>
-    <% include common/styles %>
+    <%- include('./common/styles') %>
 </head>
 <body>
-<% include common/browsehappy %>
-<% include common/header %>
+<%- include('./common/browsehappy') %>
+<%- include('./common/header') %>
 <section>
     <h1 class="event-title">The Rolling Scopes</h1>
 
@@ -74,7 +74,7 @@
     </div>
 </section>
 
-<% include common/main-nav %>
+<%- include('./common/main-nav') %>
 
 <section>
     <h2 class="text-center">Our Partners</h2>
@@ -93,11 +93,8 @@
         </li>
     </ul>
 </section>
-
-<% include common/call-for-speakers %>
-
-<% include common/footer %>
-
-<% include common/scripts %>
+<%- include('./common/call-for-speakers') %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>

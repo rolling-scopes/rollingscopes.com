@@ -4,24 +4,24 @@
   <meta charset="utf-8">
   <title><%= page.title %></title>
   <meta name="viewport" content="width=device-width">
-  <% include common/styles %>
+  <%- include('./common/styles') %>
 </head>
 <body>
-<% include common/browsehappy %>
-<% include common/header %>
+<%- include('./common/browsehappy') %>
+<%- include('./common/header') %>
 <section>
-  <% include index/meetup-banner %>
-  <% include common/materials %>
-  <% include common/register-button %>
+  <%- include('./index/meetup-banner') %>
+  <%- include('./common/materials') %>
+  <%- include('./common/register-button') %>
 
   <h2> Афиша</h2>
 
-  <% include common/scedule %>
+  <%- include('./common/scedule') %>
   <!-- < % include custom-events/rs27-gomel/rs27-summit % >-->
   <!--<a target="_blank" href="https://goo.gl/maps/kPAbYEvR1yA2"><img style="width: 100%;"-->
   <!--src="images/rs-on-tour/rsgomelmap.jpg" alt=""/></a>-->
 
-  <% include common/register-button %>
+  <%- include('./common/register-button') %>
 </section>
 <section>
   <h2 class="text-center">Our Partners</h2>
@@ -38,11 +38,11 @@
   </ul>
 </section>
 
-<% include index/venue %>
-<% include common/call-for-speakers %>
+<%- include('./index/venue') %>
+<%- include('./common/call-for-speakers') %>
 
-<% include common/main-nav %>
-<% include common/footer %>
-<% include common/scripts %>
+<%- include('./common/main-nav') %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>

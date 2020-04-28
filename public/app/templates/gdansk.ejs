@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <title><%= page.title %></title>
   <meta name="viewport" content="width=device-width">
-  <% include common/styles %>
+  <%- include('./common/styles') %>
 </head>
 <body>
-<% include common/browsehappy %>
+<%- include('./common/browsehappy') %>
 <div class="page-wrap">
-  <% include common/header %>
+  <%- include('./common/header') %>
 
   <section>
-    <% include index/meetup-banner %>
-    <% include common/materials %>
+    <%- include('./index/meetup-banner') %>
+    <%- include('./common/materials') %>
 
     <p class="no-print"><br/>Hoorah! The Rolling Scopes are coming to Gdańsk, Poland once again! The participation is
       free of charge. The
@@ -40,7 +40,7 @@
     </div>
 
     <h1>Agenda</h1>
-    <% include common/scedule %>
+    <%- include('./common/scedule') %>
 
     <div class="button-wrapper">
       <a class="register-button" href="https://www.eventbrite.com/e/the-rolling-scopes-48-gdansk-tickets-44094249086"><i
@@ -89,11 +89,11 @@
 
   </section>
 
-  <% include index/venue %>
-  <% include common/call-for-speakers %>
-  <% include common/main-nav %>
+  <%- include('./index/venue') %>
+  <%- include('./common/call-for-speakers') %>
+  <%- include('./common/main-nav') %>
 </div>
-<% include common/footer %>
-<% include common/scripts %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>

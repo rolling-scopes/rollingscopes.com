@@ -6,7 +6,8 @@ module.exports = function (datasets) {
     var data;
     var pageName = file.path
       .replace(file.base, '')
-      .replace('.ejs', '');
+      .replace('.ejs', '')
+      .split('/').pop();
 
     data = datasets[pageName] || {};
     data.filename = file.path;

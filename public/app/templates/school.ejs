@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <title><%= page.title %></title>
   <meta name="viewport" content="width=device-width">
-  <% include common/styles %>
+  <%- include('./common/styles') %>
 </head>
 <body>
-<% include common/browsehappy %>
-<% include common/header %>
+<%- include('./common/browsehappy') %>
+<%- include('./common/header') %>
 
 <div class="accent-section">
   <section>
@@ -86,7 +86,7 @@
        href="https://www.eventbrite.com/e/the-rolling-scopes-school-2018-q3-introduction-tickets-43395172128">Записаться</a>
   </div>
 </section>
-<% include common/footer %>
-<% include common/scripts %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>

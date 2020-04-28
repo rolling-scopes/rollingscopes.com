@@ -5,25 +5,25 @@
   <meta charset="utf-8">
   <title><%= page.title %></title>
   <meta name="viewport" content="width=device-width">
-  <% include common/styles %>
+  <%- include('./common/styles') %>
 </head>
 <body>
-<% include common/browsehappy %>
+<%- include('./common/browsehappy') %>
 
-  <% include common/header %>
+  <%- include('./common/header') %>
   <% events.forEach(function (event) { %>
 
     <section>
 
-      <% include index/meetup-banner %>
-      <% include common/materials %>
+      <%- include('./index/meetup-banner', { event }) %>
+      <%- include('./common/materials', { event }) %>
       <h2>Афиша</h2>
-      <% include common/scedule %>
+      <%- include('./common/scedule', { event }) %>
     </section>
   <% }) %>
-  <% include common/call-for-speakers %>
-<% include common/main-nav %>
-<% include common/footer %>
-<% include common/scripts %>
+  <%- include('./common/call-for-speakers') %>
+<%- include('./common/main-nav') %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>

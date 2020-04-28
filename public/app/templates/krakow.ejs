@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <title><%= page.title %></title>
   <meta name="viewport" content="width=device-width">
-  <% include common/styles %>
+  <%- include('./common/styles') %>
 </head>
 <body>
-<% include common/browsehappy %>
+<%- include('./common/browsehappy') %>
 <div class="page-wrap">
-  <% include common/header %>
+  <%- include('./common/header') %>
 
   <section>
-    <% include index/meetup-banner %>
-    <% include common/materials %>
+    <%- include('./index/meetup-banner') %>
+    <%- include('./common/materials') %>
 
     <p><br/>Hoorah! The Rolling Scopes are coming to Kraków, Poland once again! The participation is free of charge. The
       Event is sponsored by <a href="https://www.epam.com/careers/poland" target="_blank">EPAM Poland</a>.</p>
@@ -39,7 +39,7 @@
 <!--      </a>-->
 <!--    </div>-->
     <h1>Agenda</h1>
-    <% include common/scedule %>
+    <%- include('./common/scedule') %>
 
 <!--    <div class="button-wrapper">-->
 <!--      <a class="register-button" href="https://www.eventbrite.com/e/the-rolling-scopes-51-krakow-tickets-49688892816">-->
@@ -70,11 +70,11 @@
 
   <!--<p><a href="https://frontend-pl.herokuapp.com/">https://frontend-pl.herokuapp.com/</a></p></div>-->
   <!--</section>-->
-  <% include index/venue %>
-  <% include common/call-for-speakers %>
-  <% include common/main-nav %>
+  <%- include('./index/venue') %>
+  <%- include('./common/call-for-speakers') %>
+  <%- include('./common/main-nav') %>
 </div>
-<% include common/footer %>
-<% include common/scripts %>
+<%- include('./common/footer') %>
+<%- include('./common/scripts') %>
 </body>
 </html>
