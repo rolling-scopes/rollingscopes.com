@@ -1,5 +1,42 @@
 [
   {
+  "id": "rs#64",
+  "name": "The Rolling Scopes. Krakow",
+  "date": "26 November 2020",
+  "location": "Krakow",
+  "locationLink": "https://community-z.com/events/wMXNg8sypK",
+  "registerLink": "https://community-z.com/events/wMXNg8sypK",
+  "schedule": [
+    {
+      "title": "Opening & Welcome speech",
+      "speakerIDs": [
+        148
+      ],
+      "description": "<p></p>",
+      "time": "18:00"
+    },
+    {
+      "title": "Design Patterns in Angular App (EN)",
+      "speakerIDs": [
+        156
+      ],
+      "description": "<p></p>",
+      "time": "18:10",
+      "shortbreak": {
+        "time": "19:00"
+      }
+    },
+    {
+      "title": "Best Practices in Angular (EN)",
+      "time": "19:10",
+      "speakerIDs": [
+        156
+      ],
+      "description": "<p></p>"
+    }
+  ]
+},
+  {
     "id": "rs#63",
     "name": "The Rolling Scopes #63",
     "date": "17 JULY 2020",
