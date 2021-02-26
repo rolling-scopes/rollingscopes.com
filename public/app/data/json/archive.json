@@ -1,40 +1,4 @@
-[ {
-  "id": "rs#65",
-  "name": "The Rolling Scopes #65. Krakow",
-  "date": "4 March 2021",
-  "location": "Krakow",
-  "locationLink": "https://community-z.com/events/rolling-scopes-meetup",
-  "registerLink": "https://community-z.com/events/rolling-scopes-meetup",
-  "schedule": [
-    {
-      "title": "Opening & Welcome speech",
-      "speakerIDs": [
-        148
-      ],
-      "description": "<p></p>",
-      "time": "18:00"
-    },
-    {
-      "title": "Game development with JavaScript 101 (EN)",
-      "speakerIDs": [
-        157
-      ],
-      "description": "<p></p>",
-      "time": "18:10",
-      "shortbreak": {
-        "time": "19:00"
-      }
-    },
-    {
-      "title": "R3F: Rendering react in 3D (EN)",
-      "time": "19:10",
-      "speakerIDs": [
-        158
-      ],
-      "description": "<p></p>"
-    }
-  ]
-},
+[
   {
   "id": "rs#64",
   "name": "The Rolling Scopes #64. Krakow",
@@ -72,6 +36,43 @@
     }
   ]
 },
+  {
+    "id": "rs#65",
+    "name": "The Rolling Scopes #65. Krakow",
+    "date": "4 March 2021",
+    "location": "Krakow",
+    "locationLink": "https://community-z.com/events/rolling-scopes-meetup",
+    "registerLink": "https://community-z.com/events/rolling-scopes-meetup",
+    "schedule": [
+      {
+        "title": "Opening & Welcome speech",
+        "speakerIDs": [
+          148
+        ],
+        "description": "<p></p>",
+        "time": "18:00"
+      },
+      {
+        "title": "Game development with JavaScript 101 (EN)",
+        "speakerIDs": [
+          157
+        ],
+        "description": "<p></p>",
+        "time": "18:10",
+        "shortbreak": {
+          "time": "19:00"
+        }
+      },
+      {
+        "title": "R3F: Rendering react in 3D (EN)",
+        "time": "19:10",
+        "speakerIDs": [
+          158
+        ],
+        "description": "<p></p>"
+      }
+    ]
+  },
   {
     "id": "rs#63",
     "name": "The Rolling Scopes #63",
