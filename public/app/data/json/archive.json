@@ -1,4 +1,22 @@
 [ {
+  "id": "rs#63",
+  "name": "The Rolling Scopes #63",
+  "date": "17 JULY 2020",
+  "location": "Online",
+  "locationLink": "https://community-z.com/events/rs63",
+  "registerLink": "https://community-z.com/events/rs63",
+  "schedule": [
+    {
+      "title": "CUDA для тех, кто так и не разобрался в Redux (сложно)",
+      "speakerIDs": [
+        147
+      ],
+      "description": "<p>Мы реализуем сортировку пузырьком, которая работает быстрее, чем сокращают вашу команду. Воспользуемся RTX ядрами для трассировки остатков от деления. Я покажу, почему латентная шизофрения лучше, чем латентная память. Вспомним, на чем программировали наши прадеды, и будем путать указатели в live режиме.</p>",
+      "time": "17:00"
+    }
+  ]
+},
+  {
   "id": "rs#65",
   "name": "The Rolling Scopes #65. Krakow",
   "date": "4 March 2021",
@@ -72,24 +90,6 @@
     }
   ]
 },
-  {
-    "id": "rs#63",
-    "name": "The Rolling Scopes #63",
-    "date": "17 JULY 2020",
-    "location": "Online",
-    "locationLink": "https://community-z.com/events/rs63",
-    "registerLink": "https://community-z.com/events/rs63",
-    "schedule": [
-      {
-        "title": "CUDA для тех, кто так и не разобрался в Redux (сложно)",
-        "speakerIDs": [
-          147
-        ],
-        "description": "<p>Мы реализуем сортировку пузырьком, которая работает быстрее, чем сокращают вашу команду. Воспользуемся RTX ядрами для трассировки остатков от деления. Я покажу, почему латентная шизофрения лучше, чем латентная память. Вспомним, на чем программировали наши прадеды, и будем путать указатели в live режиме.</p>",
-        "time": "17:00"
-      }
-    ]
-  },
   {
   "id": "rs#62",
   "name": "The Rolling Scopes #62. Krakow",
