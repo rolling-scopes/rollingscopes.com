@@ -755,7 +755,7 @@
   {
     "id": 152,
     "name": "Alex Kulagin",
-    "photo": ""
+    "photo": "alex_kulagin.jpg"
   },
   {
     "id": 153,
@@ -786,5 +786,25 @@
     "id": 158,
     "name": "Fernando Estavillo",
     "photo": "unknown_speaker.jpg"
+  },
+  {
+    "id": 159,
+    "name": "Akhmad Abud",
+    "photo": "akhmad_abud.jpg"
+  },
+  {
+    "id": 160,
+    "name": "Sho-Aziz Shorakhimov",
+    "photo": "sho_aziz_shorakhimov.jpg"
+  },
+  {
+    "id": 161,
+    "name": "Odil Mukhammadov",
+    "photo": "odil_mukhammadov.jpg"
+  },
+  {
+    "id": 162,
+    "name": "Zafar Khodjaev",
+    "photo": "zafar_khodjaev.jpg"
   }
 ]

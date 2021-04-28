@@ -1,4 +1,57 @@
 [ {
+  "id": "rs#66",
+  "name": "The Rolling Scopes #66. Tashkent",
+  "date": "May 15, 2021",
+  "location": "Ташкент, улица Айбека, 18/1, <br> 5 этаж",
+  "locationLink": "https://goo.gl/maps/3AJrysRoubijc6618",
+  "registerLink": "https://community-z.com/events/rs-66",
+  "schedule": [
+    {
+      "title": "Master-Class \"Clean Code & Refactoring\"",
+      "speakerIDs": [
+        152
+      ],
+      "description": "<ul><li>Bad code smells</li><li>What is Refactoring</li><li>What is SOLID</li><li>Refactoring a game and making the code flexible</li></ul>",
+      "time": "14:00"
+    },
+    {
+      "title": "Agile: Scrum Framework",
+      "speakerIDs": [
+        159
+      ],
+      "description": "<ul><li>Intro to Agile</li><li>What is Scrum</li><li>Daily Scrum</li><li>Sprint Planning</li><li>Sprint Review</li><li>Product Backlog Refinement</li><li>Retrospective</li><li>Q&amp;A</li></ul>",
+      "time": "14:50",
+      "break": {
+        "time": "15:35"
+      }
+    },
+    {
+      "title": "Let's talk paradigms",
+      "speakerIDs": [
+        160
+      ],
+      "description": "<p>We'll try to answer the following questions:</p><ul><li>What are programming paradigms? </li><li>Why do we need them? </li><li>What programming paradigms are there in the world? </li><li>What's their philosophy? </li><li>How do they differ?</li></ul>",
+      "time": "15:50"
+    },
+    {
+      "title": "Why do people suffer from reading your code?",
+      "speakerIDs": [
+        161
+      ],
+      "description": "<ul><li>Causes</li><li>Consequences</li><li>Solutions</li></ul>",
+      "time": "16:30"
+    },
+    {
+      "title": "Kahoot Quiz with prizes",
+      "speakerIDs": [
+        162
+      ],
+      "description": "<p>Questions will be based on the previous presentations.</p>",
+      "time": "17:10"
+    }
+  ]
+},
+  {
   "id": "rs#63",
   "name": "The Rolling Scopes #63",
   "date": "17 JULY 2020",
